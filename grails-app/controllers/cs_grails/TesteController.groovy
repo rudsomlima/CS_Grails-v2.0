@@ -10,7 +10,12 @@ class TesteController {
         int progresso = 0
         int n_linha=0
 
-        if(new File("uploadLogs/").exists()) {
+        File dir = new File("grails-app/uploadLogs/");
+        dir.mkdir()
+        println dir.getAbsolutePath()
+
+        if( !dir.isDirectory()) {
+            dir.mkdir()
             new File("uploadLogs/").eachFile { file-> n_arquivo++; }
             new File("uploadLogs/").eachFile { file->
                 //Renderiza o numero do arquivo
@@ -23,21 +28,10 @@ class TesteController {
                     while ((linha = reader.readLine())!=null) {
                         n_linha++;
                         if(linha.contains("with \"knife\"")) {
-
-
-
-
                             //Nome do Matador
                             def nomeMatador = linha.substring(linha.indexOf("\"") + 1, linha.indexOf("<"));
-
-
-
                             def existeMatador = Jogador.findAll { nome == nomeMatador }
-
                             Jogador matador = new Jogador()
-
-
-
                             if(existeMatador.empty){
                                 matador.nome = nomeMatador
                                 matador.save(flush:true)
@@ -49,10 +43,8 @@ class TesteController {
                             //Somente para achar o nome Killed
                             def subLinha = linha.substring(linha.indexOf("killed \""));
 
-
                             //Extrai o nome da Vitima
                             def nomeVitima = subLinha.substring(subLinha.indexOf("\"") + 1, subLinha.indexOf("<"));
-
 
                             def existeVitima = Jogador.findAll { nome == nomeVitima }
 
@@ -73,27 +65,16 @@ class TesteController {
 
 
                             Facadas facada = new Facadas()
-
                             facada.qtdeFacadas = 1;
-
                             String dataFacada =  linha.substring(2, 12);
-
                             println "Data original: " + dataFacada
-
                             Date dataFacadaFormatada = Date.parse('MM/dd/yyyy',dataFacada)
-
                             println "Data convertida: " + dataFacadaFormatada.format('yyyy-MM-dd')
-
                             String dataFormatada = dataFacadaFormatada.format('yyyy-MM-dd')
-
                             Date dataFinal = Date.parse('yyyy-MM-dd',dataFormatada)
-
                             facada.dataFacada =  dataFinal
-
                             facada.vitima = assassinato
-
                             assassinato.dataFacada = dataFinal
-
 
                             def existeAssassianto = Vitima.findAllByMatadorAndVitimaAndDataFacada(matador,vitima,dataFinal)
                             println "O assassinato encontrato é: " + assassinato
@@ -105,8 +86,6 @@ class TesteController {
                                 assassinato = existeAssassianto.get(0)
                                 println "Acho o assassinato: " + assassinato
                             }
-
-
 
                             def existeFacadas = Facadas.findAllByVitima(assassinato)
                             println "Foram encontradas as seguintes facadas: " + existeFacadas
@@ -123,46 +102,24 @@ class TesteController {
                                 facada.qtdeFacadas +=1
                                 println "Facada:" + facada + " Quantidade de facadas depois: " + facada.qtdeFacadas
                             }
-
                         }
                     }
                 }
-
-
             }
 
             //apaga o diretorio com os logs apos o processamento
-            File dir = new File("uploadLogs/");
+//            File dir = new File("uploadLogs/");
             dir.mkdir()
 //            if(!dir.isHidden()){  //se a pasta existe, apague-a
 //                dir.deleteDir();
 //                println "Apagou a pasta uploadLogs!"
 //            }
         }
-        redirect(action:'principal', controller:'relatorio')
+        redirect(action:"principal", controller:"relatorio")
     }
 
     def upload(){
         render(view: "/teste/upload")
     }
-
-//    def progressAction = {
-//        for (int i = 1; i <= 100; i++) {
-//
-//            //this updates the progress bar value for the progress id 123
-//            progressService.setProgressBarValue("barraProgresso", i)
-//
-//            //let's waste some time
-//            for (int a = 0; a < 5000; a++) {
-//
-//                for (int b = 0; b < 1000; b++) {
-//
-//                }
-//            }
-//        }
-//
-//        render "the progress is done"
-//    }
-
 
 }

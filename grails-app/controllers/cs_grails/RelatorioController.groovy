@@ -2,13 +2,13 @@ package cs_grails
 
 class RelatorioController {
 
-    static defaultAction = "principal"
+    static defaultAction = "index"
 
     def principal(){
         def datas = Facadas.where {}.projections { distinct 'dataFacada' }
-        render(view:'principal',model:[datasList:datas])
-
+        render(view:'index',model:[datasList:datas])
     }
+
     def index() {
         String data = params.id
         Date dataRelatorio = Date.parse('yyyy-MM-dd HH:mm:ss',data)
@@ -38,7 +38,6 @@ class RelatorioController {
         for(facada in lista){
             players.push(facada.vitima.matador.nome)
             players.push(facada.vitima.vitima.nome)
-
         }
 
         def jogadores = []
@@ -49,11 +48,7 @@ class RelatorioController {
             jogadores.push(jog)
         }
 
-
 //		println jogadores
         render(view:'index',model:[facadasList:lista,jogadoresList:jogadores])
-
-
-
     }
 }
