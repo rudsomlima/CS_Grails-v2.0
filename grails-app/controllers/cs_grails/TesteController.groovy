@@ -10,7 +10,7 @@ class TesteController {
         int progresso = 0
         int n_linha=0
 
-        File dir = new File("grails-app/uploadLogs/");
+        File dir = new File("uploadLogs/");
         dir.mkdir()
         println dir.getAbsolutePath()
 
@@ -119,7 +119,10 @@ class TesteController {
     }
 
     def upload(){
-        render(view: "/teste/upload")
+        File dir = new File("grails-app/____teste");
+        dir.mkdir()
+        println dir.getAbsolutePath()
+//        render(view: "/teste/upload")
     }
 
 }

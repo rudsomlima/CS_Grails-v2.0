@@ -23,7 +23,7 @@
             console.log(window.location.href)
             console.log("########################## Script OK!");
             $("#multipleupload").uploadFile({
-                url:"/grails-app/pasta",            //barra sobre pro nivel de root
+                url:"grails-app/",            //barra sobre pro nivel de root
                 multiple:true,
                 dragDrop:true,
                 fileName:"myfile"
@@ -31,28 +31,12 @@
         });
 
         function callAjax(){
-            $(document).ready(function(){
-                $('button').click(function(){
-                    var URL="${createLink(controller:'book',action:'checkJquery')}";
-
-                    $.ajax({
-                        url:URL,
-                        data: {id:'1'},
-                        success: function(resp){
-                            console.log(resp);
-                            $("#author").val(resp.author);
-                            $("#book").val(resp.bookName);
-                        }
-                    });
-                });
-            });
+            var URL="${createLink(controller:'teste',action:'upload')}";
+            $.get(URL);
         }
-
-
     </script>
 
 </head>
-
 
 
 <body>
@@ -65,7 +49,7 @@
     <div id="multipleupload">Upload</div>
 
     <div align="center">
-        <button class="testMe" onclick="callAjax();">test</button>
+        <button class="testMe" onclick="callAjax();">Teste</button>
     </div>
 
 </div>
