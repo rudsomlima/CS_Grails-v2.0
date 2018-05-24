@@ -31,7 +31,7 @@
         });
 
         function callAjax(){
-            var URL="${createLink(controller:'teste',action:'upload')}";
+            var URL="${createLink(controller:'teste',action:'rodar')}";
             $.get(URL);
         }
     </script>

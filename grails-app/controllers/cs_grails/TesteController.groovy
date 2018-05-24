@@ -11,11 +11,11 @@ class TesteController {
         int n_linha=0
 
         File dir = new File("uploadLogs/");
-        dir.mkdir()
-        println dir.getAbsolutePath()
+//        dir.mkdir()
+//        println dir.getAbsolutePath()
 
-        if( !dir.isDirectory()) {
-            dir.mkdir()
+        if( dir.isDirectory()) {
+//            dir.mkdir()
             new File("uploadLogs/").eachFile { file-> n_arquivo++; }
             new File("uploadLogs/").eachFile { file->
                 //Renderiza o numero do arquivo
@@ -115,14 +115,15 @@ class TesteController {
 //                println "Apagou a pasta uploadLogs!"
 //            }
         }
-        redirect(action:"principal", controller:"relatorio")
+        println "rodou redirect"
+        redirect(controller: "relatorio", action:"principal")
     }
 
     def upload(){
-        File dir = new File("grails-app/____teste");
-        dir.mkdir()
-        println dir.getAbsolutePath()
-//        render(view: "/teste/upload")
+//        File dir = new File("grails-app/____teste");
+//        dir.mkdir()
+//        println dir.getAbsolutePath()
+        render(view: "/teste/upload")
     }
 
 }

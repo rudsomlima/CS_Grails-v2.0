@@ -62,6 +62,7 @@ dependencies {
     testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
 
 //    compile "org.webjars:jquery:1.7"
+    runtime "mysql:mysql-connector-java:5.1.29"
 }
 
 bootRun {

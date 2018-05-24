@@ -2,14 +2,17 @@ package cs_grails
 
 class RelatorioController {
 
-    static defaultAction = "index"
+    static defaultAction = "principal"
 
     def principal(){
         def datas = Facadas.where {}.projections { distinct 'dataFacada' }
-        render(view:'index',model:[datasList:datas])
+        println datas.list()
+//        render(view: "principal")
+        render(view: "principal", model:[datasList:datas])
     }
 
     def index() {
+        println params
         String data = params.id
         Date dataRelatorio = Date.parse('yyyy-MM-dd HH:mm:ss',data)
 
