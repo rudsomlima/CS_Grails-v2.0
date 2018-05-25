@@ -7,10 +7,10 @@
         <g:layoutTitle default="Grails"/>
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
-
-    <asset:stylesheet src="application.css"/>
-
+    %{--<asset:link href="bootstrap.min.css" rel="stylesheet" media="screen"></asset:link>--}%
+    %{--<asset:link rel="icon" href="favicon.ico" type="image/x-ico" /> <asset:stylesheet src="application.css"/>--}%
+    %{--<asset:script scr="http://code.jquery.com/jquery-latest.js"></asset:script>--}%
+    %{--<asset:script scr="js/bootstrap.min.js"></asset:script>--}%
     <g:layoutHead/>
 </head>
 <body>
@@ -25,7 +25,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/#">
-		    <asset:image src="grails.svg" alt="Grails Logo"/>
+		    %{--<asset:image src="grails.svg" alt="Grails Logo"/>--}%
                 </a>
             </div>
             <div class="navbar-collapse collapse" aria-expanded="false" style="height: 0.8px;">

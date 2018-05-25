@@ -1,10 +1,17 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: rudsom.lima
+  Date: 25/05/2018
+  Time: 08:50
+--%>
 
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <meta name="layout" content="main">
 
 </head>
+
 <body>
 <div align="center">
     <ul>
@@ -17,7 +24,6 @@
             </li>
             principal
         </g:each>
-
 
     </ul>
 </div>
