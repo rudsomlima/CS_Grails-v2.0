@@ -3,6 +3,8 @@ package cs_grails
 class Jogador {
 
     String nome
+//    Integer nFacasLevou
+//    Integer nFacasDeu
 
     String toString() {
         this.nome

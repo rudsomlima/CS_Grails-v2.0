@@ -63,6 +63,7 @@ dependencies {
 
 //    compile "org.webjars:jquery:1.7"
     runtime "mysql:mysql-connector-java:5.1.29"
+//    compile "org.webjars:bootstrap:4.1.0"
 }
 
 bootRun {
