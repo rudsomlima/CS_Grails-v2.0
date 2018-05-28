@@ -10,6 +10,9 @@
 <head>
     <meta name="layout" content="main" />
     <title>Facadas CS</title>
+    <link href="http://hayageek.github.io/jQuery-Upload-File/4.0.11/uploadfile.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://hayageek.github.io/jQuery-Upload-File/4.0.11/jquery.uploadfile.min.js"></script>
 
     <script>
         $(document).ready(function()
@@ -17,10 +20,14 @@
             console.log(window.location.href)
             console.log("########################## Script OK!");
             $("#multipleupload").uploadFile({
-                url:"grails-app/",            //barra sobre pro nivel de root
+                url: "upload/",      //barra no inicio sobre pro nivel de root
                 multiple:true,
                 dragDrop:true,
-                fileName:"myfile"
+                fileName:"myfile",
+                onSuccess:function(files,data,xhr)
+                {
+                console.log(files)
+                },
             });
         });
 
@@ -35,16 +42,14 @@
 
 <body>
 <div align="center">
-    %{--<form id="myForm" action="comment.php" method="post">--}%
-        %{--Name: <input type="text" name="name" />--}%
-        %{--Comment: <textarea name="comment"></textarea>--}%
-        %{--<input type="submit" value="Submit Comment" />--}%
-    %{--</form>--}%
-    <div id="multipleupload">Upload</div>
 
-    <div align="center">
-        <button class="testMe" onclick="callAjax();">Teste</button>
-    </div>
+
+        <div id="multipleupload">Upload</div>
+
+
+        <div align="center">
+            <button class="testMe" onclick="callAjax();">Processar logs</button>
+        </div>
 
 </div>
 </body>

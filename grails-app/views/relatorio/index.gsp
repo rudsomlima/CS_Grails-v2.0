@@ -46,6 +46,7 @@ table {
                                 <th class="text-center">Jogador</th>
                                 <th class="text-center">Vítimas</th>
                                 <th class="text-center">Deu</th>
+                                <th class="text-center">Algozes</th>
                                 <th class="text-center">Levou</th>
                             </tr>
                         </thead>
@@ -60,7 +61,6 @@ table {
                                     <td>
                                         <div>
                                             <table id="tabela_pequena" class="table table-striped" style="margin-bottom: 0px; font-size: smaller">
-                                                <g:set var="soma" value="${0}"/>
                                                 <g:each in="${facadasList}" status="i" var="facada">
                                                     <g:if test="${jogador.nome.equals(facada.vitima.matador.nome)}">
                                                         <tr class="row">
@@ -72,14 +72,7 @@ table {
                                                             </td>
                                                         </tr>
                                                     </g:if>
-                                                        <g:set var="soma" value="${soma + facada.qtdeFacadas}"/>
                                                 </g:each>
-                                                <tr class="row">
-                                                    %{--<td class="col-md-8" id="total">Total:</td>--}%
-                                                    %{--<td class="col-md-4 text-center bg-primary" id="soma">--}%
-                                                        %{--${soma}--}%
-                                                    %{--</td>--}%
-                                                </tr>
                                             </table>
                                         </div>
                                     </td>
@@ -87,6 +80,26 @@ table {
                                         %{--<span class="label label-success">  ${nFacasList.nFacadasMatador[j]}  </span>--}%
                                         <h4 style="color: green"><b>${nFacasList.nFacadasMatador[j]}</b></h4>
                                     </td>
+
+                                    <td>
+                                        <div>
+                                            <table id="tabela_pequena2" class="table table-striped" style="margin-bottom: 0px; font-size: smaller">
+                                                <g:each in="${facadasList}" status="i" var="facada">
+                                                    <g:if test="${jogador.nome.equals(facada.vitima.vitima.nome)}">
+                                                        <tr class="row">
+                                                            <td class="col-md-8">
+                                                                ${facada.vitima.matador.nome}
+                                                            </td>
+                                                            <td class="col-md-4 text-center" id="facadas2">
+                                                                ${facada.qtdeFacadas}
+                                                            </td>
+                                                        </tr>
+                                                    </g:if>
+                                                </g:each>
+                                            </table>
+                                        </div>
+                                    </td>
+
                                     <td class="text-center" id="levou" style="vertical-align: middle">
                                         %{--<span class="label label-danger">  ${nFacasList.nFacadasVitima[j]}  </span>--}%
                                         <h4 style="color: red"><b>${nFacasList.nFacadasVitima[j]}</b></h4>

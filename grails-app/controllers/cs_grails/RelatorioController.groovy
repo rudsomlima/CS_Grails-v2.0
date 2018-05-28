@@ -27,6 +27,16 @@ class RelatorioController {
 
         }
 
+        def listaAlgozes = Facadas.withCriteria {
+            vitima {
+                vitima{
+                    order('nome','asc')
+                }
+            }
+            eq 'dataFacada', dataRelatorio.clearTime()
+
+        }
+
 //		def jogadores = Jogador.findAll {
 //			order('nome','asc')
 //
@@ -56,12 +66,17 @@ class RelatorioController {
             jog.nome = jogador
             jogadores.push(jog)
             nFacas = new Relatorio()
-            nFacadasDaVitima = Vitima.executeQuery("select COUNT(vitima_id) from Vitima where vitima.nome=$jogador and dataFacada=$dataRelatorio")
+            nFacadasDaVitima = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$jogador and dataFacada=$dataRelatorio").get(0)
+            println "nFacadasDaVitima: " + nFacadasDaVitima
+//            nFacadasDaVitima = Vitima.executeQuery("select count(qtdeFacadas(select vitima.nome from Vitima where matador.nome=$jogador and dataFacada=$dataRelatorio)")
             nFacas.vitima = jogador
-            nFacas.nFacadasVitima = nFacadasDaVitima.get(0)
-            nFacadasDoMatador = Vitima.executeQuery("select COUNT(vitima_id) from Vitima where matador.nome=$jogador and dataFacada=$dataRelatorio")
+            if(nFacadasDaVitima==null) nFacas.nFacadasVitima = 0
+            else nFacas.nFacadasVitima = nFacadasDaVitima
+//            nFacadasDoMatador = Vitima.executeQuery("select COUNT(vitima_id) from Vitima where matador.nome=$jogador and dataFacada=$dataRelatorio")
+            nFacadasDoMatador = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.matador.nome=$jogador and dataFacada=$dataRelatorio").get(0)
             nFacas.matador = jogador
-            nFacas.nFacadasMatador = nFacadasDoMatador.get(0)
+            if(nFacadasDoMatador==null) nFacas.nFacadasMatador = 0
+            else nFacas.nFacadasMatador = nFacadasDoMatador
             nFacasList.add(nFacas)
             println jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima
         }
@@ -70,6 +85,6 @@ class RelatorioController {
 //        println "nFacadas: " + nFacadasDaVitima
 
 //		println jogadores
-        render(view:'index',model:[facadasList:lista,jogadoresList:jogadores,nFacasList:nFacasList])
+        render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nFacasList:nFacasList])
     }
 }
