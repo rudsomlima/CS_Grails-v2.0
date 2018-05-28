@@ -9,12 +9,6 @@
 <html>
 <head>
     <meta name="layout" content="main" />
-    <link href="http://hayageek.github.io/jQuery-Upload-File/4.0.11/uploadfile.css" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="http://hayageek.github.io/jQuery-Upload-File/4.0.11/jquery.uploadfile.min.js"></script>
-    %{--<asset:stylesheet src="uploadfile.css"/>--}%
-    %{--<asset:javascript src="jquery-2.2.0.min.js"/>--}%
-    %{--<asset:javascript src="jquery.uploadfile.min.js"/>--}%
     <title>Facadas CS</title>
 
     <script>

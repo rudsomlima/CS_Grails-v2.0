@@ -3,75 +3,52 @@
 <head>
     <meta name="layout" content="main"/>
     <title>Welcome to Grails</title>
+    <asset:stylesheet src="datepicker/css/bootstrap-datepicker.css"/>
+    <asset:javascript src="datepicker/js/bootstrap-datepicker.min.js"/>
+    <asset:javascript src="datepicker/locales/bootstrap-datepicker.pt-BR.min.js"/>
+    %{--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>--}%
+    %{--<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />--}%
+    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    %{--<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>--}%
 </head>
 <body>
-    <content tag="nav">
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Application Status <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="#">Environment: ${grails.util.Environment.current.name}</a></li>
-                <li><a href="#">App profile: ${grailsApplication.config.grails?.profile}</a></li>
-                <li><a href="#">App version:
-                    <g:meta name="info.app.version"/></a>
-                </li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Grails version:
-                    <g:meta name="info.app.grailsVersion"/></a>
-                </li>
-                <li><a href="#">Groovy version: ${GroovySystem.getVersion()}</a></li>
-                <li><a href="#">JVM version: ${System.getProperty('java.version')}</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</a></li>
-            </ul>
-        </li>
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Artefacts <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="#">Controllers: ${grailsApplication.controllerClasses.size()}</a></li>
-                <li><a href="#">Domains: ${grailsApplication.domainClasses.size()}</a></li>
-                <li><a href="#">Services: ${grailsApplication.serviceClasses.size()}</a></li>
-                <li><a href="#">Tag Libraries: ${grailsApplication.tagLibClasses.size()}</a></li>
-            </ul>
-        </li>
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Installed Plugins <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <g:each var="plugin" in="${applicationContext.getBean('pluginManager').allPlugins}">
-                    <li><a href="#">${plugin.name} - ${plugin.version}</a></li>
-                </g:each>
-            </ul>
-        </li>
-    </content>
 
-    <div class="svg" role="presentation">
-        <div class="grails-logo-container">
-            <asset:image src="grails-cupsonly-logo-white.svg" class="grails-logo"/>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <g:form id="formOcorrencia" class="form-inline">
+                <div class="form-group input-group date" id="calendario">
+                    DATA:
+                    <input required=true id="data" type="text" class="input-small form-control" name="data">
+                    <span class="add-on" style="height:20px"></span>
+                </div>
+            </g:form>
+        </div>
+        <div class="col-md-6">
+            xxxxxxxx
         </div>
     </div>
+</div>
 
-    <div id="content" role="main">
-        <section class="row colset-2-its">
-            <h1>Welcome to Grails</h1>
+<g:javascript>
 
-            <p>
-                Congratulations, you have successfully started your first Grails application! At the moment
-                this is the default page, feel free to modify it to either redirect to a controller or display
-                whatever content you may choose. Below is a list of controllers that are currently deployed in
-                this application, click on each to execute its default action:
-            </p>
+    $(document).ready(function () {
+        // alert("funcionou");
+        $('#data').datepicker({
+            language: "pt-BR",
+            format: "dd/mm/yyyy",
+            clearBtn: true,
+            todayHighlight: true,
+            orientation: "bottom left"
+        });
 
-            <div id="controllers" role="navigation">
-                <h2>Available Controllers:</h2>
-                <ul>
-                    <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-                        <li class="controller">
-                            <g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link>
-                        </li>
-                    </g:each>
-                </ul>
-            </div>
-        </section>
-    </div>
+        $('#data').on('change', function () {
+            var periodo = $('#calendario').val();
+            // alert(periodo);
+        });
+    });
+
+</g:javascript>
 
 </body>
 </html>

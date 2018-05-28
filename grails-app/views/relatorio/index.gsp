@@ -53,13 +53,13 @@ table {
                             <g:set var="n" value="${nFacasList.nFacadasMatador[0]}"/>
                             <g:each in="${jogadoresList}" status="j" var="jogador">
                                 <tr>
-                                    <td id="jogador">
+                                    <td id="jogador" style="vertical-align: middle">
                                         <h4>${jogador}</h4>
                                     </td>
 
                                     <td>
                                         <div>
-                                            <table id="tabela_pequena" class="table table-striped" style="margin-bottom: 0px" font-size: smaller">
+                                            <table id="tabela_pequena" class="table table-striped" style="margin-bottom: 0px; font-size: smaller">
                                                 <g:set var="soma" value="${0}"/>
                                                 <g:each in="${facadasList}" status="i" var="facada">
                                                     <g:if test="${jogador.nome.equals(facada.vitima.matador.nome)}">
@@ -85,11 +85,11 @@ table {
                                     </td>
                                     <td class="text-center" id="deu" style="vertical-align: middle">
                                         %{--<span class="label label-success">  ${nFacasList.nFacadasMatador[j]}  </span>--}%
-                                        ${nFacasList.nFacadasMatador[j]}
+                                        <h4 style="color: green"><b>${nFacasList.nFacadasMatador[j]}</b></h4>
                                     </td>
                                     <td class="text-center" id="levou" style="vertical-align: middle">
                                         %{--<span class="label label-danger">  ${nFacasList.nFacadasVitima[j]}  </span>--}%
-                                        ${nFacasList.nFacadasVitima[j]}
+                                        <h4 style="color: red"><b>${nFacasList.nFacadasVitima[j]}</b></h4>
                                     </td>
 
                                     %{--<td class="text-center"> ${soma + facada.qtdeFacadas} </td>--}%
