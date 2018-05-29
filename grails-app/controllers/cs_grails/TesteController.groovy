@@ -123,10 +123,29 @@ class TesteController {
         redirect(controller: "relatorio", action:"principal")
     }
 
-    def upload(){
-//        File dir = new File("grails-app/____teste");
-//        dir.mkdir()
-//        println dir.getAbsolutePath()
+    def upload() {
+        File dir = new File("grails-app/____teste");
+        dir.mkdir()
+        println dir.getAbsolutePath()
+        println params.myfile
+
+        def file = new File(dir.getAbsolutePath(),"uploadFiles.log")
+
+        if (params.myfile) {
+
+        byte[] arquivo = params.myfile.getInputStream()
+
+            file.bytes = arquivo
+        }
+
+
+
+        def os = file.newOutputStream()
+        os.close()
+
+
+
+
         render(view: "/teste/upload")
     }
 

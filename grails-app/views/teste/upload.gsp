@@ -14,28 +14,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="http://hayageek.github.io/jQuery-Upload-File/4.0.11/jquery.uploadfile.min.js"></script>
 
-    <script>
-        $(document).ready(function()
-        {
-            console.log(window.location.href)
-            console.log("########################## Script OK!");
-            $("#multipleupload").uploadFile({
-                url: "upload/",      //barra no inicio sobre pro nivel de root
-                multiple:true,
-                dragDrop:true,
-                fileName:"myfile",
-                onSuccess:function(files,data,xhr)
-                {
-                console.log(files)
-                },
-            });
-        });
 
-        function callAjax(){
-            var URL="${createLink(controller:'teste',action:'rodar')}";
-            $.get(URL);
-        }
-    </script>
 
 </head>
 
@@ -44,7 +23,7 @@
 <div align="center">
 
 
-        <div id="multipleupload">Upload</div>
+        <div id="fileuploader">Upload</div>
 
 
         <div align="center">
@@ -52,5 +31,29 @@
         </div>
 
 </div>
+
+<script>
+    $(document).ready(function()
+    {
+        console.log(window.location.href)
+        console.log("########################## Script OK!");
+        $("#fileuploader").uploadFile({
+            url: "upload",      //barra no inicio sobre pro nivel de root
+            multiple:true,
+            dragDrop:true,
+            fileName:"myfile",
+
+            onSuccess:function(files,data,xhr)
+            {
+                console.log(files)
+            },
+        });
+    });
+
+    function callAjax(){
+        var URL="${createLink(controller:'teste',action:'rodar')}";
+        $.get(URL);
+    }
+</script>
 </body>
 </html>
