@@ -45,7 +45,7 @@ table {
                             <tr>
                                 <th class="text-center">Jogador</th>
                                 <th class="text-center">Vítimas</th>
-                                <th class="text-center">Deu</th>
+                                <th class="text-center">&nbsp&nbspDeu&nbsp&nbsp</th>
                                 <th class="text-center">Algozes</th>
                                 <th class="text-center">Levou</th>
                             </tr>

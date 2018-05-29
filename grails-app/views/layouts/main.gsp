@@ -15,9 +15,9 @@
 
     <ul class="nav nav-pills">
         <li class="active">
-            <a href="#">Relatórios</a>
+            <a href="/relatorio">Relatórios</a>
         </li>
-        <li><a href="#">Upload</a></li>
+        <li><a href="/teste/upload">Upload</a></li>
     </ul>
     <br/>
 

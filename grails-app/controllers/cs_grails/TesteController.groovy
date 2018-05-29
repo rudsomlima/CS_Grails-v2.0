@@ -17,6 +17,9 @@ class TesteController {
         if( dir.isDirectory()) {
 //            dir.mkdir()
             new File("uploadLogs/").eachFile { file-> n_arquivo++; }
+
+            def boaTarde = 0   //flag pra marcar somente a 1 facada
+
             new File("uploadLogs/").eachFile { file->
                 //Renderiza o numero do arquivo
                 progresso = 100 * atual / n_arquivo
@@ -45,7 +48,6 @@ class TesteController {
 
                             //Extrai o nome da Vitima
                             def nomeVitima = subLinha.substring(subLinha.indexOf("\"") + 1, subLinha.indexOf("<"));
-
                             def existeVitima = Jogador.findAll { nome == nomeVitima }
 
                             Jogador vitima = new Jogador()
@@ -75,12 +77,14 @@ class TesteController {
                             facada.dataFacada =  dataFinal
                             facada.vitima = assassinato
                             assassinato.dataFacada = dataFinal
+                            if(boaTarde==0) assassinato.boaTarde = 1   //define que o jogador levou boa tarde
 
                             def existeAssassianto = Vitima.findAllByMatadorAndVitimaAndDataFacada(matador,vitima,dataFinal)
                             println "O assassinato encontrato é: " + assassinato
 
                             if(existeAssassianto.empty){
                                 assassinato.save(flush:true)
+                                boaTarde = 1 // para de registrar o boa tarde
                                 println "Salvou com sucesso o assassinato!"
                             }else{
                                 assassinato = existeAssassianto.get(0)
