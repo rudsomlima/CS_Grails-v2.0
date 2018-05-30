@@ -7,13 +7,13 @@ class RelatorioController {
     def principal(){
         def datas = Facadas.where {}.projections { distinct 'dataFacada' }
 //        Date datasF = datas.format('dd-')
-        println datas.list()
+        println "----------------------------"
 //        render(view: "principal")
-        render(view: "principal", model:[datasList:datas])
+        respond(view: "principal", model:[datasList:datas])
     }
 
     def index() {
-        println params
+        println "params.id: " + params.id
         String data = params.id
         Date dataRelatorio = Date.parse('yyyy-MM-dd HH:mm:ss',data)
 

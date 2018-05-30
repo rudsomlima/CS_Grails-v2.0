@@ -1,8 +1,5 @@
 package cs_grails
 
-import org.springframework.web.multipart.MultipartHttpServletRequest
-import org.springframework.web.multipart.commons.CommonsMultipartFile
-
 class TesteController {
 
     def rodar() {
@@ -12,18 +9,19 @@ class TesteController {
         int atual=0
         int progresso = 0
         int n_linha=0
+        def dataLog
 
-        File dir = new File("uploadLogs/");
+        File dir = new File("grails-app/uploadLogs")
 //        dir.mkdir()
-//        println dir.getAbsolutePath()
+        println dir.getAbsolutePath()
 
         if( dir.isDirectory()) {
-//            dir.mkdir()
-            new File("uploadLogs/").eachFile { file-> n_arquivo++; }
+//            dir.delete()  //apaga os arquivos anteriores, se houverem
+            new File("grails-app/uploadLogs").eachFile { file-> n_arquivo++; }
 
             def boaTarde = 0   //flag pra marcar somente a 1 facada
 
-            new File("uploadLogs/").eachFile { file->
+            new File("grails-app/uploadLogs").eachFile { file->
                 //Renderiza o numero do arquivo
                 progresso = 100 * atual / n_arquivo
                 atual++
@@ -77,6 +75,7 @@ class TesteController {
                             println "Data convertida: " + dataFacadaFormatada.format('yyyy-MM-dd')
                             String dataFormatada = dataFacadaFormatada.format('yyyy-MM-dd')
                             Date dataFinal = Date.parse('yyyy-MM-dd',dataFormatada)
+                            dataLog = dataFormatada + " 00:00:00"
                             facada.dataFacada =  dataFinal
                             facada.vitima = assassinato
                             assassinato.dataFacada = dataFinal
@@ -112,30 +111,27 @@ class TesteController {
                         }
                     }
                 }
+                file.delete() //apaga o arquivo para não processa-lo novamente
             }
-
-            //apaga o diretorio com os logs apos o processamento
-//            File dir = new File("uploadLogs/");
-            dir.mkdir()
-//            if(!dir.isHidden()){  //se a pasta existe, apague-a
-//                dir.deleteDir();
-//                println "Apagou a pasta uploadLogs!"
-//            }
         }
-        println "rodou redirect"
-        redirect(controller: "relatorio", action:"principal")
+        dir.deleteDir()
+        println "Apagou a pasta uploadLogs!"
+        println dataLog
+        redirect(controller: "relatorio", id: dataLog, action: "index")
+
     }
 
-    def upload() {
-        println params
 
-        File dir = new File("grails-app/____teste");
+    def upload() {
+//        println params
+
+        File dir = new File("grails-app/uploadLogs");
         dir.mkdir()
 
         if (params.myfile) {
             def fis = params.myfile.getInputStream()
-            println "params.myfile: " + params.myfile
-            println "Total file size to read (in bytes) :: " + fis.available()
+//            println "params.myfile: " + params.myfile
+            println "Total file size to read (in bytes): " + fis.available()
             int content;
 
             def file = new File(dir.getAbsolutePath(),params.myfile.filename)

@@ -43,11 +43,10 @@
             multiple:true,
             dragDrop:true,
             fileName:"myfile",
-
-            onSuccess:function(files,data,xhr)
-            {
-                console.log(files)
-            },
+//            onSuccess:function(files,data,xhr)
+//            {
+//                console.log(files)
+//            },
         });
     });
 
