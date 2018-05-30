@@ -1,5 +1,8 @@
 package cs_grails
 
+import org.springframework.web.multipart.MultipartHttpServletRequest
+import org.springframework.web.multipart.commons.CommonsMultipartFile
+
 class TesteController {
 
     def rodar() {
@@ -124,29 +127,27 @@ class TesteController {
     }
 
     def upload() {
+        println params
+
         File dir = new File("grails-app/____teste");
         dir.mkdir()
-        println dir.getAbsolutePath()
-        println params.myfile
-
-        def file = new File(dir.getAbsolutePath(),"uploadFiles.log")
 
         if (params.myfile) {
+            def fis = params.myfile.getInputStream()
+            println "params.myfile: " + params.myfile
+            println "Total file size to read (in bytes) :: " + fis.available()
+            int content;
 
-        byte[] arquivo = params.myfile.getInputStream()
+            def file = new File(dir.getAbsolutePath(),params.myfile.filename)
+            file = file.newOutputStream()
 
-            file.bytes = arquivo
+            file.withWriter('UTF-8'){ writer ->
+                while ((content = fis.read()) != -1) {
+                    writer.write((char) content)
+                }
+            }
         }
-
-
-
-        def os = file.newOutputStream()
-        os.close()
-
-
-
 
         render(view: "/teste/upload")
     }
-
 }
