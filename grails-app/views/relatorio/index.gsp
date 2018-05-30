@@ -35,9 +35,9 @@ table {
 
 <body>
 
-<div class="container">
+%{--<div class="container">--}%
     <div class="row">
-        <div class="col-md-6" >
+        <div class="col-md-4 col-md-offset-4" >
             <div class="panel panel-primary" align="center">
                 <div class="panel-heading"><h2>FACADAS</h2></div>
                     <table id="tabela_grande" class="table table-bordered table-condensed table-hover" style="margin-bottom: 0px" border="1">
@@ -65,10 +65,10 @@ table {
                                                     <g:if test="${jogador.nome.equals(facada.vitima.matador.nome)}">
                                                         <tr class="row">
                                                             <td class="col-md-8">
-                                                                ${facada.vitima.vitima.nome}
+                                                                <strong>${facada.vitima.vitima.nome}</strong>
                                                             </td>
                                                             <td class="col-md-4 text-center" id="facadas">
-                                                                ${facada.qtdeFacadas}
+                                                                <strong>${facada.qtdeFacadas}</strong>
                                                             </td>
                                                         </tr>
                                                     </g:if>
@@ -88,10 +88,10 @@ table {
                                                     <g:if test="${jogador.nome.equals(facada.vitima.vitima.nome)}">
                                                         <tr class="row">
                                                             <td class="col-md-8">
-                                                                ${facada.vitima.matador.nome}
+                                                                <strong>${facada.vitima.matador.nome}</strong>
                                                             </td>
                                                             <td class="col-md-4 text-center" id="facadas2">
-                                                                ${facada.qtdeFacadas}
+                                                                <strong>${facada.qtdeFacadas}</strong>
                                                             </td>
                                                         </tr>
                                                     </g:if>
@@ -115,7 +115,7 @@ table {
         </div>
 
         </div>
-    </div>
+    %{--</div>--}%
 
 </body>
 </html>

@@ -21,9 +21,9 @@
 <body>
 
 <div align="center">
-    <div class="container">
+    %{--<div class="container">--}%
         <div class="row">
-            <div class="col-md-4" >
+            <div class="col-md-2 col-md-offset-5" >
                 <div class="panel panel-primary" align="center">
                     <div class="panel-heading"><h2>RELATÓRIOS</h2></div>
                     <table id="tabela_grande" class="table table-bordered table-condensed table-hover" style="padding: 0px" border="1">
@@ -41,7 +41,7 @@
                     </table>
                 </div>
             </div>
-        </div>
+        %{--</div>--}%
     </div>
 </div>
 

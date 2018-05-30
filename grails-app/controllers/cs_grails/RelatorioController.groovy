@@ -12,7 +12,7 @@ class RelatorioController {
         render(view: "principal", model:[datasList:datas])
     }
 
-    def tabela() {
+    def index() {
         println "params.id: " + params.id
         String data = params.id
         Date dataRelatorio = Date.parse('yyyy-MM-dd HH:mm:ss',data)
@@ -36,12 +36,6 @@ class RelatorioController {
             eq 'dataFacada', dataRelatorio.clearTime()
 
         }
-
-//		def jogadores = Jogador.findAll {
-//			order('nome','asc')
-//
-//		}
-
 
 		def lista1 = Facadas
 //        println "lista: " + lista

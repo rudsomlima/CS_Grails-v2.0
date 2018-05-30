@@ -11,8 +11,8 @@
     <meta name="layout" content="main" />
     <title>Facadas CS</title>
     <link href="http://hayageek.github.io/jQuery-Upload-File/4.0.11/uploadfile.css" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="http://hayageek.github.io/jQuery-Upload-File/4.0.11/jquery.uploadfile.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    <script src="http://hayageek.github.io/jQuery-Upload-File/4.0.11/jquery.uploadfile.js"></script>
 
 
 
@@ -24,12 +24,19 @@
 <div align="center">
 
 
-        <div id="fileuploader">Upload</div>
-
-
-        <div align="center">
-            <button class="testMe" onclick="callAjax();">Processar logs</button>
+    <g:form>
+        <div align="center" name="processar">
+            <g:actionSubmit class="btn btn-danger btn-lg" value="Processar arquivos" action="rodar"></g:actionSubmit>
         </div>
+    </g:form>
+    <br>
+    <br>
+
+    <div id="fileuploader">Upload</div>
+
+        %{--<div align="center">--}%
+            %{--<button class="testMe" onclick="callAjax();">Processar logs</button>--}%
+        %{--</div>--}%
 
 </div>
 
@@ -50,10 +57,10 @@
         });
     });
 
-    function callAjax(){
-        var URL="${createLink(controller:'teste',action:'rodar')}";
-        $.get(URL);
-    }
+    %{--function callAjax(){--}%
+        %{--var URL="${createLink(controller:'teste',action:'rodar')}";--}%
+        %{--$.get(URL);--}%
+    %{--}--}%
 </script>
 </body>
 </html>
