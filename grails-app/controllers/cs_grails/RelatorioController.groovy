@@ -4,15 +4,15 @@ class RelatorioController {
 
     static defaultAction = "principal"
 
-    def principal(){
+    def principal() {
         def datas = Facadas.where {}.projections { distinct 'dataFacada' }
 //        Date datasF = datas.format('dd-')
-        println "----------------------------"
+        println "---------------------------- " + datas.list()
 //        render(view: "principal")
-        respond(view: "principal", model:[datasList:datas])
+        render(view: "principal", model:[datasList:datas])
     }
 
-    def index() {
+    def tabela() {
         println "params.id: " + params.id
         String data = params.id
         Date dataRelatorio = Date.parse('yyyy-MM-dd HH:mm:ss',data)

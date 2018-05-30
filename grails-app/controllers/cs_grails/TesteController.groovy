@@ -116,8 +116,9 @@ class TesteController {
         }
         dir.deleteDir()
         println "Apagou a pasta uploadLogs!"
-        println dataLog
-        redirect(controller: "relatorio", id: dataLog, action: "index")
+//        println dataLog
+//        redirect(controller: "relatorio", id: dataLog, action: "index")
+        redirect(controller: "relatorio", action: "principal")
 
     }
 

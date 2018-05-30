@@ -36,8 +36,8 @@
 <script>
     $(document).ready(function()
     {
-        console.log(window.location.href)
-        console.log("########################## Script OK!");
+//        console.log(window.location.href)
+//        console.log("########################## Script OK!");
         $("#fileuploader").uploadFile({
             url: "upload",      //barra no inicio sobre pro nivel de root
             multiple:true,
