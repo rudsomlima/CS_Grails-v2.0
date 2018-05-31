@@ -75,6 +75,8 @@ class RelatorioController {
             nFacasList.add(nFacas)
             println jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima
         }
+
+//        nFacasList.nFacadasMatador.sort()   //organiza por ordem crescente do numero de facas
 //        println "nFacadas: " + nFacadas
 //        println "nFacadas: " + nFacasList.nFacadasMatador
 //        println "nFacadas: " + nFacadasDaVitima

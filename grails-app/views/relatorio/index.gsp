@@ -40,7 +40,7 @@ table {
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <div class="row">
-                    <div class="col-xs-3">
+                    <div class="col-xs-3 text-center">
                         <img src="${resource(dir: 'images', file: '003-revolver.png')}" width="100%"/>
                     </div>
                     <div class="col-xs-9 text-right">
@@ -60,7 +60,7 @@ table {
                                 </tr>
                             </g:each>
                         </div>
-                        <div class="col-xs-3 text-right">
+                        <div class="col-xs-3 text-center">
                             00
                         </div>
                     </div>
@@ -71,7 +71,7 @@ table {
         <div class="panel panel-danger">
             <div class="panel-heading">
                 <div class="row">
-                    <div class="col-xs-3">
+                    <div class="col-xs-3 text-center">
                         <img src="${resource(dir: 'images', file: '001-sieve.png')}" width="100%"/>
                     </div>
                     <div class="col-xs-9 text-right">
@@ -81,16 +81,15 @@ table {
                 </div>
             </div>
                 <div class="panel-footer">
-                    <span class="pull-left">View Details</span>
-                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                     <div class="clearfix"></div>
-                    <g:each in="${facadasList}" status="l" var="esfaqueador">
-                        <tr>
-                            <td id="peneira" style="vertical-align: middle">
-                                <h4> ${esfaqueador.vitima.vitima.nome} </h4>
-                            </td>
-                        </tr>
-                    </g:each>
+                        <g:each in="${nFacasList}" status="l" var="esfaqueador">
+                            <tr>
+                                <td id="peneira" style="vertical-align: middle">
+                                    <h4> ${esfaqueador.matador} </h4>
+                                </td>
+                            </tr>
+                        </g:each>
+
                 </div>
         </div>
     </div>
@@ -98,7 +97,7 @@ table {
         <div class="panel panel-warning">
             <div class="panel-heading">
                 <div class="row">
-                    <div class="col-xs-3">
+                    <div class="col-xs-3 text-center">
                         <img src="${resource(dir: 'images', file: '002-knife.png')}" width="100%"/>
                     </div>
                     <div class="col-xs-9 text-right">
@@ -108,16 +107,29 @@ table {
                 </div>
             </div>
                 <div class="panel-footer">
-                    <span class="pull-left">View Details</span>
-                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                    <div class="clearfix"></div><g:each in="${facadasList}" status="l" var="esfaqueador">
-                    <tr>
-                        <td id="esfaqueador" style="vertical-align: middle">
-                            <h4> ${esfaqueador.vitima.vitima.nome} </h4>
-                        </td>
-                    </tr>
-                </g:each>
-                </div>
+                    <div class="clearfix"></div>
+                    <div class="row">
+                        <div class="col-xs-9">
+                            <g:each in="${nFacasList}" status="l" var="esfaqueador">
+                                <tr>
+                                    <td id="esfaqueador" style="vertical-align: middle">
+                                        <h4> ${esfaqueador.matador} </h4>
+                                    </td>
+                                </tr>
+                            </g:each>
+                        </div>
+                        <div class="col-xs-3 text-center">
+                            <g:each in="${nFacasList}" status="l" var="esfaqueador">
+                                <tr>
+                                    <td id="nEsfaqueador" style="vertical-align: middle">
+                                        <h4> ${esfaqueador.nFacadasMatador} </h4>
+                                    </td>
+                                </tr>
+                            </g:each>
+                        </div>
+                    </div>
+
+                    </div>
         </div>
     </div>
     <div class="col-lg-3 col-md-6">
@@ -133,13 +145,21 @@ table {
                     </div>
                 </div>
             </div>
-            <a href="#">
                 <div class="panel-footer">
-                    <span class="pull-left">View Details</span>
-                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                     <div class="clearfix"></div>
+                    <table id="tabela_ima" class="table" style="margin-bottom: 0px" border="0">
+                        <g:each in="${nFacasList}" status="l" var="esfaqueador">
+                            <tr class="row">
+                                <td class="col-xs-9">
+                                    <strong>${esfaqueador.matador}</strong>
+                                </td>
+                                <td class="col-xs-3 text-center" id="facadas3">
+                                    <strong>${esfaqueador.nFacadasMatador}</strong>
+                                </td>
+                            </tr>
+                        </g:each>
+                    </table>
                 </div>
-            </a>
         </div>
     </div>
 </div>
