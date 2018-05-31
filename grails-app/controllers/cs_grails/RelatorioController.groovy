@@ -5,9 +5,10 @@ class RelatorioController {
     static defaultAction = "principal"
 
     def principal() {
-        def datas = Facadas.where {}.projections { distinct 'dataFacada' }
+//        def datas = Facadas.where {}.projections { distinct 'dataFacada' }
+        def datas = Facadas.executeQuery("select distinct dataFacada from Facadas order by dataFacada desc")
 //        Date datasF = datas.format('dd-')
-        println "---------------------------- " + datas.list()
+//        println "---------------------------- " + datas.list()
 //        render(view: "principal")
         render(view: "principal", model:[datasList:datas])
     }

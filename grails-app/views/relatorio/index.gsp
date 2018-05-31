@@ -35,6 +35,119 @@ table {
 
 <body>
 
+<div class="row">
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <img src="${resource(dir: 'images', file: '003-revolver.png')}" width="100%"/>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge">26</div>
+                        <div>New Comments!</div>
+                    </div>
+                </div>
+            </div>
+                <div class="panel-footer">
+                    <div class="row">
+                        <div class="col-xs-9">
+                            <g:each in="${jogadoresList}" status="k" var="matador">
+                                <tr>
+                                    <td id="matador" style="vertical-align: middle">
+                                        <h4> ${matador} </h4>
+                                    </td>
+                                </tr>
+                            </g:each>
+                        </div>
+                        <div class="col-xs-3 text-right">
+                            00
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <img src="${resource(dir: 'images', file: '001-sieve.png')}" width="100%"/>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge">12</div>
+                        <div>New Tasks!</div>
+                    </div>
+                </div>
+            </div>
+                <div class="panel-footer">
+                    <span class="pull-left">View Details</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                    <g:each in="${facadasList}" status="l" var="esfaqueador">
+                        <tr>
+                            <td id="peneira" style="vertical-align: middle">
+                                <h4> ${esfaqueador.vitima.vitima.nome} </h4>
+                            </td>
+                        </tr>
+                    </g:each>
+                </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <img src="${resource(dir: 'images', file: '002-knife.png')}" width="100%"/>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge">124</div>
+                        <div>New Orders!</div>
+                    </div>
+                </div>
+            </div>
+                <div class="panel-footer">
+                    <span class="pull-left">View Details</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div><g:each in="${facadasList}" status="l" var="esfaqueador">
+                    <tr>
+                        <td id="esfaqueador" style="vertical-align: middle">
+                            <h4> ${esfaqueador.vitima.vitima.nome} </h4>
+                        </td>
+                    </tr>
+                </g:each>
+                </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <img src="${resource(dir: 'images', file: '005-magnetism.png')}" width="100%"/>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge">13</div>
+                        <div>Support Tickets!</div>
+                    </div>
+                </div>
+            </div>
+            <a href="#">
+                <div class="panel-footer">
+                    <span class="pull-left">View Details</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
 %{--<div class="container">--}%
     <div class="row">
         <div class="col-md-4 col-md-offset-4" >

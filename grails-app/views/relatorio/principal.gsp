@@ -32,7 +32,8 @@
                             <tr class="row">
                                 <td class="col-md-8 text-center">
                                     <g:link controller="relatorio" action="index" id="${datas}">
-                                        ${datas}
+                                        %{--${datas}--}%
+                                        ${datas.format("dd-MM-yyyy")}
                                     </g:link>
                                 </td>
                             </tr>
