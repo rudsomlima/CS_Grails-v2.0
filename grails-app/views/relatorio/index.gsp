@@ -96,6 +96,7 @@ table {
     <div class="col-lg-3 col-md-6">
         <div class="panel panel-warning">
             <div class="panel-heading">
+                <g:link controller="relatorio" action="index" params="[id: data.format('yyyy-MM-dd 00:00:00'), tipo: 'facadas']">
                 <div class="row">
                     <div class="col-xs-3 text-center">
                         <img src="${resource(dir: 'images', file: '002-knife.png')}" width="100%"/>
@@ -105,12 +106,13 @@ table {
                         <div>New Orders!</div>
                     </div>
                 </div>
+                </g:link>
             </div>
                 <div class="panel-footer">
                     <div class="clearfix"></div>
                     <div class="row">
                         <div class="col-xs-9">
-                            <g:each in="${nFacasList}" status="l" var="esfaqueador">
+                            <g:each in="${nFacasList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
                                 <tr>
                                     <td id="esfaqueador" style="vertical-align: middle">
                                         <h4> ${esfaqueador.matador} </h4>
@@ -119,7 +121,7 @@ table {
                             </g:each>
                         </div>
                         <div class="col-xs-3 text-center">
-                            <g:each in="${nFacasList}" status="l" var="esfaqueador">
+                            <g:each in="${nFacasList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
                                 <tr>
                                     <td id="nEsfaqueador" style="vertical-align: middle">
                                         <h4> ${esfaqueador.nFacadasMatador} </h4>
@@ -128,8 +130,7 @@ table {
                             </g:each>
                         </div>
                     </div>
-
-                    </div>
+                </div>
         </div>
     </div>
     <div class="col-lg-3 col-md-6">
@@ -148,13 +149,13 @@ table {
                 <div class="panel-footer">
                     <div class="clearfix"></div>
                     <table id="tabela_ima" class="table" style="margin-bottom: 0px" border="0">
-                        <g:each in="${nFacasList}" status="l" var="esfaqueador">
+                        <g:each in="${nFacasList.sort{-it.nFacadasVitima}}" status="l" var="esfaqueador">
                             <tr class="row">
                                 <td class="col-xs-9">
                                     <strong>${esfaqueador.matador}</strong>
                                 </td>
                                 <td class="col-xs-3 text-center" id="facadas3">
-                                    <strong>${esfaqueador.nFacadasMatador}</strong>
+                                    <strong>${esfaqueador.nFacadasVitima}</strong>
                                 </td>
                             </tr>
                         </g:each>
@@ -163,92 +164,6 @@ table {
         </div>
     </div>
 </div>
-
-
-
-
-
-%{--<div class="container">--}%
-    <div class="row">
-        <div class="col-md-4 col-md-offset-4" >
-            <div class="panel panel-primary" align="center">
-                <div class="panel-heading"><h2>FACADAS</h2></div>
-                    <table id="tabela_grande" class="table table-bordered table-condensed table-hover" style="margin-bottom: 0px" border="1">
-                        <thead>
-                            <tr>
-                                <th class="text-center">Jogador</th>
-                                <th class="text-center">Vítimas</th>
-                                <th class="text-center">&nbsp&nbspDeu&nbsp&nbsp</th>
-                                <th class="text-center">Algozes</th>
-                                <th class="text-center">Levou</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <g:set var="n" value="${nFacasList.nFacadasMatador[0]}"/>
-                            <g:each in="${jogadoresList}" status="j" var="jogador">
-                                <tr>
-                                    <td id="jogador" style="vertical-align: middle">
-                                        <h4>${jogador}</h4>
-                                    </td>
-
-                                    <td>
-                                        <div>
-                                            <table id="tabela_pequena" class="table table-striped" style="margin-bottom: 0px; font-size: smaller">
-                                                <g:each in="${facadasList}" status="i" var="facada">
-                                                    <g:if test="${jogador.nome.equals(facada.vitima.matador.nome)}">
-                                                        <tr class="row">
-                                                            <td class="col-md-8">
-                                                                <strong>${facada.vitima.vitima.nome}</strong>
-                                                            </td>
-                                                            <td class="col-md-4 text-center" id="facadas">
-                                                                <strong>${facada.qtdeFacadas}</strong>
-                                                            </td>
-                                                        </tr>
-                                                    </g:if>
-                                                </g:each>
-                                            </table>
-                                        </div>
-                                    </td>
-                                    <td class="text-center" id="deu" style="vertical-align: middle">
-                                        %{--<span class="label label-success">  ${nFacasList.nFacadasMatador[j]}  </span>--}%
-                                        <h4 style="color: green"><b>${nFacasList.nFacadasMatador[j]}</b></h4>
-                                    </td>
-
-                                    <td>
-                                        <div>
-                                            <table id="tabela_pequena2" class="table table-striped" style="margin-bottom: 0px; font-size: smaller">
-                                                <g:each in="${facadasList}" status="i" var="facada">
-                                                    <g:if test="${jogador.nome.equals(facada.vitima.vitima.nome)}">
-                                                        <tr class="row">
-                                                            <td class="col-md-8">
-                                                                <strong>${facada.vitima.matador.nome}</strong>
-                                                            </td>
-                                                            <td class="col-md-4 text-center" id="facadas2">
-                                                                <strong>${facada.qtdeFacadas}</strong>
-                                                            </td>
-                                                        </tr>
-                                                    </g:if>
-                                                </g:each>
-                                            </table>
-                                        </div>
-                                    </td>
-
-                                    <td class="text-center" id="levou" style="vertical-align: middle">
-                                        %{--<span class="label label-danger">  ${nFacasList.nFacadasVitima[j]}  </span>--}%
-                                        <h4 style="color: red"><b>${nFacasList.nFacadasVitima[j]}</b></h4>
-                                    </td>
-
-                                    %{--<td class="text-center"> ${soma + facada.qtdeFacadas} </td>--}%
-                                </tr>
-                                <g:set var="n" value="${n++}"/>
-                            </tbody>
-                        </g:each>
-                    </table>
-            </div>
-        </div>
-
-        </div>
-    %{--</div>--}%
 
 </body>
 </html>

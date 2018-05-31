@@ -4,6 +4,10 @@ class RelatorioController {
 
     static defaultAction = "principal"
 
+    def facadas() {
+
+    }
+
     def principal() {
 //        def datas = Facadas.where {}.projections { distinct 'dataFacada' }
         def datas = Facadas.executeQuery("select distinct dataFacada from Facadas order by dataFacada desc")
@@ -15,6 +19,7 @@ class RelatorioController {
 
     def index() {
         println "params.id: " + params.id
+        println "params.tipo: " + params.tipo
         String data = params.id
         Date dataRelatorio = Date.parse('yyyy-MM-dd HH:mm:ss',data)
 
@@ -37,11 +42,6 @@ class RelatorioController {
             eq 'dataFacada', dataRelatorio.clearTime()
 
         }
-
-		def lista1 = Facadas
-//        println "lista: " + lista
-//			vitima.matador.nome == 'Kratos'
-//		}
 
         def players = []
 
@@ -76,12 +76,15 @@ class RelatorioController {
             println jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima
         }
 
-//        nFacasList.nFacadasMatador.sort()   //organiza por ordem crescente do numero de facas
 //        println "nFacadas: " + nFacadas
 //        println "nFacadas: " + nFacasList.nFacadasMatador
 //        println "nFacadas: " + nFacadasDaVitima
 
 //		println jogadores
-        render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nFacasList:nFacasList])
+        if(params.tipo=='facadas') {
+            render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nFacasList:nFacasList,data:dataRelatorio])
+            println "view: facadas"
+        }
+        else render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nFacasList:nFacasList,data:dataRelatorio])
     }
 }
