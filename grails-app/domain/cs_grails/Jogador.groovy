@@ -3,8 +3,8 @@ package cs_grails
 class Jogador {
 
     String nome
-//    Integer nFacasLevou
-//    Integer nFacasDeu
+
+    static hasMany = [vitima:Vitima]
 
     String toString() {
         this.nome

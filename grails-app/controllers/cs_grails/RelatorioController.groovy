@@ -4,7 +4,27 @@ class RelatorioController {
 
     static defaultAction = "principal"
 
-    def facadas() {
+    def excluir() {
+//        Vitima vitima = new Vitima()
+        def jogadoresList = Jogador.findAll()
+        println "Antes de deletar: " + jogadoresList.size()
+        Jogador.executeUpdate("delete from Jogador")
+        jogadoresList = Jogador.findAll()
+        println "Depois de deletar: " + jogadoresList.size()
+
+//        jogadoresList.each {
+//            vitima.validate()
+//            if(!vitima.hasErrors()) {
+//                vitima.matador.delete(flush:true)
+//                println "Apagou com sucesso"
+//            }
+//            else {
+//                println vitima.errors
+//                println "Não apagou"
+//            }
+
+
+        redirect(controller: "relatorio", action: "principal")
 
     }
 
@@ -51,16 +71,21 @@ class RelatorioController {
             println "facada: " + facada.vitima.matador.nome + " - " + facada.vitima.vitima.nome
         }
 
-        List<Relatorio> nFacasList = new ArrayList<Relatorio>()
+        List<Relatorio> relatorioList = new ArrayList<Relatorio>()
         def nFacas
         def nFacadasDaVitima
         def nFacadasDoMatador
+        def nTiros
+        def nTirosDaVitima
+        def nTirosDoMatador
         def jogadores = []
         for(jogador in players.unique()){
             Jogador jog = new Jogador()
             jog.nome = jogador
             jogadores.push(jog)
             nFacas = new Relatorio()
+
+            ////////////// Facas
             nFacadasDaVitima = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$jogador and dataFacada=$dataRelatorio").get(0)
             println "nFacadasDaVitima: " + nFacadasDaVitima
 //            nFacadasDaVitima = Vitima.executeQuery("select count(qtdeFacadas(select vitima.nome from Vitima where matador.nome=$jogador and dataFacada=$dataRelatorio)")
@@ -72,8 +97,25 @@ class RelatorioController {
             nFacas.matador = jogador
             if(nFacadasDoMatador==null) nFacas.nFacadasMatador = 0
             else nFacas.nFacadasMatador = nFacadasDoMatador
-            nFacasList.add(nFacas)
-            println jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima
+
+            ///////////// Tiros
+            nTiros = new Relatorio()
+            nTirosDaVitima = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.vitima.nome=$jogador and dataTiro=$dataRelatorio").get(0)
+            println "nTirosDaVitima: " + nTirosDaVitima
+//            nFacadasDaVitima = Vitima.executeQuery("select count(qtdeFacadas(select vitima.nome from Vitima where matador.nome=$jogador and dataFacada=$dataRelatorio)")
+            nTiros.vitima = jogador
+            if(nTirosDaVitima==null) nFacas.nFacadasVitima = 0
+            else nTiros.nTirosVitima = nTirosDaVitima
+//            nFacadasDoMatador = Vitima.executeQuery("select COUNT(vitima_id) from Vitima where matador.nome=$jogador and dataFacada=$dataRelatorio")
+            nTirosDoMatador = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.matador.nome=$jogador and dataTiro=$dataRelatorio").get(0)
+            nTiros.matador = jogador
+            if(nTirosDoMatador==null) nTiros.nTirosMatador = 0
+            else nTiros.nTirosMatador = nTirosDoMatador
+
+            relatorioList.add(nFacas)
+            println "Facadas: " + jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima
+            println "Tiros: " + jogador + " - " + nTirosDoMatador + " - " + nTirosDaVitima
+
         }
 
 //        println "nFacadas: " + nFacadas
@@ -82,9 +124,9 @@ class RelatorioController {
 
 //		println jogadores
         if(params.tipo=='facadas') {
-            render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nFacasList:nFacasList,data:dataRelatorio])
+            render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nFacasList:relatorioList,data:dataRelatorio])
             println "view: facadas"
         }
-        else render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nFacasList:nFacasList,data:dataRelatorio])
+        else render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nFacasList:relatorioList,data:dataRelatorio])
     }
 }

@@ -40,6 +40,13 @@
                         </g:each>
                         </tbody>
                     </table>
+
+                    <g:form>
+                        <div align="center" name="processar">
+                            <g:actionSubmit class="btn btn-danger btn-lg" value="Excluir tudo" action="excluir"></g:actionSubmit>
+                        </div>
+                    </g:form>
+
                 </div>
             </div>
         %{--</div>--}%

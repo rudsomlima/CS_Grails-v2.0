@@ -148,14 +148,14 @@ table {
             </div>
                 <div class="panel-footer">
                     <div class="clearfix"></div>
-                    <table id="tabela_ima" class="table" style="margin-bottom: 0px" border="0">
+                    <table id="tabela_ima" class="table table-hover" style="margin-bottom: 0px" border="0">
                         <g:each in="${nFacasList.sort{-it.nFacadasVitima}}" status="l" var="esfaqueador">
                             <tr class="row">
                                 <td class="col-xs-9">
-                                    <strong>${esfaqueador.matador}</strong>
+                                    ${esfaqueador.matador}
                                 </td>
                                 <td class="col-xs-3 text-center" id="facadas3">
-                                    <strong>${esfaqueador.nFacadasVitima}</strong>
+                                    ${esfaqueador.nFacadasVitima}
                                 </td>
                             </tr>
                         </g:each>
