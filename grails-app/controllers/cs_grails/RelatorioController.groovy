@@ -72,10 +72,9 @@ class RelatorioController {
         }
 
         List<Relatorio> relatorioList = new ArrayList<Relatorio>()
-        def nFacas
+        def nRel
         def nFacadasDaVitima
         def nFacadasDoMatador
-        def nTiros
         def nTirosDaVitima
         def nTirosDoMatador
         def jogadores = []
@@ -85,48 +84,42 @@ class RelatorioController {
             jogadores.push(jog)
 
             ////////////// Facas
-            nFacas = new Relatorio()
+            nRel = new Relatorio()
             nFacadasDaVitima = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$jogador and dataFacada=$dataRelatorio").get(0)
             println "nFacadasDaVitima: " + nFacadasDaVitima
-//            nFacadasDaVitima = Vitima.executeQuery("select count(qtdeFacadas(select vitima.nome from Vitima where matador.nome=$jogador and dataFacada=$dataRelatorio)")
-            nFacas.vitima = jogador
-            if(nFacadasDaVitima==null) nFacas.nFacadasVitima = 0
-            else nFacas.nFacadasVitima = nFacadasDaVitima
-//            nFacadasDoMatador = Vitima.executeQuery("select COUNT(vitima_id) from Vitima where matador.nome=$jogador and dataFacada=$dataRelatorio")
+            nRel.vitima = jogador
+            if(nFacadasDaVitima==null) nRel.nFacadasVitima = 0
+            else nRel.nFacadasVitima = nFacadasDaVitima
             nFacadasDoMatador = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.matador.nome=$jogador and dataFacada=$dataRelatorio").get(0)
-            nFacas.matador = jogador
-            if(nFacadasDoMatador==null) nFacas.nFacadasMatador = 0
-            else nFacas.nFacadasMatador = nFacadasDoMatador
+            nRel.matador = jogador
+            if(nFacadasDoMatador==null) nRel.nFacadasMatador = 0
+            else nRel.nFacadasMatador = nFacadasDoMatador
 
             /////////// Tiros
-//            nTiros = new Relatorio()
-//            nTirosDaVitima = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.vitima.nome=$jogador and dataTiro=$dataRelatorio").get(0)
-//            println "nTirosDaVitima: " + nTirosDaVitima
-////            nFacadasDaVitima = Vitima.executeQuery("select count(qtdeFacadas(select vitima.nome from Vitima where matador.nome=$jogador and dataFacada=$dataRelatorio)")
-//            nTiros.vitima = jogador
-//            if(nTirosDaVitima==null) nFacas.nFacadasVitima = 0
-//            else nTiros.nTirosVitima = nTirosDaVitima
-////            nFacadasDoMatador = Vitima.executeQuery("select COUNT(vitima_id) from Vitima where matador.nome=$jogador and dataFacada=$dataRelatorio")
-//            nTirosDoMatador = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.matador.nome=$jogador and dataTiro=$dataRelatorio").get(0)
-//            nTiros.matador = jogador
-//            if(nTirosDoMatador==null) nTiros.nTirosMatador = 0
-//            else nTiros.nTirosMatador = nTirosDoMatador
+            nTirosDaVitima = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.vitima.nome=$jogador and dataTiro=$dataRelatorio").get(0)
+            println "nTirosDaVitima: " + nTirosDaVitima
+            if(nTirosDaVitima==null) nRel.nTirosVitima = 0
+            else nRel.nTirosVitima = nTirosDaVitima
+            nTirosDoMatador = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.matador.nome=$jogador and dataTiro=$dataRelatorio").get(0)
+            nRel.matador = jogador
+            if(nTirosDoMatador==null) nRel.nTirosMatador = 0
+            else nRel.nTirosMatador = nTirosDoMatador
 
-            relatorioList.add(nFacas)
+            relatorioList.add(nRel)
             println "Facadas: " + jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima
             println "Tiros: " + jogador + " - " + nTirosDoMatador + " - " + nTirosDaVitima
 
         }
 
 //        println "nFacadas: " + nFacadas
-//        println "nFacadas: " + nFacasList.nFacadasMatador
+//        println "nFacadas: " + nRelList.nFacadasMatador
 //        println "nFacadas: " + nFacadasDaVitima
 
 //		println jogadores
         if(params.tipo=='facadas') {
-            render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nFacasList:relatorioList,data:dataRelatorio])
+            render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio])
             println "view: facadas"
         }
-        else render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nFacasList:relatorioList,data:dataRelatorio])
+        else render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio])
     }
 }

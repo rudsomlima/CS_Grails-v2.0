@@ -61,7 +61,13 @@ table {
                             </g:each>
                         </div>
                         <div class="col-xs-3 text-center">
-                            00
+                            <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="matador">
+                                <tr>
+                                    <td id="nMatador" style="vertical-align: middle">
+                                        <h4> ${matador.nTirosMatador} </h4>
+                                    </td>
+                                </tr>
+                            </g:each>
                         </div>
                     </div>
                 </div>
@@ -81,15 +87,27 @@ table {
                 </div>
             </div>
                 <div class="panel-footer">
-                    <div class="clearfix"></div>
-                        <g:each in="${nFacasList}" status="l" var="esfaqueador">
-                            <tr>
-                                <td id="peneira" style="vertical-align: middle">
-                                    <h4> ${esfaqueador.matador} </h4>
-                                </td>
-                            </tr>
-                        </g:each>
-
+                    <div class="row">
+                        <div class="col-xs-9">
+                            <div class="clearfix"></div>
+                                <g:each in="${nRelList}" status="l" var="peneira">
+                                    <tr>
+                                        <td id="peneira" style="vertical-align: middle">
+                                            <h4> ${peneira.matador} </h4>
+                                        </td>
+                                    </tr>
+                                </g:each>
+                        </div>
+                        <div class="col-xs-3 text-center">
+                            <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="peneira">
+                                <tr>
+                                    <td id="nPeneira" style="vertical-align: middle">
+                                        <h4> ${peneira.nTirosVitima} </h4>
+                                    </td>
+                                </tr>
+                            </g:each>
+                        </div>
+                    </div>
                 </div>
         </div>
     </div>
@@ -112,7 +130,7 @@ table {
                     <div class="clearfix"></div>
                     <div class="row">
                         <div class="col-xs-9">
-                            <g:each in="${nFacasList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
+                            <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
                                 <tr>
                                     <td id="esfaqueador" style="vertical-align: middle">
                                         <h4> ${esfaqueador.matador} </h4>
@@ -121,7 +139,7 @@ table {
                             </g:each>
                         </div>
                         <div class="col-xs-3 text-center">
-                            <g:each in="${nFacasList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
+                            <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
                                 <tr>
                                     <td id="nEsfaqueador" style="vertical-align: middle">
                                         <h4> ${esfaqueador.nFacadasMatador} </h4>
@@ -149,7 +167,7 @@ table {
                 <div class="panel-footer">
                     <div class="clearfix"></div>
                     <table id="tabela_ima" class="table table-hover" style="margin-bottom: 0px" border="0">
-                        <g:each in="${nFacasList.sort{-it.nFacadasVitima}}" status="l" var="esfaqueador">
+                        <g:each in="${nRelList.sort{-it.nFacadasVitima}}" status="l" var="esfaqueador">
                             <tr class="row">
                                 <td class="col-xs-9">
                                     ${esfaqueador.matador}

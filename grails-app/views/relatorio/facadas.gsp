@@ -79,7 +79,7 @@
                                     <td class="text-center" id="deu" style="vertical-align: middle">
                                         %{--<span class="label label-success">  ${nFacasList.nFacadasMatador[j]}  </span>--}%
                                         %{--<h4 style="color: green"><b>${nFacasList.nFacadasMatador[j]}</b></h4>--}%
-                                        <h4 style="color: green"><b>${nFacasList.nFacadasMatador[j]}</b></h4>
+                                        <h4 style="color: green"><b>${nRelList.nFacadasMatador[j]}</b></h4>
                                     </td>
 
                                     <td>
@@ -103,7 +103,7 @@
 
                                     <td class="text-center" id="levou" style="vertical-align: middle">
                                         %{--<span class="label label-danger">  ${nFacasList.nFacadasVitima[j]}  </span>--}%
-                                        <h4 style="color: red"><b>${nFacasList.nFacadasVitima[j]}</b></h4>
+                                        <h4 style="color: red"><b>${nRelList.nFacadasVitima[j]}</b></h4>
                                     </td>
 
                                     %{--<td class="text-center"> ${soma + facada.qtdeFacadas} </td>--}%
