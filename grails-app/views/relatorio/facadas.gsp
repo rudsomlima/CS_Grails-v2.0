@@ -19,11 +19,11 @@
     style: "vertical-align: middle"
 }
 
-table {
-    font: 11px/24px 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif,  Open Sans;
-    border-collapse: collapse;
-    width: 320px;
-}
+/*table {*/
+    /*font: 11px/24px 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif,  Open Sans;*/
+    /*border-collapse: collapse;*/
+    /*width: 320px;*/
+/*}*/
 
 /*#tabela_pequena {*/
     /*padding: 1px;*/
@@ -37,9 +37,9 @@ table {
 
 %{--<div class="container">--}%
     <div class="row">
-        <div class="col-md-4 col-md-offset-4" >
+        <div class="col-md-5 col-md-offset-3" >
             <div class="panel panel-primary" align="center">
-                <div class="panel-heading"><h2>FACADAS - ${params.id}</h2></div>
+                <div class="panel-heading"><h2>FACADAS - ${(params.id)}</h2></div>
                     <table id="tabela_grande" class="table table-bordered table-condensed table-hover" style="margin-bottom: 0px" border="1">
                         <thead>
                             <tr>
@@ -67,7 +67,7 @@ table {
                                                             <td class="col-md-8">
                                                                 <strong>${facada.vitima.vitima.nome}</strong>
                                                             </td>
-                                                            <td class="col-md-4 text-center" id="facadas">
+                                                            <td class="col-md-4 text-center" style="vertical-align: middle" id="facadas">
                                                                 <strong>${facada.qtdeFacadas}</strong>
                                                             </td>
                                                         </tr>

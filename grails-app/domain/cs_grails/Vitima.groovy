@@ -7,7 +7,7 @@ class Vitima {
     //Mapeia o atributo da classe Jogador
     static mappedBy = [matador: 'nome',vitima: 'nome']
 
-    static hasMany = [facadas:Facadas,tiros:Tiros]
+//    static hasMany = [facadas:Facadas,tiros:Tiros]
 
     static belongsTo = [matador:Jogador, vitima:Jogador]
 

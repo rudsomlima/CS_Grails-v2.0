@@ -83,9 +83,9 @@ class RelatorioController {
             Jogador jog = new Jogador()
             jog.nome = jogador
             jogadores.push(jog)
-            nFacas = new Relatorio()
 
             ////////////// Facas
+            nFacas = new Relatorio()
             nFacadasDaVitima = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$jogador and dataFacada=$dataRelatorio").get(0)
             println "nFacadasDaVitima: " + nFacadasDaVitima
 //            nFacadasDaVitima = Vitima.executeQuery("select count(qtdeFacadas(select vitima.nome from Vitima where matador.nome=$jogador and dataFacada=$dataRelatorio)")
@@ -98,19 +98,19 @@ class RelatorioController {
             if(nFacadasDoMatador==null) nFacas.nFacadasMatador = 0
             else nFacas.nFacadasMatador = nFacadasDoMatador
 
-            ///////////// Tiros
-            nTiros = new Relatorio()
-            nTirosDaVitima = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.vitima.nome=$jogador and dataTiro=$dataRelatorio").get(0)
-            println "nTirosDaVitima: " + nTirosDaVitima
-//            nFacadasDaVitima = Vitima.executeQuery("select count(qtdeFacadas(select vitima.nome from Vitima where matador.nome=$jogador and dataFacada=$dataRelatorio)")
-            nTiros.vitima = jogador
-            if(nTirosDaVitima==null) nFacas.nFacadasVitima = 0
-            else nTiros.nTirosVitima = nTirosDaVitima
-//            nFacadasDoMatador = Vitima.executeQuery("select COUNT(vitima_id) from Vitima where matador.nome=$jogador and dataFacada=$dataRelatorio")
-            nTirosDoMatador = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.matador.nome=$jogador and dataTiro=$dataRelatorio").get(0)
-            nTiros.matador = jogador
-            if(nTirosDoMatador==null) nTiros.nTirosMatador = 0
-            else nTiros.nTirosMatador = nTirosDoMatador
+            /////////// Tiros
+//            nTiros = new Relatorio()
+//            nTirosDaVitima = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.vitima.nome=$jogador and dataTiro=$dataRelatorio").get(0)
+//            println "nTirosDaVitima: " + nTirosDaVitima
+////            nFacadasDaVitima = Vitima.executeQuery("select count(qtdeFacadas(select vitima.nome from Vitima where matador.nome=$jogador and dataFacada=$dataRelatorio)")
+//            nTiros.vitima = jogador
+//            if(nTirosDaVitima==null) nFacas.nFacadasVitima = 0
+//            else nTiros.nTirosVitima = nTirosDaVitima
+////            nFacadasDoMatador = Vitima.executeQuery("select COUNT(vitima_id) from Vitima where matador.nome=$jogador and dataFacada=$dataRelatorio")
+//            nTirosDoMatador = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.matador.nome=$jogador and dataTiro=$dataRelatorio").get(0)
+//            nTiros.matador = jogador
+//            if(nTirosDoMatador==null) nTiros.nTirosMatador = 0
+//            else nTiros.nTirosMatador = nTirosDoMatador
 
             relatorioList.add(nFacas)
             println "Facadas: " + jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima

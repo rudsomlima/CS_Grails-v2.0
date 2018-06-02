@@ -2265,6 +2265,11 @@ th {
   max-width: 100%;
   margin-bottom: 20px;
 }
+
+#tabela_ima {
+  font-size: 18px;
+}
+
 .table > thead > tr > th,
 .table > tbody > tr > th,
 .table > tfoot > tr > th,
@@ -2276,7 +2281,7 @@ th {
   vertical-align: top;
   border-top: 0px solid #ddd;
   font: "Helvetica Neue";
-  font-size: 18px;
+  /*font-size: 18px;*/
 }
 .table > thead > tr > th {
   vertical-align: bottom;
