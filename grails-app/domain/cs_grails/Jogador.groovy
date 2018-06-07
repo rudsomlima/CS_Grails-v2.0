@@ -4,6 +4,7 @@ class Jogador {
 
     String nome
 
+
     static hasMany = [vitima:Vitima]
 
     String toString() {

@@ -5,27 +5,14 @@ class RelatorioController {
     static defaultAction = "principal"
 
     def excluir() {
-//        Vitima vitima = new Vitima()
         def jogadoresList = Jogador.findAll()
         println "Antes de deletar: " + jogadoresList.size()
+        Facadas.executeUpdate("delete from Facadas")
+        Vitima.executeUpdate("delete from Vitima")
         Jogador.executeUpdate("delete from Jogador")
         jogadoresList = Jogador.findAll()
         println "Depois de deletar: " + jogadoresList.size()
-
-//        jogadoresList.each {
-//            vitima.validate()
-//            if(!vitima.hasErrors()) {
-//                vitima.matador.delete(flush:true)
-//                println "Apagou com sucesso"
-//            }
-//            else {
-//                println vitima.errors
-//                println "Não apagou"
-//            }
-
-
         redirect(controller: "relatorio", action: "principal")
-
     }
 
     def principal() {

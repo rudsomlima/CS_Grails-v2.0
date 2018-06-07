@@ -116,78 +116,96 @@ class TesteController {
                         }
 
                         //////////////////////////////// TIROS ////////////////////////////////////////////////////////////////
-//                        if(linha.contains(">\" with \"") && !linha.contains("with \"knife\"")) {
-//                            //Nome do Matador
-//                            println n_linha + " - " + linha
-//                            def nomeMatador = linha.substring(linha.indexOf("\"") + 1, linha.indexOf("<"));
-//                            def matadorList = Jogador.findAllByNomeIlike(nomeMatador)
-//                            Jogador matador = new Jogador()
-//                            if (matadorList.empty) {
-//                                matador.nome = nomeMatador
-//                                matador.save flush:true
-//                                println "Salvou Jogador com sucesso!"
-//                            } else {
-//                                matador = matadorList.get(0)
-//                            }
+                        if(linha.contains(">\" with \"") && !linha.contains("with \"knife\"")) {
+                            //Nome do Matador
+                            println n_linha + " - " + linha
+                            def nomeMatador = linha.substring(linha.indexOf("\"") + 1, linha.indexOf("<"));
+                            def matadorList = Jogador.findAllByNomeIlike(nomeMatador)
+                            Jogador matador = new Jogador()
+                            if (matadorList.empty) {
+                                matador.nome = nomeMatador
+                                matador.save flush:true
+                                println "Salvou Jogador com sucesso!"
+                            } else {
+                                matador = matadorList.get(0)
+                                println "Já existe jogador matador"
+                            }
+
+                            //Somente para achar o nome Killed
+                            def subLinha = linha.substring(linha.indexOf("killed \""));
+
+                            //Extrai o nome da Vitima
+                            def nomeVitima = subLinha.substring(subLinha.indexOf("\"") + 1, subLinha.indexOf("<"));
+                            def vitimaList = Jogador.findAllByNomeIlike(nomeVitima)
+
+                            Jogador vitima = new Jogador()
 //
-//                            //Somente para achar o nome Killed
-//                            def subLinha = linha.substring(linha.indexOf("killed \""));
+                            if(vitimaList.empty){
+                                vitima.nome = nomeVitima
+                                vitima.save flush:true
+                                println "Salvou com sucesso!"
+                            }else{
+                                vitima = vitimaList.get(0)
+                                println "Já existe jogador vitima"
+                            }
 //
-//                            //Extrai o nome da Vitima
-//                            def nomeVitima = subLinha.substring(subLinha.indexOf("\"") + 1, subLinha.indexOf("<"));
-//                            def vitimaList = Jogador.findAllByNomeIlike(nomeVitima)
+                            def existeAssassinato = Vitima.findAllByMatadorAndVitimaAndDataFacada(matador,vitima,dataFinal)
+//                            println "O assassinato de tiro encontrato é: " + vitima
 //
-//                            Jogador vitima = new Jogador()
-////
-//                            if(vitimaList.empty){
-//                                vitima.nome = nomeVitima
-//                                vitima.save flush:true
-//                                println "Salvou com sucesso!"
-//                            }else{
-//                                vitima = vitimaList.get(0)
-//                            }
-////
-//                            def existeAssassinato = Vitima.findAllByMatadorAndVitimaAndDataFacada(matador,vitima,dataFinal)
-////                            println "O assassinato de tiro encontrato é: " + vitima
-////
-//                            if(existeAssassinato.empty){
-//                                vitima.save flush:true
-//                                println "Salvou com sucesso o assassinato de tiro!"
-//                            }else{
-//                                vitima = existeAssassinato.get(0)
-//                                println "Achou o assassinato: " + vitima
-//                            }
-//
-//////                            println "vitima: " + vitima
-//
+                            if(existeAssassinato.empty){
+                                vitima.save flush:true
+                                println "Salvou com sucesso o assassinato de tiro!"
+                            }else{
+                                vitima = existeAssassinato.get(0)
+                                println "Achou o assassinato: " + vitima
+                            }
+
+////                            println "vitima: " + vitima
+
 //                            Vitima assassinato = new Vitima()
-//
+
 //                            assassinato.matador = matador
 //                            assassinato.vitima = vitima
-//
-//                            Tiros tiros = new Tiros()
-//                            tiros.qtdeTiros = 1
-//                            tiros.dataTiro =  dataFinal
-//                            tiros.vitima = assassinato
-//                            tiros.dataTiro = dataFinal
-//
-//                            def tirosList = Tiros.findAllByVitima(assassinato)
+
+                            Jogador jogador = Jogador.findAllByNome(matador.nome).get(0)
+
+                            //Aqui ele pode trazer uma lista e fizemos o teste do codigo pegando o indice 0
+                            //Trocar para ArrayList
+                            Vitima vit = Vitima.findAllByVitima(jogador).get(0)
+
+                            //Aqui ele pode trazer uma lista e fizemos o teste do codigo pegando o indice 0
+                            //Trocar para ArrayList
+                            Vitima mat = Vitima.findAllByMatador(jogador).get(0)
+
+
+                            def tirosListVitima = Tiros.findAllByVitima(vit)
+                            def tirosListMatador = Tiros.findAllByVitima(mat)
+
+                            println "Vitimas dentro de Tiros: " + tirosListVitima
+                            println "Matadores dentro de Tiros: " + tirosListMatador
+
 //                            println "Foram encontradas os seguintes tiros: " + tirosList
-//
-//                            if(tirosList.empty){
-//                                tiros.save flush:true
-//                                println "Salvou com sucesso o tiro!"
-//                            }else{
-//                                tiros = tirosList.get(0)
-//////                                println "Tiro:" + tiros + " Quantidade de tiros antes: " + tiros.qtdeTiros
-//                                //Automatic Dirty Detection - persiste a alteração mesmo sem mandarmos salvar. Caso não se queira
-//                                //o comportamento, usar read ao invés de get()
-//                                //fonte: http://stackoverflow.com/questions/32503852/grails-2-4-4-updating-a-user-auto-saves-user-before-hitting-back-end-code
-//                                tiros.qtdeTiros +=1
-//                                tiros.save flush:true
-//////                                println "Tiro:" + tiros + " Quantidade de tiros depois: " + tiros.qtdeTiros
-//                            }
-//                        }
+
+                            Tiros tiros = new Tiros()
+                            tiros.qtdeTiros = 1
+                            tiros.dataTiro =  dataFinal
+                            tiros.vitima = assassinato
+                            tiros.dataTiro = dataFinal
+
+                            if(tirosList.empty){
+                                tiros.save flush:true
+                                println "Salvou com sucesso o tiro!"
+                            }else{
+                                tiros = tirosList.get(0)
+////                                println "Tiro:" + tiros + " Quantidade de tiros antes: " + tiros.qtdeTiros
+                                //Automatic Dirty Detection - persiste a alteração mesmo sem mandarmos salvar. Caso não se queira
+                                //o comportamento, usar read ao invés de get()
+                                //fonte: http://stackoverflow.com/questions/32503852/grails-2-4-4-updating-a-user-auto-saves-user-before-hitting-back-end-code
+                                tiros.qtdeTiros +=1
+                                tiros.save flush:true
+////                                println "Tiro:" + tiros + " Quantidade de tiros depois: " + tiros.qtdeTiros
+                            }
+                        }
                     }
                 }
                 file.delete() //apaga o arquivo para não processa-lo novamente
