@@ -75,9 +75,9 @@ class TesteController {
                             Facadas facada = new Facadas()
                             facada.qtdeFacadas = 1
                             String dataFacada =  linha.substring(2, 12)
-                            println "Data original: " + dataFacada
+//                            println "Data original: " + dataFacada
                             Date dataFacadaFormatada = Date.parse('MM/dd/yyyy',dataFacada)
-                            println "Data convertida: " + dataFacadaFormatada.format('yyyy-MM-dd')
+//                            println "Data convertida: " + dataFacadaFormatada.format('yyyy-MM-dd')
                             String dataFormatada = dataFacadaFormatada.format('yyyy-MM-dd')
                             dataFinal = Date.parse('yyyy-MM-dd',dataFormatada)
                             dataLog = dataFormatada + " 00:00:00"
@@ -143,40 +143,38 @@ class TesteController {
                             if(vitimaList.empty){
                                 vitima.nome = nomeVitima
                                 vitima.save flush:true
-                                println "Salvou com sucesso!"
+                                println "Salvou com vitima com sucesso!"
                             }else{
                                 vitima = vitimaList.get(0)
                                 println "Já existe jogador vitima"
                             }
 //
                             def existeAssassinato = Vitima.findAllByMatadorAndVitimaAndDataFacada(matador,vitima,dataFinal)
-//                            println "O assassinato de tiro encontrato é: " + vitima
-//
+                            println "Já existe tiro do: " + matador + " - " + vitima
+
                             if(existeAssassinato.empty){
                                 vitima.save flush:true
                                 println "Salvou com sucesso o assassinato de tiro!"
                             }else{
                                 vitima = existeAssassinato.get(0)
-                                println "Achou o assassinato: " + vitima
+                                println "Já existe esse assassinato"
                             }
-
-////                            println "vitima: " + vitima
-
-//                            Vitima assassinato = new Vitima()
-
-//                            assassinato.matador = matador
-//                            assassinato.vitima = vitima
 
                             Jogador jogador = Jogador.findAllByNome(matador.nome).get(0)
 
                             //Aqui ele pode trazer uma lista e fizemos o teste do codigo pegando o indice 0
                             //Trocar para ArrayList
-                            Vitima vit = Vitima.findAllByVitima(jogador).get(0)
+                            List<Vitima> vit = Vitima.findAllByVitima(jogador)
+                            if(vit.size()==0) {
+                                println "Não achou vitima"
+                            }
 
                             //Aqui ele pode trazer uma lista e fizemos o teste do codigo pegando o indice 0
                             //Trocar para ArrayList
-                            Vitima mat = Vitima.findAllByMatador(jogador).get(0)
-
+                            List<Vitima> mat = Vitima.findAllByMatador(jogador)
+                            if(mat.size()==0) {
+                                println "Não achou matador"
+                            }
 
                             def tirosListVitima = Tiros.findAllByVitima(vit)
                             def tirosListMatador = Tiros.findAllByVitima(mat)
@@ -184,19 +182,17 @@ class TesteController {
                             println "Vitimas dentro de Tiros: " + tirosListVitima
                             println "Matadores dentro de Tiros: " + tirosListMatador
 
-//                            println "Foram encontradas os seguintes tiros: " + tirosList
-
                             Tiros tiros = new Tiros()
                             tiros.qtdeTiros = 1
                             tiros.dataTiro =  dataFinal
-                            tiros.vitima = assassinato
-                            tiros.dataTiro = dataFinal
+//                            tiros.vitima.vitima.nome = tirosListVitima.get(0).vitima.vitima.nome
+//                            tiros.vitima.matador = tirosListMatador.get(0)
 
-                            if(tirosList.empty){
+                            if(tirosListVitima.empty){
                                 tiros.save flush:true
-                                println "Salvou com sucesso o tiro!"
+                                println "Salvou com sucesso o tiro: $matador - $vitima"
                             }else{
-                                tiros = tirosList.get(0)
+//                                tiros = tirosList.get(0)
 ////                                println "Tiro:" + tiros + " Quantidade de tiros antes: " + tiros.qtdeTiros
                                 //Automatic Dirty Detection - persiste a alteração mesmo sem mandarmos salvar. Caso não se queira
                                 //o comportamento, usar read ao invés de get()
