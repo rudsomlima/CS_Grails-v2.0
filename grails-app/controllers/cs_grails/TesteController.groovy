@@ -183,14 +183,14 @@ class TesteController {
                                 println "Achou o assassinato: " + assassinato
                             }
 
-                            def existeFacadas = Tiros.findAllByVitima(assassinato)
-                            println "Foram encontradas as seguintes facadas: " + existeFacadas
+                            def existeTiros = Tiros.findAllByVitima(assassinato)
+                            println "Foram encontradas as seguintes facadas: " + existeTiros
 
-                            if (existeFacadas.empty) {
+                            if (existeTiros.empty) {
                                 tiro.save flush: true
                                 println "Salvou com sucesso a facada!"
                             } else {
-                                tiro = existeFacadas.get(0)
+                                tiro = existeTiros.get(0)
 //                                println "Facada:" + facada + " Quantidade de facadas antes: " + facada.qtdeFacadas
                                 //Automatic Dirty Detection - persiste a alteração mesmo sem mandarmos salvar. Caso não se queira
                                 //o comportamento, usar read ao invés de get()

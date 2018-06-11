@@ -18,7 +18,7 @@ class RelatorioController {
 
     def principal() {
 //        def datas = Facadas.where {}.projections { distinct 'dataFacada' }
-        def datas = Facadas.executeQuery("select distinct dataFacada from Facadas order by dataFacada desc")
+        def datas = Vitima.executeQuery("select distinct dataFacada from Vitima order by dataFacada desc")
 //        Date datasF = datas.format('dd-')
 //        println "---------------------------- " + datas.list()
 //        render(view: "principal")
@@ -38,9 +38,10 @@ class RelatorioController {
                 }
             }
             eq 'dataFacada', dataRelatorio.clearTime()
-
         }
-//        def lista = Vitima.findAllByDataFacadaIlike(dataFacada)
+//        lista += Vitima.findAllByDataFacada(dataRelatorio)
+
+        println "lista: " + lista
 
         def listaAlgozes = Facadas.withCriteria {
             vitima {
@@ -55,10 +56,14 @@ class RelatorioController {
         def players = []
 
         for(facada in lista){
+            println "facada: " + facada
             players.push(facada.vitima.matador.nome)
             players.push(facada.vitima.vitima.nome)
-            println "facada: " + facada.vitima.matador.nome + " - " + facada.vitima.vitima.nome
+//            println "facada: " + facada.vitima.matador.nome + " - " + facada.vitima.vitima.nome
         }
+
+        def boaTarde = Vitima.findByBoaTardeAndDataFacada(1,dataRelatorio)
+        println "boaTarde: " + boaTarde
 
         List<Relatorio> relatorioList = new ArrayList<Relatorio>()
         def nRel
@@ -93,6 +98,8 @@ class RelatorioController {
             nRel.matador = jogador
             if(nTirosDoMatador==null) nRel.nTirosMatador = 0
             else nRel.nTirosMatador = nTirosDoMatador
+            float kd = nTirosDoMatador/nTirosDaVitima  // kill/death
+            nRel.kd = kd
 
             relatorioList.add(nRel)
             println "Facadas: " + jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima
@@ -109,6 +116,7 @@ class RelatorioController {
             render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio])
             println "view: facadas"
         }
-        else render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio])
+        else render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio,
+        boaTarde:boaTarde])
     }
 }

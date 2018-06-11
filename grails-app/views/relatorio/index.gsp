@@ -82,7 +82,7 @@ table {
                     </div>
                     <div class="col-xs-9 text-right">
                         <div class="huge">12</div>
-                        <div>New Tasks!</div>
+                        <div><h4>New Tasks!</h4></div>
                     </div>
                 </div>
             </div>
@@ -99,10 +99,10 @@ table {
                                 </g:each>
                         </div>
                         <div class="col-xs-3 text-center">
-                            <g:each in="${nRelList.sort{-it.nTirosVitima}}" status="l" var="peneira">
+                            <g:each in="${nRelList.sort{-it.kd}}" status="l" var="peneira">
                                 <tr>
                                     <td id="nPeneira" style="vertical-align: middle">
-                                        <h4> ${peneira.nTirosVitima} </h4>
+                                        <h4> ${peneira.nTirosVitima} - ${String.format("%.3f", peneira.kd)} </h4>
                                     </td>
                                 </tr>
                             </g:each>
@@ -120,8 +120,8 @@ table {
                         <img src="${resource(dir: 'images', file: '002-knife.png')}" width="100%"/>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <div class="huge">124</div>
-                        <div>New Orders!</div>
+                        <div class="huge"><h4>BOA TARDE</h4></div>
+                        <div><h3>${boaTarde}</h3></div>
                     </div>
                 </div>
                 </g:link>

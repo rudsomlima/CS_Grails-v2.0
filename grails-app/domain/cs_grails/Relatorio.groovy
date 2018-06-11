@@ -8,6 +8,7 @@ class Relatorio {
     int nFacadasMatador
     int nTirosVitima
     int nTirosMatador
+    float kd
 
     static constraints = {
     }
