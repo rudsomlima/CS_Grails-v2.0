@@ -17,14 +17,14 @@ class TesteController {
 
         if( dir.isDirectory()) {
 //            dir.delete()  //apaga os arquivos anteriores, se houverem
-            new File("grails-app/uploadLogs").eachFile { file-> n_arquivo++; }
+            new File("grails-app/uploadLogs").eachFile { file -> n_arquivo++; }
 
             def boaTarde = 0   //flag pra marcar somente a 1 facada
 
 //            List<Jogador> matadorList = new ArrayList<Jogador>()
 //            List<Jogador> assassinatoList = new ArrayList<Vitima>()
 
-            new File("grails-app/uploadLogs").eachFile { file->
+            new File("grails-app/uploadLogs").eachFile { file ->
                 //Renderiza o numero do arquivo
                 progresso = 100 * atual / n_arquivo
                 atual++
@@ -32,21 +32,23 @@ class TesteController {
                 println "Quantidade de arquivos: $n_arquivo"
                 Date dataFinal
 
-                file.withReader { reader->
-                    while ((linha = reader.readLine())!=null) {
+                file.withReader { reader ->
+                    while ((linha = reader.readLine()) != null) {
                         n_linha++;
+//
+//                        //////////////////////// FACADAS ////////////////////////////////////
+                        if (linha.contains("with \"knife\"") && !linha.contains("suicide")) {
 
-                        //////////////////////// FACADAS ////////////////////////////////////
-                        if(linha.contains("with \"knife\"")) {
+                            println n_linha + " - " + linha
                             //Nome do Matador
                             def nomeMatador = linha.substring(linha.indexOf("\"") + 1, linha.indexOf("<"));
                             def matadorList = Jogador.findAllByNomeIlike(nomeMatador)
                             Jogador matador = new Jogador()
-                            if(matadorList.empty){
+                            if (matadorList.empty) {
                                 matador.nome = nomeMatador
-                                matador.save flush:true
+                                matador.save flush: true
                                 println "Salvou Jogador com sucesso!"
-                            }else{
+                            } else {
                                 matador = matadorList.get(0)
                             }
 
@@ -59,11 +61,11 @@ class TesteController {
 
                             Jogador vitima = new Jogador()
 
-                            if(vitimaList.empty){
+                            if (vitimaList.empty) {
                                 vitima.nome = nomeVitima
-                                vitima.save flush:true
+                                vitima.save flush: true
                                 println "Salvou com sucesso!"
-                            }else{
+                            } else {
                                 vitima = vitimaList.get(0)
                             }
 
@@ -74,26 +76,26 @@ class TesteController {
 
                             Facadas facada = new Facadas()
                             facada.qtdeFacadas = 1
-                            String dataFacada =  linha.substring(2, 12)
+                            String dataFacada = linha.substring(2, 12)
 //                            println "Data original: " + dataFacada
-                            Date dataFacadaFormatada = Date.parse('MM/dd/yyyy',dataFacada)
+                            Date dataFacadaFormatada = Date.parse('MM/dd/yyyy', dataFacada)
 //                            println "Data convertida: " + dataFacadaFormatada.format('yyyy-MM-dd')
                             String dataFormatada = dataFacadaFormatada.format('yyyy-MM-dd')
-                            dataFinal = Date.parse('yyyy-MM-dd',dataFormatada)
+                            dataFinal = Date.parse('yyyy-MM-dd', dataFormatada)
                             dataLog = dataFormatada + " 00:00:00"
-                            facada.dataFacada =  dataFinal
+                            facada.dataFacada = dataFinal
                             facada.vitima = assassinato
                             assassinato.dataFacada = dataFinal
-                            if(boaTarde==0) assassinato.boaTarde = 1   //define que o jogador levou boa tarde
+                            if (boaTarde == 0) assassinato.boaTarde = 1   //define que o jogador levou boa tarde
 
-                            def existeAssassinato = Vitima.findAllByMatadorAndVitimaAndDataFacada(matador,vitima,dataFinal)
+                            def existeAssassinato = Vitima.findAllByMatadorAndVitimaAndDataFacada(matador, vitima, dataFinal)
                             println "O assassinato encontrato é: " + assassinato
 
-                            if(existeAssassinato.empty){
-                                assassinato.save flush:true
+                            if (existeAssassinato.empty) {
+                                assassinato.save flush: true
                                 boaTarde = 1 // para de registrar o boa tarde
                                 println "Salvou com sucesso o assassinato!"
-                            }else{
+                            } else {
                                 assassinato = existeAssassinato.get(0)
                                 println "Achou o assassinato: " + assassinato
                             }
@@ -101,34 +103,36 @@ class TesteController {
                             def existeFacadas = Facadas.findAllByVitima(assassinato)
                             println "Foram encontradas as seguintes facadas: " + existeFacadas
 
-                            if(existeFacadas.empty){
-                                facada.save flush:true
+                            if (existeFacadas.empty) {
+                                facada.save flush: true
                                 println "Salvou com sucesso a facada!"
-                            }else{
+                            } else {
                                 facada = existeFacadas.get(0)
 //                                println "Facada:" + facada + " Quantidade de facadas antes: " + facada.qtdeFacadas
                                 //Automatic Dirty Detection - persiste a alteração mesmo sem mandarmos salvar. Caso não se queira
                                 //o comportamento, usar read ao invés de get()
                                 //fonte: http://stackoverflow.com/questions/32503852/grails-2-4-4-updating-a-user-auto-saves-user-before-hitting-back-end-code
-                                facada.qtdeFacadas +=1
+                                facada.qtdeFacadas += 1
 //                                println "Facada:" + facada + " Quantidade de facadas depois: " + facada.qtdeFacadas
                             }
                         }
 
+
+
                         //////////////////////////////// TIROS ////////////////////////////////////////////////////////////////
                         if(linha.contains(">\" with \"") && !linha.contains("with \"knife\"")) {
-                            //Nome do Matador
+
                             println n_linha + " - " + linha
+                            //Nome do Matador
                             def nomeMatador = linha.substring(linha.indexOf("\"") + 1, linha.indexOf("<"));
                             def matadorList = Jogador.findAllByNomeIlike(nomeMatador)
                             Jogador matador = new Jogador()
                             if (matadorList.empty) {
                                 matador.nome = nomeMatador
-                                matador.save flush:true
+                                matador.save flush: true
                                 println "Salvou Jogador com sucesso!"
                             } else {
                                 matador = matadorList.get(0)
-                                println "Já existe jogador matador"
                             }
 
                             //Somente para achar o nome Killed
@@ -136,83 +140,76 @@ class TesteController {
 
                             //Extrai o nome da Vitima
                             def nomeVitima = subLinha.substring(subLinha.indexOf("\"") + 1, subLinha.indexOf("<"));
-                            def vitimaList = Jogador.findAllByNomeIlike(nomeVitima)
+                            def vitimaList = Jogador.findAllByNome(nomeVitima)
 
                             Jogador vitima = new Jogador()
-//
-                            if(vitimaList.empty){
+
+                            if (vitimaList.empty) {
                                 vitima.nome = nomeVitima
-                                vitima.save flush:true
-                                println "Salvou com vitima com sucesso!"
-                            }else{
+                                vitima.save flush: true
+                                println "Salvou com sucesso!"
+                            } else {
                                 vitima = vitimaList.get(0)
-                                println "Já existe jogador vitima"
-                            }
-//
-                            def existeAssassinato = Vitima.findAllByMatadorAndVitimaAndDataFacada(matador,vitima,dataFinal)
-                            println "Já existe tiro do: " + matador + " - " + vitima
-
-                            if(existeAssassinato.empty){
-                                vitima.save flush:true
-                                println "Salvou com sucesso o assassinato de tiro!"
-                            }else{
-                                vitima = existeAssassinato.get(0)
-                                println "Já existe esse assassinato"
                             }
 
-                            Jogador jogador = Jogador.findAllByNome(matador.nome).get(0)
+                            Vitima assassinato = new Vitima()
 
-                            //Aqui ele pode trazer uma lista e fizemos o teste do codigo pegando o indice 0
-                            //Trocar para ArrayList
-                            List<Vitima> vit = Vitima.findAllByVitima(jogador)
-                            if(vit.size()==0) {
-                                println "Não achou vitima"
+                            assassinato.matador = matador
+                            assassinato.vitima = vitima
+
+                            Tiros tiro = new Tiros()
+                            tiro.qtdeTiros = 1
+                            String dataFacada = linha.substring(2, 12)
+//                            println "Data original: " + dataFacada
+                            Date dataFacadaFormatada = Date.parse('MM/dd/yyyy', dataFacada)
+//                            println "Data convertida: " + dataFacadaFormatada.format('yyyy-MM-dd')
+                            String dataFormatada = dataFacadaFormatada.format('yyyy-MM-dd')
+                            dataFinal = Date.parse('yyyy-MM-dd', dataFormatada)
+                            dataLog = dataFormatada + " 00:00:00"
+                            tiro.dataTiro = dataFinal
+                            tiro.vitima = assassinato
+                            assassinato.dataFacada = dataFinal
+                            if (boaTarde == 0) assassinato.boaTarde = 1   //define que o jogador levou boa tarde
+
+                            def existeAssassinato = Vitima.findAllByMatadorAndVitimaAndDataFacada(matador, vitima, dataFinal)
+                            println "O assassinato encontrato é: " + assassinato
+
+                            if (existeAssassinato.empty) {
+                                assassinato.save flush: true
+                                boaTarde = 1 // para de registrar o boa tarde
+                                println "Salvou com sucesso o assassinato!"
+                            } else {
+                                assassinato = existeAssassinato.get(0)
+                                println "Achou o assassinato: " + assassinato
                             }
 
-                            //Aqui ele pode trazer uma lista e fizemos o teste do codigo pegando o indice 0
-                            //Trocar para ArrayList
-                            List<Vitima> mat = Vitima.findAllByMatador(jogador)
-                            if(mat.size()==0) {
-                                println "Não achou matador"
-                            }
+                            def existeFacadas = Tiros.findAllByVitima(assassinato)
+                            println "Foram encontradas as seguintes facadas: " + existeFacadas
 
-                            def tirosListVitima = Tiros.findAllByVitima(vit)
-                            def tirosListMatador = Tiros.findAllByVitima(mat)
-
-                            println "Vitimas dentro de Tiros: " + tirosListVitima
-                            println "Matadores dentro de Tiros: " + tirosListMatador
-
-                            Tiros tiros = new Tiros()
-                            tiros.qtdeTiros = 1
-                            tiros.dataTiro =  dataFinal
-//                            tiros.vitima.vitima.nome = tirosListVitima.get(0).vitima.vitima.nome
-//                            tiros.vitima.matador = tirosListMatador.get(0)
-
-                            if(tirosListVitima.empty){
-                                tiros.save flush:true
-                                println "Salvou com sucesso o tiro: $matador - $vitima"
-                            }else{
-//                                tiros = tirosList.get(0)
-////                                println "Tiro:" + tiros + " Quantidade de tiros antes: " + tiros.qtdeTiros
+                            if (existeFacadas.empty) {
+                                tiro.save flush: true
+                                println "Salvou com sucesso a facada!"
+                            } else {
+                                tiro = existeFacadas.get(0)
+//                                println "Facada:" + facada + " Quantidade de facadas antes: " + facada.qtdeFacadas
                                 //Automatic Dirty Detection - persiste a alteração mesmo sem mandarmos salvar. Caso não se queira
                                 //o comportamento, usar read ao invés de get()
                                 //fonte: http://stackoverflow.com/questions/32503852/grails-2-4-4-updating-a-user-auto-saves-user-before-hitting-back-end-code
-                                tiros.qtdeTiros +=1
-                                tiros.save flush:true
-////                                println "Tiro:" + tiros + " Quantidade de tiros depois: " + tiros.qtdeTiros
+                                tiro.qtdeTiros += 1
+                                tiro.save flush: true
+//                                println "Facada:" + facada + " Quantidade de facadas depois: " + facada.qtdeFacadas
                             }
                         }
                     }
+                    file.delete() //apaga o arquivo para não processa-lo novamente
                 }
-                file.delete() //apaga o arquivo para não processa-lo novamente
             }
-        }
-        dir.deleteDir()
-        println "Apagou a pasta uploadLogs!"
+            dir.deleteDir()
+            println "Apagou a pasta uploadLogs!"
 //        println dataLog
 //        redirect(controller: "relatorio", id: dataLog, action: "index")
-        redirect(controller: "relatorio", action: "principal")
-
+            redirect(controller: "relatorio", action: "principal")
+        }
     }
 
 

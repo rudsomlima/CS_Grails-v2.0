@@ -52,16 +52,16 @@ table {
                 <div class="panel-footer">
                     <div class="row">
                         <div class="col-xs-9">
-                            <g:each in="${jogadoresList}" status="k" var="matador">
+                            <g:each in="${nRelList.sort{-it.nTirosMatador}}" status="k" var="matador">
                                 <tr>
                                     <td id="matador" style="vertical-align: middle">
-                                        <h4> ${matador} </h4>
+                                        <h4> ${matador.matador} </h4>
                                     </td>
                                 </tr>
                             </g:each>
                         </div>
                         <div class="col-xs-3 text-center">
-                            <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="matador">
+                            <g:each in="${nRelList.sort{-it.nTirosMatador}}" status="l" var="matador">
                                 <tr>
                                     <td id="nMatador" style="vertical-align: middle">
                                         <h4> ${matador.nTirosMatador} </h4>
@@ -90,7 +90,7 @@ table {
                     <div class="row">
                         <div class="col-xs-9">
                             <div class="clearfix"></div>
-                                <g:each in="${nRelList}" status="l" var="peneira">
+                                <g:each in="${nRelList.sort{-it.nTirosVitima}}" status="l" var="peneira">
                                     <tr>
                                         <td id="peneira" style="vertical-align: middle">
                                             <h4> ${peneira.matador} </h4>
@@ -99,7 +99,7 @@ table {
                                 </g:each>
                         </div>
                         <div class="col-xs-3 text-center">
-                            <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="peneira">
+                            <g:each in="${nRelList.sort{-it.nTirosVitima}}" status="l" var="peneira">
                                 <tr>
                                     <td id="nPeneira" style="vertical-align: middle">
                                         <h4> ${peneira.nTirosVitima} </h4>

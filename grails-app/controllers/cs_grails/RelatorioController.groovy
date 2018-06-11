@@ -8,6 +8,7 @@ class RelatorioController {
         def jogadoresList = Jogador.findAll()
         println "Antes de deletar: " + jogadoresList.size()
         Facadas.executeUpdate("delete from Facadas")
+        Tiros.executeUpdate("delete from Tiros")
         Vitima.executeUpdate("delete from Vitima")
         Jogador.executeUpdate("delete from Jogador")
         jogadoresList = Jogador.findAll()
@@ -39,6 +40,7 @@ class RelatorioController {
             eq 'dataFacada', dataRelatorio.clearTime()
 
         }
+//        def lista = Vitima.findAllByDataFacadaIlike(dataFacada)
 
         def listaAlgozes = Facadas.withCriteria {
             vitima {
