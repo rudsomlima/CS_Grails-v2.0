@@ -88,9 +88,9 @@ table {
             </div>
                 <div class="panel-footer">
                     <div class="row">
-                        <div class="col-xs-9">
+                        <div class="col-xs-8">
                             <div class="clearfix"></div>
-                                <g:each in="${nRelList.sort{-it.nTirosVitima}}" status="l" var="peneira">
+                                <g:each in="${nRelList.sort{it.kd}}" status="l" var="peneira">
                                     <tr>
                                         <td id="peneira" style="vertical-align: middle">
                                             <h4> ${peneira.matador} </h4>
@@ -98,11 +98,11 @@ table {
                                     </tr>
                                 </g:each>
                         </div>
-                        <div class="col-xs-3 text-center">
-                            <g:each in="${nRelList.sort{-it.kd}}" status="l" var="peneira">
+                        <div class="col-xs-4 text-center">
+                            <g:each in="${nRelList.sort{it.kd}}" status="l" var="peneira">
                                 <tr>
                                     <td id="nPeneira" style="vertical-align: middle">
-                                        <h4> ${peneira.nTirosVitima} - ${String.format("%.3f", peneira.kd)} </h4>
+                                        <h4> ${peneira.nTirosVitima} &nbsp (${String.format("%.3f", peneira.kd)}) </h4>
                                     </td>
                                 </tr>
                             </g:each>

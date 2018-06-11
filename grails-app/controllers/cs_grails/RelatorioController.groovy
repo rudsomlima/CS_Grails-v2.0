@@ -104,6 +104,7 @@ class RelatorioController {
             relatorioList.add(nRel)
             println "Facadas: " + jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima
             println "Tiros: " + jogador + " - " + nTirosDoMatador + " - " + nTirosDaVitima
+            println "KD: " + jogador + " - " + kd
 
         }
 
