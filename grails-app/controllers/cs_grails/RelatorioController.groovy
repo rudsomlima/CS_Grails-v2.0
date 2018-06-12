@@ -72,6 +72,7 @@ class RelatorioController {
         def nTirosDaVitima
         def nTirosDoMatador
         def jogadores = []
+        float kd
         for(jogador in players.unique()){
             Jogador jog = new Jogador()
             jog.nome = jogador
@@ -90,15 +91,26 @@ class RelatorioController {
             else nRel.nFacadasMatador = nFacadasDoMatador
 
             /////////// Tiros
-            nTirosDaVitima = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.vitima.nome=$jogador and dataTiro=$dataRelatorio").get(0)
-            println "nTirosDaVitima: " + nTirosDaVitima
-            if(nTirosDaVitima==null) nRel.nTirosVitima = 0
-            else nRel.nTirosVitima = nTirosDaVitima
+
             nTirosDoMatador = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.matador.nome=$jogador and dataTiro=$dataRelatorio").get(0)
             nRel.matador = jogador
-            if(nTirosDoMatador==null) nRel.nTirosMatador = 0
+            println "nTirosDoMatador: " + nTirosDoMatador
+            if(nTirosDoMatador==null) {
+                nRel.nTirosMatador = 0
+                nTirosDoMatador = 0  // kill/death
+                println "Entrou no nTirosDoMatador: " + kd
+            }
             else nRel.nTirosMatador = nTirosDoMatador
-            float kd = nTirosDoMatador/nTirosDaVitima  // kill/death
+            nTirosDaVitima = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.vitima.nome=$jogador and dataTiro=$dataRelatorio").get(0)
+            println "nTirosDaVitima: " + nTirosDaVitima
+            if(nTirosDaVitima==null) {
+                nRel.nTirosVitima = 0
+                nTirosDaVitima = 0  // kill/death
+            }
+            else {
+                kd = nTirosDoMatador/nTirosDaVitima // kill/death
+                nRel.nTirosVitima = nTirosDaVitima
+            }
             nRel.kd = kd
 
             relatorioList.add(nRel)

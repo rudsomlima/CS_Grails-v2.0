@@ -176,7 +176,6 @@ class TesteController {
 
                             if (existeAssassinato.empty) {
                                 assassinato.save flush: true
-                                boaTarde = 1 // para de registrar o boa tarde
                                 println "Salvou com sucesso o assassinato!"
                             } else {
                                 assassinato = existeAssassinato.get(0)
