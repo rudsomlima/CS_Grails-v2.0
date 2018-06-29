@@ -120,8 +120,8 @@ table {
                         <img src="${resource(dir: 'images', file: '002-knife.png')}" width="100%"/>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <div class="huge"><h4>BOA TARDE</h4></div>
-                        <div><h3>${boaTarde}</h3></div>
+                        <div class="huge"><h3>BOA TARDE</h3></div>
+                        <div><h4>${boaTarde}</h4></div>
                     </div>
                 </div>
                 </g:link>

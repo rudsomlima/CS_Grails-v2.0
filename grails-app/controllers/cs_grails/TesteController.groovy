@@ -169,7 +169,6 @@ class TesteController {
                             tiro.dataTiro = dataFinal
                             tiro.vitima = assassinato
                             assassinato.dataFacada = dataFinal
-                            if (boaTarde == 0) assassinato.boaTarde = 1   //define que o jogador levou boa tarde
 
                             def existeAssassinato = Vitima.findAllByMatadorAndVitimaAndDataFacada(matador, vitima, dataFinal)
                             println "O assassinato encontrato é: " + assassinato
