@@ -15,9 +15,16 @@
 
 <style>
 
-#deu, levou {
+body {
+    %{--background-image:url('${resource(dir: "images/", file: "fundo.jpg")}');height: 250px;background-repeat: no-repeat;background-position: center;width:1000px;--}%
+    background-color: #002a80;
+}
+
+
+levou {
     style: "vertical-align: middle"
 }
+
 
 table {
     font: 11px/24px 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif,  Open Sans;
@@ -25,15 +32,17 @@ table {
     width: 320px;
 }
 
-/*#tabela_pequena {*/
-    /*padding: 1px;*/
-    /*margin-bottom: 0px;*/
-/*}*/
-
-
 </style>
 
 <body>
+
+<ul class="nav nav-pills">
+    <li class="active">
+        <a href="/relatorio">Relatórios</a>
+    </li>
+    <li><a href="/teste/upload">Upload</a></li>
+</ul>
+<br/>
 
 <div class="row">
     <div class="col-lg-3 col-md-6">
@@ -44,8 +53,8 @@ table {
                         <img src="${resource(dir: 'images', file: '003-revolver.png')}" width="100%"/>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <div class="huge">26</div>
-                        <div>New Comments!</div>
+                        <div class="huge"></div>
+                        <div></div>
                     </div>
                 </div>
             </div>
@@ -81,8 +90,8 @@ table {
                         <img src="${resource(dir: 'images', file: '001-sieve.png')}" width="100%"/>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <div class="huge">12</div>
-                        <div><h4>New Tasks!</h4></div>
+                        <div class="huge"></div>
+                        <div><h4></h4></div>
                     </div>
                 </div>
             </div>
@@ -121,7 +130,7 @@ table {
                     </div>
                     <div class="col-xs-9 text-right">
                         <div class="huge"><h3>BOA TARDE</h3></div>
-                        <div><h4>${boaTarde}</h4></div>
+                        <div>${boaTarde}</div>
                     </div>
                 </div>
                 </g:link>
@@ -159,8 +168,8 @@ table {
                         <img src="${resource(dir: 'images', file: '005-magnetism.png')}" width="100%"/>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <div class="huge">13</div>
-                        <div>Support Tickets!</div>
+                        <div class="huge"></div>
+                        <div></div>
                     </div>
                 </div>
             </div>

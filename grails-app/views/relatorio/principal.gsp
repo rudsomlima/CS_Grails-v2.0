@@ -20,6 +20,14 @@
 </head>
 <body>
 
+<ul class="nav nav-pills">
+    <li class="active">
+        <a href="/relatorio">Relatórios</a>
+    </li>
+    <li><a href="/teste/upload">Upload</a></li>
+</ul>
+<br/>
+
 <div align="center">
     %{--<div class="container">--}%
         <div class="row">

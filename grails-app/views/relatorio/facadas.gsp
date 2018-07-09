@@ -35,6 +35,14 @@
 
 <body>
 
+<ul class="nav nav-pills">
+    <li class="active">
+    <a href="/relatorio">Relatórios</a>
+    </li>
+    <li><a href="/teste/upload">Upload</a></li>
+</ul>
+<br/>
+
 %{--<div class="container">--}%
     <div class="row">
         <div class="col-md-5 col-md-offset-3" >

@@ -21,6 +21,14 @@
 
 <body>
 
+<ul class="nav nav-pills">
+    <li >
+        <a href="/teste/upload">Upload</a>
+    </li>
+    <li class="active"> <a href="/relatorio">Relatórios</a> </li>
+</ul>
+<br/>
+
 <div align="center">
 
 

@@ -13,13 +13,13 @@
 </head>
 <body>
 
-    <ul class="nav nav-pills">
-        <li class="active">
-            <a href="/relatorio">Relatórios</a>
-        </li>
-        <li><a href="/teste/upload">Upload</a></li>
-    </ul>
-    <br/>
+    %{--<ul class="nav nav-pills">--}%
+        %{--<li class="active">--}%
+            %{--<a href="/relatorio">Relatórios</a>--}%
+        %{--</li>--}%
+        %{--<li><a href="/teste/upload">Upload</a></li>--}%
+    %{--</ul>--}%
+    %{--<br/>--}%
 
     <g:layoutBody/>
 
