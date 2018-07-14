@@ -2,6 +2,8 @@ package cs_grails
 
 class Relatorio {
 
+    static mapWith = "none"
+
     String matador
     String vitima
     int nFacadasVitima

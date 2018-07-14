@@ -69,14 +69,14 @@
                                     <td>
                                         <div>
                                             <table id="tabela_pequena" class="table table-striped" style="margin-bottom: 0px; font-size: smaller">
-                                                <g:each in="${facadasList}" status="i" var="facada">
-                                                    <g:if test="${jogador.nome.equals(facada.vitima.matador.nome)}">
+                                                <g:each in="${relFacas}" status="i" var="facada">
+                                                    <g:if test="${jogador.nome.equals(facada.matador)}">
                                                         <tr class="row">
                                                             <td class="col-md-8">
-                                                                <strong>${facada.vitima.vitima.nome}</strong>
+                                                                <strong>${facada.vitima}</strong>
                                                             </td>
                                                             <td class="col-md-4 text-center" style="vertical-align: middle" id="facadas">
-                                                                <strong>${facada.qtdeFacadas}</strong>
+                                                                <strong>${facada.somaFacas}</strong>
                                                             </td>
                                                         </tr>
                                                     </g:if>
@@ -93,14 +93,14 @@
                                     <td>
                                         <div>
                                             <table id="tabela_pequena2" class="table table-striped" style="margin-bottom: 0px; font-size: smaller">
-                                                <g:each in="${facadasList}" status="i" var="facada">
-                                                    <g:if test="${jogador.nome.equals(facada.vitima.vitima.nome)}">
+                                                <g:each in="${relFacas}" status="i" var="facada">
+                                                    <g:if test="${jogador.nome.equals(facada.vitima)}">
                                                         <tr class="row">
                                                             <td class="col-md-8">
-                                                                <strong>${facada.vitima.matador.nome}</strong>
+                                                                <strong>${facada.matador}</strong>
                                                             </td>
                                                             <td class="col-md-4 text-center" id="facadas2">
-                                                                <strong>${facada.qtdeFacadas}</strong>
+                                                                <strong>${facada.somaFacas}</strong>
                                                             </td>
                                                         </tr>
                                                     </g:if>

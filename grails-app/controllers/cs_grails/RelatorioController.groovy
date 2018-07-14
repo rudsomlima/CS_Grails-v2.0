@@ -66,7 +66,10 @@ class RelatorioController {
         println "boaTarde: " + boaTarde
 
         List<Relatorio> relatorioList = new ArrayList<Relatorio>()
+        List<RelFacas> relFacas = new ArrayList<RelFacas>()
+        def listaDetalhada
         def nRel
+        def relFac
         def nFacadasDaVitima
         def nFacadasDoMatador
         def nTirosDaVitima
@@ -89,6 +92,17 @@ class RelatorioController {
             nRel.matador = jogador
             if(nFacadasDoMatador==null) nRel.nFacadasMatador = 0
             else nRel.nFacadasMatador = nFacadasDoMatador
+
+            def listVitimas = Facadas.executeQuery("select distinct vitima.vitima.nome from Facadas where vitima.matador.nome=$jogador and dataFacada=$dataRelatorio")
+            println listVitimas
+            listVitimas.each { vit ->
+                println vit
+                relFac = new RelFacas()
+                relFac.somaFacas = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$vit and vitima.matador.nome=$jogador and dataFacada=$dataRelatorio").get(0)
+                relFac.matador = jogador
+                relFac.vitima = vit
+                relFacas.add(relFac)
+            }
 
             /////////// Tiros
 
@@ -120,16 +134,17 @@ class RelatorioController {
 
         }
 
+
 //        println "nFacadas: " + nFacadas
 //        println "nFacadas: " + nRelList.nFacadasMatador
 //        println "nFacadas: " + nFacadasDaVitima
 
 //		println jogadores
         if(params.tipo=='facadas') {
-            render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio])
+            render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas])
             println "view: facadas"
         }
-        else render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio,
+        else render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
         boaTarde:boaTarde])
     }
 }
