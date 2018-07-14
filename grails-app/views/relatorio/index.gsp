@@ -20,11 +20,9 @@ body {
     background-color: #002a80;
 }
 
-
 levou {
     style: "vertical-align: middle"
 }
-
 
 table {
     font: 11px/24px 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif,  Open Sans;
@@ -34,7 +32,7 @@ table {
 
 </style>
 
-<body>
+<body style="background-color: #122b40" >
 
 <ul class="nav nav-pills">
     <li class="active">
@@ -43,6 +41,8 @@ table {
     <li><a href="/teste/upload">Upload</a></li>
 </ul>
 <br/>
+
+%{--<div class="bg-primary text-white">Nullam id dolor id nibh ultricies vehicula ut id elit.</div>--}%
 
 <div class="row">
     <div class="col-lg-3 col-md-6">
@@ -53,7 +53,7 @@ table {
                         <img src="${resource(dir: 'images', file: '003-revolver.png')}" width="100%"/>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <div class="huge"></div>
+                        <div class="huge"> <h2>MATADOR</h2></div>
                         <div></div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@ table {
                         <img src="${resource(dir: 'images', file: '001-sieve.png')}" width="100%"/>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <div class="huge"></div>
+                        <div class="huge"><h2>PENEIRA</h2></div>
                         <div><h4></h4></div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@ table {
                         <img src="${resource(dir: 'images', file: '002-knife.png')}" width="100%"/>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <div class="huge"><h3>BOA TARDE</h3></div>
+                        <div class="huge"><h4>BOA TARDE</h4></div>
                         <div>${boaTarde}</div>
                     </div>
                 </div>
@@ -164,29 +164,37 @@ table {
         <div class="panel panel-success">
             <div class="panel-heading">
                 <div class="row">
-                    <div class="col-xs-3">
+                    <div class="col-xs-3 text-center">
                         <img src="${resource(dir: 'images', file: '005-magnetism.png')}" width="100%"/>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <div class="huge"></div>
+                        <div class="huge"><h2>ÍMÃ</h2></div>
                         <div></div>
                     </div>
                 </div>
             </div>
                 <div class="panel-footer">
                     <div class="clearfix"></div>
-                    <table id="tabela_ima" class="table table-hover" style="margin-bottom: 0px" border="0">
+                    <div class="row">
+                        <div class="col-xs-9">
                         <g:each in="${nRelList.sort{-it.nFacadasVitima}}" status="l" var="esfaqueador">
-                            <tr class="row">
-                                <td class="col-xs-9">
-                                    ${esfaqueador.matador}
-                                </td>
-                                <td class="col-xs-3 text-center" id="facadas3">
-                                    ${esfaqueador.nFacadasVitima}
+                            <tr>
+                                <td id="ima" style="vertical-align: middle">
+                                    <h4>${esfaqueador.matador}</h4>
                                 </td>
                             </tr>
                         </g:each>
-                    </table>
+                        </div>
+                        <div class="col-xs-3 text-center">
+                            <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
+                                <tr>
+                                    <td id="nIma" style="vertical-align: middle">
+                                        <h4> ${esfaqueador.nFacadasVitima} </h4>
+                                    </td>
+                                </tr>
+                            </g:each>
+                        </div>
+                    </div>
                 </div>
         </div>
     </div>

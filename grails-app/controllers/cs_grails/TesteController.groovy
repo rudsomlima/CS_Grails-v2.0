@@ -117,6 +117,8 @@ class TesteController {
                             }
                         }
 
+                        //////////////////////////////// FACADA AMIGA ////////////////////////////////////////////////////////////////
+
 
 
                         //////////////////////////////// TIROS ////////////////////////////////////////////////////////////////
@@ -198,6 +200,9 @@ class TesteController {
 //                                println "Facada:" + facada + " Quantidade de facadas depois: " + facada.qtdeFacadas
                             }
                         }
+
+
+
                     }
                     file.delete() //apaga o arquivo para não processa-lo novamente
                 }
