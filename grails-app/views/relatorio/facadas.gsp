@@ -68,7 +68,7 @@
 
                                     <td>
                                         <div>
-                                            <table id="tabela_pequena" class="table table-striped" style="margin-bottom: 0px; font-size: smaller">
+                                            <table id="tabela_pequena" class="table table-condensed table-striped" style="margin-bottom: 0px; font-size: smaller">
                                                 <g:each in="${relFacas}" status="i" var="facada">
                                                     <g:if test="${jogador.nome.equals(facada.matador)}">
                                                         <tr class="row">
@@ -92,7 +92,7 @@
 
                                     <td>
                                         <div>
-                                            <table id="tabela_pequena2" class="table table-striped" style="margin-bottom: 0px; font-size: smaller">
+                                            <table id="tabela_pequena2" class="table table-condensed table-striped" style="margin-bottom: 0px; font-size: smaller">
                                                 <g:each in="${relFacas}" status="i" var="facada">
                                                     <g:if test="${jogador.nome.equals(facada.vitima)}">
                                                         <tr class="row">
