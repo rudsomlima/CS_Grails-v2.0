@@ -186,7 +186,7 @@ table {
                         </g:each>
                         </div>
                         <div class="col-xs-3 text-center">
-                            <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
+                            <g:each in="${nRelList.sort{-it.nFacadasVitima}}" status="l" var="esfaqueador">
                                 <tr>
                                     <td id="nIma" style="vertical-align: middle">
                                         <h4> ${esfaqueador.nFacadasVitima} </h4>
