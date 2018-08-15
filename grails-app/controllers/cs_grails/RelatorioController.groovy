@@ -18,7 +18,8 @@ class RelatorioController {
 
     def principal() {
 //        def datas = Facadas.where {}.projections { distinct 'dataFacada' }
-        def datas = Vitima.executeQuery("select distinct dataFacada from Vitima order by dataFacada desc")
+        def datas = Vitima.executeQuery("select distinct date(dataFacada) from Vitima order by dataFacada desc")
+        println "Dataaaaaa: " + datas
 //        Date datasF = datas.format('dd-')
 //        println "---------------------------- " + datas.list()
 //        render(view: "principal")
@@ -29,7 +30,9 @@ class RelatorioController {
         println "params.id: " + params.id
         println "params.tipo: " + params.tipo
         String data = params.id
-        Date dataRelatorio = Date.parse('yyyy-MM-dd HH:mm:ss',data)
+        Date dataRelatorio = Date.parse('yyyy-MM-dd',data)
+
+        println "dataRelatorio: " + dataRelatorio
 
         def lista = Facadas.withCriteria {
             vitima {
@@ -37,7 +40,7 @@ class RelatorioController {
                     order('nome','asc')
                 }
             }
-            eq 'dataFacada', dataRelatorio.clearTime()
+            ge 'dataFacada', dataRelatorio
         }
 //        lista += Vitima.findAllByDataFacada(dataRelatorio)
 
@@ -49,7 +52,7 @@ class RelatorioController {
                     order('nome','asc')
                 }
             }
-            eq 'dataFacada', dataRelatorio.clearTime()
+            ge 'dataFacada', dataRelatorio.clearTime()
 
         }
 
@@ -62,8 +65,10 @@ class RelatorioController {
 //            println "facada: " + facada.vitima.matador.nome + " - " + facada.vitima.vitima.nome
         }
 
-        def boaTarde = Vitima.findByBoaTardeAndDataFacada(1,dataRelatorio)
+
+        def boaTarde = Vitima.executeQuery("from Vitima where date(dataFacada)=$dataRelatorio order by dataFacada asc").get(0)
         println "boaTarde: " + boaTarde
+
 
         List<Relatorio> relatorioList = new ArrayList<Relatorio>()
         List<RelFacas> relFacas = new ArrayList<RelFacas>()
@@ -83,22 +88,22 @@ class RelatorioController {
 
             ////////////// Facas
             nRel = new Relatorio()
-            nFacadasDaVitima = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$jogador and dataFacada=$dataRelatorio").get(0)
+            nFacadasDaVitima = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$jogador and date(dataFacada)=$dataRelatorio").get(0)
             println "nFacadasDaVitima: " + nFacadasDaVitima
             nRel.vitima = jogador
             if(nFacadasDaVitima==null) nRel.nFacadasVitima = 0
             else nRel.nFacadasVitima = nFacadasDaVitima
-            nFacadasDoMatador = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.matador.nome=$jogador and dataFacada=$dataRelatorio").get(0)
+            nFacadasDoMatador = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.matador.nome=$jogador and date(dataFacada)=$dataRelatorio").get(0)
             nRel.matador = jogador
             if(nFacadasDoMatador==null) nRel.nFacadasMatador = 0
             else nRel.nFacadasMatador = nFacadasDoMatador
 
-            def listVitimas = Facadas.executeQuery("select distinct vitima.vitima.nome from Facadas where vitima.matador.nome=$jogador and dataFacada=$dataRelatorio")
+            def listVitimas = Facadas.executeQuery("select distinct vitima.vitima.nome from Facadas where vitima.matador.nome=$jogador and date(dataFacada)=$dataRelatorio")
             println listVitimas
             listVitimas.each { vit ->
                 println vit
                 relFac = new RelFacas()
-                relFac.somaFacas = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$vit and vitima.matador.nome=$jogador and dataFacada=$dataRelatorio").get(0)
+                relFac.somaFacas = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$vit and vitima.matador.nome=$jogador and date(dataFacada)=$dataRelatorio").get(0)
                 relFac.matador = jogador
                 relFac.vitima = vit
                 relFacas.add(relFac)
@@ -106,7 +111,7 @@ class RelatorioController {
 
             /////////// Tiros
 
-            nTirosDoMatador = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.matador.nome=$jogador and dataTiro=$dataRelatorio").get(0)
+            nTirosDoMatador = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.matador.nome=$jogador and date(dataTiro)=$dataRelatorio").get(0)
             nRel.matador = jogador
             println "nTirosDoMatador: " + nTirosDoMatador
             if(nTirosDoMatador==null) {
@@ -115,7 +120,7 @@ class RelatorioController {
                 println "Entrou no nTirosDoMatador: " + kd
             }
             else nRel.nTirosMatador = nTirosDoMatador
-            nTirosDaVitima = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.vitima.nome=$jogador and dataTiro=$dataRelatorio").get(0)
+            nTirosDaVitima = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.vitima.nome=$jogador and date(dataTiro)=$dataRelatorio").get(0)
             println "nTirosDaVitima: " + nTirosDaVitima
             if(nTirosDaVitima==null) {
                 nRel.nTirosVitima = 0

@@ -9,7 +9,7 @@ class ProcessaArquivoController {
     def rodar() {
         def linha;
         def int n=0;
-        new File("uploadLogs/").eachFile { file->
+        new File("uploadLogs").eachFile { file->
             file.withReader { reader->
                 while ((linha = reader.readLine())!=null) {
                     if(linha.contains("with \"knife\"")) {

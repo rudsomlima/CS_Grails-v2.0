@@ -36,9 +36,9 @@ table {
 
 <ul class="nav nav-pills">
     <li class="active">
-        <a href="/relatorio">Relatórios</a>
+        <a href="/cs/relatorio">Relatórios</a>
     </li>
-    <li><a href="/teste/upload">Upload</a></li>
+    <li><a href="/cs/teste/upload">Upload</a></li>
 </ul>
 <br/>
 
@@ -130,7 +130,7 @@ table {
                     </div>
                     <div class="col-xs-9 text-right">
                         <div class="huge"><h4>BOA TARDE</h4></div>
-                        <div>${boaTarde}</div>
+                        <div><h4>${boaTarde}</h4></div>
                     </div>
                 </div>
                 </g:link>

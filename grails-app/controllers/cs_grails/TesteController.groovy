@@ -11,20 +11,20 @@ class TesteController {
         int n_linha=0
         def dataLog
 
-        File dir = new File("grails-app/uploadLogs")
+        File dir = new File("uploadLogs")
 //        dir.mkdir()
         println dir.getAbsolutePath()
 
         if( dir.isDirectory()) {
 //            dir.delete()  //apaga os arquivos anteriores, se houverem
-            new File("grails-app/uploadLogs").eachFile { file -> n_arquivo++; }
+            new File("uploadLogs").eachFile { file -> n_arquivo++; }
 
             def boaTarde = 0   //flag pra marcar somente a 1 facada
 
 //            List<Jogador> matadorList = new ArrayList<Jogador>()
 //            List<Jogador> assassinatoList = new ArrayList<Vitima>()
 
-            new File("grails-app/uploadLogs").eachFile { file ->
+            new File("uploadLogs").eachFile { file ->
                 //Renderiza o numero do arquivo
                 progresso = 100 * atual / n_arquivo
                 atual++
@@ -77,11 +77,13 @@ class TesteController {
                             Facadas facada = new Facadas()
                             facada.qtdeFacadas = 1
                             String dataFacada = linha.substring(2, 12)
-//                            println "Data original: " + dataFacada
-                            Date dataFacadaFormatada = Date.parse('MM/dd/yyyy', dataFacada)
+                            String horaFacada = linha.substring(15, 23)
+                            dataFacada = dataFacada + " " + horaFacada
+                            println "Data original: " + dataFacada
+                            Date dataFacadaFormatada = Date.parse('MM/dd/yyyy HH:mm:ss', dataFacada)
 //                            println "Data convertida: " + dataFacadaFormatada.format('yyyy-MM-dd')
-                            String dataFormatada = dataFacadaFormatada.format('yyyy-MM-dd')
-                            dataFinal = Date.parse('yyyy-MM-dd', dataFormatada)
+                            String dataFormatada = dataFacadaFormatada.format('yyyy-MM-dd HH:mm:ss')
+                            dataFinal = Date.parse('yyyy-MM-dd HH:mm:ss', dataFormatada)
                             dataLog = dataFormatada + " 00:00:00"
                             facada.dataFacada = dataFinal
                             facada.vitima = assassinato
@@ -219,7 +221,7 @@ class TesteController {
     def upload() {
 //        println params
 
-        File dir = new File("grails-app/uploadLogs");
+        File dir = new File("uploadLogs");
         dir.mkdir()
 
         if (params.myfile) {
