@@ -19,7 +19,7 @@ class TesteController {
 //            dir.delete()  //apaga os arquivos anteriores, se houverem
             new File("uploadLogs").eachFile { file -> n_arquivo++; }
 
-            def boaTarde = 0   //flag pra marcar somente a 1 facada
+            def noBot = 0   //flag pra marcar somente a 1 facada
 
 //            List<Jogador> matadorList = new ArrayList<Jogador>()
 //            List<Jogador> assassinatoList = new ArrayList<Vitima>()
@@ -88,14 +88,16 @@ class TesteController {
                             facada.dataFacada = dataFinal
                             facada.vitima = assassinato
                             assassinato.dataFacada = dataFinal
-                            if (boaTarde == 0) assassinato.boaTarde = 1   //define que o jogador levou boa tarde
+                            if(nomeMatador.indexOf("XXBOT")==0 | nomeVitima.indexOf("XXBOT")==0 ) assassinato.ehBot = 1 // para de registrar o boa tarde
+//                            println "indice matador: " + nomeMatador.indexOf("XXBOT")
+//                            println "indice vitima: " + nomeVitima.indexOf("XXBOT")
+
 
                             def existeAssassinato = Vitima.findAllByMatadorAndVitimaAndDataFacada(matador, vitima, dataFinal)
                             println "O assassinato encontrato é: " + assassinato
 
                             if (existeAssassinato.empty) {
-                                assassinato.save flush: true
-                                boaTarde = 1 // para de registrar o boa tarde
+                                assassinato.save flush: true                                
                                 println "Salvou com sucesso o assassinato!"
                             } else {
                                 assassinato = existeAssassinato.get(0)

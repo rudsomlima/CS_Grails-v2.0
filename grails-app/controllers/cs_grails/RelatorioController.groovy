@@ -19,7 +19,7 @@ class RelatorioController {
     def principal() {
 //        def datas = Facadas.where {}.projections { distinct 'dataFacada' }
         def datas = Vitima.executeQuery("select distinct date(dataFacada) from Vitima order by dataFacada desc")
-        println "Dataaaaaa: " + datas
+//        println "Dataaaaaa: " + datas
 //        Date datasF = datas.format('dd-')
 //        println "---------------------------- " + datas.list()
 //        render(view: "principal")
@@ -66,7 +66,7 @@ class RelatorioController {
         }
 
 
-        def boaTarde = Vitima.executeQuery("from Vitima where date(dataFacada)=$dataRelatorio order by dataFacada asc").get(0)
+        def boaTarde = Vitima.executeQuery("from Vitima where date(dataFacada)=$dataRelatorio and ehBot=0 order by dataFacada asc").get(0)
         println "boaTarde: " + boaTarde
 
 

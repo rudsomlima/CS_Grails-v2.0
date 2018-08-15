@@ -12,7 +12,7 @@ class Vitima {
     static belongsTo = [matador:Jogador, vitima:Jogador]
 
     Date dataFacada
-    int boaTarde
+    int ehBot
 
     static constraints = {
         matador nullable:false
