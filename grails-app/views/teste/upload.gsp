@@ -22,10 +22,8 @@
 <body>
 
 <ul class="nav nav-pills">
-    <li >
-        <a href="/cs/teste/upload">Upload</a>
-    </li>
-    <li class="active"> <a href="/cs/relatorio">Relatórios</a> </li>
+    <li><a href="/cs/relatorio">Relatórios</a></li>
+    <li class="active"><a href="/cs/teste/upload">Upload</a></li>
 </ul>
 <br/>
 

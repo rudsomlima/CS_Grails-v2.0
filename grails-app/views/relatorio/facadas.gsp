@@ -47,7 +47,7 @@
     <div class="row">
         <div class="col-md-5 col-md-offset-3" >
             <div class="panel panel-primary" align="center">
-                <div class="panel-heading"><h2>FACADAS - ${(params.id)}</h2></div>
+                <div class="panel-heading"><h2>FACADAS - ${dataView}</h2></div>
                     <table id="tabela_grande" class="table table-bordered table-condensed table-hover" style="margin-bottom: 0px" border="1">
                         <thead>
                             <tr>

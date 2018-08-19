@@ -8,8 +8,8 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-    %{--<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">--}%
-    %{--<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>--}%
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     %{--<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>--}%
     %{--<!------ Include the above in your HEAD tag ---------->--}%
 
@@ -44,19 +44,21 @@
                                         ${datas.format("dd-MM-yyyy")}
                                     </g:link>
                                 </td>
-                                <td><g:link action="excluirLog" onclick="return confirm('Quer mesmo excluir o registro?')"><i class="icon-trash"></i></g:link></td>
+                                <td>
+                                    <div align="center">
+                                        <g:link action="excluirData" id="${datas}" onclick="return confirm('Quer mesmo excluir o registro?')"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></i></g:link>
+                                    </div>
+                                </td>
                             </tr>
                         </g:each>
                         </tbody>
                     </table>
-
-                    <g:form>
-                        <div align="center" name="processar">
-                            <g:actionSubmit class="btn btn-danger btn-lg" value="Excluir tudo" action="excluir"></g:actionSubmit>
-                        </div>
-                    </g:form>
-
                 </div>
+                <g:form>
+                    <div align="center" name="processar">
+                        <g:actionSubmit class="btn btn-danger btn-lg" value="Excluir tudo" action="excluir"></g:actionSubmit>
+                    </div>
+                </g:form>
             </div>
         %{--</div>--}%
     </div>

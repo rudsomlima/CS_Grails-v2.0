@@ -4,6 +4,22 @@ class RelatorioController {
 
     static defaultAction = "principal"
 
+    def excluirData() {
+        def data = params.id
+//        println "data: " + data
+        Date dataDelete= Date.parse('yyyy-MM-dd',data)
+//        println "dataDelete: " + dataDelete
+        def jogadoresList = Jogador.findAll()
+        println "Antes de deletar: " + jogadoresList.size()
+        Facadas.executeUpdate("delete from Facadas where date(dataFacada)=$dataDelete")
+        Tiros.executeUpdate("delete from Tiros where date(dataTiro)=$dataDelete")
+        Vitima.executeUpdate("delete from Vitima where date(dataFacada)=$dataDelete")
+//        Jogador.executeUpdate("delete from Jogador where vitima.dataFacada=$dataDelete")
+//        jogadoresList = Jogador.findAll()
+//        println "Depois de deletar: " + jogadoresList.size()
+        redirect(controller: "relatorio", action: "principal")
+    }
+
     def excluir() {
         def jogadoresList = Jogador.findAll()
         println "Antes de deletar: " + jogadoresList.size()
@@ -31,6 +47,8 @@ class RelatorioController {
         println "params.tipo: " + params.tipo
         String data = params.id
         Date dataRelatorio = Date.parse('yyyy-MM-dd',data)
+        String dataView = dataRelatorio.format("dd-MM-yyyy")
+        println "dataView: " + dataView
 
         println "dataRelatorio: " + dataRelatorio
 
@@ -132,6 +150,8 @@ class RelatorioController {
             }
             nRel.kd = kd
 
+            def dataString =
+
             relatorioList.add(nRel)
             println "Facadas: " + jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima
             println "Tiros: " + jogador + " - " + nTirosDoMatador + " - " + nTirosDaVitima
@@ -146,7 +166,8 @@ class RelatorioController {
 
 //		println jogadores
         if(params.tipo=='facadas') {
-            render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas])
+            render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
+            dataView: dataView])
             println "view: facadas"
         }
         else render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
