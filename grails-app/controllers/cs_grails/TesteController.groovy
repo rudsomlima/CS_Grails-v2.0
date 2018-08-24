@@ -88,7 +88,9 @@ class TesteController {
                             facada.dataFacada = dataFinal
                             facada.vitima = assassinato
                             assassinato.dataFacada = dataFinal
-                            if(nomeMatador.indexOf("XXBOT")==0 | nomeVitima.indexOf("XXBOT")==0 ) assassinato.ehBot = 1 // para de registrar o boa tarde
+                            assassinato.ehFaca = 1
+                            if(nomeMatador.indexOf("XXBOT")==0 | nomeVitima.indexOf("XXBOT")==0 ) assassinato.ehBot = 1 //
+                            else assassinato.ehBot = 0
 //                            println "indice matador: " + nomeMatador.indexOf("XXBOT")
 //                            println "indice vitima: " + nomeVitima.indexOf("XXBOT")
 
@@ -97,12 +99,13 @@ class TesteController {
                             println "O assassinato encontrato é: " + assassinato
 
                             if (existeAssassinato.empty) {
-                                assassinato.save flush: true                                
+                                assassinato.save flush: true
                                 println "Salvou com sucesso o assassinato!"
                             } else {
                                 assassinato = existeAssassinato.get(0)
                                 println "Achou o assassinato: " + assassinato
                             }
+
 
                             def existeFacadas = Facadas.findAllByVitima(assassinato)
                             println "Foram encontradas as seguintes facadas: " + existeFacadas
@@ -163,6 +166,18 @@ class TesteController {
                             assassinato.matador = matador
                             assassinato.vitima = vitima
 
+                            def existeAssassinato = Vitima.findAllByMatadorAndVitimaAndDataFacada(matador, vitima, dataFinal)
+                            println "O assassinato encontrato é: " + assassinato
+
+                            if (existeAssassinato.empty) {
+                                assassinato.save flush: true
+                                println "Salvou com sucesso o assassinato!"
+                            } else {
+                                assassinato = existeAssassinato.get(0)
+//                                assassinato.save flush: true
+                                println "Achou o assassinato: " + assassinato
+                            }
+
                             Tiros tiro = new Tiros()
                             tiro.qtdeTiros = 1
                             String dataFacada = linha.substring(2, 12)
@@ -176,16 +191,11 @@ class TesteController {
                             tiro.vitima = assassinato
                             assassinato.dataFacada = dataFinal
 
-                            def existeAssassinato = Vitima.findAllByMatadorAndVitimaAndDataFacada(matador, vitima, dataFinal)
-                            println "O assassinato encontrato é: " + assassinato
+                            assassinato.ehFaca = 0
+                            assassinato.ehBot = 0 //O erro estava relacionado ao fato de vc não ter setado todos os parametros
 
-                            if (existeAssassinato.empty) {
-                                assassinato.save flush: true
-                                println "Salvou com sucesso o assassinato!"
-                            } else {
-                                assassinato = existeAssassinato.get(0)
-                                println "Achou o assassinato: " + assassinato
-                            }
+                            assassinato.save flush: true
+
 
                             def existeTiros = Tiros.findAllByVitima(assassinato)
                             println "Foram encontradas as seguintes facadas: " + existeTiros
