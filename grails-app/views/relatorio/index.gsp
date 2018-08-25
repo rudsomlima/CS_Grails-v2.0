@@ -54,7 +54,7 @@ table {
                     </div>
                     <div class="col-xs-9 text-right">
                         <div class="huge"> <h2>MATADOR</h2></div>
-                        <div></div>
+                        <div><h4>TIROS + FACADAS</h4></div>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@ table {
                     </div>
                     <div class="col-xs-9 text-right">
                         <div class="huge"><h2>PENEIRA</h2></div>
-                        <div><h4></h4></div>
+                        <div><h4>TIROS + FACADAS</h4></div>
                     </div>
                 </div>
             </div>
@@ -129,7 +129,7 @@ table {
                         <img src="${resource(dir: 'images', file: '002-knife.png')}" width="100%"/>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <div class="huge"><h4>BOA TARDE</h4></div>
+                        <div class="huge"><h2>BOA TARDE</h2></div>
                         <div><h4>${boaTarde}</h4></div>
                     </div>
                 </div>

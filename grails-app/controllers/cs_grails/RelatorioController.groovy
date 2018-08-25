@@ -62,7 +62,7 @@ class RelatorioController {
         }
 //        lista += Vitima.findAllByDataFacada(dataRelatorio)
 
-        println "lista: " + lista
+//        println "lista: " + lista
 
         def listaAlgozes = Facadas.withCriteria {
             vitima {
@@ -77,7 +77,7 @@ class RelatorioController {
         def players = []
 
         for(facada in lista){
-            println "facada: " + facada
+//            println "facada: " + facada
             players.push(facada.vitima.matador.nome)
             players.push(facada.vitima.vitima.nome)
 //            println "facada: " + facada.vitima.matador.nome + " - " + facada.vitima.vitima.nome
@@ -103,6 +103,7 @@ class RelatorioController {
         for(jogador in players.unique()){
             Jogador jog = new Jogador()
             jog.nome = jogador
+            println "Jogador: " + jog.nome
             jogadores.push(jog)
 
             ////////////// Facas
@@ -113,14 +114,15 @@ class RelatorioController {
             if(nFacadasDaVitima==null) nRel.nFacadasVitima = 0
             else nRel.nFacadasVitima = nFacadasDaVitima
             nFacadasDoMatador = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.matador.nome=$jogador and date(dataFacada)=$dataRelatorio").get(0)
+            println "nFacadasDoMatador: " + nFacadasDoMatador
             nRel.matador = jogador
             if(nFacadasDoMatador==null) nRel.nFacadasMatador = 0
             else nRel.nFacadasMatador = nFacadasDoMatador
 
             def listVitimas = Facadas.executeQuery("select distinct vitima.vitima.nome from Facadas where vitima.matador.nome=$jogador and date(dataFacada)=$dataRelatorio")
-            println listVitimas
+//            println listVitimas
             listVitimas.each { vit ->
-                println vit
+//                println vit
                 relFac = new RelFacas()
                 relFac.somaFacas = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$vit and vitima.matador.nome=$jogador and date(dataFacada)=$dataRelatorio").get(0)
                 relFac.matador = jogador
@@ -138,7 +140,7 @@ class RelatorioController {
                 nTirosDoMatador = 0  // kill/death
                 println "Entrou no nTirosDoMatador: " + kd
             }
-            else nRel.nTirosMatador = nTirosDoMatador
+            else nRel.nTirosMatador = nTirosDoMatador + nFacadasDoMatador
             nTirosDaVitima = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.vitima.nome=$jogador and date(dataTiro)=$dataRelatorio").get(0)
             println "nTirosDaVitima: " + nTirosDaVitima
             if(nTirosDaVitima==null) {
@@ -146,8 +148,9 @@ class RelatorioController {
                 nTirosDaVitima = 0  // kill/death
             }
             else {
-                kd = nTirosDoMatador/nTirosDaVitima // kill/death
-                nRel.nTirosVitima = nTirosDaVitima
+
+                nRel.nTirosVitima = nTirosDaVitima + nFacadasDaVitima
+                kd = nRel.nTirosMatador/nRel.nTirosVitima // kill/death
             }
             nRel.kd = kd
 
@@ -157,6 +160,7 @@ class RelatorioController {
             println "Facadas: " + jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima
             println "Tiros: " + jogador + " - " + nTirosDoMatador + " - " + nTirosDaVitima
             println "KD: " + jogador + " - " + kd
+            println "----------------------------"
 
         }
 
