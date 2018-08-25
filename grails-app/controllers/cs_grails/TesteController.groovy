@@ -40,6 +40,7 @@ class TesteController {
                         if (linha.contains("with \"knife\"") && !linha.contains("suicide")) {
 
                             println n_linha + " - " + linha
+                            println "findAll: " + linha.tokenize('<')
                             //Nome do Matador
                             def nomeMatador = linha.substring(linha.indexOf("\"") + 1, linha.indexOf("<"));
                             def matadorList = Jogador.findAllByNomeIlike(nomeMatador)

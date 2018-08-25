@@ -84,7 +84,8 @@ class RelatorioController {
         }
 
 
-        def boaTarde = Vitima.executeQuery("from Vitima where date(dataFacada)=$dataRelatorio and ehFaca=1 and ehBot=0 order by dataFacada asc").get(0)
+        def boaTarde = Vitima.executeQuery("from Vitima where date(dataFacada)=$dataRelatorio and ehFaca=1 and ehBot=0 order by dataFacada asc")
+        if(boaTarde!="") boaTarde = boaTarde.get(0)
         println "boaTarde: " + boaTarde
 
 
