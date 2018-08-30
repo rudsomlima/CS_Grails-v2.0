@@ -109,14 +109,22 @@ class RelatorioController {
             ////////////// Facas
             nRel = new Relatorio()
             nFacadasDaVitima = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$jogador and date(dataFacada)=$dataRelatorio").get(0)
+            nFacadasDaVitima as Integer
             println "nFacadasDaVitima: " + nFacadasDaVitima
             nRel.vitima = jogador
-            if(nFacadasDaVitima==null) nRel.nFacadasVitima = 0
+            if(nFacadasDaVitima==null) {
+                nFacadasDaVitima = 0
+                nRel.nFacadasVitima = 0
+            }
             else nRel.nFacadasVitima = nFacadasDaVitima
             nFacadasDoMatador = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.matador.nome=$jogador and date(dataFacada)=$dataRelatorio").get(0)
+            nFacadasDoMatador as Integer
             println "nFacadasDoMatador: " + nFacadasDoMatador
             nRel.matador = jogador
-            if(nFacadasDoMatador==null) nRel.nFacadasMatador = 0
+            if(nFacadasDoMatador==null) {
+                nFacadasDoMatador = 0
+                nRel.nFacadasMatador = 0
+            }
             else nRel.nFacadasMatador = nFacadasDoMatador
 
             def listVitimas = Facadas.executeQuery("select distinct vitima.vitima.nome from Facadas where vitima.matador.nome=$jogador and date(dataFacada)=$dataRelatorio")
@@ -133,6 +141,7 @@ class RelatorioController {
             /////////// Tiros
 
             nTirosDoMatador = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.matador.nome=$jogador and date(dataTiro)=$dataRelatorio").get(0)
+            nTirosDoMatador as Integer
             nRel.matador = jogador
             println "nTirosDoMatador: " + nTirosDoMatador
             if(nTirosDoMatador==null) {
@@ -142,13 +151,13 @@ class RelatorioController {
             }
             else nRel.nTirosMatador = nTirosDoMatador + nFacadasDoMatador
             nTirosDaVitima = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.vitima.nome=$jogador and date(dataTiro)=$dataRelatorio").get(0)
+            nTirosDaVitima as Integer
             println "nTirosDaVitima: " + nTirosDaVitima
             if(nTirosDaVitima==null) {
                 nRel.nTirosVitima = 0
                 nTirosDaVitima = 0  // kill/death
             }
             else {
-
                 nRel.nTirosVitima = nTirosDaVitima + nFacadasDaVitima
                 kd = nRel.nTirosMatador/nRel.nTirosVitima // kill/death
             }
