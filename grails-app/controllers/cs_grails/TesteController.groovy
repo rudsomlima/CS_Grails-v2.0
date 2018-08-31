@@ -40,7 +40,6 @@ class TesteController {
                         if (linha.contains("with \"knife\"") && !linha.contains("suicide")) {
 
                             println n_linha + " - " + linha
-                            println "findAll: " + linha.tokenize('<')
                             //Nome do Matador
                             def nomeMatador = linha.substring(linha.indexOf("\"") + 1, linha.indexOf("<"));
                             def matadorList = Jogador.findAllByNomeIlike(nomeMatador)
@@ -55,6 +54,17 @@ class TesteController {
 
                             //Somente para achar o nome Killed
                             def subLinha = linha.substring(linha.indexOf("killed \""));
+
+                            //Extrai o time do matador
+                            def timeMatador = linha.replace('>',',').replace('<',',')
+                            println "Linha tokenizada: " + timeMatador
+                            timeMatador = timeMatador.tokenize(',').get(3)
+                            println "timeMatador: " + timeMatador
+
+                            //Extrai o time da vitima
+                            def timeVitima = linha.replace('>',',').replace('<',',')
+                            timeVitima = timeVitima.tokenize(',').get(7)
+                            println "timeVitima: " + timeVitima
 
                             //Extrai o nome da Vitima
                             def nomeVitima = subLinha.substring(subLinha.indexOf("\"") + 1, subLinha.indexOf("<"));
@@ -92,6 +102,8 @@ class TesteController {
                             assassinato.ehFaca = 1
                             if(nomeMatador.indexOf("XXBOT")==0 | nomeVitima.indexOf("XXBOT")==0 ) assassinato.ehBot = 1 //
                             else assassinato.ehBot = 0
+                            if(timeMatador==timeVitima) assassinato.facaAmiga = 1 //
+                            else assassinato.facaAmiga = 0
 //                            println "indice matador: " + nomeMatador.indexOf("XXBOT")
 //                            println "indice vitima: " + nomeVitima.indexOf("XXBOT")
 
@@ -194,6 +206,7 @@ class TesteController {
 
                             assassinato.ehFaca = 0
                             assassinato.ehBot = 0 //O erro estava relacionado ao fato de vc não ter setado todos os parametros
+                            assassinato.facaAmiga = 0
 
                             assassinato.save flush: true
 

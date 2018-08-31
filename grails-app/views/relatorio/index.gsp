@@ -200,5 +200,36 @@ table {
     </div>
 </div>
 
+<div class="row">
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3 text-center">
+                        <img src="${resource(dir: 'images', file: '003-revolver.png')}" width="100%"/>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge"> <h2>FACADA AMIGA</h2></div>
+                        <div><h4>Esfaqueou o amiguinho</h4></div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <div class="row">
+                    <div class="col-xs-9">
+                        <g:each in="${facaAm}" status="x" var="faca">
+                            <tr>
+                                <td id="facaAmiga" style="vertical-align: middle">
+                                    <h4> ${faca.facaAmiga} </h4>
+                                </td>
+                            </tr>
+                        </g:each>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

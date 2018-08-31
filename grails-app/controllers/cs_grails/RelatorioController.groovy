@@ -88,6 +88,15 @@ class RelatorioController {
         if(boaTarde!="") boaTarde = boaTarde.get(0)
         println "boaTarde: " + boaTarde
 
+        List facaAmiga = Vitima.executeQuery("from Vitima where date(dataFacada)=$dataRelatorio and facaAmiga=1 order by dataFacada asc")
+        List<RelFacaAmiga> relAmiga = new ArrayList<RelFacaAmiga>()
+        facaAmiga.each{ nome->
+            println "facaAmiga: " + nome
+            RelFacaAmiga facaAm = new RelFacaAmiga()
+            facaAm.facaAmiga = nome
+            relAmiga.add(facaAm)
+        }
+        println "###############################"
 
         List<Relatorio> relatorioList = new ArrayList<Relatorio>()
         List<RelFacas> relFacas = new ArrayList<RelFacas>()
@@ -98,6 +107,7 @@ class RelatorioController {
         def nFacadasDoMatador
         def nTirosDaVitima
         def nTirosDoMatador
+//        def facaAmiga
         def jogadores = []
         float kd
         for(jogador in players.unique()){
@@ -163,8 +173,6 @@ class RelatorioController {
             }
             nRel.kd = kd
 
-            def dataString =
-
             relatorioList.add(nRel)
             println "Facadas: " + jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima
             println "Tiros: " + jogador + " - " + nTirosDoMatador + " - " + nTirosDaVitima
@@ -181,7 +189,7 @@ class RelatorioController {
 //		println jogadores
         if(params.tipo=='facadas') {
             render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
-            dataView: dataView])
+            dataView: dataView, relAmiga: relAmiga])
             println "view: facadas"
         }
         else render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,

@@ -1,7 +1,5 @@
 package cs_grails
 
-import java.util.Date;
-
 class Vitima {
 
     //Mapeia o atributo da classe Jogador
@@ -14,6 +12,7 @@ class Vitima {
     Date dataFacada
     Integer ehBot
     Integer ehFaca
+    Integer facaAmiga
 
     static constraints = {
         matador nullable:false
