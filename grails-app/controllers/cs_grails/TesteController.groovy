@@ -137,9 +137,18 @@ class TesteController {
                             }
                         }
 
-                        //////////////////////////////// FACADA AMIGA ////////////////////////////////////////////////////////////////
+                        //////////////////////////////// TIME GANHADOR ////////////////////////////////////////////////////////////////
 
+                        if(linha.contains("scored")) {
+                            println n_linha + " - " + linha
 
+                            //Extrai o time do matador
+                            def resultado = linha.tokenize('\"')
+                            println "Linha resultado: " + resultado
+                            resultado = resultado.get(3)
+                            println "resultado: " + resultado
+
+                        }
 
                         //////////////////////////////// TIROS ////////////////////////////////////////////////////////////////
                         if(linha.contains(">\" with \"") && !linha.contains("with \"knife\"")) {

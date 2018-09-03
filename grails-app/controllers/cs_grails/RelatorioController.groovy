@@ -96,6 +96,7 @@ class RelatorioController {
             facaAm.facaAmiga = nome
             relAmiga.add(facaAm)
         }
+//        println relAmiga.facaAmiga
         println "###############################"
 
         List<Relatorio> relatorioList = new ArrayList<Relatorio>()
@@ -148,6 +149,7 @@ class RelatorioController {
                 relFacas.add(relFac)
             }
 
+//            println "relFacas: " + relFacas.matador
             /////////// Tiros
 
             nTirosDoMatador = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.matador.nome=$jogador and date(dataTiro)=$dataRelatorio").get(0)
@@ -189,10 +191,13 @@ class RelatorioController {
 //		println jogadores
         if(params.tipo=='facadas') {
             render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
-            dataView: dataView, relAmiga: relAmiga])
+            dataView: dataView])
             println "view: facadas"
         }
-        else render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
-        boaTarde:boaTarde])
+        else {
+            render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
+            boaTarde:boaTarde, relAmiga: relAmiga])
+            println "view: index"
+        }
     }
 }

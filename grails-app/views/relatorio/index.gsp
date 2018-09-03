@@ -216,14 +216,21 @@ table {
             </div>
             <div class="panel-footer">
                 <div class="row">
-                    <div class="col-xs-9">
-                        <g:each in="${facaAm}" status="x" var="faca">
-                            <tr>
-                                <td id="facaAmiga" style="vertical-align: middle">
-                                    <h4> ${faca.facaAmiga} </h4>
-                                </td>
-                            </tr>
-                        </g:each>
+                    <div class="col-xs-9" >
+                        <g:if test="${relAmiga.isEmpty()}">
+                            <td id="paz" style="vertical-align: middle">
+                                <h4> Sem crise... Paz! </h4>
+                            </td>
+                        </g:if>
+                        <g:else>
+                            <g:each in="${relAmiga}" status="x" var="faca">
+                                <tr>
+                                    <td id="facaAmiga" style="vertical-align: middle">
+                                        <h4> ${faca.facaAmiga} </h4>
+                                    </td>
+                                </tr>
+                            </g:each>
+                        </g:else>
                     </div>
                 </div>
             </div>
