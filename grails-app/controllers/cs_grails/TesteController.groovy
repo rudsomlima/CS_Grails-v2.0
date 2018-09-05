@@ -10,6 +10,8 @@ class TesteController {
         int progresso = 0
         int n_linha=0
         def dataLog
+        String resultadoFinal = ""
+        def pulaLinha = 0
 
         File dir = new File("uploadLogs")
 //        dir.mkdir()
@@ -144,9 +146,18 @@ class TesteController {
 
                             //Extrai o time do matador
                             def resultado = linha.tokenize('\"')
-                            println "Linha resultado: " + resultado
-                            resultado = resultado.get(3)
-                            println "resultado: " + resultado
+//                            println "Linha resultado: " + resultado
+                            if (pulaLinha==1) {
+                                resultado = resultado.get(3) + " " + resultado.get(1)
+                                resultadoFinal = resultadoFinal + resultado + '\n'
+                                pulaLinha=0
+                            }
+                            else {
+                                resultado = resultado.get(1) + " " + resultado.get(3) + " x "
+                                resultadoFinal += resultado
+                                pulaLinha=1
+                            }
+                            println resultadoFinal
 
                         }
 
