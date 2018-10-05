@@ -34,15 +34,17 @@ table {
 
 <body style="background-color: #122b40" >
 
-<ul class="nav nav-pills">
-    <li class="active">
-        <a href="/cs/relatorio">Relatórios</a>
-    </li>
-    <li><a href="/cs/teste/upload">Upload</a></li>
-</ul>
+%{--<ul class="nav nav-pills">--}%
+    %{--<li class="active">--}%
+        %{--<a href="/cs/relatorio">Relatórios</a>--}%
+    %{--</li>--}%
+    %{--<li><a href="/cs/teste/upload">Upload</a></li>--}%
+    %{--<li>${data.format('dd-MM-yyyy')}</li>--}%
+%{--</ul>--}%
 
 
-
+    <g:link controller="relatorio" action="index" params="[id: data.format('yyyy-MM-dd 00:00:00'), tipo: 'facadas']"><span class="btn btn-success btn-lg">Mano a mano: ${data.format('dd-MM-yyyy')}</span></g:link>
+</div>
 <br/>
 
 %{--<div class="bg-primary text-white">Nullam id dolor id nibh ultricies vehicula ut id elit.</div>--}%

@@ -13,6 +13,13 @@ class RelatorioController {
         Date dataI = Date.parse('dd/MM/yyyy', dataInicio)
         Date dataF = Date.parse('dd/MM/yyyy', dataFim)
 
+
+        if (dataI==dataF) {
+            dataInicio = dataI.format("yyyy-MM-dd").toString()
+            println "dataInicio: " + dataInicio
+            redirect(controller: "relatorio", action: "index", params: [id: dataInicio])
+        }
+
         def dataRelatorio = dataI
 
 
@@ -24,7 +31,7 @@ class RelatorioController {
             }
             between('dataFacada', dataI, dataF)
         }
-//        println "lista: " + lista
+        println "lista: " + lista
 
         def listaAlgozes = Facadas.withCriteria {
             vitima {
@@ -59,7 +66,7 @@ class RelatorioController {
                 facaAm.facaAmiga = nome
                 relAmiga.add(facaAm)
             }
-            println relAmiga.facaAmiga
+//            println relAmiga.facaAmiga
             println "###############################"
 
 

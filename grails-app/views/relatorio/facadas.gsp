@@ -35,12 +35,8 @@
 
 <body>
 
-<ul class="nav nav-pills">
-    <li class="active">
-    <a href="/cs/relatorio">Relatórios</a>
-    </li>
-    <li><a href="/cs/teste/upload">Upload</a></li>
-</ul>
+<g:link controller="relatorio" action="periodo" params="[dataI: dataI.format('dd/MM/yyyy 00:00:00'), dataF: dataF.format('dd/MM/yyyy 00:00:00'), tipo: 'facadas']"><span class="btn btn-success btn-lg">Mano a mano: ${dataI.format('dd-MM-yyyy')} a ${dataF.format('dd-MM-yyyy')}</span></g:link>
+</div>
 <br/>
 
 %{--<div class="container">--}%

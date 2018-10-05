@@ -34,14 +34,9 @@ table {
 
 <body style="background-color: #122b40" >
 
-<ul class="nav nav-pills">
-    <li class="active">
-        <a href="/cs/relatorio">Relatórios</a>
-    </li>
-    <li><a href="/cs/teste/upload">Upload</a></li>
-</ul>
-
-
+<g:link controller="relatorio" action="periodo" params="[dataI: dataI.format('dd/MM/yyyy 00:00:00'), dataF: dataF.format('dd/MM/yyyy 00:00:00'), tipo: 'facadas']"><span class="btn btn-success btn-lg">Mano a mano: ${dataI.format('dd-MM-yyyy')} a ${dataF.format('dd-MM-yyyy')}</span></g:link>
+%{--<g:link controller="relatorio" action="index" params="[id: data.format('yyyy-MM-dd 00:00:00'), tipo: 'facadas']"><span class="btn btn-success btn-lg">Mano a mano: ${data.format('dd-MM-yyyy')}</span></g:link>--}%
+</div>
 
 <br/>
 
@@ -132,8 +127,9 @@ table {
                         <img src="${resource(dir: 'images', file: '002-knife.png')}" width="100%"/>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <div class="huge"><h2>BOA TARDE</h2></div>
-                        <div><h4>${boaTarde}</h4></div>
+                        %{--<div class="huge"><h2>BOA TARDE</h2></div>--}%
+                        %{--<div><h4>${boaTarde}</h4></div>--}%
+                        <div><h2>FACADAS</h2></div>
                     </div>
                 </div>
                 </g:link>

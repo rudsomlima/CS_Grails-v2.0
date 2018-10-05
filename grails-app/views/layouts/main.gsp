@@ -13,6 +13,11 @@
 </head>
 <body>
 
+<div>
+    <a class="btn btn-primary btn-lg" href="/cs2/relatorio" role="button">Relatórios</a>
+    <a class="btn btn-danger btn-lg" href="/cs2/teste/upload" role="button">Upload</a>
+
+
     %{--<ul class="nav nav-pills">--}%
         %{--<li class="active">--}%
             %{--<a href="/relatorio">Relatórios</a>--}%
