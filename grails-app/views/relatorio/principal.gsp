@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html xmlns="http://www.w3.org/1999/html">
 <head>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    %{--<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">--}%
     %{--<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>--}%
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.standalone.css" rel="stylesheet">
@@ -48,6 +48,8 @@
                 </g:form>
 
                 <br/>
+                <br/>
+                <br/>
 
                 <div class="panel panel-primary" align="center">
                     <div class="panel-heading"><h2>RELATÓRIOS</h2></div>
@@ -63,7 +65,7 @@
                                 </td>
                                 <td>
                                     <div align="center">
-                                        <g:link action="excluirData" id="${datas}" onclick="return confirm('Quer mesmo excluir o registro?')"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></i></g:link>
+                                        <g:link action="excluirData" id="${datas}" onclick="return confirm('Quer mesmo excluir o registro?')"><span style="color:red">Excluir</span></g:link>
                                     </div>
                                 </td>
                             </tr>

@@ -161,7 +161,7 @@ class RelatorioController {
 
 		println jogadores
         if(params.tipo=='facadas') {
-            render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas])
+            render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas, dataI: dataI, dataF: dataF])
             println "view: facadas"
         }
         else {

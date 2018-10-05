@@ -35,7 +35,7 @@
 
 <body>
 
-<g:link controller="relatorio" action="periodo" params="[dataI: dataI.format('dd/MM/yyyy 00:00:00'), dataF: dataF.format('dd/MM/yyyy 00:00:00'), tipo: 'facadas']"><span class="btn btn-success btn-lg">Mano a mano: ${dataI.format('dd-MM-yyyy')} a ${dataF.format('dd-MM-yyyy')}</span></g:link>
+%{--<g:link controller="relatorio" action="periodo" params="[dataI: dataI.format('dd/MM/yyyy 00:00:00'), dataF: dataF.format('dd/MM/yyyy 00:00:00'), tipo: 'facadas']"><span class="btn btn-success btn-lg">Mano a mano: ${dataI.format('dd-MM-yyyy')} a ${dataF.format('dd-MM-yyyy')}</span></g:link>--}%
 </div>
 <br/>
 
@@ -43,7 +43,7 @@
     <div class="row">
         <div class="col-md-5 col-md-offset-3" >
             <div class="panel panel-primary" align="center">
-                <div class="panel-heading"><h2>FACADAS - ${dataView}</h2></div>
+                <div class="panel-heading"><h2>FACADAS - ${dataI.format('dd-MM-yyyy')} a ${dataF.format('dd-MM-yyyy')}</h2></div>
                     <table id="tabela_grande" class="table table-bordered table-condensed table-hover" style="margin-bottom: 0px" border="1">
                         <thead>
                             <tr>
