@@ -43,7 +43,13 @@
     <div class="row">
         <div class="col-md-5 col-md-offset-3" >
             <div class="panel panel-primary" align="center">
-                <div class="panel-heading"><h2>FACADAS - ${dataI.format('dd-MM-yyyy')} a ${dataF.format('dd-MM-yyyy')}</h2></div>
+                <g:if test="${dataF == null}">
+                    <div class="panel-heading"><h2>FACADAS - ${dataView}</h2></div>
+                </g:if>
+                <g:else>
+                    <div class="panel-heading"><h2>FACADAS - ${dataI.format('dd-MM-yyyy')} a ${dataF.format('dd-MM-yyyy')}</h2></div>
+                </g:else>
+
                     <table id="tabela_grande" class="table table-bordered table-condensed table-hover" style="margin-bottom: 0px" border="1">
                         <thead>
                             <tr>
