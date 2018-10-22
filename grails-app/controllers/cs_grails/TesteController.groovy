@@ -12,6 +12,7 @@ class TesteController {
         def dataLog
         String resultadoFinal = ""
         def pulaLinha = 0
+        Integer CT, TERRORIST
 
         File dir = new File("uploadLogs")
 //        dir.mkdir()
@@ -142,22 +143,39 @@ class TesteController {
                         //////////////////////////////// TIME GANHADOR ////////////////////////////////////////////////////////////////
 
                         if(linha.contains("scored")) {
+
                             println n_linha + " - " + linha
+//                            L 08/28/2018 - 13:03:16
+                            def data = linha.substring(2, 22)
+                            Date dataGame = Date.parse('MM/dd/yyyy - HH:mm:ss', data)
+                            println "dataGame " + dataGame
+
 
                             //Extrai o time do matador
                             def resultado = linha.tokenize('\"')
 //                            println "Linha resultado: " + resultado
                             if (pulaLinha==1) {
+                                if (CT != null ) resultado.get(1) as Integer
                                 resultado = resultado.get(3) + " " + resultado.get(1)
                                 resultadoFinal = resultadoFinal + resultado + '\n'
                                 pulaLinha=0
+                                println "CT: " + CT
+                                println "Terror " + TERRORIST
+                                Partidas partida = new Partidas()
+                                partida.dataGame = dataGame
+                                partida.CT = CT
+                                partida.TERRORIST = TERRORIST
+                                partida.save flush: true
+
                             }
                             else {
+                                if (TERRORIST != null) resultado.get(1) as Integer
                                 resultado = resultado.get(1) + " " + resultado.get(3) + " x "
                                 resultadoFinal += resultado
                                 pulaLinha=1
                             }
                             println resultadoFinal
+
 
                         }
 
