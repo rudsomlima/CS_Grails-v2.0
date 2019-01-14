@@ -195,6 +195,7 @@ class RelatorioController {
         Tiros.executeUpdate("delete from Tiros")
         Vitima.executeUpdate("delete from Vitima")
         Jogador.executeUpdate("delete from Jogador")
+        Partidas.executeUpdate("delete from Partidas")
         jogadoresList = Jogador.findAll()
         println "Depois de deletar: " + jogadoresList.size()
         redirect(controller: "relatorio", action: "principal")
@@ -276,6 +277,7 @@ class RelatorioController {
         def nFacadasDoMatador
         def nTirosDaVitima
         def nTirosDoMatador
+        def mapaFinal
 //        def facaAmiga
         def jogadores = []
         float kd
@@ -357,6 +359,22 @@ class RelatorioController {
 //        println "nFacadas: " + nFacadasDaVitima
 
 //		println jogadores
+
+        ///// RESULTADO DOS MAPAS /////////////////////////
+
+
+        def resultadoMapa = Partidas.executeQuery("select CT, TERRORIST from Partidas where date(dataGame)=$dataRelatorio")
+//        println "resultadoMapa: " + resultadoMapa
+        resultadoMapa.each { i ->
+            def mapa = "CT " + [i][0][0] + " x " + [i][0][1] + " TERRORISTAS"
+            mapa = '\n' + mapa
+            mapaFinal = mapaFinal + mapa
+            println "final: " + mapaFinal
+
+            }
+        println "mapaFinal: " + mapaFinal
+
+
         if(params.tipo=='facadas') {
             render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
             dataView: dataView])
@@ -364,8 +382,12 @@ class RelatorioController {
         }
         else {
             render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
-            boaTarde:boaTarde, relAmiga: relAmiga])
+            boaTarde:boaTarde, relAmiga: relAmiga, mapaFinal: mapaFinal])
             println "view: index"
         }
+
+
+
+
     }
 }

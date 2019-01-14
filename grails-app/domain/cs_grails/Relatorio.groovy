@@ -11,6 +11,7 @@ class Relatorio {
     int nTirosVitima
     int nTirosMatador
     float kd
+    String resultado
 
     static constraints = {
     }

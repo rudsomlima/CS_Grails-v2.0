@@ -13,6 +13,7 @@ class TesteController {
         String resultadoFinal = ""
         def pulaLinha = 0
         Integer CT, TERRORIST
+        def flag_salvarTimeGanhador = 0
 
         File dir = new File("uploadLogs")
 //        dir.mkdir()
@@ -148,36 +149,42 @@ class TesteController {
 //                            L 08/28/2018 - 13:03:16
                             def data = linha.substring(2, 22)
                             Date dataGame = Date.parse('MM/dd/yyyy - HH:mm:ss', data)
-                            println "dataGame " + dataGame
+                            println "dataGame: " + dataGame
+
 
 
                             //Extrai o time do matador
                             def resultado = linha.tokenize('\"')
-//                            println "Linha resultado: " + resultado
-                            if (pulaLinha==1) {
-                                if (CT != null ) resultado.get(1) as Integer
-                                resultado = resultado.get(3) + " " + resultado.get(1)
-                                resultadoFinal = resultadoFinal + resultado + '\n'
-                                pulaLinha=0
+                            println "Linha resultado: " + resultado
+
+                            def res_parcial = resultado.get(3) as Integer
+                            println "res_parcial: " + res_parcial
+                            if (flag_salvarTimeGanhador == 1 && res_parcial != null) {
+                                CT = res_parcial
                                 println "CT: " + CT
-                                println "Terror " + TERRORIST
+//                                pulaLinha=1
+                                flag_salvarTimeGanhador = 2
+                            }
+                            if (flag_salvarTimeGanhador == 0 && res_parcial != null) {
+                                TERRORIST = res_parcial
+//                                pulaLinha=0
+                                println "Terror: " + TERRORIST
+                                flag_salvarTimeGanhador = 1
+                            }
+
+                            if (flag_salvarTimeGanhador==2) {
+//                                println "dataGame " + dataGame
                                 Partidas partida = new Partidas()
                                 partida.dataGame = dataGame
                                 partida.CT = CT
                                 partida.TERRORIST = TERRORIST
                                 partida.save flush: true
-
+                                flag_salvarTimeGanhador = 0
                             }
-                            else {
-                                if (TERRORIST != null) resultado.get(1) as Integer
-                                resultado = resultado.get(1) + " " + resultado.get(3) + " x "
-                                resultadoFinal += resultado
-                                pulaLinha=1
-                            }
-                            println resultadoFinal
-
 
                         }
+
+
 
                         //////////////////////////////// TIROS ////////////////////////////////////////////////////////////////
                         if(linha.contains(">\" with \"") && !linha.contains("with \"knife\"")) {
