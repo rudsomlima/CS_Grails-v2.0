@@ -277,7 +277,7 @@ class RelatorioController {
         def nFacadasDoMatador
         def nTirosDaVitima
         def nTirosDoMatador
-        def mapaFinal
+        def mapa
 //        def facaAmiga
         def jogadores = []
         float kd
@@ -364,15 +364,20 @@ class RelatorioController {
 
 
         def resultadoMapa = Partidas.executeQuery("select CT, TERRORIST from Partidas where date(dataGame)=$dataRelatorio")
-//        println "resultadoMapa: " + resultadoMapa
+        println "resultadoMapa: " + resultadoMapa
+        def listMapa = []
         resultadoMapa.each { i ->
-            def mapa = "CT " + [i][0][0] + " x " + [i][0][1] + " TERRORISTAS"
-            mapa = '\n' + mapa
-            mapaFinal = mapaFinal + mapa
-            println "final: " + mapaFinal
+            mapa = " " + [i][0][0] + " x " + [i][0][1] + '\n'
+            listMapa.add(mapa)
+        }
 
-            }
-        println "mapaFinal: " + mapaFinal
+
+//        String exibe = ""
+//        listMapa.each { i ->
+//             exibe += [i][0] + '\n'
+//        }
+//        println "Alterado listMapa: " + exibe
+
 
 
         if(params.tipo=='facadas') {
@@ -382,7 +387,7 @@ class RelatorioController {
         }
         else {
             render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
-            boaTarde:boaTarde, relAmiga: relAmiga, mapaFinal: mapaFinal])
+            boaTarde:boaTarde, relAmiga: relAmiga, mapaFinal: listMapa])
             println "view: index"
         }
 

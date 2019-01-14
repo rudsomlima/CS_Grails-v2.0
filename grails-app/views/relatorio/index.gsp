@@ -243,11 +243,11 @@ table {
                 <div class="panel-heading">
                     <div class="row">
                         <div class="col-xs-3 text-center">
-                            <img src="${resource(dir: 'images', file: '002-knife.png')}" width="100%"/>
+                            <img src="${resource(dir: 'images', file: 'flag.png')}" width="100%"/>
                         </div>
                         <div class="col-xs-9 text-right">
                             <div class="huge"> <h2>MAPAS</h2></div>
-                            <div><h4>Esfaqueou o amiguinho</h4></div>
+                            <div><h4>CT x TERROR</h4></div>
                         </div>
                     </div>
                 </div>
@@ -256,7 +256,12 @@ table {
                         <div class="col-xs-9" >
 
                                     <td id="facaAmiga" style="vertical-align: middle">
-                                        <h4> ${mapaFinal} </h4>
+                                        %{--<h4> ${mapaFinal} </h4>--}%
+                                        <h4>
+                                            <g:each in="${mapaFinal}">
+                                                ${it}<br>
+                                            </g:each>
+                                        </h4>
                                     </td>
 
                         </div>
