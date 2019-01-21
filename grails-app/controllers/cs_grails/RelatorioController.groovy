@@ -363,22 +363,13 @@ class RelatorioController {
         ///// RESULTADO DOS MAPAS /////////////////////////
 
 
-        def resultadoMapa = Partidas.executeQuery("select CT, TERRORIST from Partidas where date(dataGame)=$dataRelatorio")
+        def resultadoMapa = Partidas.executeQuery("select CT, TERRORIST from Partidas where date(dataGame)=$dataRelatorio order by dataGame asc")
         println "resultadoMapa: " + resultadoMapa
         def listMapa = []
         resultadoMapa.each { i ->
-            mapa = " " + [i][0][0] + " x " + [i][0][1] + '\n'
+            mapa = " " + [i][0][0] + " x " + [i][0][1]
             listMapa.add(mapa)
         }
-
-
-//        String exibe = ""
-//        listMapa.each { i ->
-//             exibe += [i][0] + '\n'
-//        }
-//        println "Alterado listMapa: " + exibe
-
-
 
         if(params.tipo=='facadas') {
             render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,

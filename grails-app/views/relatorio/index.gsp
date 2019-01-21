@@ -238,7 +238,7 @@ table {
     </g:if>
 
     <g:if test="${!relAmiga.isEmpty()}">
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-2 col-md-6">
             <div class="panel panel-primary">
                 <div class="panel-heading">
                     <div class="row">
@@ -253,7 +253,7 @@ table {
                 </div>
                 <div class="panel-footer">
                     <div class="row">
-                        <div class="col-xs-9" >
+                        <div class="col-xs-12 text-center" >
 
                                     <td id="facaAmiga" style="vertical-align: middle">
                                         %{--<h4> ${mapaFinal} </h4>--}%
