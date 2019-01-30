@@ -112,7 +112,7 @@ table {
                                     </tr>
                                 </g:each>
                         </div>
-                        <div class="col-xs-4 text-center">
+                        <div class="text-center">
                             <g:each in="${nRelList.sort{it.kd}}" status="l" var="peneira">
                                 <tr>
                                     <td id="nPeneira" style="vertical-align: middle">
@@ -174,7 +174,7 @@ table {
                     </div>
                     <div class="col-xs-9 text-right">
                         <div class="huge"><h2>ÍMÃ</h2></div>
-                        <div></div>
+                        <div><h4>Faca no lombo</h4></div>
                     </div>
                 </div>
             </div>
@@ -215,7 +215,7 @@ table {
                             <img src="${resource(dir: 'images', file: '002-knife.png')}" width="100%"/>
                         </div>
                         <div class="col-xs-9 text-right">
-                            <div class="huge"> <h2>FACADA AMIGA</h2></div>
+                            <div class="huge"> <h2>FACA AMIGA</h2></div>
                             <div><h4>Esfaqueou o amiguinho</h4></div>
                         </div>
                     </div>
@@ -237,8 +237,8 @@ table {
         </div>
     </g:if>
 
-    <g:if test="${!relAmiga.isEmpty()}">
-        <div class="col-lg-2 col-md-6">
+
+        <div class="col-lg-3 col-md-6">
             <div class="panel panel-primary">
                 <div class="panel-heading">
                     <div class="row">
@@ -269,7 +269,7 @@ table {
                 </div>
             </div>
         </div>
-    </g:if>
+
 
 </div>
 
