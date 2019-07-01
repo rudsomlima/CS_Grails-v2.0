@@ -73,6 +73,7 @@ class TesteController {
                             //Extrai o nome da Vitima
                             def nomeVitima = subLinha.substring(subLinha.indexOf("\"") + 1, subLinha.indexOf("<"));
                             def vitimaList = Jogador.findAllByNome(nomeVitima)
+                            println "Vítima: " + nomeVitima
 
                             Jogador vitima = new Jogador()
 
@@ -160,15 +161,15 @@ class TesteController {
                             def res_parcial = resultado.get(3) as Integer
                             println "res_parcial: " + res_parcial
                             if (flag_salvarTimeGanhador == 1 && res_parcial != null) {
-                                CT = res_parcial
-                                println "CT: " + CT
+                                TERRORIST = res_parcial
+                                println "Terror: " + TERRORIST
 //                                pulaLinha=1
                                 flag_salvarTimeGanhador = 2
                             }
                             if (flag_salvarTimeGanhador == 0 && res_parcial != null) {
-                                TERRORIST = res_parcial
+                                CT = res_parcial
 //                                pulaLinha=0
-                                println "Terror: " + TERRORIST
+                                println "CT: " + CT
                                 flag_salvarTimeGanhador = 1
                             }
 

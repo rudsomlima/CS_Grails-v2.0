@@ -182,6 +182,7 @@ class RelatorioController {
         Facadas.executeUpdate("delete from Facadas where date(dataFacada)=$dataDelete")
         Tiros.executeUpdate("delete from Tiros where date(dataTiro)=$dataDelete")
         Vitima.executeUpdate("delete from Vitima where date(dataFacada)=$dataDelete")
+        Partidas.executeUpdate("delete from Partidas where date(dataGame)=$dataDelete")
 //        Jogador.executeUpdate("delete from Jogador where vitima.dataFacada=$dataDelete")
 //        jogadoresList = Jogador.findAll()
 //        println "Depois de deletar: " + jogadoresList.size()
@@ -229,6 +230,12 @@ class RelatorioController {
             }
             ge 'dataFacada', dataRelatorio
         }
+
+        def listaTiros = Tiros.executeQuery("from Tiros where date(dataTiro)=$dataRelatorio")
+        println "listaTiros: " + listaTiros
+
+        lista = lista + listaTiros
+
 //        lista += Vitima.findAllByDataFacada(dataRelatorio)
 
 //        println "lista: " + lista

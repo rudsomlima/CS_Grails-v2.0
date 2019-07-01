@@ -259,7 +259,7 @@ table {
                                         %{--<h4> ${mapaFinal} </h4>--}%
                                         <h4>
                                             <g:each in="${mapaFinal}">
-                                                ${it}<br>
+                                                CT <span style="color:red" /> ${it} <span style="color:black" /> TERROR<br>
                                             </g:each>
                                         </h4>
                                     </td>
