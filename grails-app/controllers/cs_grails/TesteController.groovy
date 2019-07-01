@@ -142,8 +142,19 @@ class TesteController {
                             }
                         }
 
-                        //////////////////////////////// TIME GANHADOR ////////////////////////////////////////////////////////////////
+                        //////////////////////////////// HORARIO DOS JOGOS ////////////////////////////////////////////////////////////////
+                        if(linha.contains("World triggered \"Game_Commencing\" (CT \"0\") (T \"0\")")) {
+                            println n_linha + " - " + linha
+//                            L 08/28/2018 - 13:03:16
+                            def horaStart = linha.substring(2, 22)
+                            Date dataGameStart = Date.parse('MM/dd/yyyy - HH:mm:ss', horaStart)
+                            println "dataGameStart: " + dataGameStart
+                            TempoJogos tempoJogos = new TempoJogos()
+                            tempoJogos.dataGameStart = dataGameStart
+                            tempoJogos.save flush: true
+                        }
 
+                        //////////////////////////////// TIME GANHADOR ////////////////////////////////////////////////////////////////
                         if(linha.contains("scored")) {
 
                             println n_linha + " - " + linha
@@ -151,8 +162,6 @@ class TesteController {
                             def data = linha.substring(2, 22)
                             Date dataGame = Date.parse('MM/dd/yyyy - HH:mm:ss', data)
                             println "dataGame: " + dataGame
-
-
 
                             //Extrai o time do matador
                             def resultado = linha.tokenize('\"')

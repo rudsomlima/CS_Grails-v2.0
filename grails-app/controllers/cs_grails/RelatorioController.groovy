@@ -183,6 +183,7 @@ class RelatorioController {
         Tiros.executeUpdate("delete from Tiros where date(dataTiro)=$dataDelete")
         Vitima.executeUpdate("delete from Vitima where date(dataFacada)=$dataDelete")
         Partidas.executeUpdate("delete from Partidas where date(dataGame)=$dataDelete")
+        TempoJogos.executeUpdate("delete from TempoJogos where date(dataGameStart)=$dataDelete")
 //        Jogador.executeUpdate("delete from Jogador where vitima.dataFacada=$dataDelete")
 //        jogadoresList = Jogador.findAll()
 //        println "Depois de deletar: " + jogadoresList.size()
@@ -197,6 +198,7 @@ class RelatorioController {
         Vitima.executeUpdate("delete from Vitima")
         Jogador.executeUpdate("delete from Jogador")
         Partidas.executeUpdate("delete from Partidas")
+        TempoJogos.executeUpdate("delete from TempoJogos")
         jogadoresList = Jogador.findAll()
         println "Depois de deletar: " + jogadoresList.size()
         redirect(controller: "relatorio", action: "principal")
@@ -365,16 +367,28 @@ class RelatorioController {
 
 //		println jogadores
 
+        ///// HORÁRIO DOS JOGOS /////////////////////////
+        def listHoraInicio = TempoJogos.executeQuery("select dataGameStart from TempoJogos where date(dataGameStart)=$dataRelatorio order by dataGameStart asc")
+        println "listHoraInicio: " + listHoraInicio
+
         ///// RESULTADO DOS MAPAS /////////////////////////
-
-
-        def resultadoMapa = Partidas.executeQuery("select CT, TERRORIST from Partidas where date(dataGame)=$dataRelatorio order by dataGame asc")
+        def resultadoMapa = Partidas.executeQuery("select CT, TERRORIST, dataGame from Partidas where date(dataGame)=$dataRelatorio order by dataGame asc")
         println "resultadoMapa: " + resultadoMapa
         def listMapa = []
-        resultadoMapa.each { i ->
-            mapa = " " + [i][0][0] + " x " + [i][0][1]
-            listMapa.add(mapa)
+
+        if (listHoraInicio!=[]) {
+            resultadoMapa.eachWithIndex { i, index ->
+                mapa = " " + [i][0][0] + " x " + [i][0][1] + " ------------ " + listHoraInicio.get(index).format("hh:mm") + " - " + [i][0][2].format("HH:mm")
+                listMapa.add(mapa)
+            }
         }
+        else {        ///COMPATIBILIZAR COM OS RESULTADOS ANTERIORES DA VERSAO ANTIGA
+            resultadoMapa.eachWithIndex { i, index ->
+                mapa = " " + [i][0][0] + " x " + [i][0][1]
+                listMapa.add(mapa)
+            }
+        }
+
 
         if(params.tipo=='facadas') {
             render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
@@ -383,12 +397,8 @@ class RelatorioController {
         }
         else {
             render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
-            boaTarde:boaTarde, relAmiga: relAmiga, mapaFinal: listMapa])
+            boaTarde:boaTarde, relAmiga: relAmiga, mapaFinal: listMapa, listHoraInicio: listHoraInicio])
             println "view: index"
         }
-
-
-
-
     }
 }

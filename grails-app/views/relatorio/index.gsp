@@ -247,19 +247,19 @@ table {
                         </div>
                         <div class="col-xs-9 text-right">
                             <div class="huge"> <h2>MAPAS</h2></div>
-                            <div><h4>CT x TERROR</h4></div>
+                            <div><h4>CT x TERROR - Início - Fim</h4></div>
                         </div>
                     </div>
                 </div>
                 <div class="panel-footer">
                     <div class="row">
-                        <div class="col-xs-12 text-center" >
+                        <div class="col-xs-12 text-right" >
 
-                                    <td id="facaAmiga" style="vertical-align: middle">
+                                    <td id="facaAmiga" style="vertical-align: middle" >
                                         %{--<h4> ${mapaFinal} </h4>--}%
                                         <h4>
                                             <g:each in="${mapaFinal}">
-                                                CT <span style="color:red" /> ${it} <span style="color:black" /> TERROR<br>
+                                                ${it}   <br>
                                             </g:each>
                                         </h4>
                                     </td>

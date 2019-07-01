@@ -6,7 +6,6 @@ class Partidas {
     int CT
     int TERRORIST
 
-
     static constraints = {
     }
 }
