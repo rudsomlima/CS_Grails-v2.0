@@ -67,20 +67,24 @@ table {
                     <div class="row">
                         <div class="col-xs-9">
                             <g:each in="${nRelList.sort{-it.nTirosMatador}}" status="k" var="matador">
-                                <tr>
-                                    <td id="matador" style="vertical-align: middle">
-                                        <h4> ${matador.matador} </h4>
-                                    </td>
-                                </tr>
+                                <g:if test="${matador.matador.indexOf("XXBOT")<0}" >
+                                    <tr>
+                                        <td id="matador" style="vertical-align: middle">
+                                            <h4> ${matador.matador} </h4>
+                                        </td>
+                                    </tr>
+                                </g:if>
                             </g:each>
                         </div>
                         <div class="col-xs-3 text-center">
                             <g:each in="${nRelList.sort{-it.nTirosMatador}}" status="l" var="matador">
-                                <tr>
-                                    <td id="nMatador" style="vertical-align: middle">
-                                        <h4> ${matador.nTirosMatador} </h4>
-                                    </td>
-                                </tr>
+                                <g:if test="${matador.matador.indexOf("XXBOT")<0}" >
+                                    <tr>
+                                        <td id="nMatador" style="vertical-align: middle">
+                                            <h4> ${matador.nTirosMatador} </h4>
+                                        </td>
+                                    </tr>
+                                </g:if>
                             </g:each>
                         </div>
                     </div>
@@ -105,20 +109,24 @@ table {
                         <div class="col-xs-8">
                             <div class="clearfix"></div>
                                 <g:each in="${nRelList.sort{it.kd}}" status="l" var="peneira">
-                                    <tr>
-                                        <td id="peneira" style="vertical-align: middle">
-                                            <h4> ${peneira.matador} </h4>
-                                        </td>
-                                    </tr>
+                                    <g:if test="${peneira.matador.indexOf("XXBOT")<0}" >
+                                        <tr>
+                                            <td id="peneira" style="vertical-align: middle">
+                                                <h4> ${peneira.matador} </h4>
+                                            </td>
+                                        </tr>
+                                    </g:if>
                                 </g:each>
                         </div>
                         <div class="text-center">
                             <g:each in="${nRelList.sort{it.kd}}" status="l" var="peneira">
-                                <tr>
-                                    <td id="nPeneira" style="vertical-align: middle">
-                                        <h4> ${peneira.nTirosVitima} &nbsp (${String.format("%.3f", peneira.kd)}) </h4>
-                                    </td>
-                                </tr>
+                                <g:if test="${peneira.matador.indexOf("XXBOT")<0}" >
+                                    <tr>
+                                        <td id="nPeneira" style="vertical-align: middle">
+                                            <h4> ${peneira.nTirosVitima} &nbsp (${String.format("%.3f", peneira.kd)}) </h4>
+                                        </td>
+                                    </tr>
+                                </g:if>
                             </g:each>
                         </div>
                     </div>
@@ -145,20 +153,24 @@ table {
                     <div class="row">
                         <div class="col-xs-9">
                             <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
-                                <tr>
-                                    <td id="esfaqueador" style="vertical-align: middle">
-                                        <h4> ${esfaqueador.matador} </h4>
-                                    </td>
-                                </tr>
+                                <g:if test="${esfaqueador.nFacadasMatador>0}" >
+                                    <tr>
+                                        <td id="esfaqueador" style="vertical-align: middle">
+                                            <h4> ${esfaqueador.matador} </h4>
+                                        </td>
+                                    </tr>
+                                </g:if>
                             </g:each>
                         </div>
                         <div class="col-xs-3 text-center">
                             <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
-                                <tr>
-                                    <td id="nEsfaqueador" style="vertical-align: middle">
-                                        <h4> ${esfaqueador.nFacadasMatador} </h4>
-                                    </td>
-                                </tr>
+                                <g:if test="${esfaqueador.nFacadasMatador>0}" >
+                                    <tr>
+                                        <td id="nEsfaqueador" style="vertical-align: middle">
+                                            <h4> ${esfaqueador.nFacadasMatador} </h4>
+                                        </td>
+                                    </tr>
+                                </g:if>
                             </g:each>
                         </div>
                     </div>
@@ -183,20 +195,24 @@ table {
                     <div class="row">
                         <div class="col-xs-9">
                         <g:each in="${nRelList.sort{-it.nFacadasVitima}}" status="l" var="esfaqueador">
-                            <tr>
-                                <td id="ima" style="vertical-align: middle">
-                                    <h4>${esfaqueador.matador}</h4>
-                                </td>
-                            </tr>
+                            <g:if test="${esfaqueador.nFacadasVitima>0}" >
+                                <tr>
+                                    <td id="ima" style="vertical-align: middle">
+                                        <h4>${esfaqueador.matador}</h4>
+                                    </td>
+                                </tr>
+                            </g:if>
                         </g:each>
                         </div>
                         <div class="col-xs-3 text-center">
                             <g:each in="${nRelList.sort{-it.nFacadasVitima}}" status="l" var="esfaqueador">
-                                <tr>
-                                    <td id="nIma" style="vertical-align: middle">
-                                        <h4> ${esfaqueador.nFacadasVitima} </h4>
-                                    </td>
-                                </tr>
+                                <g:if test="${esfaqueador.nFacadasVitima>0}" >
+                                    <tr>
+                                        <td id="nIma" style="vertical-align: middle">
+                                            <h4> ${esfaqueador.nFacadasVitima} </h4>
+                                        </td>
+                                    </tr>
+                                </g:if>
                             </g:each>
                         </div>
                     </div>

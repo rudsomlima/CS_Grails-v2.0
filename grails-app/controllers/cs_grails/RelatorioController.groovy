@@ -237,10 +237,10 @@ class RelatorioController {
         println "listaTiros: " + listaTiros
 
         lista = lista + listaTiros
-
+//
 //        lista += Vitima.findAllByDataFacada(dataRelatorio)
 
-//        println "lista: " + lista
+        println "lista: " + lista
 
         def listaAlgozes = Facadas.withCriteria {
             vitima {
@@ -260,6 +260,8 @@ class RelatorioController {
             players.push(facada.vitima.vitima.nome)
 //            println "facada: " + facada.vitima.matador.nome + " - " + facada.vitima.vitima.nome
         }
+
+        println "players: " + players
 
 
         def boaTarde = Vitima.executeQuery("from Vitima where date(dataFacada)=$dataRelatorio and ehFaca=1 and ehBot=0 order by dataFacada asc")
