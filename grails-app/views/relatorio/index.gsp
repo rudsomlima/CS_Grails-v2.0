@@ -67,7 +67,7 @@ table {
                     <div class="row">
                         <div class="col-xs-9">
                             <g:each in="${nRelList.sort{-it.nTirosMatador}}" status="k" var="matador">
-                                <g:if test="${matador.matador.indexOf("XXBOT")<0}" >
+                                <g:if test="${matador.matador.indexOf("XXBOT")<0 & matador.nTirosMatador>0}" >
                                     <tr>
                                         <td id="matador" style="vertical-align: middle">
                                             <h4> ${matador.matador} </h4>
@@ -78,7 +78,7 @@ table {
                         </div>
                         <div class="col-xs-3 text-center">
                             <g:each in="${nRelList.sort{-it.nTirosMatador}}" status="l" var="matador">
-                                <g:if test="${matador.matador.indexOf("XXBOT")<0}" >
+                                <g:if test="${matador.matador.indexOf("XXBOT")<0 & matador.nTirosMatador>0}" >
                                     <tr>
                                         <td id="nMatador" style="vertical-align: middle">
                                             <h4> ${matador.nTirosMatador} </h4>
@@ -109,7 +109,7 @@ table {
                         <div class="col-xs-8">
                             <div class="clearfix"></div>
                                 <g:each in="${nRelList.sort{it.kd}}" status="l" var="peneira">
-                                    <g:if test="${peneira.matador.indexOf("XXBOT")<0}" >
+                                    <g:if test="${peneira.matador.indexOf("XXBOT")<0 & peneira.nTirosVitima>0}" >
                                         <tr>
                                             <td id="peneira" style="vertical-align: middle">
                                                 <h4> ${peneira.matador} </h4>
@@ -120,7 +120,7 @@ table {
                         </div>
                         <div class="text-center">
                             <g:each in="${nRelList.sort{it.kd}}" status="l" var="peneira">
-                                <g:if test="${peneira.matador.indexOf("XXBOT")<0}" >
+                                <g:if test="${peneira.matador.indexOf("XXBOT")<0 & peneira.nTirosVitima>0}" >
                                     <tr>
                                         <td id="nPeneira" style="vertical-align: middle">
                                             <h4> ${peneira.nTirosVitima} &nbsp (${String.format("%.3f", peneira.kd)}) </h4>
