@@ -377,10 +377,13 @@ class RelatorioController {
         def resultadoMapa = Partidas.executeQuery("select CT, TERRORIST, dataGame from Partidas where date(dataGame)=$dataRelatorio order by dataGame asc")
         println "resultadoMapa: " + resultadoMapa
         def listMapa = []
+        println "Tamanho: " + resultadoMapa.size()
 
-        if (listHoraInicio!=[]) {
+
+        if (listHoraInicio.size() == resultadoMapa.size()) {
             resultadoMapa.eachWithIndex { i, index ->
                 mapa = " " + [i][0][0] + " x " + [i][0][1] + " ------------ " + listHoraInicio.get(index).format("hh:mm") + " - " + [i][0][2].format("HH:mm")
+                println "mapa: " + index + " - " + mapa
                 listMapa.add(mapa)
             }
         }

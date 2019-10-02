@@ -63,6 +63,7 @@
                         <tbody>
                             %{--<g:set var="n" value="${nFacasList.nFacadasMatador[0]}"/>--}%
                             <g:each in="${jogadoresList}" status="j" var="jogador">
+                                %{--<g:if test="${jogador.nome.indexOf("XXBOT")<0}">--}%
                                 <tr>
                                     <td id="jogador" style="vertical-align: middle">
                                         <h4>${jogador}</h4>
@@ -120,6 +121,7 @@
                                 </tr>
                                 %{--<g:set var="n" value="${n++}"/>--}%
                             </tbody>
+                                %{--</g:if>--}%
                         </g:each>
                     </table>
             </div>
