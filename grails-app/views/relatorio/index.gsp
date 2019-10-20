@@ -153,7 +153,7 @@ table {
                                     <td id="esfaqueador" style="vertical-align: middle">
                                         <h4> ${esfaqueador.ordemFacada}&deg - ${esfaqueador.matador}
                                         <g:if test="${esfaqueador.nFacadasAmiga>0}">
-                                            <class id="facaAmiga" style="color: red"> <b> --- (-${esfaqueador.nFacadasAmiga}) </b>
+                                            <class id="facaAmiga" style="color: red"> <b> (-${esfaqueador.nFacadasAmiga}) </b>
                                               </class>
                                         </g:if>
                                             </h4>

@@ -389,24 +389,9 @@ class RelatorioController {
                 println "Facadas: " + jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima
                 println "Tiros: " + jogador + " - " + nTirosDoMatador + " - " + nTirosDaVitima
                 println "KD: " + jogador + " - " + kd
-
-                ///////////////////////////////////////////// JSON
-//                JsonBuilder builder = new JsonBuilder()
-//                builder.gamer {
-//                    nome jogador
-//                    facaDada nFacadasDoMatador
-//                    facaLevada nFacadasDaVitima
-//                }
-//                String json = JsonOutput.prettyPrint(builder.toString())
-//                println "json: " + json
-
                 println "----------------------------"
-
 //            }
         }
-
-
-
 
         println "listMatador: " + relatorioList.matador.toSorted()
         println "listFacas: " + relatorioList.nFacadasMatador
@@ -442,10 +427,7 @@ class RelatorioController {
             }
         }
 
-        def gamers = Vitima.executeQuery("select distinct matador.nome from Vitima where date(dataFacada)=$dataRelatorio")   //considera os matadores
-        gamers = gamers + Vitima.executeQuery("select distinct vitima.nome from Vitima where date(dataFacada)=$dataRelatorio")  //considera as vitimas
-        gamers = gamers.unique()
-        println "------------------------------------- gamers: " + gamers
+        //////////////////// DEFINE RESULTADO FINAL
 
         if(params.tipo=='facadas') {
             render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
