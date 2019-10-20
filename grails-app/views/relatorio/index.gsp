@@ -151,9 +151,9 @@ table {
                             <g:if test="${esfaqueador.nFacadasMatador>0}" >
                                 <tr>
                                     <td id="esfaqueador" style="vertical-align: middle">
-                                        <h4> ${esfaqueador.matador}
+                                        <h4> ${esfaqueador.ordemFacada}&deg - ${esfaqueador.matador}
                                         <g:if test="${esfaqueador.nFacadasAmiga>0}">
-                                              <class id="facaAmiga" style="color: red"> (-${esfaqueador.nFacadasAmiga})
+                                            <class id="facaAmiga" style="color: red"> <b> --- (-${esfaqueador.nFacadasAmiga}) </b>
                                               </class>
                                         </g:if>
                                             </h4>
@@ -252,7 +252,6 @@ table {
             </div>
         </div>
     </g:if>
-
 
     <div class="col-lg-3 col-md-6">
         <div class="panel panel-primary">

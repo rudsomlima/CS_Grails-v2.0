@@ -13,6 +13,7 @@ class Vitima {
     Integer ehBot
     Integer ehFaca
     Integer facaAmiga
+    Integer ordemFacada
 
     static constraints = {
         matador nullable:false

@@ -5,6 +5,7 @@ class TesteController {
     def rodar() {
 
         def linha;
+        int ordemFacada
         int n_arquivo=0;
         int atual=0
         int progresso = 0
@@ -42,6 +43,10 @@ class TesteController {
 //
 //                        //////////////////////// FACADAS ////////////////////////////////////
                         if (linha.contains("with \"knife\"") && !linha.contains("suicide")) {
+
+                            //Registra as ordens das facadas
+                            ordemFacada = ordemFacada + 1
+                            println "-------------------- ordemFacada: " + ordemFacada
 
                             println n_linha + " - " + linha
                             //Nome do Matador
@@ -89,6 +94,8 @@ class TesteController {
 
                             assassinato.matador = matador
                             assassinato.vitima = vitima
+                            assassinato.ordemFacada = ordemFacada
+
 
                             Facadas facada = new Facadas()
                             facada.qtdeFacadas = 1
@@ -262,6 +269,7 @@ class TesteController {
                             assassinato.ehFaca = 0
                             assassinato.ehBot = 0 //O erro estava relacionado ao fato de vc não ter setado todos os parametros
                             assassinato.facaAmiga = 0
+                            assassinato.ordemFacada = 0
 
                             assassinato.save flush: true
 

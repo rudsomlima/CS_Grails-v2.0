@@ -64,66 +64,68 @@
                             %{--<g:set var="n" value="${nFacasList.nFacadasMatador[0]}"/>--}%
                             <g:each in="${jogadoresList}" status="j" var="jogador">
                                 %{--<g:if test="${jogador.nome.indexOf("XXBOT")<0}">--}%
-                                <tr>
-                                    <td id="jogador" style="vertical-align: middle">
-                                        <h4>${jogador}
-                                        <g:if test="${nRelList.nFacadasAmiga[j]>0}">
-                                            <class id="facaAmiga" style="color: red"> (-${nRelList.nFacadasAmiga[j]})
-                                            </class>
-                                        </g:if>
-                                        </h4>
-                                    </td>
+                                <g:if test="${nRelList.nFacadasMatador[j]>0 & nRelList.nFacadasVitima[j]>0}">
+                                    <tr>
+                                        <td id="jogador" style="vertical-align: middle">
+                                            <h4>${jogador}
+                                            <g:if test="${nRelList.nFacadasAmiga[j]>0}">
+                                                <class id="facaAmiga" style="color: red"> <b> (-${nRelList.nFacadasAmiga[j]}) </b>
+                                                </class>
+                                            </g:if>
+                                            </h4>
+                                        </td>
 
-                                    <td>
-                                        <div>
-                                            <table id="tabela_pequena" class="table table-condensed table-striped" style="margin-bottom: 0px; font-size: smaller">
-                                                <g:each in="${relFacas}" status="i" var="facada">
-                                                    <g:if test="${jogador.nome.equals(facada.matador)}">
-                                                        <tr class="row">
-                                                            <td class="col-md-8">
-                                                                <strong>${facada.vitima}</strong>
-                                                            </td>
-                                                            <td class="col-md-4 text-center" style="vertical-align: middle" id="facadas">
-                                                                <strong>${facada.somaFacas}</strong>
-                                                            </td>
-                                                        </tr>
-                                                    </g:if>
-                                                </g:each>
-                                            </table>
-                                        </div>
-                                    </td>
-                                    <td class="text-center" id="deu" style="vertical-align: middle">
-                                        %{--<span class="label label-success">  ${nFacasList.nFacadasMatador[j]}  </span>--}%
-                                        %{--<h4 style="color: green"><b>${nFacasList.nFacadasMatador[j]}</b></h4>--}%
-                                        <h4 style="color: green"><b>${nRelList.nFacadasMatador[j]}</b></h4>
-                                    </td>
+                                        <td>
+                                            <div>
+                                                <table id="tabela_pequena" class="table table-condensed table-striped" style="margin-bottom: 0px; font-size: smaller">
+                                                    <g:each in="${relFacas}" status="i" var="facada">
+                                                        <g:if test="${jogador.nome.equals(facada.matador)}">
+                                                            <tr class="row">
+                                                                <td class="col-md-8">
+                                                                    <strong>${facada.vitima}</strong>
+                                                                </td>
+                                                                <td class="col-md-4 text-center" style="vertical-align: middle" id="facadas">
+                                                                    <strong>${facada.somaFacas}</strong>
+                                                                </td>
+                                                            </tr>
+                                                        </g:if>
+                                                    </g:each>
+                                                </table>
+                                            </div>
+                                        </td>
+                                        <td class="text-center" id="deu" style="vertical-align: middle">
+                                            %{--<span class="label label-success">  ${nFacasList.nFacadasMatador[j]}  </span>--}%
+                                            %{--<h4 style="color: green"><b>${nFacasList.nFacadasMatador[j]}</b></h4>--}%
+                                            <h4 style="color: green"><b>${nRelList.nFacadasMatador[j]}</b></h4>
+                                        </td>
 
-                                    <td>
-                                        <div>
-                                            <table id="tabela_pequena2" class="table table-condensed table-striped" style="margin-bottom: 0px; font-size: smaller">
-                                                <g:each in="${relFacas}" status="i" var="facada">
-                                                    <g:if test="${jogador.nome.equals(facada.vitima)}">
-                                                        <tr class="row">
-                                                            <td class="col-md-8">
-                                                                <strong>${facada.matador}</strong>
-                                                            </td>
-                                                            <td class="col-md-4 text-center" id="facadas2">
-                                                                <strong>${facada.somaFacas}</strong>
-                                                            </td>
-                                                        </tr>
-                                                    </g:if>
-                                                </g:each>
-                                            </table>
-                                        </div>
-                                    </td>
+                                        <td>
+                                            <div>
+                                                <table id="tabela_pequena2" class="table table-condensed table-striped" style="margin-bottom: 0px; font-size: smaller">
+                                                    <g:each in="${relFacas}" status="i" var="facada">
+                                                        <g:if test="${jogador.nome.equals(facada.vitima)}">
+                                                            <tr class="row">
+                                                                <td class="col-md-8">
+                                                                    <strong>${facada.matador}</strong>
+                                                                </td>
+                                                                <td class="col-md-4 text-center" id="facadas2">
+                                                                    <strong>${facada.somaFacas}</strong>
+                                                                </td>
+                                                            </tr>
+                                                        </g:if>
+                                                    </g:each>
+                                                </table>
+                                            </div>
+                                        </td>
 
-                                    <td class="text-center" id="levou" style="vertical-align: middle">
-                                        %{--<span class="label label-danger">  ${nFacasList.nFacadasVitima[j]}  </span>--}%
-                                        <h4 style="color: red"><b>${nRelList.nFacadasVitima[j]}</b></h4>
-                                    </td>
+                                        <td class="text-center" id="levou" style="vertical-align: middle">
+                                            %{--<span class="label label-danger">  ${nFacasList.nFacadasVitima[j]}  </span>--}%
+                                            <h4 style="color: red"><b>${nRelList.nFacadasVitima[j]}</b></h4>
+                                        </td>
 
-                                    %{--<td class="text-center"> ${soma + facada.qtdeFacadas} </td>--}%
-                                </tr>
+                                        %{--<td class="text-center"> ${soma + facada.qtdeFacadas} </td>--}%
+                                    </tr>
+                                </g:if>
                                 %{--<g:set var="n" value="${n++}"/>--}%
                             </tbody>
                                 %{--</g:if>--}%
