@@ -155,6 +155,8 @@ class RelatorioController {
         }
 
 
+//        println relatorioList.nFacadasMatador
+//
 //        println "nFacadas: " + nFacadas
 //        println "nFacadas: " + nRelList.nFacadasMatador
 //        println "nFacadas: " + nFacadasDaVitima
@@ -286,6 +288,7 @@ class RelatorioController {
         def relFac
         def nFacadasDaVitima
         def nFacadasDoMatador
+        def nFacadasAmiga
         def nTirosDaVitima
         def nTirosDoMatador
         def mapa
@@ -302,6 +305,17 @@ class RelatorioController {
 
                 ////////////// Facas
                 nRel = new Relatorio()
+
+                nFacadasAmiga = Vitima.executeQuery("select sum(facaAmiga)from Vitima where matador.nome=$jogador and date(dataFacada)=$dataRelatorio and facaAmiga=1").get(0)
+                nFacadasAmiga as Integer
+                println "nFacadasAmiga: " + nFacadasAmiga
+    //                nRel.nFacadasAmiga = nFacadasAmiga
+                if (nFacadasAmiga == null) {
+                    nFacadasAmiga = 0
+                    nRel.nFacadasAmiga = 0
+                }
+                else nRel.nFacadasAmiga = nFacadasAmiga
+
                 nFacadasDaVitima = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$jogador and date(dataFacada)=$dataRelatorio").get(0)
                 nFacadasDaVitima as Integer
                 println "nFacadasDaVitima: " + nFacadasDaVitima
@@ -310,14 +324,15 @@ class RelatorioController {
                     nFacadasDaVitima = 0
                     nRel.nFacadasVitima = 0
                 } else nRel.nFacadasVitima = nFacadasDaVitima
+
                 nFacadasDoMatador = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.matador.nome=$jogador and date(dataFacada)=$dataRelatorio").get(0)
                 nFacadasDoMatador as Integer
                 println "nFacadasDoMatador: " + nFacadasDoMatador
-                nRel.matador = jogador
+//                nRel.matador = jogador
                 if (nFacadasDoMatador == null) {
-                    nFacadasDoMatador = 0
-                    nRel.nFacadasMatador = 0
-                } else nRel.nFacadasMatador = nFacadasDoMatador
+                    nFacadasDoMatador = 0 - nFacadasAmiga
+                    nRel.nFacadasMatador = 0 - nFacadasAmiga
+                } else nRel.nFacadasMatador = nFacadasDoMatador - nFacadasAmiga
 
                 def listVitimas = Facadas.executeQuery("select distinct vitima.vitima.nome from Facadas where vitima.matador.nome=$jogador and date(dataFacada)=$dataRelatorio")
                 //            println listVitimas
@@ -358,10 +373,27 @@ class RelatorioController {
                 println "Facadas: " + jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima
                 println "Tiros: " + jogador + " - " + nTirosDoMatador + " - " + nTirosDaVitima
                 println "KD: " + jogador + " - " + kd
+
+                ///////////////////////////////////////////// JSON
+//                JsonBuilder builder = new JsonBuilder()
+//                builder.gamer {
+//                    nome jogador
+//                    facaDada nFacadasDoMatador
+//                    facaLevada nFacadasDaVitima
+//                }
+//                String json = JsonOutput.prettyPrint(builder.toString())
+//                println "json: " + json
+
                 println "----------------------------"
+
 //            }
         }
 
+
+
+
+        println "listMatador: " + relatorioList.matador.toSorted()
+        println "listFacas: " + relatorioList.nFacadasMatador
 
 //        println "nFacadas: " + nFacadas
 //        println "nFacadas: " + nRelList.nFacadasMatador
@@ -401,8 +433,8 @@ class RelatorioController {
             println "view: facadas"
         }
         else {
-            render(view:'index',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
-            boaTarde:boaTarde, relAmiga: relAmiga, mapaFinal: listMapa, listHoraInicio: listHoraInicio])
+            render(view:'index',model:[facadasList:lista, listaAlgozes:listaAlgozes, jogadoresList:jogadores, nRelList:relatorioList, data:dataRelatorio, relFacas:relFacas,
+                                       boaTarde   :boaTarde, relAmiga: relAmiga, mapaFinal: listMapa, listHoraInicio: listHoraInicio])
             println "view: index"
         }
     }

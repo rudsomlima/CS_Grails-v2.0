@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,36 +13,32 @@
 </head>
 
 <style>
-
 body {
-    %{--background-image:url('${resource(dir: "images/", file: "fundo.jpg")}');height: 250px;background-repeat: no-repeat;background-position: center;width:1000px;--}%
+%{--background-image:url('${resource(dir: "images/", file: "fundo.jpg")}');height: 250px;background-repeat: no-repeat;background-position: center;width:1000px;--}%
     background-color: #002a80;
 }
-
 levou {
     style: "vertical-align: middle"
 }
-
 table {
     font: 11px/24px 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif,  Open Sans;
     border-collapse: collapse;
     width: 320px;
 }
-
 </style>
 
 <body style="background-color: #122b40" >
 
 %{--<ul class="nav nav-pills">--}%
-    %{--<li class="active">--}%
-        %{--<a href="/cs/relatorio">Relatórios</a>--}%
-    %{--</li>--}%
-    %{--<li><a href="/cs/teste/upload">Upload</a></li>--}%
-    %{--<li>${data.format('dd-MM-yyyy')}</li>--}%
+%{--<li class="active">--}%
+%{--<a href="/cs/relatorio">Relatórios</a>--}%
+%{--</li>--}%
+%{--<li><a href="/cs/teste/upload">Upload</a></li>--}%
+%{--<li>${data.format('dd-MM-yyyy')}</li>--}%
 %{--</ul>--}%
 
 
-    <g:link controller="relatorio" action="index" params="[id: data.format('yyyy-MM-dd 00:00:00'), tipo: 'facadas']"><span class="btn btn-success btn-lg">Mano a mano: ${data.format('dd-MM-yyyy')}</span></g:link>
+<g:link controller="relatorio" action="index" params="[id: data.format('yyyy-MM-dd 00:00:00'), tipo: 'facadas']"><span class="btn btn-success btn-lg">Mano a mano: ${data.format('dd-MM-yyyy')}</span></g:link>
 </div>
 <br/>
 
@@ -63,32 +58,32 @@ table {
                     </div>
                 </div>
             </div>
-                <div class="panel-footer">
-                    <div class="row">
-                        <div class="col-xs-9">
-                            <g:each in="${nRelList.sort{-it.nTirosMatador}}" status="k" var="matador">
-                                <g:if test="${matador.matador.indexOf("XXBOT")<0 & matador.nTirosMatador>0}" >
-                                    <tr>
-                                        <td id="matador" style="vertical-align: middle">
-                                            <h4> ${matador.matador} </h4>
-                                        </td>
-                                    </tr>
-                                </g:if>
-                            </g:each>
-                        </div>
-                        <div class="col-xs-3 text-center">
-                            <g:each in="${nRelList.sort{-it.nTirosMatador}}" status="l" var="matador">
-                                <g:if test="${matador.matador.indexOf("XXBOT")<0 & matador.nTirosMatador>0}" >
-                                    <tr>
-                                        <td id="nMatador" style="vertical-align: middle">
-                                            <h4> ${matador.nTirosMatador} </h4>
-                                        </td>
-                                    </tr>
-                                </g:if>
-                            </g:each>
-                        </div>
+            <div class="panel-footer">
+                <div class="row">
+                    <div class="col-xs-9">
+                        <g:each in="${nRelList.sort{-it.nTirosMatador}}" status="k" var="matador">
+                            <g:if test="${matador.matador.indexOf("XXBOT")<0 & matador.nTirosMatador>0}" >
+                                <tr>
+                                    <td id="matador" style="vertical-align: middle">
+                                        <h4> ${matador.matador} </h4>
+                                    </td>
+                                </tr>
+                            </g:if>
+                        </g:each>
+                    </div>
+                    <div class="col-xs-3 text-center">
+                        <g:each in="${nRelList.sort{-it.nTirosMatador}}" status="l" var="matador">
+                            <g:if test="${matador.matador.indexOf("XXBOT")<0 & matador.nTirosMatador>0}" >
+                                <tr>
+                                    <td id="nMatador" style="vertical-align: middle">
+                                        <h4> ${matador.nTirosMatador} </h4>
+                                    </td>
+                                </tr>
+                            </g:if>
+                        </g:each>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
     <div class="col-lg-3 col-md-6">
@@ -104,77 +99,82 @@ table {
                     </div>
                 </div>
             </div>
-                <div class="panel-footer">
-                    <div class="row">
-                        <div class="col-xs-8">
-                            <div class="clearfix"></div>
-                                <g:each in="${nRelList.sort{it.kd}}" status="l" var="peneira">
-                                    <g:if test="${peneira.matador.indexOf("XXBOT")<0 & peneira.nTirosVitima>0}" >
-                                        <tr>
-                                            <td id="peneira" style="vertical-align: middle">
-                                                <h4> ${peneira.matador} </h4>
-                                            </td>
-                                        </tr>
-                                    </g:if>
-                                </g:each>
-                        </div>
-                        <div class="text-center">
-                            <g:each in="${nRelList.sort{it.kd}}" status="l" var="peneira">
-                                <g:if test="${peneira.matador.indexOf("XXBOT")<0 & peneira.nTirosVitima>0}" >
-                                    <tr>
-                                        <td id="nPeneira" style="vertical-align: middle">
-                                            <h4> ${peneira.nTirosVitima} &nbsp (${String.format("%.3f", peneira.kd)}) </h4>
-                                        </td>
-                                    </tr>
-                                </g:if>
-                            </g:each>
-                        </div>
+            <div class="panel-footer">
+                <div class="row">
+                    <div class="col-xs-8">
+                        <div class="clearfix"></div>
+                        <g:each in="${nRelList.sort{it.kd}}" status="l" var="peneira">
+                            <g:if test="${peneira.matador.indexOf("XXBOT")<0 & peneira.nTirosVitima>0}" >
+                                <tr>
+                                    <td id="peneira" style="vertical-align: middle">
+                                        <h4> ${peneira.matador} </h4>
+                                    </td>
+                                </tr>
+                            </g:if>
+                        </g:each>
+                    </div>
+                    <div class="text-center">
+                        <g:each in="${nRelList.sort{it.kd}}" status="l" var="peneira">
+                            <g:if test="${peneira.matador.indexOf("XXBOT")<0 & peneira.nTirosVitima>0}" >
+                                <tr>
+                                    <td id="nPeneira" style="vertical-align: middle">
+                                        <h4> ${peneira.nTirosVitima} &nbsp (${String.format("%.3f", peneira.kd)}) </h4>
+                                    </td>
+                                </tr>
+                            </g:if>
+                        </g:each>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
     <div class="col-lg-3 col-md-6">
         <div class="panel panel-warning">
             <div class="panel-heading">
                 <g:link controller="relatorio" action="index" params="[id: data.format('yyyy-MM-dd 00:00:00'), tipo: 'facadas']">
-                <div class="row">
-                    <div class="col-xs-3 text-center">
-                        <img src="${resource(dir: 'images', file: '002-knife.png')}" width="100%"/>
+                    <div class="row">
+                        <div class="col-xs-3 text-center">
+                            <img src="${resource(dir: 'images', file: '002-knife.png')}" width="100%"/>
+                        </div>
+                        <div class="col-xs-9 text-right">
+                            <div class="huge"><h2>BOA TARDE</h2></div>
+                            <div><h4>${boaTarde}</h4></div>
+                        </div>
                     </div>
-                    <div class="col-xs-9 text-right">
-                        <div class="huge"><h2>BOA TARDE</h2></div>
-                        <div><h4>${boaTarde}</h4></div>
-                    </div>
-                </div>
                 </g:link>
             </div>
-                <div class="panel-footer">
-                    <div class="clearfix"></div>
-                    <div class="row">
-                        <div class="col-xs-9">
-                            <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
-                                <g:if test="${esfaqueador.nFacadasMatador>0}" >
-                                    <tr>
-                                        <td id="esfaqueador" style="vertical-align: middle">
-                                            <h4> ${esfaqueador.matador} </h4>
-                                        </td>
-                                    </tr>
-                                </g:if>
-                            </g:each>
-                        </div>
-                        <div class="col-xs-3 text-center">
-                            <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
-                                <g:if test="${esfaqueador.nFacadasMatador>0}" >
-                                    <tr>
-                                        <td id="nEsfaqueador" style="vertical-align: middle">
-                                            <h4> ${esfaqueador.nFacadasMatador} </h4>
-                                        </td>
-                                    </tr>
-                                </g:if>
-                            </g:each>
-                        </div>
+            <div class="panel-footer">
+                <div class="clearfix"></div>
+                <div class="row">
+                    <div class="col-xs-9">
+                        <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
+                            <g:if test="${esfaqueador.nFacadasMatador>0}" >
+                                <tr>
+                                    <td id="esfaqueador" style="vertical-align: middle">
+                                        <h4> ${esfaqueador.matador}
+                                        <g:if test="${esfaqueador.nFacadasAmiga>0}">
+                                              <class id="facaAmiga" style="color: red"> (-${esfaqueador.nFacadasAmiga})
+                                              </class>
+                                        </g:if>
+                                            </h4>
+                                    </td>
+                                </tr>
+                            </g:if>
+                        </g:each>
+                    </div>
+                    <div class="col-xs-3 text-center">
+                        <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
+                            <g:if test="${esfaqueador.nFacadasMatador>0}" >
+                                <tr>
+                                    <td id="nEsfaqueador" style="vertical-align: middle">
+                                        <h4> ${esfaqueador.nFacadasMatador} </h4>
+                                    </td>
+                                </tr>
+                            </g:if>
+                        </g:each>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
     <div class="col-lg-3 col-md-6">
@@ -190,10 +190,10 @@ table {
                     </div>
                 </div>
             </div>
-                <div class="panel-footer">
-                    <div class="clearfix"></div>
-                    <div class="row">
-                        <div class="col-xs-9">
+            <div class="panel-footer">
+                <div class="clearfix"></div>
+                <div class="row">
+                    <div class="col-xs-9">
                         <g:each in="${nRelList.sort{-it.nFacadasVitima}}" status="l" var="esfaqueador">
                             <g:if test="${esfaqueador.nFacadasVitima>0}" >
                                 <tr>
@@ -203,20 +203,20 @@ table {
                                 </tr>
                             </g:if>
                         </g:each>
-                        </div>
-                        <div class="col-xs-3 text-center">
-                            <g:each in="${nRelList.sort{-it.nFacadasVitima}}" status="l" var="esfaqueador">
-                                <g:if test="${esfaqueador.nFacadasVitima>0}" >
-                                    <tr>
-                                        <td id="nIma" style="vertical-align: middle">
-                                            <h4> ${esfaqueador.nFacadasVitima} </h4>
-                                        </td>
-                                    </tr>
-                                </g:if>
-                            </g:each>
-                        </div>
+                    </div>
+                    <div class="col-xs-3 text-center">
+                        <g:each in="${nRelList.sort{-it.nFacadasVitima}}" status="l" var="esfaqueador">
+                            <g:if test="${esfaqueador.nFacadasVitima>0}" >
+                                <tr>
+                                    <td id="nIma" style="vertical-align: middle">
+                                        <h4> ${esfaqueador.nFacadasVitima} </h4>
+                                    </td>
+                                </tr>
+                            </g:if>
+                        </g:each>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
 </div>
@@ -240,11 +240,11 @@ table {
                     <div class="row">
                         <div class="col-xs-9" >
                             <g:each in="${relAmiga}" status="x" var="faca">
-                                    <tr>
-                                        <td id="facaAmiga" style="vertical-align: middle">
-                                            <h4> ${faca.facaAmiga} </h4>
-                                        </td>
-                                    </tr>
+                                <tr>
+                                    <td id="facaAmiga" style="vertical-align: middle">
+                                        <h4> ${faca.facaAmiga} </h4>
+                                    </td>
+                                </tr>
                             </g:each>
                         </div>
                     </div>
@@ -254,37 +254,37 @@ table {
     </g:if>
 
 
-        <div class="col-lg-3 col-md-6">
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-xs-3 text-center">
-                            <img src="${resource(dir: 'images', file: 'flag.png')}" width="100%"/>
-                        </div>
-                        <div class="col-xs-9 text-right">
-                            <div class="huge"> <h2>MAPAS</h2></div>
-                            <div><h4>CT x TERROR - Início - Fim</h4></div>
-                        </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3 text-center">
+                        <img src="${resource(dir: 'images', file: 'flag.png')}" width="100%"/>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge"> <h2>MAPAS</h2></div>
+                        <div><h4>CT x TERROR - Início - Fim</h4></div>
                     </div>
                 </div>
-                <div class="panel-footer">
-                    <div class="row">
-                        <div class="col-xs-12 text-right" >
+            </div>
+            <div class="panel-footer">
+                <div class="row">
+                    <div class="col-xs-12 text-right" >
 
-                                    <td id="facaAmiga" style="vertical-align: middle" >
-                                        %{--<h4> ${mapaFinal} </h4>--}%
-                                        <h4>
-                                            <g:each in="${mapaFinal}">
-                                                ${it}   <br>
-                                            </g:each>
-                                        </h4>
-                                    </td>
+                        <td id="facaAmiga" style="vertical-align: middle" >
+                            %{--<h4> ${mapaFinal} </h4>--}%
+                            <h4>
+                                <g:each in="${mapaFinal}">
+                                    ${it}   <br>
+                                </g:each>
+                            </h4>
+                        </td>
 
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
 </div>

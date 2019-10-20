@@ -66,7 +66,12 @@
                                 %{--<g:if test="${jogador.nome.indexOf("XXBOT")<0}">--}%
                                 <tr>
                                     <td id="jogador" style="vertical-align: middle">
-                                        <h4>${jogador}</h4>
+                                        <h4>${jogador}
+                                        <g:if test="${nRelList.nFacadasAmiga[j]>0}">
+                                            <class id="facaAmiga" style="color: red"> (-${nRelList.nFacadasAmiga[j]})
+                                            </class>
+                                        </g:if>
+                                        </h4>
                                     </td>
 
                                     <td>
