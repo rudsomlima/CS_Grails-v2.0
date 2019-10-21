@@ -11,6 +11,8 @@ class TesteController {
         int progresso = 0
         int n_linha=0
         def dataLog
+        String dataFacada
+        String dataFacadaAnt
         String resultadoFinal = ""
         def pulaLinha = 0
         Integer CT, TERRORIST
@@ -45,6 +47,12 @@ class TesteController {
                         if (linha.contains("with \"knife\"") && !linha.contains("suicide")) {
 
                             //Registra as ordens das facadas
+                            dataFacada = linha.substring(2, 12)
+                            if(dataFacada!=dataFacadaAnt) {
+                                println "@@@@@@@@@@@@@@@@@@@ data diferente"
+                                dataFacadaAnt = dataFacada
+                                ordemFacada = 0
+                            }
                             ordemFacada = ordemFacada + 1
                             println "-------------------- ordemFacada: " + ordemFacada
 
@@ -99,7 +107,7 @@ class TesteController {
 
                             Facadas facada = new Facadas()
                             facada.qtdeFacadas = 1
-                            String dataFacada = linha.substring(2, 12)
+//                            String dataFacada = linha.substring(2, 12)
                             String horaFacada = linha.substring(15, 23)
                             dataFacada = dataFacada + " " + horaFacada
                             println "Data original: " + dataFacada
@@ -255,7 +263,7 @@ class TesteController {
 
                             Tiros tiro = new Tiros()
                             tiro.qtdeTiros = 1
-                            String dataFacada = linha.substring(2, 12)
+                            dataFacada = linha.substring(2, 12)
 //                            println "Data original: " + dataFacada
                             Date dataFacadaFormatada = Date.parse('MM/dd/yyyy', dataFacada)
 //                            println "Data convertida: " + dataFacadaFormatada.format('yyyy-MM-dd')

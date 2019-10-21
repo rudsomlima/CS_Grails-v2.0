@@ -151,11 +151,13 @@ table {
                             <g:if test="${esfaqueador.nFacadasMatador>0}" >
                                 <tr>
                                     <td id="esfaqueador" style="vertical-align: middle">
-                                        <h4> ${esfaqueador.ordemFacada}&deg - ${esfaqueador.matador}
+                                        <h4>${esfaqueador.matador}
+                                            <class id="facaAmiga" style="font-size:11px">${esfaqueador.ordemFacada}&deg</class>
                                         <g:if test="${esfaqueador.nFacadasAmiga>0}">
                                             <class id="facaAmiga" style="color: red"> <b> (-${esfaqueador.nFacadasAmiga}) </b>
                                               </class>
                                         </g:if>
+
                                             </h4>
                                     </td>
                                 </tr>

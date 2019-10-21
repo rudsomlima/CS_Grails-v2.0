@@ -235,7 +235,8 @@ class RelatorioController {
             ge 'dataFacada', dataRelatorio
         }
 
-        def listaTiros = Tiros.executeQuery("from Tiros where date(dataTiro)=$dataRelatorio")
+//        def listaTiros = Tiros.executeQuery("from Tiros where date(dataTiro)=2019-10-06")
+        def listaTiros = Tiros.findAll(dataTiro: dataRelatorio)
         println "listaTiros: " + listaTiros
 
         lista = lista + listaTiros
@@ -267,7 +268,7 @@ class RelatorioController {
 
 
         def boaTarde = Vitima.executeQuery("from Vitima where date(dataFacada)=$dataRelatorio and ehFaca=1 and ehBot=0 order by dataFacada asc")
-        if(boaTarde!="") boaTarde = boaTarde.get(0)
+        if(!boaTarde.isEmpty()) boaTarde = boaTarde.get(0)
         println "boaTarde: " + boaTarde
 
         List facaAmiga = Vitima.executeQuery("from Vitima where date(dataFacada)=$dataRelatorio and facaAmiga=1 order by dataFacada asc")
@@ -364,6 +365,7 @@ class RelatorioController {
                 /////////// Tiros
 
                 nTirosDoMatador = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.matador.nome=$jogador and date(dataTiro)=$dataRelatorio").get(0)
+                println "nTiros: " + nTirosDoMatador
                 nTirosDoMatador as Integer
                 nRel.matador = jogador
                 println "nTirosDoMatador: " + nTirosDoMatador
