@@ -4,6 +4,10 @@ class RelatorioController {
 
     static defaultAction = "principal"
 
+    def tabela() {
+        render(view: "tabela")
+    }
+
     def periodo() {
         String dataInicio = params.dataI
         String dataFim = params.dataF
@@ -289,12 +293,13 @@ class RelatorioController {
         def relFac
         def ordemFacada
         def ordemFacadaVitima
-        def nFacadasDaVitima
-        def nFacadasDoMatador
+        def nFacadasDaVitima, nFacadasDaVitimaAnt
+        def nFacadasDoMatador, nFacadasDoMatadorAnt
         def nFacadasAmiga
-        def nTirosDaVitima
-        def nTirosDoMatador
+        def nTirosDaVitima, nTirosDaVitimaAnt
+        def nTirosDoMatador, nTirosDoMatadorAnt
         def mapa
+        def campeaoMatador, campeaoPeneira, campeaoEsfaqueador, campeaoIma, campeaoMapa
 //        def facaAmiga
         def jogadores = []
         float kd
@@ -350,7 +355,7 @@ class RelatorioController {
                     ordemFacadaVitima = 0
                     nRel.ordemFacadaVitima = 0
                 } else {
-                    println "Entrouuuu     ordemFacada: " + ordemFacadaVitima
+                    println "Entrouuuu ordemFacada: " + ordemFacadaVitima
                     ordemFacadaVitima = ordemFacadaVitima.get(0)
                     ordemFacadaVitima as Integer
                     nRel.ordemFacadaVitima = ordemFacadaVitima
@@ -389,6 +394,13 @@ class RelatorioController {
                     nTirosDoMatador = 0  // kill/death
                     println "Entrou no nTirosDoMatador: " + kd
                 } else nRel.nTirosMatador = nTirosDoMatador + nFacadasDoMatador
+
+                if(nTirosDoMatadorAnt>nTirosDoMatador) {
+
+                }
+
+
+
                 nTirosDaVitima = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.vitima.nome=$jogador and date(dataTiro)=$dataRelatorio").get(0)
                 nTirosDaVitima as Integer
                 println "nTirosDaVitima: " + nTirosDaVitima
@@ -445,6 +457,9 @@ class RelatorioController {
         }
 
         //////////////////// DEFINE RESULTADO FINAL
+        println "relatorioList.sort(nTirosDoMatador): " +  relatorioList.nTirosMatador
+        println "relatorioList.nTirosMatador: " + relatorioList.nTirosMatador.indexOf(relatorioList.nTirosMatador.max())
+        println relatorioList.matador.get(relatorioList.nTirosMatador.indexOf(relatorioList.nTirosMatador.max()))
 
         if(params.tipo=='facadas') {
             render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
