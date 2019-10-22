@@ -64,7 +64,7 @@
                             %{--<g:set var="n" value="${nFacasList.nFacadasMatador[0]}"/>--}%
                             <g:each in="${jogadoresList}" status="j" var="jogador">
                                 %{--<g:if test="${jogador.nome.indexOf("XXBOT")<0}">--}%
-                                <g:if test="${nRelList.nFacadasMatador[j]>0 & nRelList.nFacadasVitima[j]>0}">
+                                <g:if test="${ (nRelList.nFacadasMatador[j]>0 & nRelList.nFacadasVitima[j]>0) | (nRelList.nFacadasAmiga[j]>0)}">
                                     <tr>
                                         <td id="jogador" style="vertical-align: middle">
                                             <h4>${jogador}
