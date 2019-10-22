@@ -148,7 +148,7 @@ table {
                 <div class="row">
                     <div class="col-xs-9">
                         <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
-                            <g:if test="${esfaqueador.nFacadasMatador>0}" >
+                            <g:if test="${esfaqueador.nFacadasMatador>0 | esfaqueador.nFacadasAmiga>0}" >
                                 <tr>
                                     <td id="esfaqueador" style="vertical-align: middle">
                                         <h4>${esfaqueador.matador}
@@ -166,7 +166,7 @@ table {
                     </div>
                     <div class="col-xs-3 text-center">
                         <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
-                            <g:if test="${esfaqueador.nFacadasMatador>0}" >
+                            <g:if test="${esfaqueador.nFacadasMatador>0 | esfaqueador.nFacadasAmiga>0}" >
                                 <tr>
                                     <td id="nEsfaqueador" style="vertical-align: middle">
                                         <h4> ${esfaqueador.nFacadasMatador} </h4>
