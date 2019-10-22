@@ -327,7 +327,7 @@ class RelatorioController {
                 if (nFacadasDaVitima == null) {
                     nFacadasDaVitima = 0
                     nRel.nFacadasVitima = 0
-                } else nRel.nFacadasVitima = nFacadasDaVitima
+                } else nRel.nFacadasVitima = nFacadasDaVitima + nFacadasAmiga
 
                 ordemFacada = Vitima.executeQuery("select ordemFacada from Vitima where matador.nome=$jogador and ehFaca=1 and date(dataFacada)=$dataRelatorio")
                 println "ordemFacada: " + ordemFacada

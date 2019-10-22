@@ -69,8 +69,10 @@
                                         <td id="jogador" style="vertical-align: middle">
                                             <h4>${jogador}
                                             <g:if test="${nRelList.nFacadasAmiga[j]>0}">
-                                                <class id="facaAmiga" style="color: red"> <b> (-${nRelList.nFacadasAmiga[j]}) </b>
+                                                <div>
+                                                <class id="facaAmiga" style="color: red"> Faca amiga: ${nRelList.nFacadasAmiga[j]}
                                                 </class>
+                                                </div>
                                             </g:if>
                                             </h4>
                                         </td>

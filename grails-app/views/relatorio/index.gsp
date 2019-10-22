@@ -200,7 +200,12 @@ table {
                             <g:if test="${esfaqueador.nFacadasVitima>0}" >
                                 <tr>
                                     <td id="ima" style="vertical-align: middle">
-                                        <h4>${esfaqueador.matador}</h4>
+                                        <h4>${esfaqueador.matador}
+                                            <g:if test="${esfaqueador.nFacadasAmiga>0}">
+                                                <class id="facaAmiga" style="color: red"> <b> (+${esfaqueador.nFacadasAmiga}) </b>
+                                                </class>
+                                            </g:if>
+                                        </h4>
                                     </td>
                                 </tr>
                             </g:if>

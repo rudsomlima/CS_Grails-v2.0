@@ -14,8 +14,8 @@
 <body>
 
 <div>
-    <a class="btn btn-primary btn-lg" href="/relatorio" role="button">Relatórios</a>
-    <a class="btn btn-danger btn-lg" href="/teste/upload" role="button">Upload</a>
+    <a class="btn btn-primary btn-lg" href="/cs/relatorio" role="button">Relatórios</a>
+    <a class="btn btn-danger btn-lg" href="/cs/teste/upload" role="button">Upload</a>
 
 
     %{--<ul class="nav nav-pills">--}%
