@@ -13,6 +13,7 @@ class Relatorio {
     int nTirosVitima
     int nTirosMatador
     int ordemFacada
+    int ordemFacadaVitima
     float kd
     String resultado
 

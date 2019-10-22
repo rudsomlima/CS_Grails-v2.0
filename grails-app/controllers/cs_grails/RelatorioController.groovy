@@ -288,6 +288,7 @@ class RelatorioController {
         def nRel
         def relFac
         def ordemFacada
+        def ordemFacadaVitima
         def nFacadasDaVitima
         def nFacadasDoMatador
         def nFacadasAmiga
@@ -329,6 +330,7 @@ class RelatorioController {
                     nRel.nFacadasVitima = 0
                 } else nRel.nFacadasVitima = nFacadasDaVitima + nFacadasAmiga
 
+                ////////////////////// ORDEM QUE O MATADOR LEVOU A FACA
                 ordemFacada = Vitima.executeQuery("select ordemFacada from Vitima where matador.nome=$jogador and ehFaca=1 and date(dataFacada)=$dataRelatorio")
                 println "ordemFacada: " + ordemFacada
                 if (ordemFacada == []) {
@@ -339,6 +341,19 @@ class RelatorioController {
                     ordemFacada = ordemFacada.get(0)
                     ordemFacada as Integer
                     nRel.ordemFacada = ordemFacada
+                }
+
+                ////////////////////// ORDEM QUE A VÍTIMA LEVOU A FACA
+                ordemFacadaVitima = Vitima.executeQuery("select ordemFacada from Vitima where vitima.nome=$jogador and ehFaca=1 and date(dataFacada)=$dataRelatorio")
+                println "ordemFacadaVitima: " + ordemFacadaVitima
+                if (ordemFacadaVitima == []) {
+                    ordemFacadaVitima = 0
+                    nRel.ordemFacadaVitima = 0
+                } else {
+                    println "Entrouuuu     ordemFacada: " + ordemFacadaVitima
+                    ordemFacadaVitima = ordemFacadaVitima.get(0)
+                    ordemFacadaVitima as Integer
+                    nRel.ordemFacadaVitima = ordemFacadaVitima
                 }
 
                 nFacadasDoMatador = Facadas.executeQuery("select sum(qtdeFacadas) from Facadas where vitima.matador.nome=$jogador and date(dataFacada)=$dataRelatorio").get(0)
