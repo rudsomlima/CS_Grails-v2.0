@@ -15,7 +15,6 @@ class Relatorio {
     int ordemFacada
     int ordemFacadaVitima
     float kd
-    String resultado
 
     static constraints = {
     }

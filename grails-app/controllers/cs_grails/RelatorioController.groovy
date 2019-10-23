@@ -124,6 +124,8 @@ class RelatorioController {
                 relFacas.add(relFac)
             }
 
+
+
             println "relFacas: " + relFacas.matador
             /////////// Tiros
 
@@ -150,9 +152,18 @@ class RelatorioController {
             }
             nRel.kd = kd
 
+//            if (!nRel.hasErrors()) {
+//                nRel.save(flush: true)
+//                println "-------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+//            }
+//            else println "---kkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
+
             relatorioList.add(nRel)
+
             println "Facadas: " + jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima
             println "Tiros: " + jogador + " - " + nTirosDoMatador + " - " + nTirosDaVitima
+            println "KD: " + jogador + " - " + kd
+            println "----------------------------"
             println "KD: " + jogador + " - " + kd
             println "----------------------------"
 
@@ -399,8 +410,6 @@ class RelatorioController {
 
                 }
 
-
-
                 nTirosDaVitima = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.vitima.nome=$jogador and date(dataTiro)=$dataRelatorio").get(0)
                 nTirosDaVitima as Integer
                 println "nTirosDaVitima: " + nTirosDaVitima
@@ -412,6 +421,15 @@ class RelatorioController {
                     kd = nRel.nTirosMatador / nRel.nTirosVitima // kill/death
                 }
                 nRel.kd = kd
+
+
+//                if (!nRel.save(flush:true)) {
+//                    nRel.errors.allErrors.each {
+//                        println it
+//                    }
+//                }
+
+//                nRel.save(flush:true)
 
                 relatorioList.add(nRel)
                 println "relatorioList.jogador: " + relatorioList.jogador
@@ -457,9 +475,30 @@ class RelatorioController {
         }
 
         //////////////////// DEFINE RESULTADO FINAL
-        println "relatorioList.sort(nTirosDoMatador): " +  relatorioList.nTirosMatador
-        println "relatorioList.nTirosMatador: " + relatorioList.nTirosMatador.indexOf(relatorioList.nTirosMatador.max())
-        println relatorioList.matador.get(relatorioList.nTirosMatador.indexOf(relatorioList.nTirosMatador.max()))
+//        println "relatorioList.sort(nTirosDoMatador): " +  relatorioList.nTirosMatador
+//        println "relatorioList.nTirosMatador: " + relatorioList.nTirosMatador.indexOf(relatorioList.nTirosMatador.max())
+//        println relatorioList.matador.get(relatorioList.nTirosMatador.indexOf(relatorioList.nTirosMatador.max()))
+//
+//        def facadasMax = relatorioList.nFacadasMatador.max()
+//        println "facadasMax: " + facadasMax
+//        println "relatorioList.nFacadasMatador: " +  relatorioList.findAll { it.nFacadasMatador==4 }.matador
+//        println "relatorioList.nFacadasMatador: " + relatorioList.nFacadasMatador.grep(relatorioList.nFacadasMatador.max())
+////        println relatorioList.matador.get(relatorioList.nFacadasMatador.indexOf(relatorioList.nFacadasMatador.max()))
+//
+//        def list = ['Apple', 'Banana', 'Carrot', 'Blueberry']
+//        def fruits = list.findAll { item ->
+//            item.length() >= 6 && item.contains('a')
+//        }
+//        println fruits
+
+//        def teste = Relatorio.executeQuery("select matador, max(nFacadasMatador) from Relatorio").get(0)
+//        println "teste: " + teste
+
+//        def campe = Facadas.executeQuery("select sum(qtdeFacadas) from Facadas where date(dataFacada)=$dataRelatorio").get(0)
+//        def campe = Relatorio.executeQuery("select matador from Relatorio")
+//        println "campe: " + campe
+
+        ///////////////////////////////////////////////////////////////////////////////
 
         if(params.tipo=='facadas') {
             render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
