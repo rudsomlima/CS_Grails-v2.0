@@ -340,7 +340,6 @@ class RelatorioController {
                 nFacadasDaVitima = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$jogador and date(dataFacada)=$dataRelatorio").get(0)
                 nFacadasDaVitima as Integer
                 println "nFacadasDaVitima: " + nFacadasDaVitima
-                nRel.vitima = jogador
                 if (nFacadasDaVitima == null) {
                     nFacadasDaVitima = 0
                     nRel.nFacadasVitima = 0
@@ -379,7 +378,10 @@ class RelatorioController {
                 if (nFacadasDoMatador == null) {
                     nFacadasDoMatador = 0 - nFacadasAmiga
                     nRel.nFacadasMatador = 0 - nFacadasAmiga
-                } else nRel.nFacadasMatador = nFacadasDoMatador - nFacadasAmiga
+                } else {
+                    nFacadasDoMatador = nFacadasDoMatador - nFacadasAmiga
+                    nRel.nFacadasMatador = nFacadasDoMatador - nFacadasAmiga
+                }
 
                 def listVitimas = Facadas.executeQuery("select distinct vitima.vitima.nome from Facadas where vitima.matador.nome=$jogador and date(dataFacada)=$dataRelatorio")
                 //            println listVitimas
@@ -479,10 +481,20 @@ class RelatorioController {
 //        println "relatorioList.nTirosMatador: " + relatorioList.nTirosMatador.indexOf(relatorioList.nTirosMatador.max())
 //        println relatorioList.matador.get(relatorioList.nTirosMatador.indexOf(relatorioList.nTirosMatador.max()))
 //
-//        def facadasMax = relatorioList.nFacadasMatador.max()
-//        println "facadasMax: " + facadasMax
-//        println "relatorioList.nFacadasMatador: " +  relatorioList.findAll { it.nFacadasMatador==4 }.matador
-//        println "relatorioList.nFacadasMatador: " + relatorioList.nFacadasMatador.grep(relatorioList.nFacadasMatador.max())
+        def nFacadasMax = relatorioList.nFacadasMatador.max()
+        println "nFacadasMax: " + nFacadasMax
+        def listNomeEsfaqueadoresMax = relatorioList.findAll { it.nFacadasMatador==nFacadasMax }.matador.sort()
+        println "listNomeEsfaqueadoresMax: " + listNomeEsfaqueadoresMax
+        def listnFacadasMax = relatorioList.nFacadasMatador.grep(relatorioList.nFacadasMatador.max())
+        println "listnFacadasMax: " + listnFacadasMax
+
+        ////verifica quem levou menos
+        def listNomeIma = lista.findAll { it.vitima==listNomeEsfaqueadoresMax }.matador
+        println "listNomeIma: " + listNomeIma
+        def listnFacadasMin = relatorioList.nFacadasVitima.grep(relatorioList.nFacadasVitima.min())
+        println "listnFacadasMin: " + listnFacadasMin
+
+
 ////        println relatorioList.matador.get(relatorioList.nFacadasMatador.indexOf(relatorioList.nFacadasMatador.max()))
 //
 //        def list = ['Apple', 'Banana', 'Carrot', 'Blueberry']
