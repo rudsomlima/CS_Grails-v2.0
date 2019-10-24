@@ -23,8 +23,8 @@ class TesteController {
         println dir.getAbsolutePath()
 
         if( dir.isDirectory()) {
-//            dir.delete()  //apaga os arquivos anteriores, se houverem
-            new File("uploadLogs").eachFile { file -> n_arquivo++; }
+            dir.delete()  //apaga os arquivos anteriores, se houverem
+            new File("uploadLogs").listFiles().sort() { file -> n_arquivo++; }
 
             def noBot = 0   //flag pra marcar somente a 1 facada
 
