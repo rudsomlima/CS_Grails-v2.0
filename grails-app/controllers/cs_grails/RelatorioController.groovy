@@ -349,7 +349,7 @@ class RelatorioController {
                     nRel.nFacadasVitima = 0
                 } else nRel.nFacadasVitima = nFacadasDaVitima + nFacadasAmiga
 
-                ////////////////////// ORDEM QUE O MATADOR LEVOU A FACA
+                ////////////////////// ORDEM QUE O MATADOR DEU A FACA
                 ordemFacada = Vitima.executeQuery("select ordemFacada from Vitima where matador.nome=$jogador and ehFaca=1 and date(dataFacada)=$dataRelatorio")
                 println "ordemFacada: " + ordemFacada
                 if (ordemFacada == []) {
@@ -428,15 +428,6 @@ class RelatorioController {
                 }
                 nRel.kd = kd
 
-
-//                if (!nRel.save(flush:true)) {
-//                    nRel.errors.allErrors.each {
-//                        println it
-//                    }
-//                }
-
-//                nRel.save(flush:true)
-
                 relatorioList.add(nRel)
                 println "relatorioList.jogador: " + relatorioList.jogador
                 println "Facadas: " + jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima
@@ -448,21 +439,33 @@ class RelatorioController {
 
         println "listMatador: " + relatorioList.matador
         println "listFacasDadas: " + relatorioList.nFacadasMatador
-        println "listVitimas: " + relatorioList.vitima
+        println "ordemFacadas: " + relatorioList.ordemFacada
         println "listFacasRecebidas: " + relatorioList.nFacadasVitima
 
-//        def facasDadasMenosRecebida = []
-//        relatorioList.nFacadasMatador.eachWithIndex {m, index ->
-//            facasDadasMenosRecebida = m - relatorioList.nFacadasVitima.get(index)
-//            print "facasDadasMenosRecebida: " + facasDadasMenosRecebida + ", "
-//        }
-//        println "facasDadasMenosRecebida: " + facasDadasMenosRecebida
 
-//        def listFacaDadaMenosRecebida = relatorioList.nFacadasMatador.collect {it + relatorioList.nFacadasVitima}
-//        println "listFacaDadaMenosRecebida: " + listFacaDadaMenosRecebida
+        List listGame = []
+        relatorioList.matador.eachWithIndex {m, index->
+            def game=[:]
+            game.put('nome', m)
+            game.put('facaDada', relatorioList.nFacadasMatador[index])
+            game.put('facaRecebida', relatorioList.nFacadasVitima[index])
+            game.put('ordemFacaDada', relatorioList.ordemFacada[index])
+            listGame << game
+        }
+        println "listGame: " + listGame
 
-
-
+        def maxFacaDada = listGame.facaDada.max()
+        println "maxFacaDada: " + maxFacaDada
+        def maiorEsfaqueadores = listGame.findAll {it.facaDada==maxFacaDada}
+        println "maiorEsfaqueadores: " + maiorEsfaqueadores
+        def minFacaRecebida = maiorEsfaqueadores.facaRecebida.min()
+        println "minFacaRecebida: " + minFacaRecebida
+        def preCampeao = maiorEsfaqueadores.findAll {it.facaRecebida==minFacaRecebida}
+        println "preCampeao: " + preCampeao
+        def facadaPrimeiro = listGame.ordemFacaDada.min()
+        println "facadaPrimeiro: " + facadaPrimeiro
+        def campeaoFaca = preCampeao.findAll {it.ordemFacaDada==facadaPrimeiro}
+        println "campeaoFaca: " + campeaoFaca
 
 //        println "nFacadas: " + nFacadas
 //        println "nFacadas: " + nRelList.nFacadasMatador
@@ -472,13 +475,13 @@ class RelatorioController {
 
         ///// HORÁRIO DOS JOGOS /////////////////////////
         def listHoraInicio = TempoJogos.executeQuery("select dataGameStart from TempoJogos where date(dataGameStart)=$dataRelatorio order by dataGameStart asc")
-        println "listHoraInicio: " + listHoraInicio
+//        println "listHoraInicio: " + listHoraInicio
 
         ///// RESULTADO DOS MAPAS /////////////////////////
         def resultadoMapa = Partidas.executeQuery("select CT, TERRORIST, dataGame from Partidas where date(dataGame)=$dataRelatorio order by dataGame asc")
-        println "resultadoMapa: " + resultadoMapa
+//        println "resultadoMapa: " + resultadoMapa
         def listMapa = []
-        println "Tamanho: " + resultadoMapa.size()
+//        println "Tamanho: " + resultadoMapa.size()
 
 
         if (listHoraInicio.size() == resultadoMapa.size()) {
@@ -521,9 +524,6 @@ class RelatorioController {
 
 //        def campeao = listNomeImas.grep(relatorioList.nFacadasMatador.max())
 //        println "campeao: " + campeao
-
-
-
 
 
 ////        println relatorioList.matador.get(relatorioList.nFacadasMatador.indexOf(relatorioList.nFacadasMatador.max()))
