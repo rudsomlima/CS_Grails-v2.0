@@ -294,6 +294,50 @@ table {
     </div>
 
 
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3 text-center">
+                        <img src="${resource(dir: 'images', file: '005-magnetism.png')}" width="100%"/>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge"><h2>ÍMÃ</h2></div>
+                        <div><h4>Faca no lombo</h4></div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <div class="clearfix"></div>
+                <div class="row">
+                    <div class="col-xs-9">
+                        <g:each in="${nRelList.sort{-it.nFacadasVitima}}" status="l" var="esfaqueador">
+                            <g:if test="${esfaqueador.nFacadasVitima>0}" >
+                                <tr>
+                                    <td id="ima" style="vertical-align: middle">
+                                        <h4>${esfaqueador.matador}</h4>
+                                    </td>
+                                </tr>
+                            </g:if>
+                        </g:each>
+                    </div>
+                    <div class="col-xs-3 text-center">
+                        <g:each in="${nRelList.sort{-it.nFacadasVitima}}" status="l" var="esfaqueador">
+                            <g:if test="${esfaqueador.nFacadasVitima>0}" >
+                                <tr>
+                                    <td id="nIma" style="vertical-align: middle">
+                                        <h4> ${esfaqueador.nFacadasVitima} </h4>
+                                    </td>
+                                </tr>
+                            </g:if>
+                        </g:each>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </div>
 
 </body>

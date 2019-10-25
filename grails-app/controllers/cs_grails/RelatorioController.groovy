@@ -511,7 +511,7 @@ class RelatorioController {
         println "levouFacadaPrimeiro: " + levouFacadaPrimeiro
         def campeaoIma = preCampeaoIma.findAll {it.ordemFacaDada==levouFacadaPrimeiro}
         println "campeaoIma: " + campeaoIma.nome.get(0)
-
+        println "-------------------------"
 
 
 
@@ -564,26 +564,6 @@ class RelatorioController {
         def listCampeoes = listnFacadasIma.findAll{it==nImaMax}
         println "listCampeoes: " + listCampeoes
 
-//        def campeao = listNomeImas.grep(relatorioList.nFacadasMatador.max())
-//        println "campeao: " + campeao
-
-
-////        println relatorioList.matador.get(relatorioList.nFacadasMatador.indexOf(relatorioList.nFacadasMatador.max()))
-//
-//        def list = ['Apple', 'Banana', 'Carrot', 'Blueberry']
-//        def fruits = list.findAll { item ->
-//            item.length() >= 6 && item.contains('a')
-//        }
-//        println fruits
-
-//        def teste = Relatorio.executeQuery("select matador, max(nFacadasMatador) from Relatorio").get(0)
-//        println "teste: " + teste
-
-//        def campe = Facadas.executeQuery("select sum(qtdeFacadas) from Facadas where date(dataFacada)=$dataRelatorio").get(0)
-//        def campe = Relatorio.executeQuery("select matador from Relatorio")
-//        println "campe: " + campe
-
-        ///////////////////////////////////////////////////////////////////////////////
 
         if(params.tipo=='facadas') {
             render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
