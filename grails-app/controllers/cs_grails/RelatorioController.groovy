@@ -327,6 +327,10 @@ class RelatorioController {
                 nRel.jogador = jogador
                 println "nRel.jogador: " + nRel.jogador
 
+//                def vitima = Vitima.executeQuery("select vitima.nome from Vitima where matador.nome=$jogador and date(dataFacada)=$dataRelatorio")
+//                println "vitima: " + vitima
+//                nRel.vitima = vitima
+
                 nFacadasAmiga = Vitima.executeQuery("select sum(facaAmiga)from Vitima where matador.nome=$jogador and date(dataFacada)=$dataRelatorio and facaAmiga=1").get(0)
                 nFacadasAmiga as Integer
                 println "nFacadasAmiga: " + nFacadasAmiga
@@ -352,7 +356,7 @@ class RelatorioController {
                     ordemFacada = 0
                     nRel.ordemFacada = 0
                 } else {
-                    println "Entrouuuu     ordemFacada: " + ordemFacada
+                    println "Ordem facada matador: " + ordemFacada
                     ordemFacada = ordemFacada.get(0)
                     ordemFacada as Integer
                     nRel.ordemFacada = ordemFacada
@@ -365,7 +369,7 @@ class RelatorioController {
                     ordemFacadaVitima = 0
                     nRel.ordemFacadaVitima = 0
                 } else {
-                    println "Entrouuuu ordemFacada: " + ordemFacadaVitima
+                    println "ordemFacadaVitima: " + ordemFacadaVitima
                     ordemFacadaVitima = ordemFacadaVitima.get(0)
                     ordemFacadaVitima as Integer
                     nRel.ordemFacadaVitima = ordemFacadaVitima
@@ -442,8 +446,23 @@ class RelatorioController {
 //            }
         }
 
-        println "listMatador: " + relatorioList.matador.toSorted()
-        println "listFacas: " + relatorioList.nFacadasMatador
+        println "listMatador: " + relatorioList.matador
+        println "listFacasDadas: " + relatorioList.nFacadasMatador
+        println "listVitimas: " + relatorioList.vitima
+        println "listFacasRecebidas: " + relatorioList.nFacadasVitima
+
+//        def facasDadasMenosRecebida = []
+//        relatorioList.nFacadasMatador.eachWithIndex {m, index ->
+//            facasDadasMenosRecebida = m - relatorioList.nFacadasVitima.get(index)
+//            print "facasDadasMenosRecebida: " + facasDadasMenosRecebida + ", "
+//        }
+//        println "facasDadasMenosRecebida: " + facasDadasMenosRecebida
+
+//        def listFacaDadaMenosRecebida = relatorioList.nFacadasMatador.collect {it + relatorioList.nFacadasVitima}
+//        println "listFacaDadaMenosRecebida: " + listFacaDadaMenosRecebida
+
+
+
 
 //        println "nFacadas: " + nFacadas
 //        println "nFacadas: " + nRelList.nFacadasMatador
@@ -489,10 +508,22 @@ class RelatorioController {
         println "listnFacadasMax: " + listnFacadasMax
 
         ////verifica quem levou menos
-        def listNomeIma = lista.findAll { it.vitima==listNomeEsfaqueadoresMax }.matador
-        println "listNomeIma: " + listNomeIma
-        def listnFacadasMin = relatorioList.nFacadasVitima.grep(relatorioList.nFacadasVitima.min())
-        println "listnFacadasMin: " + listnFacadasMin
+        def listNomeImas = relatorioList.findAll {it.nFacadasVitima}.matador
+        println "listNomeImas: " + listNomeImas
+        def listnFacadasIma = relatorioList.findAll {it.nFacadasVitima}.nFacadasVitima
+        println "listnFacadasIma: " + listnFacadasIma
+
+        def nImaMax = listnFacadasIma.max()
+        println "nImaMax: " + nImaMax
+
+        def listCampeoes = listnFacadasIma.findAll{it==nImaMax}
+        println "listCampeoes: " + listCampeoes
+
+//        def campeao = listNomeImas.grep(relatorioList.nFacadasMatador.max())
+//        println "campeao: " + campeao
+
+
+
 
 
 ////        println relatorioList.matador.get(relatorioList.nFacadasMatador.indexOf(relatorioList.nFacadasMatador.max()))
