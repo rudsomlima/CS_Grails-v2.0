@@ -14,12 +14,12 @@ class Vitima {
     Integer ehFaca
     Integer facaAmiga
     Integer ordemFacada
-    Integer ordemFacadaVitima
+//    Integer ordemFacadaVitima
 
     static constraints = {
         matador nullable:false
         vitima nullable:false
-        ordemFacadaVitima nullable: true
+//        ordemFacadaVitima nullable: true
     }
 
     String toString() {

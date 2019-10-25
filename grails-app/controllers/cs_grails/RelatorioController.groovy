@@ -310,8 +310,6 @@ class RelatorioController {
         def nTirosDaVitima, nTirosDaVitimaAnt
         def nTirosDoMatador, nTirosDoMatadorAnt
         def mapa
-        def campeaoMatador, campeaoPeneira, campeaoEsfaqueador, campeaoIma, campeaoMapa
-//        def facaAmiga
         def jogadores = []
         float kd
         for(jogador in players.unique()){
@@ -447,13 +445,45 @@ class RelatorioController {
         relatorioList.matador.eachWithIndex {m, index->
             def game=[:]
             game.put('nome', m)
+            game.put('tiros', relatorioList.nTirosMatador[index])
+            game.put('mortes', relatorioList.nTirosVitima[index])
+            game.put('kd', relatorioList.kd[index])
             game.put('facaDada', relatorioList.nFacadasMatador[index])
             game.put('facaRecebida', relatorioList.nFacadasVitima[index])
             game.put('ordemFacaDada', relatorioList.ordemFacada[index])
+            game.put('ordemFacaRecebida', relatorioList.ordemFacadaVitima[index])
             listGame << game
         }
         println "listGame: " + listGame
 
+        /////////////////////////////////////////////// DEFINICAO DE CAMPEOES
+
+        //////////// matador
+        println "-----------------------matador"
+        def maxTiros = listGame.tiros.max()
+        println "maxTiros: " + maxTiros
+        def maiorAtirador = listGame.findAll {it.tiros==maxTiros}
+        println "maiorAtirador: " + maiorAtirador
+        def minMortes = maiorAtirador.mortes.min()
+        println "minMortes: " + minMortes
+        def campeaoTiro = maiorAtirador.findAll {it.mortes==minMortes}
+        println "campeaoTiro: " + campeaoTiro.nome.get(0)
+
+        //////////// Peneira
+        println "-----------------------peneira"
+        def peneiraSemBot = listGame.findAll {it.nome.indexOf("XXBOT")<0}
+        println "peneiraSemBot: " + peneiraSemBot
+        def minKd = peneiraSemBot.kd.min()
+        println "minKd: " + minKd
+        def menorKd = listGame.findAll {it.kd==minKd }
+        println "menorKd: " + menorKd
+        def maiorTiro = menorKd.tiros.min()
+        println "maiorTiro: " + maiorTiro
+        def campeaoPeneira = menorKd.findAll {it.tiros==maiorTiro}
+        println "campeaoPeneira: " + campeaoPeneira.nome.get(0)
+
+        //////////// esfaqueador
+        println "-----------------------esfaqueador"
         def maxFacaDada = listGame.facaDada.max()
         println "maxFacaDada: " + maxFacaDada
         def maiorEsfaqueadores = listGame.findAll {it.facaDada==maxFacaDada}
@@ -462,16 +492,28 @@ class RelatorioController {
         println "minFacaRecebida: " + minFacaRecebida
         def preCampeao = maiorEsfaqueadores.findAll {it.facaRecebida==minFacaRecebida}
         println "preCampeao: " + preCampeao
-        def facadaPrimeiro = listGame.ordemFacaDada.min()
+        def facadaPrimeiro = preCampeao.ordemFacaDada.min()
         println "facadaPrimeiro: " + facadaPrimeiro
         def campeaoFaca = preCampeao.findAll {it.ordemFacaDada==facadaPrimeiro}
-        println "campeaoFaca: " + campeaoFaca
+        println "campeaoFaca: " + campeaoFaca.nome.get(0)
+        println "----------------------IMA"
 
-//        println "nFacadas: " + nFacadas
-//        println "nFacadas: " + nRelList.nFacadasMatador
-//        println "nFacadas: " + nFacadasDaVitima
+        //////////// ima
+        def maxFacaRecebida = listGame.facaRecebida.max()
+        println "maxFacaRecebida: " + maxFacaRecebida
+        def maiorIma = listGame.findAll {it.facaRecebida==maxFacaRecebida}
+        println "maiorIma: " + maiorIma
+        def minFacaDada = maiorIma.facaDada.min()
+        println "minFacaDada: " + minFacaDada
+        def preCampeaoIma = maiorIma.findAll {it.facaDada==minFacaDada}
+        println "preCampeaoIma: " + preCampeaoIma
+        def levouFacadaPrimeiro = preCampeaoIma.ordemFacaDada.min()
+        println "levouFacadaPrimeiro: " + levouFacadaPrimeiro
+        def campeaoIma = preCampeaoIma.findAll {it.ordemFacaDada==levouFacadaPrimeiro}
+        println "campeaoIma: " + campeaoIma.nome.get(0)
 
-//		println jogadores
+
+
 
         ///// HORÁRIO DOS JOGOS /////////////////////////
         def listHoraInicio = TempoJogos.executeQuery("select dataGameStart from TempoJogos where date(dataGameStart)=$dataRelatorio order by dataGameStart asc")
