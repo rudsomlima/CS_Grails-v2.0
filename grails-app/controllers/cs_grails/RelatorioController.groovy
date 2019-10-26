@@ -247,11 +247,12 @@ class RelatorioController {
                     order('nome','asc')
                 }
             }
-            ge 'dataFacada', dataRelatorio
+            eq 'dataFacada', dataRelatorio.clearTime()  //cleartime não considera a hora
         }
 
+
 //        def listaTiros = Tiros.executeQuery("from Tiros where date(dataTiro)=2019-10-06")
-        def listaTiros = Tiros.findAll(dataTiro: dataRelatorio)
+        def listaTiros = Tiros.findAllByDataTiro(dataRelatorio)
         println "listaTiros: " + listaTiros
 
         lista = lista + listaTiros
@@ -266,7 +267,7 @@ class RelatorioController {
                     order('nome','asc')
                 }
             }
-            ge 'dataFacada', dataRelatorio.clearTime()
+            eq 'dataFacada', dataRelatorio.clearTime()   //cleartime não considera a hora
 
         }
 
@@ -367,7 +368,6 @@ class RelatorioController {
                     ordemFacadaVitima = 0
                     nRel.ordemFacadaVitima = 0
                 } else {
-                    println "ordemFacadaVitima: " + ordemFacadaVitima
                     ordemFacadaVitima = ordemFacadaVitima.get(0)
                     ordemFacadaVitima as Integer
                     nRel.ordemFacadaVitima = ordemFacadaVitima
@@ -410,19 +410,17 @@ class RelatorioController {
                     println "Entrou no nTirosDoMatador: " + kd
                 } else nRel.nTirosMatador = nTirosDoMatador + nFacadasDoMatador
 
-                if(nTirosDoMatadorAnt>nTirosDoMatador) {
-
-                }
-
                 nTirosDaVitima = Tiros.executeQuery("select sum(qtdeTiros)from Tiros where vitima.vitima.nome=$jogador and date(dataTiro)=$dataRelatorio").get(0)
                 nTirosDaVitima as Integer
                 println "nTirosDaVitima: " + nTirosDaVitima
                 if (nTirosDaVitima == null) {
                     nRel.nTirosVitima = 0
                     nTirosDaVitima = 0  // kill/death
+                    kd=0
                 } else {
                     nRel.nTirosVitima = nTirosDaVitima + nFacadasDaVitima
-                    kd = nRel.nTirosMatador / nRel.nTirosVitima // kill/death
+                    if(nTirosDoMatador && nTirosDaVitima==0) kd=0
+                    else kd = nTirosDoMatador / nTirosDaVitima // kill/death
                 }
                 nRel.kd = kd
 
@@ -475,7 +473,7 @@ class RelatorioController {
         println "peneiraSemBot: " + peneiraSemBot
         def minKd = peneiraSemBot.kd.min()
         println "minKd: " + minKd
-        def menorKd = listGame.findAll {it.kd==minKd }
+        def menorKd = peneiraSemBot.findAll {it.kd==minKd }
         println "menorKd: " + menorKd
         def maiorTiro = menorKd.tiros.min()
         println "maiorTiro: " + maiorTiro
