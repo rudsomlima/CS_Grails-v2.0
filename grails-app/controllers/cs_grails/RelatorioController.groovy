@@ -466,8 +466,8 @@ class RelatorioController {
         println "maiorAtirador: " + maiorAtirador
         def minMortes = maiorAtirador.mortes.min()
         println "minMortes: " + minMortes
-        def campeaoTiro = maiorAtirador.findAll {it.mortes==minMortes}
-        println "campeaoTiro: " + campeaoTiro.nome.get(0)
+        def campeaoTiro = maiorAtirador.findAll {it.mortes==minMortes}.nome.get(0)
+        println "campeaoTiro: " + campeaoTiro
 
         //////////// Peneira
         println "-----------------------peneira"
@@ -479,8 +479,8 @@ class RelatorioController {
         println "menorKd: " + menorKd
         def maiorTiro = menorKd.tiros.min()
         println "maiorTiro: " + maiorTiro
-        def campeaoPeneira = menorKd.findAll {it.tiros==maiorTiro}
-        println "campeaoPeneira: " + campeaoPeneira.nome.get(0)
+        def campeaoPeneira = menorKd.findAll {it.tiros==maiorTiro}.nome.get(0)
+        println "campeaoPeneira: " + campeaoPeneira
 
         //////////// esfaqueador
         println "-----------------------esfaqueador"
@@ -494,8 +494,8 @@ class RelatorioController {
         println "preCampeao: " + preCampeao
         def facadaPrimeiro = preCampeao.ordemFacaDada.min()
         println "facadaPrimeiro: " + facadaPrimeiro
-        def campeaoFaca = preCampeao.findAll {it.ordemFacaDada==facadaPrimeiro}
-        println "campeaoFaca: " + campeaoFaca.nome.get(0)
+        def campeaoFaca = preCampeao.findAll {it.ordemFacaDada==facadaPrimeiro}.nome.get(0)
+        println "campeaoFaca: " + campeaoFaca
         println "----------------------IMA"
 
         //////////// ima
@@ -509,11 +509,11 @@ class RelatorioController {
         println "preCampeaoIma: " + preCampeaoIma
         def levouFacadaPrimeiro = preCampeaoIma.ordemFacaDada.min()
         println "levouFacadaPrimeiro: " + levouFacadaPrimeiro
-        def campeaoIma = preCampeaoIma.findAll {it.ordemFacaDada==levouFacadaPrimeiro}
-        println "campeaoIma: " + campeaoIma.nome.get(0)
+        def campeaoIma = preCampeaoIma.findAll {it.ordemFacaDada==levouFacadaPrimeiro}.nome.get(0)
+        println "campeaoIma: " + campeaoIma
         println "-------------------------"
 
-
+        def listResultado = [campeaoTiro,campeaoPeneira,campeaoFaca,campeaoIma]
 
         ///// HORÁRIO DOS JOGOS /////////////////////////
         def listHoraInicio = TempoJogos.executeQuery("select dataGameStart from TempoJogos where date(dataGameStart)=$dataRelatorio order by dataGameStart asc")
@@ -571,7 +571,7 @@ class RelatorioController {
             println "view: facadas"
         }
         else {
-            render(view:'index',model:[facadasList:lista, listaAlgozes:listaAlgozes, jogadoresList:jogadores, nRelList:relatorioList, data:dataRelatorio, relFacas:relFacas,
+            render(view:'index',model:[listResultado:listResultado, facadasList:lista, listaAlgozes:listaAlgozes, jogadoresList:jogadores, nRelList:relatorioList, data:dataRelatorio, relFacas:relFacas,
                                        boaTarde   :boaTarde, relAmiga: relAmiga, mapaFinal: listMapa, listHoraInicio: listHoraInicio])
             println "view: index"
         }
