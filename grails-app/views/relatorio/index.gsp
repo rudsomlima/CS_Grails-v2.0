@@ -93,11 +93,11 @@ table {
                 <g:each in="${nRelList.sort{it.kd}}" status="l" var="peneira">
                     <g:if test="${peneira.matador.indexOf("XXBOT")<0 & peneira.nTirosVitima>0}" >
                         <div class="row">
-                            <div class="col-xs-9">
+                            <div class="col-xs-8">
                                 <h4> ${peneira.matador} </h4>
                             </div>
-                            <div class="col-xs-3 text-right">
-                                <h4>${peneira.nTirosVitima}</h4>
+                            <div class="text-center">
+                                <h4>${peneira.nTirosVitima} &nbsp (${String.format("%.2f", peneira.kd)})</h4>
                             </div>
                         </div>
                     </g:if>

@@ -112,7 +112,6 @@
                                             </g:if>
                                             </h4>
                                         </td>
-
                                         <td>
                                             <div>
                                                 <table id="tabela_pequena" class="table table-condensed table-striped" style="margin-bottom: 0px; font-size: smaller">
