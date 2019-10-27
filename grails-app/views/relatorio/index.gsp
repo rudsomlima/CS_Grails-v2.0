@@ -39,12 +39,13 @@ table {
 
 
 <g:link controller="relatorio" action="index" params="[id: data.format('yyyy-MM-dd 00:00:00'), tipo: 'facadas']"><span class="btn btn-success btn-lg">Mano a mano: ${data.format('dd-MM-yyyy')}</span></g:link>
-</div>
+
+<div></div>
+
 <br/>
 
-%{--<div class="bg-primary text-white">Nullam id dolor id nibh ultricies vehicula ut id elit.</div>--}%
-
 <div class="row">
+
     <div class="col-md-3">
         <div class="panel panel-primary">
             <div class="panel-heading">
@@ -59,33 +60,24 @@ table {
                 </div>
             </div>
             <div class="panel-footer">
-                <div class="row">
-                    <div class="col-xs-9">
-                        <g:each in="${nRelList.sort{-it.nTirosMatador}}" status="k" var="matador">
-                            <g:if test="${matador.matador.indexOf("XXBOT")<0 & matador.nTirosMatador>0}" >
-                                <tr>
-                                    <td id="matador" style="vertical-align: middle">
-                                        <h4> ${matador.matador} </h4>
-                                    </td>
-                                </tr>
-                            </g:if>
-                        </g:each>
-                    </div>
-                    <div class="col-xs-3 text-center">
-                        <g:each in="${nRelList.sort{-it.nTirosMatador}}" status="l" var="matador">
-                            <g:if test="${matador.matador.indexOf("XXBOT")<0 & matador.nTirosMatador>0}" >
-                                <tr>
-                                    <td id="nMatador" style="vertical-align: middle">
-                                        <h4> ${matador.nTirosMatador} </h4>
-                                    </td>
-                                </tr>
-                            </g:if>
-                        </g:each>
-                    </div>
-                </div>
+                <g:each in="${nRelList.sort{-it.nTirosMatador}}" status="k" var="matador">
+                    <g:if test="${matador.matador.indexOf("XXBOT")<0 & matador.nTirosMatador>0}" >
+                        <div class="row">
+                            <div class="col-xs-9">
+                                <h4> ${matador.matador} </h4>
+                            </div>
+                            <div class="col-xs-3 text-right">
+                                <h4>${matador.nTirosMatador}</h4>
+                            </div>
+                        </div>
+                    </g:if>
+                </g:each>
             </div>
         </div>
     </div>
+
+
+
     <div class="col-md-3">
         <div class="panel panel-danger">
             <div class="panel-heading">
@@ -270,7 +262,7 @@ table {
                     </div>
                     <div class="col-xs-9 text-right">
                         <div class="huge"> <h2>MAPAS</h2></div>
-                        <div><h4>CT x TERROR - Início - Fim</h4></div>
+                        <div><h4>CT x TERROR - Campeão</h4></div>
                     </div>
                 </div>
             </div>
@@ -308,33 +300,44 @@ table {
                 </div>
             </div>
             <div class="panel-footer">
-                <div class="clearfix"></div>
                 <div class="row">
                     <div class="col-xs-3">
-                        <tr>
-                            <h4>Matador</h4>
-                        </tr>
-                        <tr>
-                            <h4>Peneira</h4>
-                        </tr>
-                        <tr>
-                            <h4>Esfaqueador</h4>
-                        </tr>
-                        <tr>
-                            <h4>Ímã</h4>
-                        </tr>
-                        <tr>
-                            <h4>Mapa</h4>
-                        </tr>
+                        <h4>Matador</h4>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <g:each in="${listResultado}" status="l" var="resultado">
-                            <tr>
-                                <td id="resultado">
-                                    <h4> ${resultado} </h4>
-                                </td>
-                            </tr>
-                    </g:each>
+                        <h4>${listResultado.get(0)}</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-3">
+                        <h4>Peneira</h4>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <h4>${listResultado.get(1)}</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-3">
+                        <h4>Esfaqueador</h4>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <h4>${listResultado.get(2)}</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-3">
+                        <h4>Íma</h4>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <h4>${listResultado.get(3)}</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-3">
+                        <h4>Mapas</h4>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <h4>${listResultado.get(4)}</h4>
                     </div>
                 </div>
             </div>

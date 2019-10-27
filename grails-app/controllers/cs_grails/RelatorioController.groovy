@@ -511,58 +511,46 @@ class RelatorioController {
         println "campeaoIma: " + campeaoIma
         println "-------------------------"
 
-        def listResultado = [campeaoTiro,campeaoPeneira,campeaoFaca,campeaoIma]
 
         ///// HORÁRIO DOS JOGOS /////////////////////////
         def listHoraInicio = TempoJogos.executeQuery("select dataGameStart from TempoJogos where date(dataGameStart)=$dataRelatorio order by dataGameStart asc")
-//        println "listHoraInicio: " + listHoraInicio
+        println "listHoraInicio: " + listHoraInicio
 
         ///// RESULTADO DOS MAPAS /////////////////////////
         def resultadoMapa = Partidas.executeQuery("select CT, TERRORIST, dataGame from Partidas where date(dataGame)=$dataRelatorio order by dataGame asc")
-//        println "resultadoMapa: " + resultadoMapa
+        println "resultadoMapa: " + resultadoMapa
         def listMapa = []
 //        println "Tamanho: " + resultadoMapa.size()
+        def listResultMapa = []
 
 
-        if (listHoraInicio.size() == resultadoMapa.size()) {
-            resultadoMapa.eachWithIndex { i, index ->
-                mapa = " " + [i][0][0] + " x " + [i][0][1] + " ------------ " + listHoraInicio.get(index).format("hh:mm") + " - " + [i][0][2].format("HH:mm")
-                println "mapa: " + index + " - " + mapa
-                listMapa.add(mapa)
-            }
+        resultadoMapa.eachWithIndex { i, index ->
+            def resultMapa=[:]
+            resultMapa.put('CT', [i][0][0])
+            resultMapa.put('Terror', [i][0][1])
+            if(resultMapa.CT>resultMapa.Terror) resultMapa.put('Vencedor', "CT")
+            if(resultMapa.CT==resultMapa.Terror) resultMapa.put('Vencedor', "Empate")
+            if(resultMapa.CT<resultMapa.Terror) resultMapa.put('Vencedor', "Terror")
+            listResultMapa << resultMapa
+            mapa = " " + [i][0][0] + " x " + [i][0][1] + " ------------   " + resultMapa.Vencedor //+ listHoraInicio.get(index).format("HH:mm")
+            println "mapa: " + index + " - " + mapa
+            listMapa.add(mapa)
         }
-        else {        ///COMPATIBILIZAR COM OS RESULTADOS ANTERIORES DA VERSAO ANTIGA
-            resultadoMapa.eachWithIndex { i, index ->
-                mapa = " " + [i][0][0] + " x " + [i][0][1]
-                listMapa.add(mapa)
-            }
+        def timeCampeao
+        println "listResultMapa: " + listResultMapa
+        def nMapaCT = listResultMapa.findAll {it.CT>it.Terror}.size()
+        println "nMapaCT: " + nMapaCT
+        def nMapaTerror = listResultMapa.findAll {it.CT<it.Terror}.size()
+        println "nMapaTerror: " + nMapaTerror
+        if(nMapaCT>nMapaTerror) timeCampeao = "CT"
+        else timeCampeao = "Terroristas"
+        if(nMapaCT==nMapaTerror) {
+            if(listResultMapa.sum() {it.CT} > listResultMapa.sum() {it.Terror}) timeCampeao = "CT"
+            else timeCampeao="Terroristas"
         }
-
-        //////////////////// DEFINE RESULTADO FINAL
-//        println "relatorioList.sort(nTirosDoMatador): " +  relatorioList.nTirosMatador
-//        println "relatorioList.nTirosMatador: " + relatorioList.nTirosMatador.indexOf(relatorioList.nTirosMatador.max())
-//        println relatorioList.matador.get(relatorioList.nTirosMatador.indexOf(relatorioList.nTirosMatador.max()))
+        println "timeCampeao: " + timeCampeao
+        def listResultado = [campeaoTiro,campeaoPeneira,campeaoFaca,campeaoIma, timeCampeao]
 //
-        def nFacadasMax = relatorioList.nFacadasMatador.max()
-        println "nFacadasMax: " + nFacadasMax
-        def listNomeEsfaqueadoresMax = relatorioList.findAll { it.nFacadasMatador==nFacadasMax }.matador.sort()
-        println "listNomeEsfaqueadoresMax: " + listNomeEsfaqueadoresMax
-        def listnFacadasMax = relatorioList.nFacadasMatador.grep(relatorioList.nFacadasMatador.max())
-        println "listnFacadasMax: " + listnFacadasMax
-
-        ////verifica quem levou menos
-        def listNomeImas = relatorioList.findAll {it.nFacadasVitima}.matador
-        println "listNomeImas: " + listNomeImas
-        def listnFacadasIma = relatorioList.findAll {it.nFacadasVitima}.nFacadasVitima
-        println "listnFacadasIma: " + listnFacadasIma
-
-        def nImaMax = listnFacadasIma.max()
-        println "nImaMax: " + nImaMax
-
-        def listCampeoes = listnFacadasIma.findAll{it==nImaMax}
-        println "listCampeoes: " + listCampeoes
-
-
         if(params.tipo=='facadas') {
             render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
             dataView: dataView])
