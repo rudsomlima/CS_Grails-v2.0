@@ -18,20 +18,11 @@
 #deu, levou {
     style: "vertical-align: middle"
 }
-
-/*table {*/
-    /*font: 11px/24px 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif,  Open Sans;*/
-    /*border-collapse: collapse;*/
-    /*width: 320px;*/
-/*}*/
-
-/*#tabela_pequena {*/
-    /*padding: 1px;*/
-    /*margin-bottom: 0px;*/
-/*}*/
-
-
 </style>
+
+<script>
+
+</script>
 
 <body>
 
@@ -49,6 +40,51 @@
                 <g:else>
                     <div class="panel-heading"><h2>FACADAS - ${dataI.format('dd-MM-yyyy')} a ${dataF.format('dd-MM-yyyy')}</h2></div>
                 </g:else>
+
+                <div class="panel-footer">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <h4>Matador</h4>
+                        </div>
+                        <div class="col-xs-9 text-left">
+                            <h4>${listResultado.get(0)}</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <h4>Peneira</h4>
+                        </div>
+                        <div class="col-xs-9 text-left">
+                            <h4>${listResultado.get(1)}</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <h4>Esfaqueador</h4>
+                        </div>
+                        <div class="col-xs-9 text-left">
+                            <h4>${listResultado.get(2)}</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <h4>Íma</h4>
+                        </div>
+                        <div class="col-xs-9 text-left">
+                            <h4>${listResultado.get(3)}</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <h4>Mapas</h4>
+                        </div>
+                        <div class="col-xs-9 text-left">
+                            <h4>${listResultado.get(4)}</h4>
+                        </div>
+                    </div>
+                </div>
+
+
 
                     <table id="tabela_grande" class="table table-bordered table-condensed table-hover" style="margin-bottom: 0px" border="1">
                         <thead>

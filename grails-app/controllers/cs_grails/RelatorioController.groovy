@@ -536,6 +536,9 @@ class RelatorioController {
             println "mapa: " + index + " - " + mapa
             listMapa.add(mapa)
         }
+        listMapa.add("Mapas ganhos Terror: ${listResultMapa.sum() {it.Terror}}")
+        listMapa.add("Mapas ganhos CT: ${listResultMapa.sum() {it.CT}}")
+
         def timeCampeao
         println "listResultMapa: " + listResultMapa
         def nMapaCT = listResultMapa.findAll {it.CT>it.Terror}.size()
@@ -549,16 +552,17 @@ class RelatorioController {
             else timeCampeao="Terroristas"
         }
         println "timeCampeao: " + timeCampeao
+
         def listResultado = [campeaoTiro,campeaoPeneira,campeaoFaca,campeaoIma, timeCampeao]
 //
         if(params.tipo=='facadas') {
             render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,
-            dataView: dataView])
+                                         listResultado:listResultado, dataView: dataView])
             println "view: facadas"
         }
         else {
             render(view:'index',model:[listResultado:listResultado, facadasList:lista, listaAlgozes:listaAlgozes, jogadoresList:jogadores, nRelList:relatorioList, data:dataRelatorio, relFacas:relFacas,
-                                       boaTarde   :boaTarde, relAmiga: relAmiga, mapaFinal: listMapa, listHoraInicio: listHoraInicio])
+                                       boaTarde   :boaTarde, relAmiga: relAmiga, listResultMapa: listResultMapa, listHoraInicio: listHoraInicio])
             println "view: index"
         }
     }

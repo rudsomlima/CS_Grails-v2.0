@@ -197,7 +197,7 @@ table {
                 </div>
                 <div class="panel-footer">
                     <div class="row">
-                        <div class="col-xs-9" >
+                        <div class="col-xs-9"
                             <g:each in="${relAmiga}" status="x" var="faca">
                                 <tr>
                                     <td id="facaAmiga" style="vertical-align: middle">
@@ -221,20 +221,34 @@ table {
                     </div>
                     <div class="col-xs-9 text-right">
                         <div class="huge"> <h2>MAPAS</h2></div>
-                        <div><h4>CT x TERROR - Campeão</h4></div>
+                        <div><h4>CT x Terror</h4></div>
                     </div>
                 </div>
             </div>
             <div class="panel-footer">
+                <g:each in="${listResultMapa}" status="x" var="mapa">
+                    <div class="row">
+                        <div class="col-xs-8 text-lef" >
+                            <h4>${mapa.Vencedor}</h4>
+                        </div>
+                        <div class="col-xs-4 text-right">
+                            <h4>${mapa.CT} x ${mapa.Terror} </h4>
+                        </div>
+                    </div>
+                </g:each>
                 <div class="row">
-                    <div class="col-xs-12 text-right" >
-                        <td id="mapa" style="vertical-align: middle" >
-                            <h4>
-                                <g:each in="${mapaFinal}">
-                                    ${it}   <br>
-                                </g:each>
-                            </h4>
-                        </td>
+                    <div class="col-xs-6 text-lef" >
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <h4>--------------</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-8 text-lef" >
+                        <h4>TOTAL</h4>
+                    </div>
+                    <div class="col-xs-4 text-right">
+                        <h4>${listResultMapa.CT.sum()} x ${listResultMapa.Terror.sum()}</h4>
                     </div>
                 </div>
             </div>
