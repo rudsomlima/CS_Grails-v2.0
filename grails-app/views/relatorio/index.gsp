@@ -45,7 +45,7 @@ table {
 <br/>
 
 <div class="row">
-
+%{--------------------------------------------------------------------------------------------------------------------}%
     <div class="col-md-3">
         <div class="panel panel-primary">
             <div class="panel-heading">
@@ -75,9 +75,7 @@ table {
             </div>
         </div>
     </div>
-
-
-
+%{--------------------------------------------------------------------------------------------------------------------}%
     <div class="col-md-3">
         <div class="panel panel-danger">
             <div class="panel-heading">
@@ -92,34 +90,22 @@ table {
                 </div>
             </div>
             <div class="panel-footer">
-                <div class="row">
-                    <div class="col-xs-8">
-                        <div class="clearfix"></div>
-                        <g:each in="${nRelList.sort{it.kd}}" status="l" var="peneira">
-                            <g:if test="${peneira.matador.indexOf("XXBOT")<0 & peneira.nTirosVitima>0}" >
-                                <tr>
-                                    <td id="peneira" style="vertical-align: middle">
-                                        <h4> ${peneira.matador} </h4>
-                                    </td>
-                                </tr>
-                            </g:if>
-                        </g:each>
-                    </div>
-                    <div class="text-center">
-                        <g:each in="${nRelList.sort{it.kd}}" status="l" var="peneira">
-                            <g:if test="${peneira.matador.indexOf("XXBOT")<0 & peneira.nTirosVitima>0}" >
-                                <tr>
-                                    <td id="nPeneira" style="vertical-align: middle">
-                                        <h4> ${peneira.nTirosVitima} &nbsp (${String.format("%.3f", peneira.kd)}) </h4>
-                                    </td>
-                                </tr>
-                            </g:if>
-                        </g:each>
-                    </div>
-                </div>
+                <g:each in="${nRelList.sort{it.kd}}" status="l" var="peneira">
+                    <g:if test="${peneira.matador.indexOf("XXBOT")<0 & peneira.nTirosVitima>0}" >
+                        <div class="row">
+                            <div class="col-xs-9">
+                                <h4> ${peneira.matador} </h4>
+                            </div>
+                            <div class="col-xs-3 text-right">
+                                <h4>${peneira.nTirosVitima}</h4>
+                            </div>
+                        </div>
+                    </g:if>
+                </g:each>
             </div>
         </div>
     </div>
+%{--------------------------------------------------------------------------------------------------------------------}%
     <div class="col-md-3">
         <div class="panel panel-warning">
             <div class="panel-heading">
@@ -136,41 +122,27 @@ table {
                 </g:link>
             </div>
             <div class="panel-footer">
-                <div class="clearfix"></div>
-                <div class="row">
-                    <div class="col-xs-9">
-                        <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
-                            <g:if test="${esfaqueador.nFacadasMatador>0 | esfaqueador.nFacadasAmiga>0}" >
-                                <tr>
-                                    <td id="esfaqueador" style="vertical-align: middle">
-                                        <h4>${esfaqueador.matador}
-                                            <class id="facaAmiga" style="font-size:11px">${esfaqueador.ordemFacada}&deg</class>
-                                        <g:if test="${esfaqueador.nFacadasAmiga>0}">
-                                            <class id="facaAmiga" style="color: red"> <b> (-${esfaqueador.nFacadasAmiga}) </b>
-                                              </class>
-                                        </g:if>
-
-                                            </h4>
-                                    </td>
-                                </tr>
-                            </g:if>
-                        </g:each>
-                    </div>
-                    <div class="col-xs-3 text-center">
-                        <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
-                            <g:if test="${esfaqueador.nFacadasMatador>0 | esfaqueador.nFacadasAmiga>0}" >
-                                <tr>
-                                    <td id="nEsfaqueador" style="vertical-align: middle">
-                                        <h4> ${esfaqueador.nFacadasMatador} </h4>
-                                    </td>
-                                </tr>
-                            </g:if>
-                        </g:each>
-                    </div>
-                </div>
+                <g:each in="${nRelList.sort{-it.nFacadasMatador}}" status="l" var="esfaqueador">
+                    <g:if test="${esfaqueador.nFacadasMatador>0 | esfaqueador.nFacadasAmiga>0}" >
+                        <div class="row">
+                            <div class="col-xs-9">
+                                <h4>${esfaqueador.matador}
+                                    <class id="facaAmiga" style="font-size:11px">${esfaqueador.ordemFacada}&deg</class>
+                                    <g:if test="${esfaqueador.nFacadasAmiga>0}">
+                                        <class id="facaAmiga" style="color: red"> <b> (-${esfaqueador.nFacadasAmiga}) </b></class>
+                                    </g:if>
+                                </h4>
+                            </div>
+                            <div class="col-xs-3 text-right">
+                                <h4>${esfaqueador.nFacadasMatador}</h4>
+                            </div>
+                        </div>
+                    </g:if>
+                </g:each>
             </div>
         </div>
     </div>
+%{--------------------------------------------------------------------------------------------------------------------}%
     <div class="col-md-3">
         <div class="panel panel-success">
             <div class="panel-heading">
@@ -185,42 +157,29 @@ table {
                 </div>
             </div>
             <div class="panel-footer">
-                <div class="clearfix"></div>
-                <div class="row">
-                    <div class="col-xs-9">
-                        <g:each in="${nRelList.sort{-it.nFacadasVitima}}" status="l" var="esfaqueador">
-                            <g:if test="${esfaqueador.nFacadasVitima>0}" >
-                                <tr>
-                                    <td id="ima" style="vertical-align: middle">
-                                        <h4>${esfaqueador.matador}
-                                            <class id="facaAmiga" style="font-size:11px">${esfaqueador.ordemFacadaVitima}&deg</class>
-                                            <g:if test="${esfaqueador.nFacadasAmiga>0}">
-                                                <class id="facaAmiga" style="color: red"> <b> (+${esfaqueador.nFacadasAmiga}) </b>
-                                                </class>
-                                            </g:if>
-                                        </h4>
-                                    </td>
-                                </tr>
-                            </g:if>
-                        </g:each>
-                    </div>
-                    <div class="col-xs-3 text-center">
-                        <g:each in="${nRelList.sort{-it.nFacadasVitima}}" status="l" var="esfaqueador">
-                            <g:if test="${esfaqueador.nFacadasVitima>0}" >
-                                <tr>
-                                    <td id="nIma" style="vertical-align: middle">
-                                        <h4> ${esfaqueador.nFacadasVitima} </h4>
-                                    </td>
-                                </tr>
-                            </g:if>
-                        </g:each>
-                    </div>
-                </div>
+                <g:each in="${nRelList.sort{-it.nFacadasVitima}}" status="z" var="ima">
+                    <g:if test="${ima.nFacadasVitima>0}" >
+                        <div class="row">
+                            <div class="col-xs-9">
+                                <h4>${ima.matador}
+                                    <class id="facaAmiga" style="font-size:11px">${ima.ordemFacadaVitima}&deg</class>
+                                    <g:if test="${ima.nFacadasAmiga>0}">
+                                        <class id="facaAmiga" style="color: red"> <b> (+${ima.nFacadasAmiga}) </b>
+                                        </class>
+                                    </g:if>
+                                </h4>
+                            </div>
+                            <div class="col-xs-3 text-right">
+                                <h4>${ima.nFacadasVitima}</h4>
+                            </div>
+                        </div>
+                    </g:if>
+                </g:each>
             </div>
         </div>
     </div>
 </div>
-
+%{--------------------------------------------------------------------------------------------------------------------}%
 <div class="row">
     <g:if test="${!relAmiga.isEmpty()}">
         <div class="col-md-3">
@@ -252,7 +211,7 @@ table {
             </div>
         </div>
     </g:if>
-
+%{--------------------------------------------------------------------------------------------------------------------}%
     <div class="col-md-3">
         <div class="panel panel-primary">
             <div class="panel-heading">
@@ -269,23 +228,19 @@ table {
             <div class="panel-footer">
                 <div class="row">
                     <div class="col-xs-12 text-right" >
-
                         <td id="mapa" style="vertical-align: middle" >
-                            %{--<h4> ${mapaFinal} </h4>--}%
                             <h4>
                                 <g:each in="${mapaFinal}">
                                     ${it}   <br>
                                 </g:each>
                             </h4>
                         </td>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
+%{--------------------------------------------------------------------------------------------------------------------}%
     <div class="col-md-3">
         <div class="panel panel-success">
             <div class="panel-heading">
@@ -343,6 +298,7 @@ table {
             </div>
         </div>
     </div>
+%{--------------------------------------------------------------------------------------------------------------------}%
 
 
 </div>
