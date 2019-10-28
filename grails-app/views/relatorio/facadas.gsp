@@ -35,10 +35,10 @@
         <div class="col-md-5 col-md-offset-3" >
             <div class="panel panel-primary" align="center">
                 <g:if test="${dataF == null}">
-                    <div class="panel-heading"><h2>FACADAS - ${dataView}</h2></div>
+                    <div class="panel-heading"><h2>${dataView} - CT ${listResultado.get(5)} x ${5-listResultado.get(5)} TERROR</h2></div>
                 </g:if>
                 <g:else>
-                    <div class="panel-heading"><h2>FACADAS - ${dataI.format('dd-MM-yyyy')} a ${dataF.format('dd-MM-yyyy')}</h2></div>
+                    <div class="panel-heading"><h2>${dataI.format('dd-MM-yyyy')} a ${dataF.format('dd-MM-yyyy')}</h2></div>
                 </g:else>
 
                 <div class="panel-body">
@@ -48,7 +48,14 @@
                     </div>
 
                     <div class="col-xs-8 text-center">
-
+                        <div class="row">
+                            <div class="col-xs-5 text-left">
+                                <h4>Campeão</h4>
+                            </div>
+                            <div class="col-xs-7 text-left">
+                                <h4>${listResultado.get(6)}</h4>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-xs-5 text-left">
                                 <h4>Matador</h4>
