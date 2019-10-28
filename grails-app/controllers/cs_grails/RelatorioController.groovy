@@ -26,7 +26,6 @@ class RelatorioController {
 
         def dataRelatorio = dataI
 
-
         def lista = Facadas.withCriteria {
             vitima {
                 matador{
@@ -44,7 +43,6 @@ class RelatorioController {
                 }
             }
             between('dataFacada', dataI, dataF)
-
         }
 
         def players = []
@@ -113,6 +111,15 @@ class RelatorioController {
             }
             else nRel.nFacadasMatador = nFacadasDoMatador
 
+            def nFacadasAmiga = Vitima.executeQuery("select sum(facaAmiga)from Vitima where matador.nome=$jogador and date(dataFacada) between $dataI and $dataF and facaAmiga=1").get(0)
+            nFacadasAmiga as Integer
+            if (nFacadasAmiga == null) {
+                nFacadasAmiga = 0
+                nRel.nFacadasAmiga = 0
+            }
+            else nRel.nFacadasAmiga = nFacadasAmiga
+            println "nFacadasAmiga: " + nFacadasAmiga
+
             def listVitimas = Facadas.executeQuery("select distinct vitima.vitima.nome from Facadas where vitima.matador.nome=$jogador and date(dataFacada) between $dataI and $dataF")
 //            println listVitimas
             listVitimas.each { vit ->
@@ -164,19 +171,12 @@ class RelatorioController {
             println "Tiros: " + jogador + " - " + nTirosDoMatador + " - " + nTirosDaVitima
             println "KD: " + jogador + " - " + kd
             println "----------------------------"
-            println "KD: " + jogador + " - " + kd
-            println "----------------------------"
-
         }
 
-
-//        println relatorioList.nFacadasMatador
-//
-//        println "nFacadas: " + nFacadas
-//        println "nFacadas: " + nRelList.nFacadasMatador
-//        println "nFacadas: " + nFacadasDaVitima
-
+        println relatorioList.nFacadasMatador
+        println "nFacadas: " + nRel.nFacadasMatador
 		println jogadores
+
         if(params.tipo=='facadas') {
             render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas, dataI: dataI, dataF: dataF])
             println "view: facadas"
