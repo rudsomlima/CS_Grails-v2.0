@@ -41,45 +41,53 @@
                     <div class="panel-heading"><h2>FACADAS - ${dataI.format('dd-MM-yyyy')} a ${dataF.format('dd-MM-yyyy')}</h2></div>
                 </g:else>
 
-                <div class="panel-footer">
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <h4>Matador</h4>
-                        </div>
-                        <div class="col-xs-9 text-left">
-                            <h4>${listResultado.get(0)}</h4>
-                        </div>
+                <div class="panel-body">
+
+                    <div class="col-xs-4 text-center">
+                        <img src="${resource(dir: 'images', file: 'taca_campeao.png')}" width="100%"/>
                     </div>
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <h4>Peneira</h4>
+
+                    <div class="col-xs-8 text-center">
+
+                        <div class="row">
+                            <div class="col-xs-5 text-left">
+                                <h4>Matador</h4>
+                            </div>
+                            <div class="col-xs-7 text-left">
+                                <h4>${listResultado.get(0)}</h4>
+                            </div>
                         </div>
-                        <div class="col-xs-9 text-left">
-                            <h4>${listResultado.get(1)}</h4>
+                        <div class="row">
+                            <div class="col-xs-5 text-left">
+                                <h4>Peneira</h4>
+                            </div>
+                            <div class="col-xs-7 text-left">
+                                <h4>${listResultado.get(1)}</h4>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <h4>Esfaqueador</h4>
+                        <div class="row">
+                            <div class="col-xs-5 text-left">
+                                <h4>Esfaqueador</h4>
+                            </div>
+                            <div class="col-xs-7 text-left">
+                                <h4>${listResultado.get(2)}</h4>
+                            </div>
                         </div>
-                        <div class="col-xs-9 text-left">
-                            <h4>${listResultado.get(2)}</h4>
+                        <div class="row">
+                            <div class="col-xs-5 text-left">
+                                <h4>Íma</h4>
+                            </div>
+                            <div class="col-xs-7 text-left">
+                                <h4>${listResultado.get(3)}</h4>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <h4>Íma</h4>
-                        </div>
-                        <div class="col-xs-9 text-left">
-                            <h4>${listResultado.get(3)}</h4>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <h4>Mapas</h4>
-                        </div>
-                        <div class="col-xs-9 text-left">
-                            <h4>${listResultado.get(4)}</h4>
+                        <div class="row">
+                            <div class="col-xs-5 text-left">
+                                <h4>Mapas</h4>
+                            </div>
+                            <div class="col-xs-7 text-left">
+                                <h4>${listResultado.get(4)}</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
