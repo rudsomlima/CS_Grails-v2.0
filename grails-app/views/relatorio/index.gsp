@@ -264,7 +264,7 @@ table {
                     </div>
                     <div class="col-xs-9 text-right">
                         <div class="huge"><h2>${listResultado.get(6)}</h2></div>
-                        <div><h4>CT: ${listResultado.get(5)} - TERROR: ${5-listResultado.get(5)} </h4></div>
+                        <div><h4>CT ${listResultado.get(5)} x ${5-listResultado.get(5)} TERROR</h4></div>
                     </div>
                 </div>
             </div>
