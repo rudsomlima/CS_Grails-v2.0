@@ -14,6 +14,7 @@ class Vitima {
     Integer ehFaca
     Integer facaAmiga
     Integer ordemFacada
+    String timeDoAssassino
 //    Integer ordemFacadaVitima
 
     static constraints = {

@@ -553,7 +553,27 @@ class RelatorioController {
         }
         println "timeCampeao: " + timeCampeao
 
-        def listResultado = [campeaoTiro,campeaoPeneira,campeaoFaca,campeaoIma, timeCampeao]
+        //////////////////////////////////// Define o time campeao  -- Acha o ultimo time q o jogadores campeoes estiveram
+        def timeDoMatador = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoTiro and date(dataFacada)=$dataRelatorio order by id desc").get(0)
+        println "timeDoMatador: " + timeDoMatador
+        def timeDoPeneira = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoPeneira and date(dataFacada)=$dataRelatorio order by id desc").get(0)
+        println "timeDoPeneira: " + timeDoPeneira
+        def timeDoEsfaqueador = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoFaca and date(dataFacada)=$dataRelatorio order by id desc").get(0)
+        println "timeDoEsfaqueador: " + timeDoEsfaqueador
+        def timeDoIma = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoIma and date(dataFacada)=$dataRelatorio order by id desc").get(0)
+        println "timeDoIma: " + timeDoIma
+
+        def resultadosPositivos = [timeDoMatador,timeDoEsfaqueador,timeCampeao]
+        def resultadosNegativos = [timeDoPeneira,timeDoIma]
+
+        def resultadoFinalCt = resultadosPositivos.findAll {it=="CT"}.size() + resultadosNegativos.findAll {it=="TERRORIST"}.size()
+        println "resultadoFinalCt: " + resultadoFinalCt
+
+        def timeVencedor
+        if(resultadoFinalCt>2) timeVencedor = "CT"
+        else timeVencedor = "TERROR"
+
+        def listResultado = [campeaoTiro,campeaoPeneira,campeaoFaca,campeaoIma,timeCampeao,resultadoFinalCt, timeVencedor]
 //
         if(params.tipo=='facadas') {
             render(view:'facadas',model:[facadasList:lista,listaAlgozes:listaAlgozes,jogadoresList:jogadores,nRelList:relatorioList,data:dataRelatorio, relFacas:relFacas,

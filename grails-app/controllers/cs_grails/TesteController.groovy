@@ -13,7 +13,7 @@ class TesteController {
         def dataLog
         String dataFacada
         String dataFacadaAnt
-        String resultadoFinal = ""
+        def timeMatador
         def pulaLinha = 0
         Integer CT, TERRORIST
         def flag_salvarTimeGanhador = 0
@@ -27,9 +27,6 @@ class TesteController {
             new File("uploadLogs").listFiles().sort() { file -> n_arquivo++; }
 
             def noBot = 0   //flag pra marcar somente a 1 facada
-
-//            List<Jogador> matadorList = new ArrayList<Jogador>()
-//            List<Jogador> assassinatoList = new ArrayList<Vitima>()
 
             new File("uploadLogs").eachFile { file ->
                 //Renderiza o numero do arquivo
@@ -73,7 +70,7 @@ class TesteController {
                             def subLinha = linha.substring(linha.indexOf("killed \""));
 
                             //Extrai o time do matador
-                            def timeMatador = linha.replace('>',',').replace('<',',')
+                            timeMatador = linha.replace('>',',').replace('<',',')
                             println "Linha tokenizada: " + timeMatador
                             timeMatador = timeMatador.tokenize(',').get(3)
                             println "timeMatador: " + timeMatador
@@ -103,6 +100,7 @@ class TesteController {
                             assassinato.matador = matador
                             assassinato.vitima = vitima
                             assassinato.ordemFacada = ordemFacada
+                            assassinato.timeDoAssassino = timeMatador
 
 
                             Facadas facada = new Facadas()
@@ -234,6 +232,12 @@ class TesteController {
                             def nomeVitima = subLinha.substring(subLinha.indexOf("\"") + 1, subLinha.indexOf("<"));
                             def vitimaList = Jogador.findAllByNome(nomeVitima)
 
+                            //Extrai o time do matador
+                            timeMatador = linha.replace('>',',').replace('<',',')
+                            println "Linha tokenizada: " + timeMatador
+                            timeMatador = timeMatador.tokenize(',').get(3)
+                            println "timeMatador: " + timeMatador
+
                             Jogador vitima = new Jogador()
 
                             if (vitimaList.empty) {
@@ -273,12 +277,11 @@ class TesteController {
                             tiro.dataTiro = dataFinal
                             tiro.vitima = assassinato
                             assassinato.dataFacada = dataFinal
-
                             assassinato.ehFaca = 0
                             assassinato.ehBot = 0 //O erro estava relacionado ao fato de vc não ter setado todos os parametros
                             assassinato.facaAmiga = 0
                             assassinato.ordemFacada = 0
-
+                            assassinato.timeDoAssassino = timeMatador
                             assassinato.save flush: true
 
 

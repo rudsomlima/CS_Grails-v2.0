@@ -263,8 +263,8 @@ table {
                         <img src="${resource(dir: 'images', file: 'taca_campeao.png')}" width="100%"/>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <div class="huge"><h2>Resultado</h2></div>
-                        <div><h4>Os melhores!</h4></div>
+                        <div class="huge"><h2>${listResultado.get(6)}</h2></div>
+                        <div><h4>CT: ${listResultado.get(5)} - TERROR: ${5-listResultado.get(5)} </h4></div>
                     </div>
                 </div>
             </div>
