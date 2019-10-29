@@ -17,20 +17,18 @@ class TesteController {
         println dir.getAbsolutePath()
 
         if (dir.isDirectory()) {
-            dir.delete()  //apaga os arquivos anteriores, se houverem
             new File("uploadLogs").eachFile { file ->
                 arquivo++
                 caminho = Paths.get(file.absolutePath)
                 println caminho.getFileName()
-                Stream<String> linhas = Files.lines(caminho)
-                        .parallel()
 
-                linhas.each { linha ->
+                file.each { linha ->
                         n_linha++
                         println arquivo + " - " + n_linha + " - " + linha
                 }
             }
         }
+        dir.deleteDir()  //apaga os arquivos anteriores, se houverem
         println t_inicio
         println LocalDateTime.now()
         render(view: "/teste/upload")
@@ -57,15 +55,13 @@ class TesteController {
         println dir.getAbsolutePath()
 
         if( dir.isDirectory()) {
-            dir.delete()  //apaga os arquivos anteriores, se houverem
+//            dir.delete()  //apaga os arquivos anteriores, se houverem
             new File("uploadLogs").eachFile { file ->
                 arquivo++
                 caminho = Paths.get(file.absolutePath)
                 println caminho.getFileName()
-                Stream<String> linhas = Files.lines(caminho)
-                        .parallel()
 
-                linhas.each { String linha ->
+                file.each { String linha ->
                     n_linha++
                     println arquivo + " - " + n_linha + " - " + linha
 //
@@ -88,7 +84,7 @@ class TesteController {
                         Jogador matador = new Jogador()
                         if (matadorList.empty) {
                             matador.nome = nomeMatador
-                            matador.save()
+                            matador.save flush:true
                             println "Salvou Jogador com sucesso!"
                         } else {
                             matador = matadorList.get(0)
@@ -117,7 +113,7 @@ class TesteController {
 
                         if (vitimaList.empty) {
                             vitima.nome = nomeVitima
-                            vitima.save()
+                            vitima.save flush:true
                             println "Salvou com sucesso!"
                         } else {
                             vitima = vitimaList.get(0)
@@ -158,7 +154,7 @@ class TesteController {
                         println "O assassinato encontrato é: " + assassinato
 
                         if (existeAssassinato.empty) {
-                            assassinato.save()
+                            assassinato.save flush:true
                             println "Salvou com sucesso o assassinato!"
                         } else {
                             assassinato = existeAssassinato.get(0)
@@ -170,7 +166,7 @@ class TesteController {
                         println "Foram encontradas as seguintes facadas: " + existeFacadas
 
                         if (existeFacadas.empty) {
-                            facada.save()
+                            facada.save flush:true
                             println "Salvou com sucesso a facada!"
                         } else {
                             facada = existeFacadas.get(0)
@@ -192,7 +188,7 @@ class TesteController {
                         println "dataGameStart: " + dataGameStart
                         TempoJogos tempoJogos = new TempoJogos()
                         tempoJogos.dataGameStart = dataGameStart
-                        tempoJogos.save()
+                        tempoJogos.save flush:true
                     }
 
                     //////////////////////////////// TIME GANHADOR ////////////////////////////////////////////////////////////////
@@ -229,7 +225,7 @@ class TesteController {
                             partida.dataGame = dataGame
                             partida.CT = CT
                             partida.TERRORIST = TERRORIST
-                            partida.save()
+                            partida.save flush:true
                             flag_salvarTimeGanhador = 0
                         }
 
@@ -245,7 +241,7 @@ class TesteController {
                         Jogador matador = new Jogador()
                         if (matadorList.empty) {
                             matador.nome = nomeMatador
-                            matador.save()
+                            matador.save flush:true
                             println "Salvou Jogador com sucesso!"
                         } else {
                             matador = matadorList.get(0)
@@ -268,7 +264,7 @@ class TesteController {
 
                         if (vitimaList.empty) {
                             vitima.nome = nomeVitima
-                            vitima.save()
+                            vitima.save flush:true
                             println "Salvou com sucesso!"
                         } else {
                             vitima = vitimaList.get(0)
@@ -283,11 +279,11 @@ class TesteController {
                         println "O assassinato encontrato é: " + assassinato
 
                         if (existeAssassinato.empty) {
-                            assassinato.save()
+                            assassinato.save flush:true
                             println "Salvou com sucesso o assassinato!"
                         } else {
                             assassinato = existeAssassinato.get(0)
-//                                assassinato.save()
+//                                assassinato.save flush:true
                             println "Achou o assassinato: " + assassinato
                         }
 
@@ -308,14 +304,14 @@ class TesteController {
                         assassinato.facaAmiga = 0
                         assassinato.ordemFacada = 0
                         assassinato.timeDoAssassino = timeMatador
-                        assassinato.save()
+                        assassinato.save flush:true
 
 
                         def existeTiros = Tiros.findAllByVitima(assassinato)
                         println "Foram encontradas as seguintes facadas: " + existeTiros
 
                         if (existeTiros.empty) {
-                            tiro.save()
+                            tiro.save flush:true
                             println "Salvou com sucesso a facada!"
                         } else {
                             tiro = existeTiros.get(0)
@@ -324,15 +320,15 @@ class TesteController {
                             //o comportamento, usar read ao invés de get()
                             //fonte: http://stackoverflow.com/questions/32503852/grails-2-4-4-updating-a-user-auto-saves-user-before-hitting-back-end-code
                             tiro.qtdeTiros += 1
-                            tiro.save()
+                            tiro.save flush:true
 //                                println "Facada:" + facada + " Quantidade de facadas depois: " + facada.qtdeFacadas
                         }
                     }
                 }
-                file.delete() //apaga o arquivo para não processa-lo novamente
+//                file.delete() //apaga o arquivo para não processa-lo novamente
             }
         }
-        dir.deleteDir()
+        dir.deleteDir()  //Apaga a pasta uploadLogs
         println "Apagou a pasta uploadLogs!"
         redirect(controller: "relatorio", action: "principal")
     }
