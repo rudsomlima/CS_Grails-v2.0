@@ -25,6 +25,7 @@ class TesteController {
                 file.each { linha ->
                         n_linha++
                         println arquivo + " - " + n_linha + " - " + linha
+                        render (template:"status", model:[n_linha:n_linha])
                 }
             }
         }
@@ -55,7 +56,13 @@ class TesteController {
         println dir.getAbsolutePath()
 
         if( dir.isDirectory()) {
-//            dir.delete()  //apaga os arquivos anteriores, se houverem
+//
+            new File("uploadLogs").eachFile { file ->
+                caminho = Paths.get(file.absolutePath)
+                println caminho.getFileName()
+            }
+
+            def prin
             new File("uploadLogs").eachFile { file ->
                 arquivo++
                 caminho = Paths.get(file.absolutePath)
