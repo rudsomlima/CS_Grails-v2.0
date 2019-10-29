@@ -1,0 +1,30 @@
+L 09/26/2019 - 12:36:14: Log file started (file "logs\L0926002.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 09/26/2019 - 12:36:16: "DareDevil<4><VALVE_ID_LAN><>" connected, address "10.15.4.1:27005"
+L 09/26/2019 - 12:36:18: "Smolder<5><VALVE_ID_LAN><>" connected, address "10.15.2.124:27005"
+L 09/26/2019 - 12:36:19: "INDIO de ferias<2><VALVE_ID_LAN><CT>" killed "CEIFADOR<1><VALVE_ID_LOOPBACK><TERRORIST>" with "knife"
+L 09/26/2019 - 12:36:19: Team "CT" triggered "CTs_Win" (CT "1") (T "0")
+L 09/26/2019 - 12:36:19: World triggered "Round_End"
+L 09/26/2019 - 12:36:20: "DareDevil<4><VALVE_ID_LAN><>" entered the game
+L 09/26/2019 - 12:36:21: "Smolder<5><VALVE_ID_LAN><>" entered the game
+L 09/26/2019 - 12:36:23: "Calcas Peludas<6><VALVE_ID_LAN><>" connected, address "10.15.2.230:27005"
+L 09/26/2019 - 12:36:23: "Gho$T<7><VALVE_ID_LAN><>" connected, address "10.15.2.123:27005"
+L 09/26/2019 - 12:36:23: "Smolder<5><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/26/2019 - 12:36:24: "Smolder<5><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 09/26/2019 - 12:36:24: World triggered "Round_Start"
+L 09/26/2019 - 12:36:25: "Gho$T<7><VALVE_ID_LAN><>" entered the game
+L 09/26/2019 - 12:36:26: "Calcas Peludas<6><VALVE_ID_LAN><>" entered the game
+L 09/26/2019 - 12:36:27: "Cap Billy<3><VALVE_ID_LAN><CT>" killed "Smolder<5><VALVE_ID_LAN><TERRORIST>" with "sg552"
+L 09/26/2019 - 12:36:27: "Smolder<5><VALVE_ID_LAN><TERRORIST>" triggered "Dropped_The_Bomb"
+L 09/26/2019 - 12:36:28: "Calcas Peludas<6><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/26/2019 - 12:36:28: "DareDevil<4><VALVE_ID_LAN><>" joined team "CT"
+L 09/26/2019 - 12:36:30: "Cap Billy<3><VALVE_ID_LAN><CT>" killed "Calcas Peludas<6><VALVE_ID_LAN><TERRORIST>" with "sg552"
+L 09/26/2019 - 12:36:32: "Cap Billy<3><VALVE_ID_LAN><CT>" killed "CEIFADOR<1><VALVE_ID_LOOPBACK><TERRORIST>" with "sg552"
+L 09/26/2019 - 12:36:32: Team "CT" triggered "CTs_Win" (CT "2") (T "0")
+L 09/26/2019 - 12:36:32: World triggered "Round_End"
+L 09/26/2019 - 12:36:32: "Gho$T<7><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/26/2019 - 12:36:35: "Cap Billy<3><VALVE_ID_LAN><CT>" killed "Gho$T<7><VALVE_ID_LAN><TERRORIST>" with "sg552"
+L 09/26/2019 - 12:36:36: "Kitkat<8><VALVE_ID_LAN><>" connected, address "10.15.2.150:27005"
+L 09/26/2019 - 12:36:37: "Calcas Peludas<6><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 09/26/2019 - 12:36:37: World triggered "Round_Start"
+L 09/26/2019 - 12:36:39: "Kitkat<8><VALVE_ID_LAN><>" entered the game
+L 09/26/2019 - 12:36:40: Log file closed

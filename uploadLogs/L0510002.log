@@ -1,0 +1,65 @@
+L 05/10/2018 - 12:49:43: Log file started (file "logs\L0510002.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 05/10/2018 - 12:49:44: "Calango<13><VALVE_ID_LAN><>" entered the game
+L 05/10/2018 - 12:49:44: "INDIO<17><VALVE_ID_LAN><>" connected, address "10.15.2.56:27005"
+L 05/10/2018 - 12:49:44: "GARGAMEL NAO LEVO FACA HOJE<15><VALVE_ID_LAN><>" entered the game
+L 05/10/2018 - 12:49:44: "Smolder<14><VALVE_ID_LAN><>" entered the game
+L 05/10/2018 - 12:49:45: "Jack<16><VALVE_ID_LAN><>" entered the game
+L 05/10/2018 - 12:49:46: "GARGAMEL NAO LEVO FACA HOJE<15><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 05/10/2018 - 12:49:46: World triggered "Game_Commencing"
+L 05/10/2018 - 12:49:46: World triggered "Game_Commencing" (CT "0") (T "0")
+L 05/10/2018 - 12:49:46: World triggered "Round_End"
+L 05/10/2018 - 12:49:46: "Calango<13><VALVE_ID_LAN><>" joined team "CT"
+L 05/10/2018 - 12:49:46: "Smolder<14><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 05/10/2018 - 12:49:47: "INDIO<17><VALVE_ID_LAN><>" entered the game
+L 05/10/2018 - 12:49:48: "TUX<18><VALVE_ID_LAN><>" connected, address "10.15.2.71:27005"
+L 05/10/2018 - 12:49:48: "Jack<16><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 05/10/2018 - 12:49:49: World triggered "Round_Start"
+L 05/10/2018 - 12:49:50: "INDIO<17><VALVE_ID_LAN><>" joined team "CT"
+L 05/10/2018 - 12:49:50: "TUX<18><VALVE_ID_LAN><>" entered the game
+L 05/10/2018 - 12:49:52: "TUX<18><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 05/10/2018 - 12:49:56: "Smolder<14><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<12><VALVE_ID_LOOPBACK><CT>" with "deagle"
+L 05/10/2018 - 12:50:07: "Calango<13><VALVE_ID_LAN><CT>" killed "TUX<18><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 05/10/2018 - 12:50:08: "Smolder<14><VALVE_ID_LAN><TERRORIST>" killed "Calango<13><VALVE_ID_LAN><CT>" with "knife"
+L 05/10/2018 - 12:50:10: "@te<19><VALVE_ID_LAN><>" connected, address "10.15.2.23:27005"
+L 05/10/2018 - 12:50:12: "Jack<16><VALVE_ID_LAN><TERRORIST>" killed "INDIO<17><VALVE_ID_LAN><CT>" with "deagle"
+L 05/10/2018 - 12:50:12: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "1")
+L 05/10/2018 - 12:50:12: World triggered "Round_End"
+L 05/10/2018 - 12:50:13: "@te<19><VALVE_ID_LAN><>" entered the game
+L 05/10/2018 - 12:50:15: "@te<19><VALVE_ID_LAN><>" joined team "CT"
+L 05/10/2018 - 12:50:17: World triggered "Round_Start"
+L 05/10/2018 - 12:50:30: "Calango<13><VALVE_ID_LAN><CT>" killed "Smolder<14><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 05/10/2018 - 12:50:32: "Calango<13><VALVE_ID_LAN><CT>" killed "Jack<16><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 05/10/2018 - 12:50:37: "@te<19><VALVE_ID_LAN><CT>" killed "GARGAMEL NAO LEVO FACA HOJE<15><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 05/10/2018 - 12:50:39: "TUX<18><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<12><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 05/10/2018 - 12:50:49: "TUX<18><VALVE_ID_LAN><TERRORIST>" killed "@te<19><VALVE_ID_LAN><CT>" with "deagle"
+L 05/10/2018 - 12:50:50: "Calango<13><VALVE_ID_LAN><CT>" killed "TUX<18><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 05/10/2018 - 12:50:50: Team "CT" triggered "CTs_Win" (CT "1") (T "1")
+L 05/10/2018 - 12:50:50: World triggered "Round_End"
+L 05/10/2018 - 12:50:55: World triggered "Round_Start"
+L 05/10/2018 - 12:51:04: "Calango<13><VALVE_ID_LAN><CT>" killed "TUX<18><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 05/10/2018 - 12:51:05: "GARGAMEL NAO LEVO FACA HOJE<15><VALVE_ID_LAN><TERRORIST>" killed "Calango<13><VALVE_ID_LAN><CT>" with "deagle"
+L 05/10/2018 - 12:51:11: "Cap. Billy<12><VALVE_ID_LOOPBACK><CT>" killed "Smolder<14><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/10/2018 - 12:51:14: "GARGAMEL NAO LEVO FACA HOJE<15><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<12><VALVE_ID_LOOPBACK><CT>" with "deagle"
+L 05/10/2018 - 12:51:16: "INDIO<17><VALVE_ID_LAN><CT>" killed "GARGAMEL NAO LEVO FACA HOJE<15><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 05/10/2018 - 12:51:19: "INDIO<17><VALVE_ID_LAN><CT>" killed "Jack<16><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 05/10/2018 - 12:51:19: Team "CT" triggered "CTs_Win" (CT "2") (T "1")
+L 05/10/2018 - 12:51:19: World triggered "Round_End"
+L 05/10/2018 - 12:51:24: World triggered "Round_Start"
+L 05/10/2018 - 12:51:32: "Jack<16><VALVE_ID_LAN><TERRORIST>" killed "Calango<13><VALVE_ID_LAN><CT>" with "deagle"
+L 05/10/2018 - 12:51:37: "Jack<16><VALVE_ID_LAN><TERRORIST>" killed "INDIO<17><VALVE_ID_LAN><CT>" with "deagle"
+L 05/10/2018 - 12:51:39: "Cap. Billy<12><VALVE_ID_LOOPBACK><CT>" killed "Jack<16><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/10/2018 - 12:51:39: "Smolder<14><VALVE_ID_LAN><TERRORIST>" killed "@te<19><VALVE_ID_LAN><CT>" with "knife"
+L 05/10/2018 - 12:51:42: "Cap. Billy<12><VALVE_ID_LOOPBACK><CT>" killed "TUX<18><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/10/2018 - 12:51:47: "Cap. Billy<12><VALVE_ID_LOOPBACK><CT>" killed "Smolder<14><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/10/2018 - 12:51:47: "GARGAMEL NAO LEVO FACA HOJE<15><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<12><VALVE_ID_LOOPBACK><CT>" with "deagle"
+L 05/10/2018 - 12:51:47: Team "TERRORIST" triggered "Terrorists_Win" (CT "2") (T "2")
+L 05/10/2018 - 12:51:47: World triggered "Round_End"
+L 05/10/2018 - 12:51:51: "@te<19><VALVE_ID_LAN><CT>" say "kkkk" (dead)
+L 05/10/2018 - 12:51:52: "INDIO<17><VALVE_ID_LAN><CT>" say "kkkkkkkkkkkkkkk" (dead)
+L 05/10/2018 - 12:51:52: World triggered "Round_Start"
+L 05/10/2018 - 12:52:04: "Calango<13><VALVE_ID_LAN><CT>" killed "Smolder<14><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/10/2018 - 12:52:16: "Jack<16><VALVE_ID_LAN><TERRORIST>" killed "@te<19><VALVE_ID_LAN><CT>" with "deagle"
+L 05/10/2018 - 12:52:25: "Jack<16><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<12><VALVE_ID_LOOPBACK><CT>" with "deagle"
+L 05/10/2018 - 12:52:27: "INDIO<17><VALVE_ID_LAN><CT>" killed "Jack<16><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 05/10/2018 - 12:52:28: "TUX<18><VALVE_ID_LAN><TERRORIST>" killed "INDIO<17><VALVE_ID_LAN><CT>" with "deagle"
+L 05/10/2018 - 12:52:37: Log file closed

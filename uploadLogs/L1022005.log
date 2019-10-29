@@ -1,0 +1,260 @@
+L 10/22/2019 - 12:50:57: Log file started (file "logs\L1022005.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 10/22/2019 - 12:50:57: "Kitkat<28><VALVE_ID_LAN><>" joined team "CT"
+L 10/22/2019 - 12:50:58: "Calcas Peludas<31><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 10/22/2019 - 12:50:58: "INDIO de ferias<34><VALVE_ID_LAN><>" entered the game
+L 10/22/2019 - 12:50:58: "Cap Billy<30><VALVE_ID_LAN><>" joined team "CT"
+L 10/22/2019 - 12:50:58: World triggered "Game_Commencing"
+L 10/22/2019 - 12:50:58: World triggered "Game_Commencing" (CT "0") (T "0")
+L 10/22/2019 - 12:50:58: World triggered "Round_End"
+L 10/22/2019 - 12:50:59: "Jack<35><VALVE_ID_LAN><>" entered the game
+L 10/22/2019 - 12:50:59: "Smolder<32><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 10/22/2019 - 12:50:59: "DareDevil<29><VALVE_ID_LAN><>" entered the game
+L 10/22/2019 - 12:51:00: "INDIO de ferias<34><VALVE_ID_LAN><>" joined team "CT"
+L 10/22/2019 - 12:51:01: "Jack<35><VALVE_ID_LAN><>" joined team "CT"
+L 10/22/2019 - 12:51:01: "@te<36><VALVE_ID_LAN><>" connected, address "10.15.2.86:27005"
+L 10/22/2019 - 12:51:01: World triggered "Round_Start"
+L 10/22/2019 - 12:51:03: "DareDevil<29><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 10/22/2019 - 12:51:04: "@te<36><VALVE_ID_LAN><>" entered the game
+L 10/22/2019 - 12:51:07: "@te<36><VALVE_ID_LAN><>" joined team "CT"
+L 10/22/2019 - 12:51:08: "DareDevil<29><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<34><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:51:09: "Smolder<32><VALVE_ID_LAN><TERRORIST>" killed "@te<36><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:51:11: "Kitkat<28><VALVE_ID_LAN><CT>" killed "Smolder<32><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:51:12: "DareDevil<29><VALVE_ID_LAN><TERRORIST>" killed "Jack<35><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:51:15: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<28><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:51:16: "Cap Billy<30><VALVE_ID_LAN><CT>" killed "DareDevil<29><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:51:21: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say_team "mal"
+L 10/22/2019 - 12:51:32: "XXBOT Gabe<33><BOT><TERRORIST>" killed "Cap Billy<30><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:51:32: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "1")
+L 10/22/2019 - 12:51:32: World triggered "Round_End"
+L 10/22/2019 - 12:51:35: "INDIO de ferias<34><VALVE_ID_LAN><CT>" say_team "isso" (dead)
+L 10/22/2019 - 12:51:36: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say_team "fca"
+L 10/22/2019 - 12:51:37: World triggered "Round_Start"
+L 10/22/2019 - 12:51:38: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say_team "faca"
+L 10/22/2019 - 12:51:48: "Cap Billy<30><VALVE_ID_LAN><CT>" killed "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:51:51: "DareDevil<29><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<30><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:51:52: "Smolder<32><VALVE_ID_LAN><TERRORIST>" killed "Jack<35><VALVE_ID_LAN><CT>" with "knife"
+L 10/22/2019 - 12:51:53: "@te<36><VALVE_ID_LAN><CT>" killed "DareDevil<29><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 10/22/2019 - 12:51:53: "Smolder<32><VALVE_ID_LAN><TERRORIST>" killed "@te<36><VALVE_ID_LAN><CT>" with "knife"
+L 10/22/2019 - 12:51:54: "INDIO de ferias<34><VALVE_ID_LAN><CT>" killed "Smolder<32><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:52:00: "Cap Billy<30><VALVE_ID_LAN><CT>" say_team "olha a merda ai" (dead)
+L 10/22/2019 - 12:52:02: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say "ufaca no @" (dead)
+L 10/22/2019 - 12:52:03: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" killed "INDIO de ferias<34><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:52:07: "Kitkat<28><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<33><BOT><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:52:07: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say_team "faca no @" (dead)
+L 10/22/2019 - 12:52:08: "Cap Billy<30><VALVE_ID_LAN><CT>" say_team "te cuida @" (dead)
+L 10/22/2019 - 12:52:08: "Smolder<32><VALVE_ID_LAN><TERRORIST>" say_team "tocaia" (dead)
+L 10/22/2019 - 12:52:09: "Jack<35><VALVE_ID_LAN><CT>" say_team "cap...  xiiu" (dead)
+L 10/22/2019 - 12:52:12: "Smolder<32><VALVE_ID_LAN><TERRORIST>" say_team "tocaia" (dead)
+L 10/22/2019 - 12:52:14: "Kitkat<28><VALVE_ID_LAN><CT>" killed "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:52:14: Team "CT" triggered "CTs_Win" (CT "1") (T "1")
+L 10/22/2019 - 12:52:14: World triggered "Round_End"
+L 10/22/2019 - 12:52:15: "Cap Billy<30><VALVE_ID_LAN><CT>" say_team "hehehehehe" (dead)
+L 10/22/2019 - 12:52:15: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say_team "tocaia pelo meio" (dead)
+L 10/22/2019 - 12:52:19: World triggered "Round_Start"
+L 10/22/2019 - 12:52:27: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<30><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:52:30: "Jack<35><VALVE_ID_LAN><CT>" killed "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:52:31: "XXBOT Gabe<33><BOT><TERRORIST>" killed "Jack<35><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:52:35: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" killed "@te<36><VALVE_ID_LAN><CT>" with "knife"
+L 10/22/2019 - 12:52:35: "Kitkat<28><VALVE_ID_LAN><CT>" killed "DareDevil<29><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:52:36: "Kitkat<28><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<33><BOT><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:52:37: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say "boaa" (dead)
+L 10/22/2019 - 12:52:38: "Kitkat<28><VALVE_ID_LAN><CT>" killed "Smolder<32><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:52:39: "DareDevil<29><VALVE_ID_LAN><TERRORIST>" say "ui nega" (dead)
+L 10/22/2019 - 12:52:40: "Cap Billy<30><VALVE_ID_LAN><CT>" say_team "ai meu deus" (dead)
+L 10/22/2019 - 12:52:43: "DareDevil<29><VALVE_ID_LAN><TERRORIST>" say "temos o ima??" (dead)
+L 10/22/2019 - 12:52:43: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" killed "Kitkat<28><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:52:44: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" killed "INDIO de ferias<34><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:52:44: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "2")
+L 10/22/2019 - 12:52:44: World triggered "Round_End"
+L 10/22/2019 - 12:52:46: "Jack<35><VALVE_ID_LAN><CT>" say "kit matadora" (dead)
+L 10/22/2019 - 12:52:46: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say "linda" (dead)
+L 10/22/2019 - 12:52:47: "Smolder<32><VALVE_ID_LAN><TERRORIST>" say "ja" (dead)
+L 10/22/2019 - 12:52:49: "Cap Billy<30><VALVE_ID_LAN><CT>" say "acho que sim" (dead)
+L 10/22/2019 - 12:52:49: World triggered "Round_Start"
+L 10/22/2019 - 12:52:58: "Cap Billy<30><VALVE_ID_LAN><CT>" killed "Smolder<32><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:52:59: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<30><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:53:00: "@te<36><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<33><BOT><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:53:03: "DareDevil<29><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<28><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:53:05: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" killed "Jack<35><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:53:08: "INDIO de ferias<34><VALVE_ID_LAN><CT>" killed "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:53:13: "INDIO de ferias<34><VALVE_ID_LAN><CT>" killed "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:53:19: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" say_team "mapa" (dead)
+L 10/22/2019 - 12:53:22: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say_team "ok" (dead)
+L 10/22/2019 - 12:53:27: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say_team "ganhar mapa" (dead)
+L 10/22/2019 - 12:53:38: "Kitkat<28><VALVE_ID_LAN><CT>" say "zzzz" (dead)
+L 10/22/2019 - 12:53:48: "Jack<35><VALVE_ID_LAN><CT>" say "tinha q ser o calcas" (dead)
+L 10/22/2019 - 12:53:50: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" say_team "bora" (dead)
+L 10/22/2019 - 12:53:53: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" say_team "puta merda" (dead)
+L 10/22/2019 - 12:53:53: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say "nao sou eu" (dead)
+L 10/22/2019 - 12:53:55: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say "kkkkk" (dead)
+L 10/22/2019 - 12:53:55: "Jack<35><VALVE_ID_LAN><CT>" say "kkkk" (dead)
+L 10/22/2019 - 12:53:56: "Cap Billy<30><VALVE_ID_LAN><CT>" say "hahahahaha" (dead)
+L 10/22/2019 - 12:53:57: "DareDevil<29><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<34><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:53:58: "DareDevil<29><VALVE_ID_LAN><TERRORIST>" killed "@te<36><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:53:58: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "3")
+L 10/22/2019 - 12:53:58: World triggered "Round_End"
+L 10/22/2019 - 12:53:59: "Jack<35><VALVE_ID_LAN><CT>" say "forca do habityo" (dead)
+L 10/22/2019 - 12:54:01: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say "linda" (dead)
+L 10/22/2019 - 12:54:03: World triggered "Round_Start"
+L 10/22/2019 - 12:54:07: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<30><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:54:11: "Smolder<32><VALVE_ID_LAN><TERRORIST>" killed "@te<36><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:54:12: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<34><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:54:16: "Kitkat<28><VALVE_ID_LAN><CT>" killed "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:54:24: "Jack<35><VALVE_ID_LAN><CT>" killed "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:54:28: "DareDevil<29><VALVE_ID_LAN><TERRORIST>" killed "Jack<35><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:54:28: "Kitkat<28><VALVE_ID_LAN><CT>" killed "Smolder<32><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:54:29: "XXBOT Gabe<33><BOT><TERRORIST>" killed "Kitkat<28><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:54:29: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "4")
+L 10/22/2019 - 12:54:29: World triggered "Round_End"
+L 10/22/2019 - 12:54:32: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say "forca do habito" (dead)
+L 10/22/2019 - 12:54:33: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" say_team "pra cima" (dead)
+L 10/22/2019 - 12:54:34: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say "kkkkk" (dead)
+L 10/22/2019 - 12:54:34: World triggered "Round_Start"
+L 10/22/2019 - 12:54:41: "Smolder<32><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<28><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:54:49: "XXBOT Gabe<33><BOT><TERRORIST>" killed "@te<36><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:54:50: "Cap Billy<30><VALVE_ID_LAN><CT>" killed "DareDevil<29><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:54:55: "Jack<35><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<33><BOT><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:54:55: "Cap Billy<30><VALVE_ID_LAN><CT>" killed "Smolder<32><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 10/22/2019 - 12:54:58: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<30><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:54:59: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<34><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:55:01: "Jack<35><VALVE_ID_LAN><CT>" killed "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:55:02: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" killed "Jack<35><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:55:02: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "5")
+L 10/22/2019 - 12:55:02: World triggered "Round_End"
+L 10/22/2019 - 12:55:03: "Kitkat<28><VALVE_ID_LAN><CT>" say "kkkk" (dead)
+L 10/22/2019 - 12:55:05: "Cap Billy<30><VALVE_ID_LAN><CT>" say "HAHAHAHAHAHA" (dead)
+L 10/22/2019 - 12:55:05: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say "boa" (dead)
+L 10/22/2019 - 12:55:07: World triggered "Round_Start"
+L 10/22/2019 - 12:55:18: "XXBOT Gabe<33><BOT><TERRORIST>" killed "INDIO de ferias<34><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:55:19: "Smolder<32><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<28><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:55:23: "DareDevil<29><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<30><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:55:29: "Jack<35><VALVE_ID_LAN><CT>" killed "DareDevil<29><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:55:29: "@te<36><VALVE_ID_LAN><CT>" killed "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:55:30: "Smolder<32><VALVE_ID_LAN><TERRORIST>" killed "Jack<35><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:55:40: "Cap Billy<30><VALVE_ID_LAN><CT>" say_team " eu to tentando dar umas facadas" (dead)
+L 10/22/2019 - 12:55:40: "@te<36><VALVE_ID_LAN><CT>" killed "Smolder<32><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:55:47: "Cap Billy<30><VALVE_ID_LAN><CT>" say_team "pra ver se livra o @" (dead)
+L 10/22/2019 - 12:55:47: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say "@ escondido" (dead)
+L 10/22/2019 - 12:55:48: "Jack<35><VALVE_ID_LAN><CT>" say "eu so dei uma cap" (dead)
+L 10/22/2019 - 12:55:49: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say "hahahahahaha" (dead)
+L 10/22/2019 - 12:55:52: "INDIO de ferias<34><VALVE_ID_LAN><CT>" say_team "segue alguem com o capitao" (dead)
+L 10/22/2019 - 12:56:02: "Jack<35><VALVE_ID_LAN><CT>" say_team "nao sei se o sr viu" (dead)
+L 10/22/2019 - 12:56:04: "XXBOT Gabe<33><BOT><TERRORIST>" killed "@te<36><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:56:04: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "6")
+L 10/22/2019 - 12:56:04: World triggered "Round_End"
+L 10/22/2019 - 12:56:08: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say "pega" (dead)
+L 10/22/2019 - 12:56:09: World triggered "Round_Start"
+L 10/22/2019 - 12:56:17: "Cap Billy<30><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<33><BOT><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:56:19: "Smolder<32><VALVE_ID_LAN><TERRORIST>" killed "Jack<35><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:56:23: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" killed "@te<36><VALVE_ID_LAN><CT>" with "knife"
+L 10/22/2019 - 12:56:26: "Jack<35><VALVE_ID_LAN><CT>" say_team "ai" (dead)
+L 10/22/2019 - 12:56:26: "Cap Billy<30><VALVE_ID_LAN><CT>" say_team "to mole"
+L 10/22/2019 - 12:56:33: "Smolder<32><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<28><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:56:36: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<30><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:56:37: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" killed "INDIO de ferias<34><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:56:37: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "7")
+L 10/22/2019 - 12:56:37: World triggered "Round_End"
+L 10/22/2019 - 12:56:41: "Cap Billy<30><VALVE_ID_LAN><CT>" say_team "ai meu deus" (dead)
+L 10/22/2019 - 12:56:41: "Jack<35><VALVE_ID_LAN><CT>" say_team "penha" (dead)
+L 10/22/2019 - 12:56:42: World triggered "Round_Start"
+L 10/22/2019 - 12:56:43: "INDIO de ferias<34><VALVE_ID_LAN><CT>" say_team "porra @@"
+L 10/22/2019 - 12:56:55: "INDIO de ferias<34><VALVE_ID_LAN><CT>" killed "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:56:57: "DareDevil<29><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<34><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:57:01: "Cap Billy<30><VALVE_ID_LAN><CT>" killed "Smolder<32><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:57:01: "Jack<35><VALVE_ID_LAN><CT>" killed "DareDevil<29><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:57:06: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<30><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:57:08: "XXBOT Gabe<33><BOT><TERRORIST>" killed "@te<36><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:57:09: "Kitkat<28><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<33><BOT><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:57:09: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" say_team "nao deem espa,o" (dead)
+L 10/22/2019 - 12:57:09: "Jack<35><VALVE_ID_LAN><CT>" killed "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:57:09: Team "CT" triggered "CTs_Win" (CT "2") (T "7")
+L 10/22/2019 - 12:57:09: World triggered "Round_End"
+L 10/22/2019 - 12:57:14: World triggered "Round_Start"
+L 10/22/2019 - 12:57:18: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<34><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:57:29: "Smolder<32><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<28><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:57:31: "Cap Billy<30><VALVE_ID_LAN><CT>" killed "Smolder<32><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 10/22/2019 - 12:57:31: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" killed "Jack<35><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:57:34: "Kitkat<28><VALVE_ID_LAN><CT>" say "kkkkk" (dead)
+L 10/22/2019 - 12:57:38: "DareDevil<29><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<30><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:57:39: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" killed "@te<36><VALVE_ID_LAN><CT>" with "knife"
+L 10/22/2019 - 12:57:39: Team "TERRORIST" triggered "Terrorists_Win" (CT "2") (T "8")
+L 10/22/2019 - 12:57:39: World triggered "Round_End"
+L 10/22/2019 - 12:57:42: "DareDevil<29><VALVE_ID_LAN><TERRORIST>" say "ui nega"
+L 10/22/2019 - 12:57:42: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say_team "boa"
+L 10/22/2019 - 12:57:43: "Jack<35><VALVE_ID_LAN><CT>" say_team "foda rs" (dead)
+L 10/22/2019 - 12:57:44: World triggered "Round_Start"
+L 10/22/2019 - 12:57:51: "Cap Billy<30><VALVE_ID_LAN><CT>" say_team "aff"
+L 10/22/2019 - 12:57:55: "Smolder<32><VALVE_ID_LAN><TERRORIST>" killed "Jack<35><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:57:55: "@te<36><VALVE_ID_LAN><CT>" killed "DareDevil<29><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:58:00: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<34><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:58:02: "XXBOT Gabe<33><BOT><TERRORIST>" killed "Kitkat<28><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:58:08: "XXBOT Gabe<33><BOT><TERRORIST>" killed "Cap Billy<30><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:58:13: "@te<36><VALVE_ID_LAN><CT>" killed "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:58:15: "Jack<35><VALVE_ID_LAN><CT>" say "vamos apostar q vai levar" (dead)
+L 10/22/2019 - 12:58:16: "@te<36><VALVE_ID_LAN><CT>" killed "Smolder<32><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:58:19: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" say_team "bala" (dead)
+L 10/22/2019 - 12:58:20: "XXBOT Gabe<33><BOT><TERRORIST>" killed "@te<36><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:58:20: Team "TERRORIST" triggered "Terrorists_Win" (CT "2") (T "9")
+L 10/22/2019 - 12:58:20: World triggered "Round_End"
+L 10/22/2019 - 12:58:23: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" say_team "bala" (dead)
+L 10/22/2019 - 12:58:23: "Jack<35><VALVE_ID_LAN><CT>" say_team "perdi" (dead)
+L 10/22/2019 - 12:58:24: "Cap Billy<30><VALVE_ID_LAN><CT>" say_team "ja ganhou" (dead)
+L 10/22/2019 - 12:58:25: World triggered "Round_Start"
+L 10/22/2019 - 12:58:27: "Cap Billy<30><VALVE_ID_LAN><CT>" say_team "hahahaha"
+L 10/22/2019 - 12:58:33: "Smolder<32><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<28><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:58:36: "@te<36><VALVE_ID_LAN><CT>" killed "DareDevil<29><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:58:38: "Smolder<32><VALVE_ID_LAN><TERRORIST>" killed "Jack<35><VALVE_ID_LAN><CT>" with "knife"
+L 10/22/2019 - 12:58:39: "DareDevil<29><VALVE_ID_LAN><TERRORIST>" say "camper" (dead)
+L 10/22/2019 - 12:58:40: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" killed "@te<36><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:58:40: "INDIO de ferias<34><VALVE_ID_LAN><CT>" killed "Smolder<32><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:58:41: "Jack<35><VALVE_ID_LAN><CT>" say_team "porra.. de aco" (dead)
+L 10/22/2019 - 12:58:41: "DareDevil<29><VALVE_ID_LAN><TERRORIST>" say "pega-te" (dead)
+L 10/22/2019 - 12:58:45: "Cap Billy<30><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<33><BOT><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:58:52: "Cap Billy<30><VALVE_ID_LAN><CT>" killed "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:58:59: "INDIO de ferias<34><VALVE_ID_LAN><CT>" killed "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:58:59: Team "CT" triggered "CTs_Win" (CT "3") (T "9")
+L 10/22/2019 - 12:58:59: World triggered "Round_End"
+L 10/22/2019 - 12:59:03: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" say_team "fica" (dead)
+L 10/22/2019 - 12:59:04: World triggered "Round_Start"
+L 10/22/2019 - 12:59:08: Server cvar "amx_nextmap" = "aim_pistol"
+L 10/22/2019 - 12:59:23: "XXBOT Gabe<33><BOT><TERRORIST>" killed "@te<36><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:59:26: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<34><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:59:26: "Smolder<32><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<28><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:59:35: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<30><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:59:44: "Jack<35><VALVE_ID_LAN><CT>" killed "DareDevil<29><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 12:59:51: "XXBOT Gabe<33><BOT><TERRORIST>" killed "Jack<35><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 12:59:51: Team "TERRORIST" triggered "Terrorists_Win" (CT "3") (T "10")
+L 10/22/2019 - 12:59:51: World triggered "Round_End"
+L 10/22/2019 - 12:59:56: World triggered "Round_Start"
+L 10/22/2019 - 12:59:56: "Jack<35><VALVE_ID_LAN><CT>" say_team "valeu bot kkkkkk"
+L 10/22/2019 - 12:59:58: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" say_team "fica"
+L 10/22/2019 - 13:00:12: "Smolder<32><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<28><VALVE_ID_LAN><CT>" with "knife"
+L 10/22/2019 - 13:00:15: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" killed "Jack<35><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 13:00:17: "XXBOT Gabe<33><BOT><TERRORIST>" killed "INDIO de ferias<34><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 13:00:20: "@te<36><VALVE_ID_LAN><CT>" killed "DareDevil<29><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 13:00:24: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<30><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 13:00:24: "Smolder<32><VALVE_ID_LAN><TERRORIST>" killed "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 13:00:27: "Jack<35><VALVE_ID_LAN><CT>" say "bom" (dead)
+L 10/22/2019 - 13:00:28: "@te<36><VALVE_ID_LAN><CT>" killed "Smolder<32><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 13:00:28: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say "valeu" (dead)
+L 10/22/2019 - 13:00:30: "XXBOT Gabe<33><BOT><TERRORIST>" killed "@te<36><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 13:00:30: Team "TERRORIST" triggered "Terrorists_Win" (CT "3") (T "11")
+L 10/22/2019 - 13:00:30: World triggered "Round_End"
+L 10/22/2019 - 13:00:32: "DareDevil<29><VALVE_ID_LAN><TERRORIST>" say_team "slavou??" (dead)
+L 10/22/2019 - 13:00:35: "Smolder<32><VALVE_ID_LAN><TERRORIST>" committed suicide with "world"
+L 10/22/2019 - 13:00:35: World triggered "Round_Start"
+L 10/22/2019 - 13:00:36: "Smolder<32><VALVE_ID_LAN><TERRORIST>" say "salvei" (dead)
+L 10/22/2019 - 13:00:36: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" say "sim"
+L 10/22/2019 - 13:00:36: "Jack<35><VALVE_ID_LAN><CT>" say_team "penha visse"
+L 10/22/2019 - 13:00:46: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<28><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 13:00:50: "Jack<35><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<33><BOT><TERRORIST>" with "deagle"
+L 10/22/2019 - 13:00:53: "Jack<35><VALVE_ID_LAN><CT>" killed "DareDevil<29><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/22/2019 - 13:00:54: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<34><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 13:00:57: "Jack<35><VALVE_ID_LAN><CT>" killed "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" with "deagle"
+L 10/22/2019 - 13:00:58: "Calcas Peludas<31><VALVE_ID_LAN><TERRORIST>" killed "Jack<35><VALVE_ID_LAN><CT>" with "deagle"
+L 10/22/2019 - 13:01:00: "Kitkat<28><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "deagle") (shots "102") (hits "25") (kills "9") (headshots "5") (tks "0") (damage "1316") (deaths "10")
+L 10/22/2019 - 13:01:00: "Kitkat<28><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "deagle") (head "5") (chest "6") (stomach "4") (leftarm "4") (rightarm "3") (leftleg "2") (rightleg "1")
+L 10/22/2019 - 13:01:00: "Kitkat<28><VALVE_ID_LAN><CT>" triggered "time" (time "10:04")
+L 10/22/2019 - 13:01:00: "Kitkat<28><VALVE_ID_LAN><CT>" triggered "latency" (ping "6")
+L 10/22/2019 - 13:01:00: "Kitkat<28><VALVE_ID_LAN><CT>" disconnected
+L 10/22/2019 - 13:01:00: Log file closed

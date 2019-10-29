@@ -1,0 +1,19 @@
+L 08/14/2019 - 12:29:40: Log file started (file "logs\L0814000.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 08/14/2019 - 12:29:41: "Cap Billy<6><VALVE_ID_LAN><>" joined team "CT"
+L 08/14/2019 - 12:29:41: World triggered "Game_Commencing"
+L 08/14/2019 - 12:29:41: World triggered "Game_Commencing" (CT "0") (T "0")
+L 08/14/2019 - 12:29:41: World triggered "Round_End"
+L 08/14/2019 - 12:29:43: "Smolder<8><VALVE_ID_LAN><>" entered the game
+L 08/14/2019 - 12:29:44: "Cap Billy<6><VALVE_ID_LAN><CT>" killed "CEIFADOR<5><VALVE_ID_LOOPBACK><TERRORIST>" with "m4a1"
+L 08/14/2019 - 12:29:44: "CEIFADOR<5><VALVE_ID_LOOPBACK><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 08/14/2019 - 12:29:44: World triggered "Round_Start"
+L 08/14/2019 - 12:29:45: "Smolder<8><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/14/2019 - 12:29:50: "Calcas Peludas<7><VALVE_ID_LAN><>" joined team "CT"
+L 08/14/2019 - 12:29:54: "Cap Billy<6><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/14/2019 - 12:30:01: "CEIFADOR<5><VALVE_ID_LOOPBACK><TERRORIST>" killed "Calcas Peludas<7><VALVE_ID_LAN><CT>" with "m4a1"
+L 08/14/2019 - 12:30:09: "CEIFADOR<5><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<6><VALVE_ID_LAN><CT>" with "m4a1"
+L 08/14/2019 - 12:30:09: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "1")
+L 08/14/2019 - 12:30:09: World triggered "Round_End"
+L 08/14/2019 - 12:30:14: "Smolder<8><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 08/14/2019 - 12:30:14: World triggered "Round_Start"
+L 08/14/2019 - 12:30:16: Log file closed

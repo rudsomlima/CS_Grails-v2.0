@@ -1,0 +1,425 @@
+L 08/29/2019 - 12:39:59: Log file started (file "logs\L0829007.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 08/29/2019 - 12:39:59: "Cap Billy<29><VALVE_ID_LAN><>" entered the game
+L 08/29/2019 - 12:40:00: "Calcas Peludas<36><VALVE_ID_LAN><>" connected, address "10.15.2.230:27005"
+L 08/29/2019 - 12:40:00: "Smolder<30><VALVE_ID_LAN><>" entered the game
+L 08/29/2019 - 12:40:00: "INDIO<32><VALVE_ID_LAN><>" entered the game
+L 08/29/2019 - 12:40:00: "Gho$T<31><VALVE_ID_LAN><>" entered the game
+L 08/29/2019 - 12:40:00: "Cap Billy<29><VALVE_ID_LAN><>" joined team "CT"
+L 08/29/2019 - 12:40:00: "Jack<33><VALVE_ID_LAN><>" entered the game
+L 08/29/2019 - 12:40:01: World triggered "Game_Commencing"
+L 08/29/2019 - 12:40:01: World triggered "Game_Commencing" (CT "0") (T "0")
+L 08/29/2019 - 12:40:01: World triggered "Round_End"
+L 08/29/2019 - 12:40:01: "Kitkat<27><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/29/2019 - 12:40:02: "@te<37><VALVE_ID_LAN><>" connected, address "10.15.2.86:27005"
+L 08/29/2019 - 12:40:02: "Smolder<30><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/29/2019 - 12:40:02: "INDIO<32><VALVE_ID_LAN><>" joined team "CT"
+L 08/29/2019 - 12:40:03: "Calcas Peludas<36><VALVE_ID_LAN><>" entered the game
+L 08/29/2019 - 12:40:03: "Jack<33><VALVE_ID_LAN><>" joined team "CT"
+L 08/29/2019 - 12:40:04: World triggered "Round_Start"
+L 08/29/2019 - 12:40:04: "Calcas Peludas<36><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/29/2019 - 12:40:04: "Gho$T<31><VALVE_ID_LAN><>" joined team "CT"
+L 08/29/2019 - 12:40:04: "Kratos-away<35><VALVE_ID_LAN><>" entered the game
+L 08/29/2019 - 12:40:04: "Ice_Man<34><VALVE_ID_LAN><>" entered the game
+L 08/29/2019 - 12:40:05: "@te<37><VALVE_ID_LAN><>" entered the game
+L 08/29/2019 - 12:40:06: "Ice_Man<34><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/29/2019 - 12:40:07: "@te<37><VALVE_ID_LAN><>" joined team "CT"
+L 08/29/2019 - 12:40:07: "Kratos-away<35><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/29/2019 - 12:40:10: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<29><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:40:12: "INDIO<32><VALVE_ID_LAN><CT>" killed "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:40:13: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "INDIO<32><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:40:16: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:40:16: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "Jack<33><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:40:17: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "@te<37><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:40:17: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "1")
+L 08/29/2019 - 12:40:17: World triggered "Round_End"
+L 08/29/2019 - 12:40:22: "XXBOT Zim<38><BOT><>" joined team "CT"
+L 08/29/2019 - 12:40:22: Server cvar "bot_quota" = "1"
+L 08/29/2019 - 12:40:23: World triggered "Round_Start"
+L 08/29/2019 - 12:40:23: "XXBOT Zim<38><BOT><>" entered the game
+L 08/29/2019 - 12:40:27: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" say "tirem almiitacoa de ping acima de 2000"
+L 08/29/2019 - 12:40:28: "INDIO<32><VALVE_ID_LAN><CT>" killed "Smolder<30><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:40:28: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" killed "@te<37><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:40:30: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:40:30: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" killed "INDIO<32><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:40:31: "Gho$T<31><VALVE_ID_LAN><CT>" killed "Kitkat<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:40:32: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:40:33: "Gho$T<31><VALVE_ID_LAN><CT>" killed "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:40:36: "Smolder<30><VALVE_ID_LAN><TERRORIST>" say_team "sem o tab pra ver quem ta vivo" (dead)
+L 08/29/2019 - 12:40:37: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" say "talvez trave menos" (dead)
+L 08/29/2019 - 12:40:39: "Gho$T<31><VALVE_ID_LAN><CT>" killed "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:40:39: Team "CT" triggered "CTs_Win" (CT "1") (T "1")
+L 08/29/2019 - 12:40:39: World triggered "Round_End"
+L 08/29/2019 - 12:40:42: "Smolder<30><VALVE_ID_LAN><TERRORIST>" say_team "usem" (dead)
+L 08/29/2019 - 12:40:44: World triggered "Round_Start"
+L 08/29/2019 - 12:40:50: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:40:51: "INDIO<32><VALVE_ID_LAN><CT>" killed "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:40:54: "INDIO<32><VALVE_ID_LAN><CT>" killed "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:40:54: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:40:57: "@te<37><VALVE_ID_LAN><CT>" killed "Kitkat<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:40:57: "INDIO<32><VALVE_ID_LAN><CT>" killed "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" with "knife"
+L 08/29/2019 - 12:40:58: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Smolder<30><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:40:58: Team "CT" triggered "CTs_Win" (CT "2") (T "1")
+L 08/29/2019 - 12:40:58: World triggered "Round_End"
+L 08/29/2019 - 12:40:58: "Gho$T<31><VALVE_ID_LAN><CT>" say "teu ping ta 55" (dead)
+L 08/29/2019 - 12:41:00: "Gho$T<31><VALVE_ID_LAN><CT>" say "GAHAHAHAHAHA" (dead)
+L 08/29/2019 - 12:41:02: "Cap Billy<29><VALVE_ID_LAN><CT>" say "HAHAHAHAHAHAHAHAHAHA"
+L 08/29/2019 - 12:41:03: World triggered "Round_Start"
+L 08/29/2019 - 12:41:09: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" killed "INDIO<32><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:41:10: "Gho$T<31><VALVE_ID_LAN><CT>" killed "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:41:11: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<29><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:41:13: "@te<37><VALVE_ID_LAN><CT>" killed "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:41:16: "@te<37><VALVE_ID_LAN><CT>" killed "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:41:18: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:41:22: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" killed "Jack<33><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:41:26: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" killed "@te<37><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:41:26: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zim<38><BOT><CT>" with "glock18"
+L 08/29/2019 - 12:41:26: Team "TERRORIST" triggered "Terrorists_Win" (CT "2") (T "2")
+L 08/29/2019 - 12:41:26: World triggered "Round_End"
+L 08/29/2019 - 12:41:26: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" say "aqui aparece 1999" (dead)
+L 08/29/2019 - 12:41:31: World triggered "Round_Start"
+L 08/29/2019 - 12:41:37: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" killed "INDIO<32><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:41:40: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:41:40: "Gho$T<31><VALVE_ID_LAN><CT>" killed "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" with "knife"
+L 08/29/2019 - 12:41:41: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:41:43: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zim<38><BOT><CT>" with "knife"
+L 08/29/2019 - 12:41:43: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<29><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:41:46: "@te<37><VALVE_ID_LAN><CT>" killed "Kitkat<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:41:48: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" say "ui " (dead)
+L 08/29/2019 - 12:41:48: "Jack<33><VALVE_ID_LAN><CT>" killed "Smolder<30><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:41:51: "Gho$T<31><VALVE_ID_LAN><CT>" say "JKKKKKK" (dead)
+L 08/29/2019 - 12:41:57: "Cap Billy<29><VALVE_ID_LAN><CT>" say "comemorando faca em bot" (dead)
+L 08/29/2019 - 12:41:57: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" killed "@te<37><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:41:58: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" killed "Jack<33><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:41:58: Team "TERRORIST" triggered "Terrorists_Win" (CT "2") (T "3")
+L 08/29/2019 - 12:41:58: World triggered "Round_End"
+L 08/29/2019 - 12:42:03: World triggered "Round_Start"
+L 08/29/2019 - 12:42:04: "Cap Billy<29><VALVE_ID_LAN><CT>" say "que lastima"
+L 08/29/2019 - 12:42:05: "Jack<33><VALVE_ID_LAN><CT>" say "kratos sempre no puleiro"
+L 08/29/2019 - 12:42:07: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:42:08: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" killed "Jack<33><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:42:09: "INDIO<32><VALVE_ID_LAN><CT>" killed "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:42:10: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "INDIO<32><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:42:14: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zim<38><BOT><CT>" with "glock18"
+L 08/29/2019 - 12:42:18: "@te<37><VALVE_ID_LAN><CT>" killed "Kitkat<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:42:25: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Smolder<30><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:42:41: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" killed "@te<37><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:42:43: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<29><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:42:43: Team "TERRORIST" triggered "Terrorists_Win" (CT "2") (T "4")
+L 08/29/2019 - 12:42:43: World triggered "Round_End"
+L 08/29/2019 - 12:42:46: "INDIO<32><VALVE_ID_LAN><CT>" say_team "maspa" (dead)
+L 08/29/2019 - 12:42:48: World triggered "Round_Start"
+L 08/29/2019 - 12:42:55: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" killed "INDIO<32><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:42:55: "@te<37><VALVE_ID_LAN><CT>" killed "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:42:55: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<29><VALVE_ID_LAN><CT>" with "knife"
+L 08/29/2019 - 12:42:57: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "knife"
+L 08/29/2019 - 12:42:58: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "XXBOT Zim<38><BOT><CT>" with "glock18"
+L 08/29/2019 - 12:42:59: "Jack<33><VALVE_ID_LAN><CT>" killed "Smolder<30><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 08/29/2019 - 12:43:00: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" killed "Jack<33><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:43:00: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" say "ui nega" (dead)
+L 08/29/2019 - 12:43:01: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "@te<37><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:43:01: Team "TERRORIST" triggered "Terrorists_Win" (CT "2") (T "5")
+L 08/29/2019 - 12:43:01: World triggered "Round_End"
+L 08/29/2019 - 12:43:04: "Cap Billy<29><VALVE_ID_LAN><CT>" say_team "porra" (dead)
+L 08/29/2019 - 12:43:06: World triggered "Round_Start"
+L 08/29/2019 - 12:43:07: "INDIO<32><VALVE_ID_LAN><CT>" say_team "o"
+L 08/29/2019 - 12:43:13: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<29><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:43:15: "Jack<33><VALVE_ID_LAN><CT>" killed "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:43:18: "@te<37><VALVE_ID_LAN><CT>" killed "Kitkat<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:43:19: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zim<38><BOT><CT>" with "knife"
+L 08/29/2019 - 12:43:19: "Gho$T<31><VALVE_ID_LAN><CT>" killed "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 08/29/2019 - 12:43:20: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "@te<37><VALVE_ID_LAN><CT>" with "knife"
+L 08/29/2019 - 12:43:27: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" killed "Jack<33><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:43:28: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:43:32: "INDIO<32><VALVE_ID_LAN><CT>" killed "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:43:33: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" say "ymuito bem ghost" (dead)
+L 08/29/2019 - 12:43:35: "INDIO<32><VALVE_ID_LAN><CT>" killed "Smolder<30><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:43:37: "INDIO<32><VALVE_ID_LAN><CT>" killed "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:43:37: Team "CT" triggered "CTs_Win" (CT "3") (T "5")
+L 08/29/2019 - 12:43:37: World triggered "Round_End"
+L 08/29/2019 - 12:43:40: "Jack<33><VALVE_ID_LAN><CT>" say "pega porra" (dead)
+L 08/29/2019 - 12:43:40: "Cap Billy<29><VALVE_ID_LAN><CT>" say "HAHAHAHAHAHA" (dead)
+L 08/29/2019 - 12:43:41: "@te<37><VALVE_ID_LAN><CT>" say "hu" (dead)
+L 08/29/2019 - 12:43:41: "Gho$T<31><VALVE_ID_LAN><CT>" say "peguei vc" (dead)
+L 08/29/2019 - 12:43:41: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" say_team "atira" (dead)
+L 08/29/2019 - 12:43:42: World triggered "Round_Start"
+L 08/29/2019 - 12:43:50: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:43:51: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Smolder<30><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:43:52: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<29><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:43:54: "INDIO<32><VALVE_ID_LAN><CT>" killed "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 08/29/2019 - 12:43:54: "Jack<33><VALVE_ID_LAN><CT>" killed "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:43:58: "INDIO<32><VALVE_ID_LAN><CT>" killed "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 08/29/2019 - 12:43:58: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" killed "INDIO<32><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:43:58: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" say "covarde" (dead)
+L 08/29/2019 - 12:44:00: "Jack<33><VALVE_ID_LAN><CT>" killed "Kitkat<27><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 08/29/2019 - 12:44:00: Team "CT" triggered "CTs_Win" (CT "4") (T "5")
+L 08/29/2019 - 12:44:00: World triggered "Round_End"
+L 08/29/2019 - 12:44:04: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" say "porra travoun ahora" (dead)
+L 08/29/2019 - 12:44:04: "Gho$T<31><VALVE_ID_LAN><CT>" say "AHUAHUAHAUHAUAHUAHAUHAUHA"
+L 08/29/2019 - 12:44:05: "Cap Billy<29><VALVE_ID_LAN><CT>" say "eh festa" (dead)
+L 08/29/2019 - 12:44:05: World triggered "Round_Start"
+L 08/29/2019 - 12:44:06: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" say "covardes"
+L 08/29/2019 - 12:44:11: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "Jack<33><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:44:12: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zim<38><BOT><CT>" with "glock18"
+L 08/29/2019 - 12:44:14: "Gho$T<31><VALVE_ID_LAN><CT>" killed "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:44:19: "Gho$T<31><VALVE_ID_LAN><CT>" killed "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:44:20: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:44:21: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Kitkat<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:44:22: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:44:25: "@te<37><VALVE_ID_LAN><CT>" killed "Smolder<30><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:44:26: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" say_team "esquerda" (dead)
+L 08/29/2019 - 12:44:28: "Jack<33><VALVE_ID_LAN><CT>" say "fui no impulso.. nao vi que era kit ?(" (dead)
+L 08/29/2019 - 12:44:29: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:44:29: Team "CT" triggered "CTs_Win" (CT "5") (T "5")
+L 08/29/2019 - 12:44:29: World triggered "Round_End"
+L 08/29/2019 - 12:44:34: World triggered "Round_Start"
+L 08/29/2019 - 12:44:41: "INDIO<32><VALVE_ID_LAN><CT>" killed "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:44:41: "Gho$T<31><VALVE_ID_LAN><CT>" killed "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:44:43: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Kitkat<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:44:45: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" say "era" (dead)
+L 08/29/2019 - 12:44:46: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "INDIO<32><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:44:46: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "knife"
+L 08/29/2019 - 12:44:47: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zim<38><BOT><CT>" with "glock18"
+L 08/29/2019 - 12:44:49: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" say_team "i neg" (dead)
+L 08/29/2019 - 12:44:51: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" say "ui nega" (dead)
+L 08/29/2019 - 12:44:51: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" killed "Jack<33><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:44:52: "Gho$T<31><VALVE_ID_LAN><CT>" say "PQPPPPPPPP" (dead)
+L 08/29/2019 - 12:44:55: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" say "pegaramo gasparzinho" (dead)
+L 08/29/2019 - 12:44:55: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:44:59: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 08/29/2019 - 12:45:03: "Jack<33><VALVE_ID_LAN><CT>" say "pegui" (dead)
+L 08/29/2019 - 12:45:03: "INDIO<32><VALVE_ID_LAN><CT>" say "kkkkkkkk" (dead)
+L 08/29/2019 - 12:45:03: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" say "oh my good" (dead)
+L 08/29/2019 - 12:45:03: "Gho$T<31><VALVE_ID_LAN><CT>" say "PORRA" (dead)
+L 08/29/2019 - 12:45:09: "@te<37><VALVE_ID_LAN><CT>" killed "Smolder<30><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 08/29/2019 - 12:45:09: Team "CT" triggered "CTs_Win" (CT "6") (T "5")
+L 08/29/2019 - 12:45:09: World triggered "Round_End"
+L 08/29/2019 - 12:45:09: "Gho$T<31><VALVE_ID_LAN><CT>" say "TAVA NO LOMBO DO CALCAS" (dead)
+L 08/29/2019 - 12:45:12: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" say "covarde" (dead)
+L 08/29/2019 - 12:45:12: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" say "covardes" (dead)
+L 08/29/2019 - 12:45:14: World triggered "Round_Start"
+L 08/29/2019 - 12:45:14: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" say "kkkkk"
+L 08/29/2019 - 12:45:19: "INDIO<32><VALVE_ID_LAN><CT>" killed "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:45:20: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "INDIO<32><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:45:21: "Jack<33><VALVE_ID_LAN><CT>" killed "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:45:22: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<29><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:45:23: "XXBOT Zim<38><BOT><CT>" killed "Smolder<30><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:45:24: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "Jack<33><VALVE_ID_LAN><CT>" with "knife"
+L 08/29/2019 - 12:45:25: "XXBOT Zim<38><BOT><CT>" killed "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:45:32: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" killed "@te<37><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:45:34: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:45:35: "XXBOT Zim<38><BOT><CT>" killed "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:45:39: "Cap Billy<29><VALVE_ID_LAN><CT>" say_team "bala na kit" (dead)
+L 08/29/2019 - 12:45:47: "Gho$T<31><VALVE_ID_LAN><CT>" say_team "fui trocar pra arma" (dead)
+L 08/29/2019 - 12:45:48: "INDIO<32><VALVE_ID_LAN><CT>" say_team "mapaaaaaaaa" (dead)
+L 08/29/2019 - 12:45:48: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zim<38><BOT><CT>" with "glock18"
+L 08/29/2019 - 12:45:48: Team "TERRORIST" triggered "Terrorists_Win" (CT "6") (T "6")
+L 08/29/2019 - 12:45:48: World triggered "Round_End"
+L 08/29/2019 - 12:45:48: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" say_team "juntos pela direita" (dead)
+L 08/29/2019 - 12:45:51: "Gho$T<31><VALVE_ID_LAN><CT>" say_team "ai ela me matou" (dead)
+L 08/29/2019 - 12:45:51: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" say "valeu" (dead)
+L 08/29/2019 - 12:45:52: "Smolder<30><VALVE_ID_LAN><TERRORIST>" say_team "ok" (dead)
+L 08/29/2019 - 12:45:53: World triggered "Round_Start"
+L 08/29/2019 - 12:45:58: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:46:03: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:46:04: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:46:05: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:46:06: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "@te<37><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:46:07: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Kitkat<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:46:09: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" say "poora vcs chama e dmeora a ir" (dead)
+L 08/29/2019 - 12:46:11: "XXBOT Zim<38><BOT><CT>" killed "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:46:13: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zim<38><BOT><CT>" with "knife"
+L 08/29/2019 - 12:46:16: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<29><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:46:16: "Jack<33><VALVE_ID_LAN><CT>" killed "Smolder<30><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:46:16: Team "CT" triggered "CTs_Win" (CT "7") (T "6")
+L 08/29/2019 - 12:46:16: World triggered "Round_End"
+L 08/29/2019 - 12:46:17: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" say "prabens bot" (dead)
+L 08/29/2019 - 12:46:21: World triggered "Round_Start"
+L 08/29/2019 - 12:46:27: "Gho$T<31><VALVE_ID_LAN><CT>" killed "Smolder<30><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:46:30: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<29><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:46:32: "Gho$T<31><VALVE_ID_LAN><CT>" killed "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:46:35: "Gho$T<31><VALVE_ID_LAN><CT>" killed "Kitkat<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:46:40: "Smolder<30><VALVE_ID_LAN><TERRORIST>" say_team "juntos direita de novo" (dead)
+L 08/29/2019 - 12:46:41: "XXBOT Zim<38><BOT><CT>" killed "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:46:42: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "XXBOT Zim<38><BOT><CT>" with "glock18"
+L 08/29/2019 - 12:46:43: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:46:44: "INDIO<32><VALVE_ID_LAN><CT>" killed "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:46:47: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" say_team "meus ovos" (dead)
+L 08/29/2019 - 12:46:48: "Smolder<30><VALVE_ID_LAN><TERRORIST>" say_team "direita" (dead)
+L 08/29/2019 - 12:46:49: "Cap Billy<29><VALVE_ID_LAN><CT>" say "FACAAAAAAAAAAAA" (dead)
+L 08/29/2019 - 12:46:51: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "Jack<33><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:46:52: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" say_team "direita" (dead)
+L 08/29/2019 - 12:46:57: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" say_team "direta" (dead)
+L 08/29/2019 - 12:47:00: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" say_team "direita" (dead)
+L 08/29/2019 - 12:47:00: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "INDIO<32><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:47:02: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "@te<37><VALVE_ID_LAN><CT>" with "knife"
+L 08/29/2019 - 12:47:02: Team "TERRORIST" triggered "Terrorists_Win" (CT "7") (T "7")
+L 08/29/2019 - 12:47:02: World triggered "Round_End"
+L 08/29/2019 - 12:47:05: "Smolder<30><VALVE_ID_LAN><TERRORIST>" say "tome" (dead)
+L 08/29/2019 - 12:47:05: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" say "pegue" (dead)
+L 08/29/2019 - 12:47:07: World triggered "Round_Start"
+L 08/29/2019 - 12:47:07: "Cap Billy<29><VALVE_ID_LAN><CT>" say_team "eu nao acredito"
+L 08/29/2019 - 12:47:14: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<29><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:47:19: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zim<38><BOT><CT>" with "glock18"
+L 08/29/2019 - 12:47:19: "Jack<33><VALVE_ID_LAN><CT>" killed "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:47:21: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" killed "Jack<33><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:47:23: "Gho$T<31><VALVE_ID_LAN><CT>" killed "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:47:24: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" killed "INDIO<32><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:47:27: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "@te<37><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:47:30: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:47:30: Team "TERRORIST" triggered "Terrorists_Win" (CT "7") (T "8")
+L 08/29/2019 - 12:47:30: World triggered "Round_End"
+L 08/29/2019 - 12:47:34: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" say_team "direita" (dead)
+L 08/29/2019 - 12:47:34: "INDIO<32><VALVE_ID_LAN><CT>" say_team "mapa" (dead)
+L 08/29/2019 - 12:47:35: World triggered "Round_Start"
+L 08/29/2019 - 12:47:36: "Cap Billy<29><VALVE_ID_LAN><CT>" say_team "num vai pelo meio mole naooo"
+L 08/29/2019 - 12:47:44: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Smolder<30><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:47:46: "Jack<33><VALVE_ID_LAN><CT>" killed "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:47:46: "Gho$T<31><VALVE_ID_LAN><CT>" killed "Kitkat<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:47:48: "INDIO<32><VALVE_ID_LAN><CT>" killed "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:47:49: "INDIO<32><VALVE_ID_LAN><CT>" killed "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:47:52: "Smolder<30><VALVE_ID_LAN><TERRORIST>" say_team "esquerda" (dead)
+L 08/29/2019 - 12:47:53: "INDIO<32><VALVE_ID_LAN><CT>" killed "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:47:53: Team "CT" triggered "CTs_Win" (CT "8") (T "8")
+L 08/29/2019 - 12:47:53: World triggered "Round_End"
+L 08/29/2019 - 12:47:55: "Smolder<30><VALVE_ID_LAN><TERRORIST>" say_team "esq" (dead)
+L 08/29/2019 - 12:47:56: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" say "prabens" (dead)
+L 08/29/2019 - 12:47:58: "INDIO<32><VALVE_ID_LAN><CT>" say_team "mal"
+L 08/29/2019 - 12:47:58: World triggered "Round_Start"
+L 08/29/2019 - 12:47:58: "Cap Billy<29><VALVE_ID_LAN><CT>" say "PORRA"
+L 08/29/2019 - 12:48:05: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" killed "INDIO<32><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:48:07: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" killed "Jack<33><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:48:07: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zim<38><BOT><CT>" with "glock18"
+L 08/29/2019 - 12:48:12: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<29><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:48:12: Server cvar "amx_nextmap" = "cs_paintball1"
+L 08/29/2019 - 12:48:17: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "@te<37><VALVE_ID_LAN><CT>" with "knife"
+L 08/29/2019 - 12:48:17: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "knife"
+L 08/29/2019 - 12:48:17: Team "TERRORIST" triggered "Terrorists_Win" (CT "8") (T "9")
+L 08/29/2019 - 12:48:17: World triggered "Round_End"
+L 08/29/2019 - 12:48:20: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" say "ui"
+L 08/29/2019 - 12:48:21: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" say "ahuahuahauhua"
+L 08/29/2019 - 12:48:21: "Gho$T<31><VALVE_ID_LAN><CT>" say "6PORRA" (dead)
+L 08/29/2019 - 12:48:22: "Jack<33><VALVE_ID_LAN><CT>" say "pense num aperreio.. dei de cara com quatro terror" (dead)
+L 08/29/2019 - 12:48:22: World triggered "Round_Start"
+L 08/29/2019 - 12:48:23: "INDIO<32><VALVE_ID_LAN><CT>" say_team "valeu"
+L 08/29/2019 - 12:48:28: "@te<37><VALVE_ID_LAN><CT>" killed "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:48:28: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Kitkat<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:48:29: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "XXBOT Zim<38><BOT><CT>" with "glock18"
+L 08/29/2019 - 12:48:33: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "INDIO<32><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:48:34: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:48:38: "Smolder<30><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<29><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:48:39: "@te<37><VALVE_ID_LAN><CT>" killed "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:48:39: "Gho$T<31><VALVE_ID_LAN><CT>" killed "Smolder<30><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 08/29/2019 - 12:48:41: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:48:45: "Jack<33><VALVE_ID_LAN><CT>" killed "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:48:45: Team "CT" triggered "CTs_Win" (CT "9") (T "9")
+L 08/29/2019 - 12:48:45: World triggered "Round_End"
+L 08/29/2019 - 12:48:47: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" say_team "droga" (dead)
+L 08/29/2019 - 12:48:50: World triggered "Round_Start"
+L 08/29/2019 - 12:48:56: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "INDIO<32><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:48:56: "Gho$T<31><VALVE_ID_LAN><CT>" killed "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:48:57: "Cap Billy<29><VALVE_ID_LAN><CT>" killed "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:48:58: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "Jack<33><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:48:58: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zim<38><BOT><CT>" with "glock18"
+L 08/29/2019 - 12:48:59: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:49:02: "@te<37><VALVE_ID_LAN><CT>" killed "Smolder<30><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:49:04: "Jack<33><VALVE_ID_LAN><CT>" say_team "mapa" (dead)
+L 08/29/2019 - 12:49:07: "@te<37><VALVE_ID_LAN><CT>" killed "Kitkat<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:49:10: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" killed "@te<37><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:49:17: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" say "adivinha quem fakta..." (dead)
+L 08/29/2019 - 12:49:34: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<29><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:49:34: Team "TERRORIST" triggered "Terrorists_Win" (CT "9") (T "10")
+L 08/29/2019 - 12:49:34: World triggered "Round_End"
+L 08/29/2019 - 12:49:36: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" say "covarde" (dead)
+L 08/29/2019 - 12:49:37: "Gho$T<31><VALVE_ID_LAN><CT>" say "COVARDE" (dead)
+L 08/29/2019 - 12:49:39: World triggered "Round_Start"
+L 08/29/2019 - 12:49:39: "Jack<33><VALVE_ID_LAN><CT>" say "pp paraiu"
+L 08/29/2019 - 12:49:45: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zim<38><BOT><CT>" with "glock18"
+L 08/29/2019 - 12:49:45: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<29><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:49:46: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" killed "INDIO<32><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:49:47: "Gho$T<31><VALVE_ID_LAN><CT>" killed "Kitkat<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:49:48: "Jack<33><VALVE_ID_LAN><CT>" killed "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:49:50: "@te<37><VALVE_ID_LAN><CT>" killed "Smolder<30><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/29/2019 - 12:49:52: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<31><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:49:53: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" killed "@te<37><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:49:56: "Cap Billy<29><VALVE_ID_LAN><CT>" say "ai eu sou camper??" (dead)
+L 08/29/2019 - 12:50:02: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" killed "Jack<33><VALVE_ID_LAN><CT>" with "glock18"
+L 08/29/2019 - 12:50:02: Team "TERRORIST" triggered "Terrorists_Win" (CT "9") (T "11")
+L 08/29/2019 - 12:50:02: World triggered "Round_End"
+L 08/29/2019 - 12:50:03: "Cap Billy<29><VALVE_ID_LAN><CT>" say "piada" (dead)
+L 08/29/2019 - 12:50:03: Team "CT" scored "9" with "6" players
+L 08/29/2019 - 12:50:03: Team "TERRORIST" scored "11" with "6" players
+L 08/29/2019 - 12:50:05: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "248") (hits "98") (kills "7") (headshots "3") (tks "0") (damage "1521") (deaths "12")
+L 08/29/2019 - 12:50:05: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "9") (chest "18") (stomach "18") (leftarm "34") (rightarm "13") (leftleg "4") (rightleg "2")
+L 08/29/2019 - 12:50:05: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:06")
+L 08/29/2019 - 12:50:05: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "6")
+L 08/29/2019 - 12:50:05: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "191") (hits "79") (kills "16") (headshots "8") (tks "0") (damage "1895") (deaths "7")
+L 08/29/2019 - 12:50:05: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "17") (chest "11") (stomach "4") (leftarm "24") (rightarm "21") (leftleg "1") (rightleg "1")
+L 08/29/2019 - 12:50:05: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "8") (hits "5") (kills "2") (headshots "0") (tks "0") (damage "385") (deaths "6")
+L 08/29/2019 - 12:50:05: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "1") (stomach "0") (leftarm "1") (rightarm "3") (leftleg "0") (rightleg "0")
+L 08/29/2019 - 12:50:05: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" triggered "time" (time "10:08")
+L 08/29/2019 - 12:50:05: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" triggered "latency" (ping "0")
+L 08/29/2019 - 12:50:05: "Cap Billy<29><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "245") (hits "68") (kills "21") (headshots "19") (tks "0") (damage "2890") (deaths "14")
+L 08/29/2019 - 12:50:05: "Cap Billy<29><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "28") (chest "6") (stomach "2") (leftarm "14") (rightarm "17") (leftleg "1") (rightleg "0")
+L 08/29/2019 - 12:50:05: "Cap Billy<29><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "14") (hits "2") (kills "1") (headshots "0") (tks "0") (damage "110") (deaths "1")
+L 08/29/2019 - 12:50:05: "Cap Billy<29><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "1") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/29/2019 - 12:50:05: "Cap Billy<29><VALVE_ID_LAN><CT>" triggered "time" (time "10:06")
+L 08/29/2019 - 12:50:05: "Cap Billy<29><VALVE_ID_LAN><CT>" triggered "latency" (ping "8")
+L 08/29/2019 - 12:50:05: "Smolder<30><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "191") (hits "61") (kills "15") (headshots "13") (tks "0") (damage "2120") (deaths "10")
+L 08/29/2019 - 12:50:05: "Smolder<30><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "21") (chest "9") (stomach "0") (leftarm "7") (rightarm "24") (leftleg "0") (rightleg "0")
+L 08/29/2019 - 12:50:05: "Smolder<30><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "9") (hits "7") (kills "5") (headshots "3") (tks "0") (damage "1110") (deaths "6")
+L 08/29/2019 - 12:50:05: "Smolder<30><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "3") (chest "2") (stomach "0") (leftarm "0") (rightarm "2") (leftleg "0") (rightleg "0")
+L 08/29/2019 - 12:50:05: "Smolder<30><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:05")
+L 08/29/2019 - 12:50:05: "Smolder<30><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "10")
+L 08/29/2019 - 12:50:05: "Gho$T<31><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "190") (hits "53") (kills "14") (headshots "10") (tks "0") (damage "1868") (deaths "10")
+L 08/29/2019 - 12:50:05: "Gho$T<31><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "17") (chest "7") (stomach "1") (leftarm "10") (rightarm "14") (leftleg "1") (rightleg "3")
+L 08/29/2019 - 12:50:05: "Gho$T<31><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "14") (hits "9") (kills "3") (headshots "1") (tks "0") (damage "769") (deaths "7")
+L 08/29/2019 - 12:50:05: "Gho$T<31><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "3") (chest "3") (stomach "0") (leftarm "2") (rightarm "1") (leftleg "0") (rightleg "0")
+L 08/29/2019 - 12:50:05: "Gho$T<31><VALVE_ID_LAN><CT>" triggered "time" (time "10:05")
+L 08/29/2019 - 12:50:05: "Gho$T<31><VALVE_ID_LAN><CT>" triggered "latency" (ping "8")
+L 08/29/2019 - 12:50:05: "INDIO<32><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "231") (hits "86") (kills "14") (headshots "10") (tks "0") (damage "1980") (deaths "13")
+L 08/29/2019 - 12:50:05: "INDIO<32><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "17") (chest "12") (stomach "2") (leftarm "32") (rightarm "22") (leftleg "1") (rightleg "0")
+L 08/29/2019 - 12:50:05: "INDIO<32><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "4") (hits "3") (kills "3") (headshots "0") (tks "0") (damage "165") (deaths "2")
+L 08/29/2019 - 12:50:05: "INDIO<32><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "0") (leftarm "1") (rightarm "2") (leftleg "0") (rightleg "0")
+L 08/29/2019 - 12:50:05: "INDIO<32><VALVE_ID_LAN><CT>" triggered "time" (time "10:05")
+L 08/29/2019 - 12:50:05: "INDIO<32><VALVE_ID_LAN><CT>" triggered "latency" (ping "8")
+L 08/29/2019 - 12:50:05: "Jack<33><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "162") (hits "60") (kills "9") (headshots "8") (tks "0") (damage "1378") (deaths "10")
+L 08/29/2019 - 12:50:05: "Jack<33><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "12") (chest "8") (stomach "14") (leftarm "16") (rightarm "8") (leftleg "0") (rightleg "2")
+L 08/29/2019 - 12:50:05: "Jack<33><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "3") (hits "2") (kills "2") (headshots "0") (tks "0") (damage "110") (deaths "4")
+L 08/29/2019 - 12:50:05: "Jack<33><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "2") (leftleg "0") (rightleg "0")
+L 08/29/2019 - 12:50:05: "Jack<33><VALVE_ID_LAN><CT>" triggered "time" (time "10:05")
+L 08/29/2019 - 12:50:05: "Jack<33><VALVE_ID_LAN><CT>" triggered "latency" (ping "8")
+L 08/29/2019 - 12:50:05: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "246") (hits "59") (kills "16") (headshots "15") (tks "0") (damage "2088") (deaths "14")
+L 08/29/2019 - 12:50:05: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "22") (chest "6") (stomach "1") (leftarm "19") (rightarm "8") (leftleg "1") (rightleg "2")
+L 08/29/2019 - 12:50:05: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:01")
+L 08/29/2019 - 12:50:05: "Ice_Man<34><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "13")
+L 08/29/2019 - 12:50:05: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "217") (hits "77") (kills "12") (headshots "7") (tks "0") (damage "1517") (deaths "10")
+L 08/29/2019 - 12:50:05: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "14") (chest "15") (stomach "6") (leftarm "20") (rightarm "16") (leftleg "0") (rightleg "6")
+L 08/29/2019 - 12:50:05: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "10") (hits "7") (kills "4") (headshots "2") (tks "0") (damage "905") (deaths "3")
+L 08/29/2019 - 12:50:05: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "3") (chest "2") (stomach "0") (leftarm "1") (rightarm "1") (leftleg "0") (rightleg "0")
+L 08/29/2019 - 12:50:05: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:01")
+L 08/29/2019 - 12:50:05: "Kratos-away<35><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "128")
+L 08/29/2019 - 12:50:05: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "271") (hits "66") (kills "13") (headshots "9") (tks "0") (damage "1844") (deaths "14")
+L 08/29/2019 - 12:50:05: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "18") (chest "14") (stomach "5") (leftarm "19") (rightarm "7") (leftleg "1") (rightleg "2")
+L 08/29/2019 - 12:50:05: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "19") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "58") (deaths "2")
+L 08/29/2019 - 12:50:05: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "1") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/29/2019 - 12:50:05: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:02")
+L 08/29/2019 - 12:50:05: "Calcas Peludas<36><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "9")
+L 08/29/2019 - 12:50:05: "@te<37><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "211") (hits "72") (kills "13") (headshots "10") (tks "0") (damage "1718") (deaths "11")
+L 08/29/2019 - 12:50:05: "@te<37><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "14") (chest "22") (stomach "7") (leftarm "16") (rightarm "11") (leftleg "1") (rightleg "1")
+L 08/29/2019 - 12:50:05: "@te<37><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "6") (hits "3") (kills "1") (headshots "1") (tks "0") (damage "165") (deaths "3")
+L 08/29/2019 - 12:50:05: "@te<37><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "1") (chest "2") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/29/2019 - 12:50:05: "@te<37><VALVE_ID_LAN><CT>" triggered "time" (time "10:01")
+L 08/29/2019 - 12:50:05: "@te<37><VALVE_ID_LAN><CT>" triggered "latency" (ping "8")
+L 08/29/2019 - 12:50:05: [META] ini: Begin re-reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini
+L 08/29/2019 - 12:50:05: [META] ini: Read plugin config for: AMX
+L 08/29/2019 - 12:50:05: [META] ini: Read plugin config for: WinHL-Booster
+L 08/29/2019 - 12:50:05: [META] ERROR: ini: Skipping plugin, couldn't stat file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': No such file or directory
+L 08/29/2019 - 12:50:05: [META] ini: Read plugin config for: WebMod
+L 08/29/2019 - 12:50:05: [META] ini: Finished reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini; Found 3 plugins
+L 08/29/2019 - 12:50:05: [META] dll: Updating plugins...
+L 08/29/2019 - 12:50:05: [META] ERROR: dll: Failed query plugin '<hlguard_mm_nightly.dll>'; Couldn't open file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': Não foi possível encontrar o módulo especificado.
+
+L 08/29/2019 - 12:50:05: [META] ERROR: dll: Skipping plugin '<hlguard_mm_nightly.dll>'; couldn't query
+L 08/29/2019 - 12:50:05: [META] dll: Finished updating 6 plugins; kept 3, loaded 0, unloaded 0, reloaded 0, delayed 0
+L 08/29/2019 - 12:50:05: Server shutdown
+L 08/29/2019 - 12:50:05: Log file closed

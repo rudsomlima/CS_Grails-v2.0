@@ -1,0 +1,59 @@
+L 08/30/2019 - 12:40:31: Log file started (file "logs\L0830008.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 08/30/2019 - 12:40:31: "Ice_Man<30><VALVE_ID_LAN><>" entered the game
+L 08/30/2019 - 12:40:32: "Cap Billy<31><VALVE_ID_LAN><>" entered the game
+L 08/30/2019 - 12:40:33: "Soldier<36><VALVE_ID_LAN><>" connected, address "10.15.2.109:27005"
+L 08/30/2019 - 12:40:33: "Gho$T<33><VALVE_ID_LAN><>" entered the game
+L 08/30/2019 - 12:40:33: "Jack<34><VALVE_ID_LAN><>" entered the game
+L 08/30/2019 - 12:40:33: "Ice_Man<30><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/30/2019 - 12:40:33: "Smolder<29><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/30/2019 - 12:40:34: "Cap Billy<31><VALVE_ID_LAN><>" joined team "CT"
+L 08/30/2019 - 12:40:34: World triggered "Game_Commencing"
+L 08/30/2019 - 12:40:34: World triggered "Game_Commencing" (CT "0") (T "0")
+L 08/30/2019 - 12:40:34: World triggered "Round_End"
+L 08/30/2019 - 12:40:34: "Kitkat<35><VALVE_ID_LAN><>" entered the game
+L 08/30/2019 - 12:40:34: "Calcas Peludas<37><VALVE_ID_LAN><>" connected, address "10.15.2.230:27005"
+L 08/30/2019 - 12:40:35: "Kratos-away<38><VALVE_ID_LAN><>" connected, address "10.15.4.2:27005"
+L 08/30/2019 - 12:40:37: World triggered "Round_Start"
+L 08/30/2019 - 12:40:37: "Soldier<36><VALVE_ID_LAN><>" entered the game
+L 08/30/2019 - 12:40:37: "Kitkat<35><VALVE_ID_LAN><>" joined team "CT"
+L 08/30/2019 - 12:40:37: "Calcas Peludas<37><VALVE_ID_LAN><>" entered the game
+L 08/30/2019 - 12:40:39: "Calcas Peludas<37><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/30/2019 - 12:40:39: "Jack<34><VALVE_ID_LAN><>" joined team "CT"
+L 08/30/2019 - 12:40:40: "Kratos-away<38><VALVE_ID_LAN><>" entered the game
+L 08/30/2019 - 12:40:41: "Soldier<36><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/30/2019 - 12:40:42: "Kratos-away<38><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/30/2019 - 12:40:42: "INDIO<39><VALVE_ID_LAN><>" connected, address "10.15.2.117:27005"
+L 08/30/2019 - 12:40:43: "Gho$T<33><VALVE_ID_LAN><>" joined team "CT"
+L 08/30/2019 - 12:40:45: "INDIO<39><VALVE_ID_LAN><>" entered the game
+L 08/30/2019 - 12:40:45: "CEIFADOR<27><VALVE_ID_LOOPBACK><TERRORIST>" killed "Kitkat<35><VALVE_ID_LAN><CT>" with "glock18"
+L 08/30/2019 - 12:40:46: "Gho$T<33><VALVE_ID_LAN><CT>" killed "CEIFADOR<27><VALVE_ID_LOOPBACK><TERRORIST>" with "glock18"
+L 08/30/2019 - 12:40:46: "Smolder<29><VALVE_ID_LAN><TERRORIST>" killed "Jack<34><VALVE_ID_LAN><CT>" with "glock18"
+L 08/30/2019 - 12:40:47: "Gho$T<33><VALVE_ID_LAN><CT>" killed "Calcas Peludas<37><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/30/2019 - 12:40:49: "Cap Billy<31><VALVE_ID_LAN><CT>" killed "Smolder<29><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/30/2019 - 12:40:52: "XXBOT Xavier<32><BOT><TERRORIST>" killed "Cap Billy<31><VALVE_ID_LAN><CT>" with "glock18"
+L 08/30/2019 - 12:40:53: Server cvar "bot_quota" = "0"
+L 08/30/2019 - 12:40:53: Kick: "XXBOT Xavier<32><UNKNOWN><>" was kicked by "CEIFADOR"
+L 08/30/2019 - 12:40:53: "XXBOT Xavier<32><BOT><TERRORIST>" disconnected
+L 08/30/2019 - 12:40:53: "@te<40><VALVE_ID_LAN><>" connected, address "10.15.2.86:27005"
+L 08/30/2019 - 12:40:54: "Gho$T<33><VALVE_ID_LAN><CT>" killed "Soldier<36><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/30/2019 - 12:40:56: "INDIO<39><VALVE_ID_LAN><>" joined team "CT"
+L 08/30/2019 - 12:40:57: "@te<40><VALVE_ID_LAN><>" entered the game
+L 08/30/2019 - 12:40:59: "@te<40><VALVE_ID_LAN><>" joined team "CT"
+L 08/30/2019 - 12:41:00: "Kratos-away<38><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<33><VALVE_ID_LAN><CT>" with "glock18"
+L 08/30/2019 - 12:41:00: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "1")
+L 08/30/2019 - 12:41:00: World triggered "Round_End"
+L 08/30/2019 - 12:41:05: World triggered "Round_Start"
+L 08/30/2019 - 12:41:09: "Calcas Peludas<37><VALVE_ID_LAN><TERRORIST>" killed "Jack<34><VALVE_ID_LAN><CT>" with "glock18"
+L 08/30/2019 - 12:41:12: "CEIFADOR<27><VALVE_ID_LOOPBACK><TERRORIST>" killed "INDIO<39><VALVE_ID_LAN><CT>" with "glock18"
+L 08/30/2019 - 12:41:13: "Calcas Peludas<37><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<35><VALVE_ID_LAN><CT>" with "glock18"
+L 08/30/2019 - 12:41:15: "Ice_Man<30><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<33><VALVE_ID_LAN><CT>" with "glock18"
+L 08/30/2019 - 12:41:16: "Cap Billy<31><VALVE_ID_LAN><CT>" killed "Smolder<29><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 08/30/2019 - 12:41:17: "Cap Billy<31><VALVE_ID_LAN><CT>" killed "Ice_Man<30><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/30/2019 - 12:41:20: "Kitkat<35><VALVE_ID_LAN><CT>" say "morre n'ao cal,as" (dead)
+L 08/30/2019 - 12:41:21: "Kratos-away<38><VALVE_ID_LAN><TERRORIST>" killed "@te<40><VALVE_ID_LAN><CT>" with "glock18"
+L 08/30/2019 - 12:41:23: "Kratos-away<38><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<31><VALVE_ID_LAN><CT>" with "glock18"
+L 08/30/2019 - 12:41:23: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "2")
+L 08/30/2019 - 12:41:23: World triggered "Round_End"
+L 08/30/2019 - 12:41:28: World triggered "Round_Start"
+L 08/30/2019 - 12:41:30: "Jack<34><VALVE_ID_LAN><CT>" say "ice ima.. nao teve competencia"
+L 08/30/2019 - 12:41:30: Log file closed

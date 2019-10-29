@@ -1,0 +1,436 @@
+L 08/31/2018 - 12:30:47: Log file started (file "logs\L0831000.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 08/31/2018 - 12:30:47: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><>" entered the game
+L 08/31/2018 - 12:30:48: "Smolder<6><VALVE_ID_LAN><>" entered the game
+L 08/31/2018 - 12:30:49: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/31/2018 - 12:30:49: World triggered "Round_Start"
+L 08/31/2018 - 12:30:51: "Smolder<6><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/31/2018 - 12:30:56: "XXBOT Rock<9><BOT><>" joined team "CT"
+L 08/31/2018 - 12:30:56: Server cvar "bot_quota" = "1"
+L 08/31/2018 - 12:30:56: "XXBOT Rock<9><BOT><>" entered the game
+L 08/31/2018 - 12:30:58: "Inspetor Buginganga<10><VALVE_ID_LAN><>" connected, address "10.15.2.117:27005"
+L 08/31/2018 - 12:30:59: "XXBOT Gunner<11><BOT><>" joined team "CT"
+L 08/31/2018 - 12:30:59: Server cvar "bot_quota" = "2"
+L 08/31/2018 - 12:30:59: "XXBOT Gunner<11><BOT><>" entered the game
+L 08/31/2018 - 12:31:00: "Inspetor Buginganga<10><VALVE_ID_LAN><>" entered the game
+L 08/31/2018 - 12:31:02: "XXBOT Rock<9><BOT><CT>" killed "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 08/31/2018 - 12:31:03: "Inspetor Buginganga<10><VALVE_ID_LAN><>" joined team "CT"
+L 08/31/2018 - 12:31:03: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Rock<9><BOT><CT>" with "m4a1"
+L 08/31/2018 - 12:31:06: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "m4a1"
+L 08/31/2018 - 12:31:10: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Gunner<11><BOT><CT>" with "m4a1"
+L 08/31/2018 - 12:31:11: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 08/31/2018 - 12:31:12: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 08/31/2018 - 12:31:12: Team "CT" triggered "CTs_Win" (CT "1") (T "0")
+L 08/31/2018 - 12:31:12: World triggered "Round_End"
+L 08/31/2018 - 12:31:15: Server cvar "bot_quota" = "1"
+L 08/31/2018 - 12:31:15: Server cvar "bot_quota" = "0"
+L 08/31/2018 - 12:31:15: Kick: "XXBOT Rock<9><UNKNOWN><>" was kicked by "Cap Billy"
+L 08/31/2018 - 12:31:15: "XXBOT Rock<9><BOT><CT>" disconnected
+L 08/31/2018 - 12:31:15: Kick: "XXBOT Gunner<11><UNKNOWN><>" was kicked by "Cap Billy"
+L 08/31/2018 - 12:31:15: "XXBOT Gunner<11><BOT><CT>" disconnected
+L 08/31/2018 - 12:31:17: World triggered "Round_Start"
+L 08/31/2018 - 12:31:18: "XXBOT Minh<12><BOT><>" joined team "CT"
+L 08/31/2018 - 12:31:18: Server cvar "bot_quota" = "1"
+L 08/31/2018 - 12:31:18: "XXBOT Minh<12><BOT><>" entered the game
+L 08/31/2018 - 12:31:21: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "glock18"
+L 08/31/2018 - 12:31:24: "Smolder<6><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "mp5navy"
+L 08/31/2018 - 12:31:24: "XXBOT Minh<12><BOT><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 08/31/2018 - 12:31:25: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "m249"
+L 08/31/2018 - 12:31:25: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "1")
+L 08/31/2018 - 12:31:25: World triggered "Round_End"
+L 08/31/2018 - 12:31:30: World triggered "Round_Start"
+L 08/31/2018 - 12:31:34: "Smolder<6><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "m3"
+L 08/31/2018 - 12:31:35: "XXBOT Minh<12><BOT><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 08/31/2018 - 12:31:37: "XXBOT Minh<12><BOT><CT>" killed "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 08/31/2018 - 12:31:37: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:31:37: Team "CT" triggered "CTs_Win" (CT "2") (T "1")
+L 08/31/2018 - 12:31:37: World triggered "Round_End"
+L 08/31/2018 - 12:31:42: World triggered "Round_Start"
+L 08/31/2018 - 12:31:44: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:31:45: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "ak47"
+L 08/31/2018 - 12:31:49: "XXBOT Minh<12><BOT><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "m3"
+L 08/31/2018 - 12:32:03: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "m4a1"
+L 08/31/2018 - 12:32:06: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" killed "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 08/31/2018 - 12:32:06: Team "CT" triggered "CTs_Win" (CT "3") (T "1")
+L 08/31/2018 - 12:32:06: World triggered "Round_End"
+L 08/31/2018 - 12:32:11: World triggered "Round_Start"
+L 08/31/2018 - 12:32:15: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:32:19: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "ak47"
+L 08/31/2018 - 12:32:27: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "knife"
+L 08/31/2018 - 12:32:29: "Smolder<6><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "m4a1"
+L 08/31/2018 - 12:32:29: Team "TERRORIST" triggered "Terrorists_Win" (CT "3") (T "2")
+L 08/31/2018 - 12:32:29: World triggered "Round_End"
+L 08/31/2018 - 12:32:30: "Kratos<7><VALVE_ID_LAN><TERRORIST>" say "tome" (dead)
+L 08/31/2018 - 12:32:34: World triggered "Round_Start"
+L 08/31/2018 - 12:32:39: "Smolder<6><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "m4a1"
+L 08/31/2018 - 12:32:39: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 08/31/2018 - 12:32:40: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 08/31/2018 - 12:32:47: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 08/31/2018 - 12:32:47: Team "CT" triggered "CTs_Win" (CT "4") (T "2")
+L 08/31/2018 - 12:32:47: World triggered "Round_End"
+L 08/31/2018 - 12:32:52: World triggered "Round_Start"
+L 08/31/2018 - 12:32:58: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "aug"
+L 08/31/2018 - 12:32:59: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 08/31/2018 - 12:33:00: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "aug"
+L 08/31/2018 - 12:33:01: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "aug"
+L 08/31/2018 - 12:33:01: Team "TERRORIST" triggered "Terrorists_Win" (CT "4") (T "3")
+L 08/31/2018 - 12:33:01: World triggered "Round_End"
+L 08/31/2018 - 12:33:06: World triggered "Round_Start"
+L 08/31/2018 - 12:33:09: "Smolder<6><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "ak47"
+L 08/31/2018 - 12:33:14: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "xm1014"
+L 08/31/2018 - 12:33:16: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "knife"
+L 08/31/2018 - 12:33:16: Team "TERRORIST" triggered "Terrorists_Win" (CT "4") (T "4")
+L 08/31/2018 - 12:33:16: World triggered "Round_End"
+L 08/31/2018 - 12:33:21: World triggered "Round_Start"
+L 08/31/2018 - 12:33:32: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" killed "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" with "m249"
+L 08/31/2018 - 12:33:32: "XXBOT Minh<12><BOT><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 08/31/2018 - 12:33:34: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:33:34: Team "CT" triggered "CTs_Win" (CT "5") (T "4")
+L 08/31/2018 - 12:33:34: World triggered "Round_End"
+L 08/31/2018 - 12:33:40: World triggered "Round_Start"
+L 08/31/2018 - 12:33:42: "XXBOT Minh<12><BOT><CT>" killed "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" with "awp"
+L 08/31/2018 - 12:33:47: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:33:49: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:33:49: Team "CT" triggered "CTs_Win" (CT "6") (T "4")
+L 08/31/2018 - 12:33:49: World triggered "Round_End"
+L 08/31/2018 - 12:33:54: World triggered "Round_Start"
+L 08/31/2018 - 12:33:58: "Smolder<6><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "m3"
+L 08/31/2018 - 12:33:59: "XXBOT Minh<12><BOT><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "awp"
+L 08/31/2018 - 12:34:00: "Calcas Peludas<13><VALVE_ID_LAN><>" connected, address "10.15.2.230:27005"
+L 08/31/2018 - 12:34:02: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "xm1014"
+L 08/31/2018 - 12:34:03: "XXBOT Minh<12><BOT><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "awp"
+L 08/31/2018 - 12:34:03: "Calcas Peludas<13><VALVE_ID_LAN><>" entered the game
+L 08/31/2018 - 12:34:05: "Calcas Peludas<13><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/31/2018 - 12:34:08: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "knife"
+L 08/31/2018 - 12:34:08: Team "TERRORIST" triggered "Terrorists_Win" (CT "6") (T "5")
+L 08/31/2018 - 12:34:08: World triggered "Round_End"
+L 08/31/2018 - 12:34:12: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" say "vem um pra ca" (dead)
+L 08/31/2018 - 12:34:13: "XXBOT Pheonix<14><BOT><>" joined team "CT"
+L 08/31/2018 - 12:34:13: Server cvar "bot_quota" = "2"
+L 08/31/2018 - 12:34:13: "XXBOT Pheonix<14><BOT><>" entered the game
+L 08/31/2018 - 12:34:13: World triggered "Round_Start"
+L 08/31/2018 - 12:34:19: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "xm1014"
+L 08/31/2018 - 12:34:20: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 08/31/2018 - 12:34:23: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "ak47"
+L 08/31/2018 - 12:34:25: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" killed "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 08/31/2018 - 12:34:28: "XXBOT Pheonix<14><BOT><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "tmp"
+L 08/31/2018 - 12:34:30: "XXBOT Pheonix<14><BOT><CT>" killed "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" with "tmp"
+L 08/31/2018 - 12:34:30: Team "CT" triggered "CTs_Win" (CT "7") (T "5")
+L 08/31/2018 - 12:34:30: World triggered "Round_End"
+L 08/31/2018 - 12:34:35: World triggered "Round_Start"
+L 08/31/2018 - 12:34:35: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" committed suicide with "world"
+L 08/31/2018 - 12:34:41: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "xm1014"
+L 08/31/2018 - 12:34:42: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "m3"
+L 08/31/2018 - 12:34:43: "XXBOT Pheonix<14><BOT><CT>" killed "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" with "tmp"
+L 08/31/2018 - 12:34:43: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "xm1014"
+L 08/31/2018 - 12:34:50: "XXBOT Pheonix<14><BOT><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "tmp"
+L 08/31/2018 - 12:34:52: "Smolder<6><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Pheonix<14><BOT><CT>" with "mp5navy"
+L 08/31/2018 - 12:34:52: Team "TERRORIST" triggered "Terrorists_Win" (CT "7") (T "6")
+L 08/31/2018 - 12:34:52: World triggered "Round_End"
+L 08/31/2018 - 12:34:57: World triggered "Round_Start"
+L 08/31/2018 - 12:35:00: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 08/31/2018 - 12:35:01: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Pheonix<14><BOT><CT>" with "ak47"
+L 08/31/2018 - 12:35:02: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "m3"
+L 08/31/2018 - 12:35:05: "Smolder<6><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "mp5navy"
+L 08/31/2018 - 12:35:08: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "ak47"
+L 08/31/2018 - 12:35:08: Team "TERRORIST" triggered "Terrorists_Win" (CT "7") (T "7")
+L 08/31/2018 - 12:35:08: World triggered "Round_End"
+L 08/31/2018 - 12:35:13: World triggered "Round_Start"
+L 08/31/2018 - 12:35:13: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" say "era bom p"
+L 08/31/2018 - 12:35:16: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Pheonix<14><BOT><CT>" with "ak47"
+L 08/31/2018 - 12:35:18: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "m4a1"
+L 08/31/2018 - 12:35:23: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:35:24: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "xm1014"
+L 08/31/2018 - 12:35:28: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "ak47"
+L 08/31/2018 - 12:35:28: Team "TERRORIST" triggered "Terrorists_Win" (CT "7") (T "8")
+L 08/31/2018 - 12:35:28: World triggered "Round_End"
+L 08/31/2018 - 12:35:33: World triggered "Round_Start"
+L 08/31/2018 - 12:35:36: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "m249"
+L 08/31/2018 - 12:35:37: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" say "vem um pa ca"
+L 08/31/2018 - 12:35:39: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "ak47"
+L 08/31/2018 - 12:35:42: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "m4a1"
+L 08/31/2018 - 12:35:43: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Pheonix<14><BOT><CT>" with "xm1014"
+L 08/31/2018 - 12:35:49: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "knife"
+L 08/31/2018 - 12:35:49: Team "TERRORIST" triggered "Terrorists_Win" (CT "7") (T "9")
+L 08/31/2018 - 12:35:49: World triggered "Round_End"
+L 08/31/2018 - 12:35:54: World triggered "Round_Start"
+L 08/31/2018 - 12:35:55: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" say_team "fik escondido olha ai"
+L 08/31/2018 - 12:35:58: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "grenade"
+L 08/31/2018 - 12:36:02: "Smolder<6><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Pheonix<14><BOT><CT>" with "aug"
+L 08/31/2018 - 12:36:02: "Smolder<6><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "aug"
+L 08/31/2018 - 12:36:03: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "xm1014"
+L 08/31/2018 - 12:36:03: Team "TERRORIST" triggered "Terrorists_Win" (CT "7") (T "10")
+L 08/31/2018 - 12:36:03: World triggered "Round_End"
+L 08/31/2018 - 12:36:08: World triggered "Round_Start"
+L 08/31/2018 - 12:36:09: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" say "porra vem um pra ca"
+L 08/31/2018 - 12:36:12: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "grenade"
+L 08/31/2018 - 12:36:12: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Pheonix<14><BOT><CT>" with "grenade"
+L 08/31/2018 - 12:36:15: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "xm1014"
+L 08/31/2018 - 12:36:17: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:36:32: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "m4a1"
+L 08/31/2018 - 12:36:32: Team "TERRORIST" triggered "Terrorists_Win" (CT "7") (T "11")
+L 08/31/2018 - 12:36:32: World triggered "Round_End"
+L 08/31/2018 - 12:36:37: World triggered "Round_Start"
+L 08/31/2018 - 12:36:38: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 08/31/2018 - 12:36:41: "XXBOT Minh<12><BOT><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 08/31/2018 - 12:36:42: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "m4a1"
+L 08/31/2018 - 12:36:44: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 08/31/2018 - 12:36:45: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" killed "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:36:45: Team "CT" triggered "CTs_Win" (CT "8") (T "11")
+L 08/31/2018 - 12:36:45: World triggered "Round_End"
+L 08/31/2018 - 12:36:50: World triggered "Round_Start"
+L 08/31/2018 - 12:36:55: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 08/31/2018 - 12:36:59: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Pheonix<14><BOT><CT>" with "m4a1"
+L 08/31/2018 - 12:37:02: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 08/31/2018 - 12:37:04: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" killed "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:37:11: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "aug"
+L 08/31/2018 - 12:37:30: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "m249"
+L 08/31/2018 - 12:37:33: "XXBOT Minh<12><BOT><CT>" killed "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 08/31/2018 - 12:37:33: Team "CT" triggered "CTs_Win" (CT "9") (T "11")
+L 08/31/2018 - 12:37:33: World triggered "Round_End"
+L 08/31/2018 - 12:37:36: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" say "pegue" (dead)
+L 08/31/2018 - 12:37:38: World triggered "Round_Start"
+L 08/31/2018 - 12:37:42: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" killed "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" with "m249"
+L 08/31/2018 - 12:37:46: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "mp5navy"
+L 08/31/2018 - 12:37:46: "XXBOT Minh<12><BOT><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 08/31/2018 - 12:37:53: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Pheonix<14><BOT><CT>" with "aug"
+L 08/31/2018 - 12:37:53: "Smolder<6><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "m4a1"
+L 08/31/2018 - 12:38:00: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "xm1014"
+L 08/31/2018 - 12:38:00: Team "TERRORIST" triggered "Terrorists_Win" (CT "9") (T "12")
+L 08/31/2018 - 12:38:00: World triggered "Round_End"
+L 08/31/2018 - 12:38:02: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" say "os caras sao covardes" (dead)
+L 08/31/2018 - 12:38:05: World triggered "Round_Start"
+L 08/31/2018 - 12:38:07: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 08/31/2018 - 12:38:08: "Smolder<6><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Pheonix<14><BOT><CT>" with "m4a1"
+L 08/31/2018 - 12:38:10: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 08/31/2018 - 12:38:10: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "xm1014"
+L 08/31/2018 - 12:38:13: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 08/31/2018 - 12:38:16: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "m4a1"
+L 08/31/2018 - 12:38:21: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 08/31/2018 - 12:38:21: Team "CT" triggered "CTs_Win" (CT "10") (T "12")
+L 08/31/2018 - 12:38:21: World triggered "Round_End"
+L 08/31/2018 - 12:38:26: World triggered "Round_Start"
+L 08/31/2018 - 12:38:32: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Pheonix<14><BOT><CT>" with "awp"
+L 08/31/2018 - 12:38:32: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:38:34: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "p90"
+L 08/31/2018 - 12:38:37: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "awp"
+L 08/31/2018 - 12:38:39: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 08/31/2018 - 12:38:43: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" say "obrigado amigo" (dead)
+L 08/31/2018 - 12:38:43: "XXBOT Minh<12><BOT><CT>" killed "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 08/31/2018 - 12:38:48: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" say "KKkkkkkkkk" (dead)
+L 08/31/2018 - 12:38:50: "XXBOT Minh<12><BOT><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 08/31/2018 - 12:38:50: Team "CT" triggered "CTs_Win" (CT "11") (T "12")
+L 08/31/2018 - 12:38:50: World triggered "Round_End"
+L 08/31/2018 - 12:38:52: "Kratos<7><VALVE_ID_LAN><TERRORIST>" say "porra" (dead)
+L 08/31/2018 - 12:38:55: World triggered "Round_Start"
+L 08/31/2018 - 12:38:55: "Kratos<7><VALVE_ID_LAN><TERRORIST>" committed suicide with "world"
+L 08/31/2018 - 12:38:56: Server cvar "amx_nextmap" = "pistols2"
+L 08/31/2018 - 12:38:58: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" killed "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 08/31/2018 - 12:38:58: "XXBOT Pheonix<14><BOT><CT>" killed "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 08/31/2018 - 12:39:07: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "m249"
+L 08/31/2018 - 12:39:07: Team "CT" triggered "CTs_Win" (CT "12") (T "12")
+L 08/31/2018 - 12:39:07: World triggered "Round_End"
+L 08/31/2018 - 12:39:13: World triggered "Round_Start"
+L 08/31/2018 - 12:39:15: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "ak47"
+L 08/31/2018 - 12:39:17: "XXBOT Pheonix<14><BOT><CT>" killed "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:39:17: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 08/31/2018 - 12:39:17: "XXBOT Pheonix<14><BOT><CT>" killed "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:39:18: "Smolder<6><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "xm1014"
+L 08/31/2018 - 12:39:21: "XXBOT Pheonix<14><BOT><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:39:21: Team "CT" triggered "CTs_Win" (CT "13") (T "12")
+L 08/31/2018 - 12:39:21: World triggered "Round_End"
+L 08/31/2018 - 12:39:26: World triggered "Round_Start"
+L 08/31/2018 - 12:39:28: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 08/31/2018 - 12:39:30: "Kratos<7><VALVE_ID_LAN><TERRORIST>" say "pqp" (dead)
+L 08/31/2018 - 12:39:33: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "awp"
+L 08/31/2018 - 12:39:42: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:39:46: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "ak47"
+L 08/31/2018 - 12:39:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 08/31/2018 - 12:39:55: "XXBOT Pheonix<14><BOT><CT>" killed "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:39:55: Team "CT" triggered "CTs_Win" (CT "14") (T "12")
+L 08/31/2018 - 12:39:55: World triggered "Round_End"
+L 08/31/2018 - 12:39:59: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" say "bosta" (dead)
+L 08/31/2018 - 12:40:00: World triggered "Round_Start"
+L 08/31/2018 - 12:40:03: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "aug"
+L 08/31/2018 - 12:40:05: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Smolder<6><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 08/31/2018 - 12:40:07: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 08/31/2018 - 12:40:07: "Jack is Back!<15><VALVE_ID_LAN><>" connected, address "10.15.2.104:27005"
+L 08/31/2018 - 12:40:08: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Pheonix<14><BOT><CT>" with "m3"
+L 08/31/2018 - 12:40:10: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Kratos<7><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 08/31/2018 - 12:40:10: "Smolder<6><VALVE_ID_LAN><TERRORIST>" say "capcamper" (dead)
+L 08/31/2018 - 12:40:19: "Jack is Back!<15><VALVE_ID_LAN><>" entered the game
+L 08/31/2018 - 12:40:20: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 08/31/2018 - 12:40:20: Team "CT" triggered "CTs_Win" (CT "15") (T "12")
+L 08/31/2018 - 12:40:20: World triggered "Round_End"
+L 08/31/2018 - 12:40:23: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" say "hhhhh" (dead)
+L 08/31/2018 - 12:40:24: "Kratos<7><VALVE_ID_LAN><TERRORIST>" say "hauhauhauhauahuah" (dead)
+L 08/31/2018 - 12:40:25: "Jack is Back!<15><VALVE_ID_LAN><>" joined team "CT"
+L 08/31/2018 - 12:40:25: World triggered "Round_Start"
+L 08/31/2018 - 12:40:31: "Smolder<6><VALVE_ID_LAN><TERRORIST>" killed "Jack is Back!<15><VALVE_ID_LAN><CT>" with "aug"
+L 08/31/2018 - 12:40:31: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "ak47"
+L 08/31/2018 - 12:40:32: "Smolder<6><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "aug"
+L 08/31/2018 - 12:40:32: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Minh<12><BOT><CT>" with "ak47"
+L 08/31/2018 - 12:40:34: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Pheonix<14><BOT><CT>" with "ak47"
+L 08/31/2018 - 12:40:34: Team "TERRORIST" triggered "Terrorists_Win" (CT "15") (T "13")
+L 08/31/2018 - 12:40:34: World triggered "Round_End"
+L 08/31/2018 - 12:40:36: Server cvar "bot_quota" = "1"
+L 08/31/2018 - 12:40:36: Server cvar "bot_quota" = "0"
+L 08/31/2018 - 12:40:36: Kick: "XXBOT Minh<12><UNKNOWN><>" was kicked by "Cap Billy"
+L 08/31/2018 - 12:40:36: "XXBOT Minh<12><BOT><CT>" disconnected
+L 08/31/2018 - 12:40:36: Kick: "XXBOT Pheonix<14><UNKNOWN><>" was kicked by "Cap Billy"
+L 08/31/2018 - 12:40:36: "XXBOT Pheonix<14><BOT><CT>" disconnected
+L 08/31/2018 - 12:40:39: "XXBOT Pheonix<16><BOT><>" joined team "CT"
+L 08/31/2018 - 12:40:39: Server cvar "bot_quota" = "1"
+L 08/31/2018 - 12:40:39: "XXBOT Pheonix<16><BOT><>" entered the game
+L 08/31/2018 - 12:40:39: World triggered "Round_Start"
+L 08/31/2018 - 12:40:43: "Smolder<6><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Pheonix<16><BOT><CT>" with "grenade"
+L 08/31/2018 - 12:40:44: "Kratos<7><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "ak47"
+L 08/31/2018 - 12:40:45: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" with "m4a1"
+L 08/31/2018 - 12:40:46: "Jack is Back!<15><VALVE_ID_LAN><CT>" killed "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 08/31/2018 - 12:40:47: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" killed "Jack is Back!<15><VALVE_ID_LAN><CT>" with "xm1014"
+L 08/31/2018 - 12:40:47: Team "TERRORIST" triggered "Terrorists_Win" (CT "15") (T "14")
+L 08/31/2018 - 12:40:47: World triggered "Round_End"
+L 08/31/2018 - 12:40:49: Team "CT" scored "15" with "4" players
+L 08/31/2018 - 12:40:49: Team "TERRORIST" scored "14" with "4" players
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "grenade") (shots "8") (hits "6") (kills "0") (headshots "0") (tks "0") (damage "266") (deaths "0")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "xm1014") (shots "34") (hits "22") (kills "10") (headshots "4") (tks "0") (damage "1498") (deaths "4")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "xm1014") (head "4") (chest "3") (stomach "3") (leftarm "6") (rightarm "3") (leftleg "1") (rightleg "2")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "mac10") (shots "52") (hits "5") (kills "0") (headshots "0") (tks "0") (damage "121") (deaths "1")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "mac10") (head "0") (chest "2") (stomach "1") (leftarm "2") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "aug") (shots "17") (hits "4") (kills "2") (headshots "2") (tks "0") (damage "287") (deaths "0")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "aug") (head "2") (chest "0") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "1")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "usp") (shots "11") (hits "4") (kills "1") (headshots "1") (tks "0") (damage "166") (deaths "0")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "usp") (head "1") (chest "2") (stomach "0") (leftarm "0") (rightarm "1") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "mp5navy") (shots "117") (hits "31") (kills "8") (headshots "3") (tks "0") (damage "973") (deaths "5")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "mp5navy") (head "4") (chest "8") (stomach "5") (leftarm "8") (rightarm "3") (leftleg "0") (rightleg "3")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "m249") (shots "35") (hits "5") (kills "2") (headshots "2") (tks "0") (damage "347") (deaths "1")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "m249") (head "2") (chest "0") (stomach "1") (leftarm "2") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "m4a1") (shots "89") (hits "30") (kills "7") (headshots "3") (tks "0") (damage "1154") (deaths "6")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "m4a1") (head "3") (chest "3") (stomach "5") (leftarm "10") (rightarm "3") (leftleg "3") (rightleg "3")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "knife") (shots "1") (hits "1") (kills "1") (headshots "0") (tks "0") (damage "65") (deaths "2")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "1") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "time" (time "10:09")
+L 08/31/2018 - 12:40:51: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "latency" (ping "0")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "grenade") (shots "5") (hits "4") (kills "1") (headshots "0") (tks "0") (damage "218") (deaths "0")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "xm1014") (shots "15") (hits "3") (kills "1") (headshots "0") (tks "0") (damage "210") (deaths "5")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "xm1014") (head "0") (chest "1") (stomach "0") (leftarm "0") (rightarm "2") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "aug") (shots "55") (hits "10") (kills "4") (headshots "2") (tks "0") (damage "443") (deaths "1")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "aug") (head "3") (chest "0") (stomach "0") (leftarm "2") (rightarm "1") (leftleg "0") (rightleg "4")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "1") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "1")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "mp5navy") (shots "90") (hits "15") (kills "3") (headshots "1") (tks "0") (damage "542") (deaths "5")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "mp5navy") (head "3") (chest "3") (stomach "3") (leftarm "1") (rightarm "5") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m3") (shots "6") (hits "2") (kills "2") (headshots "0") (tks "0") (damage "468") (deaths "4")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m3") (head "0") (chest "0") (stomach "0") (leftarm "1") (rightarm "1") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m4a1") (shots "61") (hits "10") (kills "4") (headshots "2") (tks "0") (damage "486") (deaths "2")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m4a1") (head "2") (chest "1") (stomach "2") (leftarm "4") (rightarm "0") (leftleg "1") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "ak47") (shots "41") (hits "2") (kills "1") (headshots "0") (tks "0") (damage "53") (deaths "0")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "ak47") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "1") (rightleg "1")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "2") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "65") (deaths "3")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "1") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:02")
+L 08/31/2018 - 12:40:51: "Smolder<6><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "6")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "grenade") (shots "6") (hits "10") (kills "2") (headshots "0") (tks "0") (damage "388") (deaths "1")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "xm1014") (shots "16") (hits "4") (kills "2") (headshots "1") (tks "0") (damage "447") (deaths "2")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "xm1014") (head "2") (chest "0") (stomach "0") (leftarm "1") (rightarm "1") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "mac10") (shots "3") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "1")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "mac10") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "aug") (shots "57") (hits "17") (kills "4") (headshots "0") (tks "1") (damage "484") (deaths "4")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "aug") (head "0") (chest "7") (stomach "0") (leftarm "4") (rightarm "4") (leftleg "1") (rightleg "1")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "7") (hits "2") (kills "1") (headshots "0") (tks "0") (damage "122") (deaths "1")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "1") (chest "1") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "mp5navy") (shots "29") (hits "7") (kills "1") (headshots "1") (tks "0") (damage "182") (deaths "3")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "mp5navy") (head "1") (chest "0") (stomach "0") (leftarm "0") (rightarm "2") (leftleg "2") (rightleg "2")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m249") (shots "36") (hits "2") (kills "1") (headshots "1") (tks "0") (damage "146") (deaths "1")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m249") (head "1") (chest "0") (stomach "0") (leftarm "0") (rightarm "1") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m3") (shots "1") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "1")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m3") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m4a1") (shots "87") (hits "17") (kills "6") (headshots "2") (tks "0") (damage "686") (deaths "2")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m4a1") (head "3") (chest "1") (stomach "1") (leftarm "7") (rightarm "2") (leftleg "3") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "ak47") (shots "41") (hits "16") (kills "5") (headshots "1") (tks "0") (damage "571") (deaths "0")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "ak47") (head "1") (chest "3") (stomach "2") (leftarm "3") (rightarm "1") (leftleg "0") (rightleg "6")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "3") (hits "1") (kills "1") (headshots "1") (tks "0") (damage "260") (deaths "3")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "1") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "p90") (shots "36") (hits "4") (kills "1") (headshots "1") (tks "0") (damage "139") (deaths "1")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "p90") (head "1") (chest "1") (stomach "1") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:05")
+L 08/31/2018 - 12:40:51: "Kratos<7><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "10")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "grenade") (shots "7") (hits "11") (kills "1") (headshots "0") (tks "0") (damage "447") (deaths "0")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "xm1014") (shots "74") (hits "31") (kills "9") (headshots "3") (tks "1") (damage "1624") (deaths "8")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "xm1014") (head "3") (chest "3") (stomach "2") (leftarm "8") (rightarm "2") (leftleg "6") (rightleg "7")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "mac10") (shots "9") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "0")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "mac10") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "aug") (shots "22") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "2")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "aug") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "5") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "1")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m3") (shots "8") (hits "4") (kills "2") (headshots "1") (tks "0") (damage "771") (deaths "2")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m3") (head "1") (chest "0") (stomach "0") (leftarm "2") (rightarm "0") (leftleg "0") (rightleg "1")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m4a1") (shots "54") (hits "10") (kills "2") (headshots "1") (tks "0") (damage "372") (deaths "2")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m4a1") (head "1") (chest "0") (stomach "3") (leftarm "4") (rightarm "0") (leftleg "1") (rightleg "1")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "ak47") (shots "19") (hits "5") (kills "1") (headshots "1") (tks "0") (damage "242") (deaths "1")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "ak47") (head "1") (chest "1") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "2") (rightleg "1")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "6") (hits "4") (kills "3") (headshots "0") (tks "0") (damage "390") (deaths "1")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "1") (leftarm "1") (rightarm "1") (leftleg "0") (rightleg "1")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:03")
+L 08/31/2018 - 12:40:51: "GARGAMEL O MOLESTADOR DE CT<8><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "8")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "grenade") (shots "4") (hits "6") (kills "0") (headshots "0") (tks "0") (damage "230") (deaths "2")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "xm1014") (shots "9") (hits "3") (kills "2") (headshots "0") (tks "0") (damage "266") (deaths "1")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "xm1014") (head "0") (chest "0") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "2") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "mac10") (shots "14") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "3")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "mac10") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "aug") (shots "50") (hits "7") (kills "0") (headshots "0") (tks "0") (damage "163") (deaths "1")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "aug") (head "0") (chest "2") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "2") (rightleg "2")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "usp") (shots "2") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "0")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "usp") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "mp5navy") (shots "53") (hits "3") (kills "1") (headshots "1") (tks "0") (damage "129") (deaths "4")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "mp5navy") (head "1") (chest "1") (stomach "1") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "m249") (shots "77") (hits "6") (kills "2") (headshots "1") (tks "0") (damage "316") (deaths "3")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "m249") (head "2") (chest "1") (stomach "0") (leftarm "2") (rightarm "1") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "m4a1") (shots "113") (hits "16") (kills "5") (headshots "3") (tks "0") (damage "700") (deaths "7")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "m4a1") (head "3") (chest "3") (stomach "0") (leftarm "5") (rightarm "2") (leftleg "1") (rightleg "2")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "time" (time "9:50")
+L 08/31/2018 - 12:40:51: "Inspetor Buginganga<10><VALVE_ID_LAN><CT>" triggered "latency" (ping "9")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "grenade") (shots "7") (hits "12") (kills "0") (headshots "0") (tks "0") (damage "453") (deaths "1")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "xm1014") (shots "11") (hits "3") (kills "2") (headshots "0") (tks "0") (damage "310") (deaths "0")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "xm1014") (head "0") (chest "0") (stomach "0") (leftarm "1") (rightarm "2") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "aug") (shots "58") (hits "13") (kills "3") (headshots "0") (tks "0") (damage "275") (deaths "1")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "aug") (head "0") (chest "4") (stomach "2") (leftarm "5") (rightarm "0") (leftleg "2") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "awp") (shots "4") (hits "3") (kills "3") (headshots "0") (tks "0") (damage "340") (deaths "1")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "awp") (head "0") (chest "1") (stomach "0") (leftarm "2") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "mp5navy") (shots "1") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "0")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "mp5navy") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m249") (shots "21") (hits "3") (kills "1") (headshots "0") (tks "0") (damage "79") (deaths "1")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m249") (head "0") (chest "0") (stomach "0") (leftarm "2") (rightarm "0") (leftleg "1") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m3") (shots "3") (hits "1") (kills "1") (headshots "0") (tks "0") (damage "123") (deaths "2")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m3") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "1") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m4a1") (shots "78") (hits "11") (kills "3") (headshots "1") (tks "0") (damage "451") (deaths "3")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m4a1") (head "2") (chest "3") (stomach "0") (leftarm "1") (rightarm "5") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "ak47") (shots "149") (hits "30") (kills "8") (headshots "0") (tks "0") (damage "911") (deaths "2")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "ak47") (head "2") (chest "5") (stomach "0") (leftarm "9") (rightarm "8") (leftleg "4") (rightleg "2")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "6:47")
+L 08/31/2018 - 12:40:51: "Calcas Peludas<13><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "8")
+L 08/31/2018 - 12:40:51: "Jack is Back!<15><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "mac10") (shots "14") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "13") (deaths "1")
+L 08/31/2018 - 12:40:51: "Jack is Back!<15><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "mac10") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "1") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Jack is Back!<15><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "m4a1") (shots "23") (hits "5") (kills "1") (headshots "1") (tks "0") (damage "221") (deaths "1")
+L 08/31/2018 - 12:40:51: "Jack is Back!<15><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "m4a1") (head "1") (chest "1") (stomach "0") (leftarm "1") (rightarm "2") (leftleg "0") (rightleg "0")
+L 08/31/2018 - 12:40:51: "Jack is Back!<15><VALVE_ID_LAN><CT>" triggered "time" (time "0:32")
+L 08/31/2018 - 12:40:51: "Jack is Back!<15><VALVE_ID_LAN><CT>" triggered "latency" (ping "0")
+L 08/31/2018 - 12:40:51: [META] ini: Begin re-reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini
+L 08/31/2018 - 12:40:51: [META] ini: Read plugin config for: AMX
+L 08/31/2018 - 12:40:51: [META] ini: Read plugin config for: WinHL-Booster
+L 08/31/2018 - 12:40:51: [META] ERROR: ini: Skipping plugin, couldn't stat file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': No such file or directory
+L 08/31/2018 - 12:40:51: [META] ini: Read plugin config for: WebMod
+L 08/31/2018 - 12:40:51: [META] ini: Finished reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini; Found 3 plugins
+L 08/31/2018 - 12:40:51: [META] dll: Updating plugins...
+L 08/31/2018 - 12:40:51: [META] ERROR: dll: Failed query plugin '<hlguard_mm_nightly.dll>'; Couldn't open file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': Não foi possível encontrar o módulo especificado.
+
+L 08/31/2018 - 12:40:51: [META] ERROR: dll: Skipping plugin '<hlguard_mm_nightly.dll>'; couldn't query
+L 08/31/2018 - 12:40:51: [META] dll: Finished updating 6 plugins; kept 3, loaded 0, unloaded 0, reloaded 0, delayed 0
+L 08/31/2018 - 12:40:51: Server shutdown
+L 08/31/2018 - 12:40:51: Log file closed

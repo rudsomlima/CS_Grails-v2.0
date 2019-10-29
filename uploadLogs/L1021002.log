@@ -1,0 +1,69 @@
+L 10/21/2019 - 12:29:37: Log file started (file "logs\L1021002.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 10/21/2019 - 12:29:37: "Smolder<7><VALVE_ID_LAN><>" entered the game
+L 10/21/2019 - 12:29:39: "Cap Billy<8><VALVE_ID_LAN><>" entered the game
+L 10/21/2019 - 12:29:40: "Cap Billy<8><VALVE_ID_LAN><>" joined team "CT"
+L 10/21/2019 - 12:29:40: "Smolder<7><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 10/21/2019 - 12:29:40: World triggered "Game_Commencing"
+L 10/21/2019 - 12:29:40: World triggered "Game_Commencing" (CT "0") (T "0")
+L 10/21/2019 - 12:29:40: World triggered "Round_End"
+L 10/21/2019 - 12:29:43: World triggered "Round_Start"
+L 10/21/2019 - 12:29:49: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "mac10"
+L 10/21/2019 - 12:29:49: "Calcas Peludas<9><VALVE_ID_LAN><>" connected, address "10.15.2.230:27005"
+L 10/21/2019 - 12:29:53: "XXBOT Brett<10><BOT><>" joined team "CT"
+L 10/21/2019 - 12:29:53: Server cvar "bot_quota" = "1"
+L 10/21/2019 - 12:29:53: "XXBOT Brett<10><BOT><>" entered the game
+L 10/21/2019 - 12:29:53: "Calcas Peludas<9><VALVE_ID_LAN><>" entered the game
+L 10/21/2019 - 12:29:53: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "mp5navy"
+L 10/21/2019 - 12:29:57: "Calcas Peludas<9><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 10/21/2019 - 12:30:03: "XXBOT Zed<11><BOT><>" joined team "CT"
+L 10/21/2019 - 12:30:03: Server cvar "bot_quota" = "2"
+L 10/21/2019 - 12:30:03: "XXBOT Zed<11><BOT><>" entered the game
+L 10/21/2019 - 12:30:04: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Brett<10><BOT><CT>" with "mp5navy"
+L 10/21/2019 - 12:30:04: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "1")
+L 10/21/2019 - 12:30:04: World triggered "Round_End"
+L 10/21/2019 - 12:30:09: World triggered "Round_Start"
+L 10/21/2019 - 12:30:14: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zed<11><BOT><CT>" with "xm1014"
+L 10/21/2019 - 12:30:16: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Brett<10><BOT><CT>" with "xm1014"
+L 10/21/2019 - 12:30:21: "Kitkat<12><VALVE_ID_LAN><>" connected, address "10.15.2.150:27005"
+L 10/21/2019 - 12:30:24: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 10/21/2019 - 12:30:25: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/21/2019 - 12:30:25: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "2")
+L 10/21/2019 - 12:30:25: World triggered "Round_End"
+L 10/21/2019 - 12:30:30: World triggered "Round_Start"
+L 10/21/2019 - 12:30:30: "Kitkat<12><VALVE_ID_LAN><>" entered the game
+L 10/21/2019 - 12:30:34: "XXBOT Brett<10><BOT><CT>" killed "XXBOT Zed<11><BOT><CT>" with "usp"
+L 10/21/2019 - 12:30:35: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Brett<10><BOT><CT>" with "xm1014"
+L 10/21/2019 - 12:30:38: "Kitkat<12><VALVE_ID_LAN><>" joined team "CT"
+L 10/21/2019 - 12:30:38: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/21/2019 - 12:30:38: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "3")
+L 10/21/2019 - 12:30:38: World triggered "Round_End"
+L 10/21/2019 - 12:30:43: World triggered "Round_Start"
+L 10/21/2019 - 12:30:44: Server cvar "bot_quota" = "1"
+L 10/21/2019 - 12:30:44: Server cvar "bot_quota" = "0"
+L 10/21/2019 - 12:30:44: Kick: "XXBOT Brett<10><UNKNOWN><>" was kicked by "CEIFADOR"
+L 10/21/2019 - 12:30:44: "XXBOT Brett<10><BOT><CT>" disconnected
+L 10/21/2019 - 12:30:44: Kick: "XXBOT Zed<11><UNKNOWN><>" was kicked by "CEIFADOR"
+L 10/21/2019 - 12:30:44: "XXBOT Zed<11><BOT><CT>" disconnected
+L 10/21/2019 - 12:30:46: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 10/21/2019 - 12:30:47: "XXBOT Ringo<13><BOT><>" joined team "CT"
+L 10/21/2019 - 12:30:47: Server cvar "bot_quota" = "1"
+L 10/21/2019 - 12:30:47: "XXBOT Ringo<13><BOT><>" entered the game
+L 10/21/2019 - 12:30:55: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Ringo<13><BOT><CT>" with "xm1014"
+L 10/21/2019 - 12:30:56: "Kitkat<12><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 10/21/2019 - 12:30:57: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "Kitkat<12><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/21/2019 - 12:31:00: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/21/2019 - 12:31:00: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "4")
+L 10/21/2019 - 12:31:00: World triggered "Round_End"
+L 10/21/2019 - 12:31:05: World triggered "Round_Start"
+L 10/21/2019 - 12:31:05: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" say_team "cuidado"
+L 10/21/2019 - 12:31:14: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<12><VALVE_ID_LAN><CT>" with "aug"
+L 10/21/2019 - 12:31:26: "INDIO de ferias<14><VALVE_ID_LAN><>" connected, address "10.15.2.117:27005"
+L 10/21/2019 - 12:31:31: "INDIO de ferias<14><VALVE_ID_LAN><>" entered the game
+L 10/21/2019 - 12:31:32: "XXBOT Ringo<13><BOT><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "aug"
+L 10/21/2019 - 12:31:34: "INDIO de ferias<14><VALVE_ID_LAN><>" joined team "CT"
+L 10/21/2019 - 12:31:39: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Ringo<13><BOT><CT>" with "aug"
+L 10/21/2019 - 12:31:40: Server cvar "bot_quota" = "0"
+L 10/21/2019 - 12:31:40: Kick: "XXBOT Ringo<13><UNKNOWN><>" was kicked by "CEIFADOR"
+L 10/21/2019 - 12:31:40: "XXBOT Ringo<13><BOT><CT>" disconnected
+L 10/21/2019 - 12:31:43: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/21/2019 - 12:31:44: Log file closed

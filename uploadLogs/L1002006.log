@@ -1,0 +1,72 @@
+L 10/02/2019 - 13:00:27: Log file started (file "logs\L1002006.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 10/02/2019 - 13:00:30: "DareDevil<34><VALVE_ID_LAN><CT>" killed "Gho$T<35><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/02/2019 - 13:00:31: "DareDevil<34><VALVE_ID_LAN><CT>" killed "Smolder<31><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 10/02/2019 - 13:00:31: Team "CT" scored "11" with "5" players
+L 10/02/2019 - 13:00:31: Team "TERRORIST" scored "6" with "5" players
+L 10/02/2019 - 13:00:37: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats" (weapon "deagle") (shots "149") (hits "39") (kills "5") (headshots "0") (tks "0") (damage "1196") (deaths "9")
+L 10/02/2019 - 13:00:37: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats2" (weapon "deagle") (head "0") (chest "8") (stomach "9") (leftarm "12") (rightarm "7") (leftleg "1") (rightleg "2")
+L 10/02/2019 - 13:00:37: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "12") (hits "6") (kills "4") (headshots "0") (tks "0") (damage "333") (deaths "4")
+L 10/02/2019 - 13:00:37: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "0") (leftarm "2") (rightarm "4") (leftleg "0") (rightleg "0")
+L 10/02/2019 - 13:00:37: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" triggered "time" (time "10:10")
+L 10/02/2019 - 13:00:37: "CEIFADOR<28><VALVE_ID_LOOPBACK><TERRORIST>" triggered "latency" (ping "0")
+L 10/02/2019 - 13:00:37: "Kitkat<29><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "deagle") (shots "47") (hits "10") (kills "2") (headshots "1") (tks "0") (damage "398") (deaths "6")
+L 10/02/2019 - 13:00:37: "Kitkat<29><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "deagle") (head "2") (chest "0") (stomach "3") (leftarm "3") (rightarm "0") (leftleg "1") (rightleg "1")
+L 10/02/2019 - 13:00:37: "Kitkat<29><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "8") (hits "5") (kills "3") (headshots "1") (tks "1") (damage "294") (deaths "10")
+L 10/02/2019 - 13:00:37: "Kitkat<29><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "1") (chest "0") (stomach "0") (leftarm "1") (rightarm "3") (leftleg "0") (rightleg "0")
+L 10/02/2019 - 13:00:37: "Kitkat<29><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:08")
+L 10/02/2019 - 13:00:37: "Kitkat<29><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "10")
+L 10/02/2019 - 13:00:37: "Cap Billy<30><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "deagle") (shots "87") (hits "32") (kills "9") (headshots "5") (tks "0") (damage "1620") (deaths "4")
+L 10/02/2019 - 13:00:37: "Cap Billy<30><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "deagle") (head "5") (chest "5") (stomach "4") (leftarm "12") (rightarm "5") (leftleg "1") (rightleg "0")
+L 10/02/2019 - 13:00:37: "Cap Billy<30><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "25") (hits "17") (kills "9") (headshots "5") (tks "0") (damage "1341") (deaths "9")
+L 10/02/2019 - 13:00:37: "Cap Billy<30><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "11") (chest "0") (stomach "0") (leftarm "3") (rightarm "2") (leftleg "1") (rightleg "0")
+L 10/02/2019 - 13:00:37: "Cap Billy<30><VALVE_ID_LAN><CT>" triggered "time" (time "10:07")
+L 10/02/2019 - 13:00:37: "Cap Billy<30><VALVE_ID_LAN><CT>" triggered "latency" (ping "5")
+L 10/02/2019 - 13:00:37: "Smolder<31><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "deagle") (shots "161") (hits "35") (kills "8") (headshots "3") (tks "0") (damage "1359") (deaths "9")
+L 10/02/2019 - 13:00:37: "Smolder<31><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "deagle") (head "5") (chest "6") (stomach "3") (leftarm "11") (rightarm "6") (leftleg "2") (rightleg "2")
+L 10/02/2019 - 13:00:37: "Smolder<31><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "16") (hits "11") (kills "5") (headshots "1") (tks "0") (damage "679") (deaths "8")
+L 10/02/2019 - 13:00:37: "Smolder<31><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "2") (chest "6") (stomach "0") (leftarm "2") (rightarm "1") (leftleg "0") (rightleg "0")
+L 10/02/2019 - 13:00:37: "Smolder<31><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:07")
+L 10/02/2019 - 13:00:37: "Smolder<31><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "5")
+L 10/02/2019 - 13:00:37: "INDIO de ferias<33><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "deagle") (shots "117") (hits "38") (kills "12") (headshots "2") (tks "0") (damage "1352") (deaths "5")
+L 10/02/2019 - 13:00:37: "INDIO de ferias<33><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "deagle") (head "2") (chest "8") (stomach "5") (leftarm "13") (rightarm "4") (leftleg "3") (rightleg "3")
+L 10/02/2019 - 13:00:37: "INDIO de ferias<33><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "6") (hits "2") (kills "2") (headshots "1") (tks "0") (damage "276") (deaths "4")
+L 10/02/2019 - 13:00:37: "INDIO de ferias<33><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "1") (chest "0") (stomach "0") (leftarm "0") (rightarm "1") (leftleg "0") (rightleg "0")
+L 10/02/2019 - 13:00:37: "INDIO de ferias<33><VALVE_ID_LAN><CT>" triggered "time" (time "10:05")
+L 10/02/2019 - 13:00:37: "INDIO de ferias<33><VALVE_ID_LAN><CT>" triggered "latency" (ping "10")
+L 10/02/2019 - 13:00:37: "DareDevil<34><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "deagle") (shots "101") (hits "40") (kills "8") (headshots "5") (tks "0") (damage "1853") (deaths "11")
+L 10/02/2019 - 13:00:37: "DareDevil<34><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "deagle") (head "5") (chest "7") (stomach "1") (leftarm "14") (rightarm "9") (leftleg "2") (rightleg "2")
+L 10/02/2019 - 13:00:37: "DareDevil<34><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "1") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "55") (deaths "2")
+L 10/02/2019 - 13:00:37: "DareDevil<34><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "1") (leftleg "0") (rightleg "0")
+L 10/02/2019 - 13:00:37: "DareDevil<34><VALVE_ID_LAN><CT>" triggered "time" (time "10:05")
+L 10/02/2019 - 13:00:37: "DareDevil<34><VALVE_ID_LAN><CT>" triggered "latency" (ping "11")
+L 10/02/2019 - 13:00:37: "Gho$T<35><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "deagle") (shots "97") (hits "25") (kills "8") (headshots "4") (tks "0") (damage "1239") (deaths "8")
+L 10/02/2019 - 13:00:37: "Gho$T<35><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "deagle") (head "4") (chest "2") (stomach "3") (leftarm "8") (rightarm "7") (leftleg "1") (rightleg "0")
+L 10/02/2019 - 13:00:37: "Gho$T<35><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "14") (hits "12") (kills "4") (headshots "1") (tks "0") (damage "653") (deaths "7")
+L 10/02/2019 - 13:00:37: "Gho$T<35><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "2") (chest "3") (stomach "1") (leftarm "2") (rightarm "1") (leftleg "1") (rightleg "1")
+L 10/02/2019 - 13:00:37: "Gho$T<35><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:04")
+L 10/02/2019 - 13:00:37: "Gho$T<35><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "8")
+L 10/02/2019 - 13:00:37: "Jack<36><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "deagle") (shots "59") (hits "25") (kills "11") (headshots "5") (tks "0") (damage "1402") (deaths "5")
+L 10/02/2019 - 13:00:37: "Jack<36><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "deagle") (head "5") (chest "7") (stomach "1") (leftarm "7") (rightarm "1") (leftleg "0") (rightleg "4")
+L 10/02/2019 - 13:00:37: "Jack<36><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "33") (hits "15") (kills "7") (headshots "3") (tks "0") (damage "1211") (deaths "7")
+L 10/02/2019 - 13:00:37: "Jack<36><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "5") (chest "7") (stomach "1") (leftarm "0") (rightarm "2") (leftleg "0") (rightleg "0")
+L 10/02/2019 - 13:00:37: "Jack<36><VALVE_ID_LAN><CT>" triggered "time" (time "10:04")
+L 10/02/2019 - 13:00:37: "Jack<36><VALVE_ID_LAN><CT>" triggered "latency" (ping "10")
+L 10/02/2019 - 13:00:37: "@te<37><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "deagle") (shots "108") (hits "45") (kills "14") (headshots "3") (tks "0") (damage "1910") (deaths "6")
+L 10/02/2019 - 13:00:37: "@te<37><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "deagle") (head "3") (chest "10") (stomach "8") (leftarm "17") (rightarm "5") (leftleg "0") (rightleg "2")
+L 10/02/2019 - 13:00:37: "@te<37><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "9") (hits "3") (kills "3") (headshots "0") (tks "0") (damage "165") (deaths "3")
+L 10/02/2019 - 13:00:37: "@te<37><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "1") (stomach "0") (leftarm "0") (rightarm "2") (leftleg "0") (rightleg "0")
+L 10/02/2019 - 13:00:37: "@te<37><VALVE_ID_LAN><CT>" triggered "time" (time "9:57")
+L 10/02/2019 - 13:00:37: "@te<37><VALVE_ID_LAN><CT>" triggered "latency" (ping "8")
+L 10/02/2019 - 13:00:37: [META] ini: Begin re-reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini
+L 10/02/2019 - 13:00:37: [META] ini: Read plugin config for: AMX
+L 10/02/2019 - 13:00:37: [META] ini: Read plugin config for: WinHL-Booster
+L 10/02/2019 - 13:00:37: [META] ERROR: ini: Skipping plugin, couldn't stat file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': No such file or directory
+L 10/02/2019 - 13:00:37: [META] ini: Read plugin config for: WebMod
+L 10/02/2019 - 13:00:37: [META] ini: Finished reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini; Found 3 plugins
+L 10/02/2019 - 13:00:37: [META] dll: Updating plugins...
+L 10/02/2019 - 13:00:37: [META] ERROR: dll: Failed query plugin '<hlguard_mm_nightly.dll>'; Couldn't open file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': Não foi possível encontrar o módulo especificado.
+
+L 10/02/2019 - 13:00:37: [META] ERROR: dll: Skipping plugin '<hlguard_mm_nightly.dll>'; couldn't query
+L 10/02/2019 - 13:00:37: [META] dll: Finished updating 6 plugins; kept 3, loaded 0, unloaded 0, reloaded 0, delayed 0
+L 10/02/2019 - 13:00:37: Server shutdown
+L 10/02/2019 - 13:00:37: Log file closed

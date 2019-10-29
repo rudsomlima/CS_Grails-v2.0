@@ -1,0 +1,174 @@
+L 10/08/2019 - 12:28:47: Log file started (file "logs\L1008000.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 10/08/2019 - 12:28:48: "DareDevil<7><VALVE_ID_LAN><>" entered the game
+L 10/08/2019 - 12:28:49: "Cap Billy<8><VALVE_ID_LAN><>" joined team "CT"
+L 10/08/2019 - 12:28:49: World triggered "Game_Commencing"
+L 10/08/2019 - 12:28:49: World triggered "Game_Commencing" (CT "0") (T "0")
+L 10/08/2019 - 12:28:49: World triggered "Round_End"
+L 10/08/2019 - 12:28:49: "DareDevil<7><VALVE_ID_LAN><>" joined team "CT"
+L 10/08/2019 - 12:28:51: "Calcas Peludas<9><VALVE_ID_LAN><>" connected, address "10.15.2.230:27005"
+L 10/08/2019 - 12:28:52: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 10/08/2019 - 12:28:52: World triggered "Round_Start"
+L 10/08/2019 - 12:28:54: "Calcas Peludas<9><VALVE_ID_LAN><>" entered the game
+L 10/08/2019 - 12:28:55: "Calcas Peludas<9><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 10/08/2019 - 12:28:56: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "awp"
+L 10/08/2019 - 12:28:56: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" triggered "Dropped_The_Bomb"
+L 10/08/2019 - 12:29:01: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 10/08/2019 - 12:29:01: Team "CT" triggered "CTs_Win" (CT "1") (T "0")
+L 10/08/2019 - 12:29:01: World triggered "Round_End"
+L 10/08/2019 - 12:29:06: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 10/08/2019 - 12:29:06: World triggered "Round_Start"
+L 10/08/2019 - 12:29:12: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 10/08/2019 - 12:29:12: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" triggered "Dropped_The_Bomb"
+L 10/08/2019 - 12:29:18: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "mp5navy"
+L 10/08/2019 - 12:29:18: Team "CT" triggered "CTs_Win" (CT "2") (T "0")
+L 10/08/2019 - 12:29:18: World triggered "Round_End"
+L 10/08/2019 - 12:29:23: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 10/08/2019 - 12:29:23: World triggered "Round_Start"
+L 10/08/2019 - 12:29:30: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "DareDevil<7><VALVE_ID_LAN><CT>" with "mp5navy"
+L 10/08/2019 - 12:29:32: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "mp5navy"
+L 10/08/2019 - 12:29:32: Team "TERRORIST" triggered "Terrorists_Win" (CT "2") (T "1")
+L 10/08/2019 - 12:29:32: World triggered "Round_End"
+L 10/08/2019 - 12:29:37: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 10/08/2019 - 12:29:37: World triggered "Round_Start"
+L 10/08/2019 - 12:29:39: "Gho$T<10><VALVE_ID_LAN><>" connected, address "10.15.2.123:27005"
+L 10/08/2019 - 12:29:44: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" killed "DareDevil<7><VALVE_ID_LAN><CT>" with "aug"
+L 10/08/2019 - 12:29:44: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "mp5navy"
+L 10/08/2019 - 12:29:46: "Gho$T<10><VALVE_ID_LAN><>" entered the game
+L 10/08/2019 - 12:29:47: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 10/08/2019 - 12:29:47: Team "CT" triggered "CTs_Win" (CT "3") (T "1")
+L 10/08/2019 - 12:29:47: World triggered "Round_End"
+L 10/08/2019 - 12:29:48: "Kitkat<11><VALVE_ID_LAN><>" connected, address "10.15.2.150:27005"
+L 10/08/2019 - 12:29:48: "Gho$T<10><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 10/08/2019 - 12:29:52: "Gho$T<10><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 10/08/2019 - 12:29:52: World triggered "Round_Start"
+L 10/08/2019 - 12:29:54: "XXBOT Stone<12><BOT><>" joined team "CT"
+L 10/08/2019 - 12:29:54: Server cvar "bot_quota" = "1"
+L 10/08/2019 - 12:29:54: "XXBOT Stone<12><BOT><>" entered the game
+L 10/08/2019 - 12:29:56: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "m249"
+L 10/08/2019 - 12:29:56: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "DareDevil<7><VALVE_ID_LAN><CT>" with "sg552"
+L 10/08/2019 - 12:29:57: "Kitkat<11><VALVE_ID_LAN><>" entered the game
+L 10/08/2019 - 12:30:00: "Gho$T<10><VALVE_ID_LAN><TERRORIST>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "mp5navy"
+L 10/08/2019 - 12:30:02: "XXBOT Stone<12><BOT><CT>" killed "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 10/08/2019 - 12:30:03: "INDIO de ferias<13><VALVE_ID_LAN><>" connected, address "10.15.2.117:27005"
+L 10/08/2019 - 12:30:03: "Gho$T<10><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Stone<12><BOT><CT>" with "mp5navy"
+L 10/08/2019 - 12:30:03: Team "TERRORIST" triggered "Terrorists_Win" (CT "3") (T "2")
+L 10/08/2019 - 12:30:03: World triggered "Round_End"
+L 10/08/2019 - 12:30:04: "Kitkat<11><VALVE_ID_LAN><>" joined team "CT"
+L 10/08/2019 - 12:30:05: "INDIO de ferias<13><VALVE_ID_LAN><>" entered the game
+L 10/08/2019 - 12:30:06: "Cap Billy<8><VALVE_ID_LAN><CT>" say "HAHAHAHAH" (dead)
+L 10/08/2019 - 12:30:08: Server cvar "bot_quota" = "0"
+L 10/08/2019 - 12:30:08: Kick: "XXBOT Stone<12><UNKNOWN><>" was kicked by "CEIFADOR"
+L 10/08/2019 - 12:30:08: "XXBOT Stone<12><BOT><CT>" disconnected
+L 10/08/2019 - 12:30:08: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 10/08/2019 - 12:30:08: World triggered "Round_Start"
+L 10/08/2019 - 12:30:09: "Gho$T<10><VALVE_ID_LAN><TERRORIST>" committed suicide with "world"
+L 10/08/2019 - 12:30:10: "INDIO de ferias<13><VALVE_ID_LAN><>" joined team "CT"
+L 10/08/2019 - 12:30:12: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<11><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/08/2019 - 12:30:15: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "DareDevil<7><VALVE_ID_LAN><CT>" with "aug"
+L 10/08/2019 - 12:30:15: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<13><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/08/2019 - 12:30:19: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 10/08/2019 - 12:30:23: "DareDevil<7><VALVE_ID_LAN><CT>" say "boa tarde calcas" (dead)
+L 10/08/2019 - 12:30:24: "INDIO de ferias<13><VALVE_ID_LAN><CT>" say "kkkkkkkkkkkkk" (dead)
+L 10/08/2019 - 12:30:24: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "mp5navy"
+L 10/08/2019 - 12:30:24: Team "CT" triggered "CTs_Win" (CT "4") (T "2")
+L 10/08/2019 - 12:30:24: World triggered "Round_End"
+L 10/08/2019 - 12:30:26: "Gho$T<10><VALVE_ID_LAN><TERRORIST>" say "ja" (dead)
+L 10/08/2019 - 12:30:28: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" say "obrigado" (dead)
+L 10/08/2019 - 12:30:28: "Gho$T<10><VALVE_ID_LAN><TERRORIST>" say "pqp calcas" (dead)
+L 10/08/2019 - 12:30:29: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 10/08/2019 - 12:30:29: World triggered "Round_Start"
+L 10/08/2019 - 12:30:32: "XXBOT Moe<14><BOT><>" joined team "TERRORIST"
+L 10/08/2019 - 12:30:32: Server cvar "bot_quota" = "1"
+L 10/08/2019 - 12:30:32: "XXBOT Moe<14><BOT><>" entered the game
+L 10/08/2019 - 12:30:33: "DareDevil<7><VALVE_ID_LAN><CT>" killed "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 10/08/2019 - 12:30:33: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" triggered "Dropped_The_Bomb"
+L 10/08/2019 - 12:30:34: "DareDevil<7><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "mac10"
+L 10/08/2019 - 12:30:35: "XXBOT Moe<14><BOT><TERRORIST>" killed "DareDevil<7><VALVE_ID_LAN><CT>" with "glock18"
+L 10/08/2019 - 12:30:35: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Gho$T<10><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 10/08/2019 - 12:30:36: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "XXBOT Moe<14><BOT><TERRORIST>" with "knife"
+L 10/08/2019 - 12:30:36: Team "CT" triggered "CTs_Win" (CT "5") (T "2")
+L 10/08/2019 - 12:30:36: World triggered "Round_End"
+L 10/08/2019 - 12:30:41: "Gho$T<10><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 10/08/2019 - 12:30:42: World triggered "Round_Start"
+L 10/08/2019 - 12:30:46: "INDIO de ferias<13><VALVE_ID_LAN><CT>" killed "Gho$T<10><VALVE_ID_LAN><TERRORIST>" with "grenade"
+L 10/08/2019 - 12:30:46: "Gho$T<10><VALVE_ID_LAN><TERRORIST>" triggered "Dropped_The_Bomb"
+L 10/08/2019 - 12:30:47: "INDIO de ferias<13><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "xm1014"
+L 10/08/2019 - 12:30:47: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "XXBOT Moe<14><BOT><TERRORIST>" with "mp5navy"
+L 10/08/2019 - 12:30:48: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 10/08/2019 - 12:30:48: Team "CT" triggered "CTs_Win" (CT "6") (T "2")
+L 10/08/2019 - 12:30:48: World triggered "Round_End"
+L 10/08/2019 - 12:30:53: "XXBOT Moe<14><BOT><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 10/08/2019 - 12:30:53: World triggered "Round_Start"
+L 10/08/2019 - 12:30:57: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" killed "DareDevil<7><VALVE_ID_LAN><CT>" with "sg552"
+L 10/08/2019 - 12:30:57: "INDIO de ferias<13><VALVE_ID_LAN><CT>" killed "Gho$T<10><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/08/2019 - 12:31:00: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "INDIO de ferias<13><VALVE_ID_LAN><CT>" with "mp5navy"
+L 10/08/2019 - 12:31:00: "XXBOT Moe<14><BOT><TERRORIST>" killed "Kitkat<11><VALVE_ID_LAN><CT>" with "glock18"
+L 10/08/2019 - 12:31:04: "XXBOT Moe<14><BOT><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "glock18"
+L 10/08/2019 - 12:31:04: Team "TERRORIST" triggered "Terrorists_Win" (CT "6") (T "3")
+L 10/08/2019 - 12:31:04: World triggered "Round_End"
+L 10/08/2019 - 12:31:09: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 10/08/2019 - 12:31:09: World triggered "Round_Start"
+L 10/08/2019 - 12:31:11: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<13><VALVE_ID_LAN><CT>" with "sg552"
+L 10/08/2019 - 12:31:12: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Gho$T<10><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/08/2019 - 12:31:15: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" killed "DareDevil<7><VALVE_ID_LAN><CT>" with "grenade"
+L 10/08/2019 - 12:31:19: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "XXBOT Moe<14><BOT><TERRORIST>" with "xm1014"
+L 10/08/2019 - 12:31:19: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/08/2019 - 12:31:20: "DareDevil<7><VALVE_ID_LAN><CT>" say_team "viadin" (dead)
+L 10/08/2019 - 12:31:29: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "Kitkat<11><VALVE_ID_LAN><CT>" with "mp5navy"
+L 10/08/2019 - 12:31:34: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "xm1014"
+L 10/08/2019 - 12:31:34: Team "CT" triggered "CTs_Win" (CT "7") (T "3")
+L 10/08/2019 - 12:31:34: World triggered "Round_End"
+L 10/08/2019 - 12:31:39: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 10/08/2019 - 12:31:39: World triggered "Round_Start"
+L 10/08/2019 - 12:31:43: "INDIO de ferias<13><VALVE_ID_LAN><CT>" killed "Gho$T<10><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 10/08/2019 - 12:31:44: "DareDevil<7><VALVE_ID_LAN><CT>" killed "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 10/08/2019 - 12:31:44: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" triggered "Dropped_The_Bomb"
+L 10/08/2019 - 12:31:44: "INDIO de ferias<13><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "aug"
+L 10/08/2019 - 12:31:45: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "XXBOT Moe<14><BOT><TERRORIST>" with "xm1014"
+L 10/08/2019 - 12:31:45: Team "CT" triggered "CTs_Win" (CT "8") (T "3")
+L 10/08/2019 - 12:31:45: World triggered "Round_End"
+L 10/08/2019 - 12:31:50: "Gho$T<10><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 10/08/2019 - 12:31:50: World triggered "Round_Start"
+L 10/08/2019 - 12:31:53: "DareDevil<7><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "grenade"
+L 10/08/2019 - 12:31:53: "DareDevil<7><VALVE_ID_LAN><CT>" killed "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" with "grenade"
+L 10/08/2019 - 12:31:53: "DareDevil<7><VALVE_ID_LAN><CT>" killed "XXBOT Moe<14><BOT><TERRORIST>" with "grenade"
+L 10/08/2019 - 12:31:53: "Gho$T<10><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<13><VALVE_ID_LAN><CT>" with "sg552"
+L 10/08/2019 - 12:31:55: "INDIO de ferias<13><VALVE_ID_LAN><CT>" killed "Gho$T<10><VALVE_ID_LAN><TERRORIST>" with "grenade"
+L 10/08/2019 - 12:31:55: Team "CT" triggered "CTs_Win" (CT "9") (T "3")
+L 10/08/2019 - 12:31:55: World triggered "Round_End"
+L 10/08/2019 - 12:32:00: "XXBOT Moe<14><BOT><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 10/08/2019 - 12:32:00: World triggered "Round_Start"
+L 10/08/2019 - 12:32:03: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Kitkat<11><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/08/2019 - 12:32:03: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Gho$T<10><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/08/2019 - 12:32:05: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "XXBOT Moe<14><BOT><TERRORIST>" with "xm1014"
+L 10/08/2019 - 12:32:05: "XXBOT Moe<14><BOT><TERRORIST>" triggered "Dropped_The_Bomb"
+L 10/08/2019 - 12:32:09: "DareDevil<7><VALVE_ID_LAN><CT>" killed "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 10/08/2019 - 12:32:10: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "m249"
+L 10/08/2019 - 12:32:11: "DareDevil<7><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "mp5navy"
+L 10/08/2019 - 12:32:11: Team "CT" triggered "CTs_Win" (CT "10") (T "3")
+L 10/08/2019 - 12:32:11: World triggered "Round_End"
+L 10/08/2019 - 12:32:14: "Gho$T<10><VALVE_ID_LAN><TERRORIST>" say_team "reacao" (dead)
+L 10/08/2019 - 12:32:16: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 10/08/2019 - 12:32:16: World triggered "Round_Start"
+L 10/08/2019 - 12:32:16: "Cap Billy<8><VALVE_ID_LAN><CT>" committed suicide with "world"
+L 10/08/2019 - 12:32:18: "Gho$T<10><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<13><VALVE_ID_LAN><CT>" with "awp"
+L 10/08/2019 - 12:32:19: "DareDevil<7><VALVE_ID_LAN><CT>" killed "Gho$T<10><VALVE_ID_LAN><TERRORIST>" with "grenade"
+L 10/08/2019 - 12:32:20: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "DareDevil<7><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/08/2019 - 12:32:22: "XXBOT Moe<14><BOT><TERRORIST>" killed "Kitkat<11><VALVE_ID_LAN><CT>" with "glock18"
+L 10/08/2019 - 12:32:22: Team "TERRORIST" triggered "Terrorists_Win" (CT "10") (T "4")
+L 10/08/2019 - 12:32:22: World triggered "Round_End"
+L 10/08/2019 - 12:32:24: "Cap Billy<8><VALVE_ID_LAN><CT>" say "MORRERAM TODOS NA BOMBA" (dead)
+L 10/08/2019 - 12:32:27: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 10/08/2019 - 12:32:28: World triggered "Round_Start"
+L 10/08/2019 - 12:32:28: "Cap Billy<8><VALVE_ID_LAN><CT>" say "nunca tihnah visto isso"
+L 10/08/2019 - 12:32:31: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "usp"
+L 10/08/2019 - 12:32:32: "Gho$T<10><VALVE_ID_LAN><TERRORIST>" killed "DareDevil<7><VALVE_ID_LAN><CT>" with "aug"
+L 10/08/2019 - 12:32:33: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 10/08/2019 - 12:32:33: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" triggered "Dropped_The_Bomb"
+L 10/08/2019 - 12:32:33: "Gho$T<10><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "aug"
+L 10/08/2019 - 12:32:35: "INDIO de ferias<13><VALVE_ID_LAN><CT>" killed "XXBOT Moe<14><BOT><TERRORIST>" with "aug"
+L 10/08/2019 - 12:32:37: "Gho$T<10><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<13><VALVE_ID_LAN><CT>" with "aug"
+L 10/08/2019 - 12:32:38: "Kitkat<11><VALVE_ID_LAN><CT>" killed "Gho$T<10><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/08/2019 - 12:32:38: Team "CT" triggered "CTs_Win" (CT "11") (T "4")
+L 10/08/2019 - 12:32:38: World triggered "Round_End"
+L 10/08/2019 - 12:32:41: Log file closed

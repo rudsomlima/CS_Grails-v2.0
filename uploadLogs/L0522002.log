@@ -1,0 +1,283 @@
+L 05/22/2018 - 12:40:48: Log file started (file "logs\L0522002.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 05/22/2018 - 12:40:49: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><>" entered the game
+L 05/22/2018 - 12:40:49: "TUX<29><VALVE_ID_LAN><>" entered the game
+L 05/22/2018 - 12:40:50: "Smolder<24><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 05/22/2018 - 12:40:50: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 05/22/2018 - 12:40:50: World triggered "Game_Commencing"
+L 05/22/2018 - 12:40:50: World triggered "Game_Commencing" (CT "0") (T "0")
+L 05/22/2018 - 12:40:50: World triggered "Round_End"
+L 05/22/2018 - 12:40:51: "TUX<29><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 05/22/2018 - 12:40:51: "Inspetor Buginganga<22><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 05/22/2018 - 12:40:52: "Calcas Peludas<23><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 05/22/2018 - 12:40:53: World triggered "Round_Start"
+L 05/22/2018 - 12:41:01: "TUX<29><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Brad<25><BOT><CT>" with "glock18"
+L 05/22/2018 - 12:41:02: "XXBOT Cory<26><BOT><CT>" killed "TUX<29><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:41:02: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:41:04: "Smolder<24><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Cory<26><BOT><CT>" with "glock18"
+L 05/22/2018 - 12:41:07: "@te<30><VALVE_ID_LAN><>" connected, address "10.15.2.23:27005"
+L 05/22/2018 - 12:41:08: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Smolder<24><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:41:10: "@te<30><VALVE_ID_LAN><>" entered the game
+L 05/22/2018 - 12:41:11: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Troy<28><BOT><CT>" with "glock18"
+L 05/22/2018 - 12:41:14: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Inspetor Buginganga<22><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/22/2018 - 12:41:19: "@te<30><VALVE_ID_LAN><>" joined team "CT"
+L 05/22/2018 - 12:41:23: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:41:23: Team "CT" triggered "CTs_Win" (CT "1") (T "0")
+L 05/22/2018 - 12:41:23: World triggered "Round_End"
+L 05/22/2018 - 12:41:28: World triggered "Round_Start"
+L 05/22/2018 - 12:41:39: "Inspetor Buginganga<22><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Brad<25><BOT><CT>" with "glock18"
+L 05/22/2018 - 12:41:41: "TUX<29><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Cory<26><BOT><CT>" with "knife"
+L 05/22/2018 - 12:41:43: "XXBOT Troy<28><BOT><CT>" killed "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:41:44: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Troy<28><BOT><CT>" with "knife"
+L 05/22/2018 - 12:41:45: "@te<30><VALVE_ID_LAN><CT>" killed "Inspetor Buginganga<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:41:53: "@te<30><VALVE_ID_LAN><CT>" killed "TUX<29><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:41:56: "@te<30><VALVE_ID_LAN><CT>" killed "Smolder<24><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:41:59: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/22/2018 - 12:41:59: Team "CT" triggered "CTs_Win" (CT "2") (T "0")
+L 05/22/2018 - 12:41:59: World triggered "Round_End"
+L 05/22/2018 - 12:42:04: World triggered "Round_Start"
+L 05/22/2018 - 12:42:12: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:42:14: "XXBOT Cory<26><BOT><CT>" killed "Smolder<24><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:42:17: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" killed "@te<30><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:42:21: "XXBOT Brad<25><BOT><CT>" killed "TUX<29><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:42:28: "TUX<29><VALVE_ID_LAN><TERRORIST>" joined team "CT"
+L 05/22/2018 - 12:42:30: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Troy<28><BOT><CT>" with "glock18"
+L 05/22/2018 - 12:42:31: "XXBOT Cory<26><BOT><CT>" killed "Inspetor Buginganga<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:42:37: "XXBOT Cory<26><BOT><CT>" killed "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:42:37: Team "CT" triggered "CTs_Win" (CT "3") (T "0")
+L 05/22/2018 - 12:42:37: World triggered "Round_End"
+L 05/22/2018 - 12:42:42: World triggered "Round_Start"
+L 05/22/2018 - 12:42:42: Server cvar "bot_quota" = "2"
+L 05/22/2018 - 12:42:42: Server cvar "bot_quota" = "1"
+L 05/22/2018 - 12:42:42: Server cvar "bot_quota" = "0"
+L 05/22/2018 - 12:42:42: Kick: "XXBOT Brad<25><UNKNOWN><>" was kicked by "Cap. Billy"
+L 05/22/2018 - 12:42:42: "XXBOT Brad<25><BOT><CT>" disconnected
+L 05/22/2018 - 12:42:42: Kick: "XXBOT Cory<26><UNKNOWN><>" was kicked by "Cap. Billy"
+L 05/22/2018 - 12:42:42: "XXBOT Cory<26><BOT><CT>" disconnected
+L 05/22/2018 - 12:42:42: Kick: "XXBOT Troy<28><UNKNOWN><>" was kicked by "Cap. Billy"
+L 05/22/2018 - 12:42:42: "XXBOT Troy<28><BOT><CT>" disconnected
+L 05/22/2018 - 12:42:44: "XXBOT John<31><BOT><>" joined team "CT"
+L 05/22/2018 - 12:42:44: Server cvar "bot_quota" = "1"
+L 05/22/2018 - 12:42:44: "XXBOT John<31><BOT><>" entered the game
+L 05/22/2018 - 12:42:52: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Inspetor Buginganga<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:42:53: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" killed "TUX<29><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:42:58: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Smolder<24><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:42:58: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" killed "XXBOT John<31><BOT><CT>" with "glock18"
+L 05/22/2018 - 12:43:09: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" killed "@te<30><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:43:10: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:43:13: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:43:13: Team "CT" triggered "CTs_Win" (CT "4") (T "0")
+L 05/22/2018 - 12:43:13: World triggered "Round_End"
+L 05/22/2018 - 12:43:18: World triggered "Round_Start"
+L 05/22/2018 - 12:43:20: "Inspetor Buginganga<22><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "47") (hits "10") (kills "1") (headshots "1") (tks "0") (damage "173") (deaths "4")
+L 05/22/2018 - 12:43:20: "Inspetor Buginganga<22><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "1") (chest "0") (stomach "2") (leftarm "2") (rightarm "1") (leftleg "4") (rightleg "0")
+L 05/22/2018 - 12:43:20: "Inspetor Buginganga<22><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "2:33")
+L 05/22/2018 - 12:43:20: "Inspetor Buginganga<22><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "15")
+L 05/22/2018 - 12:43:20: "Inspetor Buginganga<22><VALVE_ID_LAN><TERRORIST>" disconnected
+L 05/22/2018 - 12:43:20: "Inspetor Buginganga<32><VALVE_ID_LAN><>" connected, address "10.15.2.117:27005"
+L 05/22/2018 - 12:43:23: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:43:23: "Inspetor Buginganga<32><VALVE_ID_LAN><>" entered the game
+L 05/22/2018 - 12:43:24: "Smolder<24><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 05/22/2018 - 12:43:26: "Inspetor Buginganga<32><VALVE_ID_LAN><>" joined team "CT"
+L 05/22/2018 - 12:43:29: Server cvar "bot_quota" = "0"
+L 05/22/2018 - 12:43:29: Kick: "XXBOT John<31><UNKNOWN><>" was kicked by "Cap. Billy"
+L 05/22/2018 - 12:43:29: "XXBOT John<31><BOT><CT>" disconnected
+L 05/22/2018 - 12:43:32: "TUX<29><VALVE_ID_LAN><CT>" killed "Smolder<24><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:43:35: "XXBOT Vladimir<33><BOT><>" joined team "TERRORIST"
+L 05/22/2018 - 12:43:35: Server cvar "bot_quota" = "1"
+L 05/22/2018 - 12:43:35: "XXBOT Vladimir<33><BOT><>" entered the game
+L 05/22/2018 - 12:43:37: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" killed "TUX<29><VALVE_ID_LAN><CT>" with "knife"
+L 05/22/2018 - 12:43:38: "@te<30><VALVE_ID_LAN><CT>" killed "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/22/2018 - 12:43:45: "XXBOT Vladimir<33><BOT><TERRORIST>" killed "@te<30><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:43:51: "XXBOT Vladimir<33><BOT><TERRORIST>" killed "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:43:51: Team "TERRORIST" triggered "Terrorists_Win" (CT "4") (T "1")
+L 05/22/2018 - 12:43:51: World triggered "Round_End"
+L 05/22/2018 - 12:43:54: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" say "kkkk" (dead)
+L 05/22/2018 - 12:43:56: World triggered "Round_Start"
+L 05/22/2018 - 12:43:59: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" say "inpetor bugiganga nao fik mudando de time"
+L 05/22/2018 - 12:44:02: "TUX<29><VALVE_ID_LAN><CT>" killed "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:44:03: "@te<30><VALVE_ID_LAN><CT>" killed "Smolder<24><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:44:07: "TUX<29><VALVE_ID_LAN><CT>" killed "XXBOT Vladimir<33><BOT><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:44:10: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/22/2018 - 12:44:10: Team "CT" triggered "CTs_Win" (CT "5") (T "1")
+L 05/22/2018 - 12:44:10: World triggered "Round_End"
+L 05/22/2018 - 12:44:15: World triggered "Round_Start"
+L 05/22/2018 - 12:44:21: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:44:26: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" killed "@te<30><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:44:27: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "XXBOT Vladimir<33><BOT><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:44:28: "TUX<29><VALVE_ID_LAN><CT>" killed "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/22/2018 - 12:44:31: "TUX<29><VALVE_ID_LAN><CT>" killed "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:44:34: "TUX<29><VALVE_ID_LAN><CT>" killed "Smolder<24><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:44:34: Team "CT" triggered "CTs_Win" (CT "6") (T "1")
+L 05/22/2018 - 12:44:34: World triggered "Round_End"
+L 05/22/2018 - 12:44:39: World triggered "Round_Start"
+L 05/22/2018 - 12:44:47: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:44:50: "TUX<29><VALVE_ID_LAN><CT>" killed "XXBOT Vladimir<33><BOT><TERRORIST>" with "knife"
+L 05/22/2018 - 12:44:54: "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" killed "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:44:56: "Smolder<24><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 05/22/2018 - 12:44:58: "@te<30><VALVE_ID_LAN><CT>" killed "Smolder<24><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/22/2018 - 12:44:58: Team "CT" triggered "CTs_Win" (CT "7") (T "1")
+L 05/22/2018 - 12:44:58: World triggered "Round_End"
+L 05/22/2018 - 12:45:03: World triggered "Round_Start"
+L 05/22/2018 - 12:45:08: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 05/22/2018 - 12:45:08: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:45:12: "Smolder<24><VALVE_ID_LAN><TERRORIST>" killed "TUX<29><VALVE_ID_LAN><CT>" with "knife"
+L 05/22/2018 - 12:45:14: "XXBOT Vladimir<33><BOT><TERRORIST>" killed "@te<30><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:45:14: Team "TERRORIST" triggered "Terrorists_Win" (CT "7") (T "2")
+L 05/22/2018 - 12:45:14: World triggered "Round_End"
+L 05/22/2018 - 12:45:19: World triggered "Round_Start"
+L 05/22/2018 - 12:45:27: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" killed "@te<30><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:45:27: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" killed "TUX<29><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:45:30: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Smolder<24><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:46:02: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "XXBOT Vladimir<33><BOT><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:46:04: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/22/2018 - 12:46:05: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:46:07: "@te<30><VALVE_ID_LAN><CT>" say "hui" (dead)
+L 05/22/2018 - 12:46:10: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:46:10: Team "CT" triggered "CTs_Win" (CT "8") (T "2")
+L 05/22/2018 - 12:46:10: World triggered "Round_End"
+L 05/22/2018 - 12:46:15: World triggered "Round_Start"
+L 05/22/2018 - 12:46:17: "@te<30><VALVE_ID_LAN><CT>" say "toma camp"
+L 05/22/2018 - 12:46:21: "Smolder<24><VALVE_ID_LAN><TERRORIST>" killed "@te<30><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:46:22: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" killed "TUX<29><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:46:26: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:46:28: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Smolder<24><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:46:28: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" with "knife"
+L 05/22/2018 - 12:46:31: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:46:42: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "XXBOT Vladimir<33><BOT><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:46:42: Team "CT" triggered "CTs_Win" (CT "9") (T "2")
+L 05/22/2018 - 12:46:42: World triggered "Round_End"
+L 05/22/2018 - 12:46:47: World triggered "Round_Start"
+L 05/22/2018 - 12:46:52: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" killed "TUX<29><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:46:58: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:47:02: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:47:07: "@te<30><VALVE_ID_LAN><CT>" killed "XXBOT Vladimir<33><BOT><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:47:17: "Smolder<24><VALVE_ID_LAN><TERRORIST>" killed "@te<30><VALVE_ID_LAN><CT>" with "knife"
+L 05/22/2018 - 12:47:21: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" say "uiiiiiiiii" (dead)
+L 05/22/2018 - 12:47:26: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" say "essa foi linda" (dead)
+L 05/22/2018 - 12:47:32: "Smolder<24><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:47:43: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Smolder<24><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:47:43: Team "CT" triggered "CTs_Win" (CT "10") (T "2")
+L 05/22/2018 - 12:47:43: World triggered "Round_End"
+L 05/22/2018 - 12:47:48: World triggered "Round_Start"
+L 05/22/2018 - 12:47:59: "XXBOT Vladimir<33><BOT><TERRORIST>" killed "TUX<29><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:48:03: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 05/22/2018 - 12:48:06: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:48:10: "XXBOT Vladimir<33><BOT><TERRORIST>" killed "@te<30><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:48:10: Team "TERRORIST" triggered "Terrorists_Win" (CT "10") (T "3")
+L 05/22/2018 - 12:48:10: World triggered "Round_End"
+L 05/22/2018 - 12:48:15: World triggered "Round_Start"
+L 05/22/2018 - 12:48:20: "@te<30><VALVE_ID_LAN><CT>" killed "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:48:25: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" killed "Smolder<24><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:48:25: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/22/2018 - 12:48:30: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" say "kkkkk" (dead)
+L 05/22/2018 - 12:48:39: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" say "kkkkkk" (dead)
+L 05/22/2018 - 12:48:41: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "XXBOT Vladimir<33><BOT><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:48:41: Team "CT" triggered "CTs_Win" (CT "11") (T "3")
+L 05/22/2018 - 12:48:41: World triggered "Round_End"
+L 05/22/2018 - 12:48:47: World triggered "Round_Start"
+L 05/22/2018 - 12:48:47: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" committed suicide with "world"
+L 05/22/2018 - 12:48:47: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" say " baixa de guerra" (dead)
+L 05/22/2018 - 12:48:55: "Smolder<24><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 05/22/2018 - 12:48:56: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:48:58: "TUX<29><VALVE_ID_LAN><CT>" killed "XXBOT Vladimir<33><BOT><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:49:00: Server cvar "amx_nextmap" = "cs_paintball1"
+L 05/22/2018 - 12:49:03: "Smolder<24><VALVE_ID_LAN><TERRORIST>" killed "@te<30><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:49:04: "Smolder<24><VALVE_ID_LAN><TERRORIST>" killed "TUX<29><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:49:04: Team "TERRORIST" triggered "Terrorists_Win" (CT "11") (T "4")
+L 05/22/2018 - 12:49:04: World triggered "Round_End"
+L 05/22/2018 - 12:49:09: World triggered "Round_Start"
+L 05/22/2018 - 12:49:18: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" killed "TUX<29><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:49:21: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:49:22: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:49:24: "Smolder<24><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 05/22/2018 - 12:49:27: "Smolder<24><VALVE_ID_LAN><TERRORIST>" killed "@te<30><VALVE_ID_LAN><CT>" with "knife"
+L 05/22/2018 - 12:49:27: Team "TERRORIST" triggered "Terrorists_Win" (CT "11") (T "5")
+L 05/22/2018 - 12:49:27: World triggered "Round_End"
+L 05/22/2018 - 12:49:31: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" say "toma @" (dead)
+L 05/22/2018 - 12:49:32: World triggered "Round_Start"
+L 05/22/2018 - 12:49:33: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" say "PORRA @ TU OLHANDO"
+L 05/22/2018 - 12:49:38: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" killed "TUX<29><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:49:41: "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" killed "Smolder<24><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:49:45: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" with "knife"
+L 05/22/2018 - 12:49:45: "@te<30><VALVE_ID_LAN><CT>" killed "XXBOT Vladimir<33><BOT><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:49:48: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/22/2018 - 12:49:49: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/22/2018 - 12:49:49: Team "CT" triggered "CTs_Win" (CT "12") (T "5")
+L 05/22/2018 - 12:49:49: World triggered "Round_End"
+L 05/22/2018 - 12:49:54: World triggered "Round_Start"
+L 05/22/2018 - 12:50:02: "TUX<29><VALVE_ID_LAN><CT>" killed "Smolder<24><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:50:06: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" killed "@te<30><VALVE_ID_LAN><CT>" with "knife"
+L 05/22/2018 - 12:50:07: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/22/2018 - 12:50:09: "XXBOT Vladimir<33><BOT><TERRORIST>" killed "TUX<29><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:50:10: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "XXBOT Vladimir<33><BOT><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:50:14: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:50:14: Team "CT" triggered "CTs_Win" (CT "13") (T "5")
+L 05/22/2018 - 12:50:14: World triggered "Round_End"
+L 05/22/2018 - 12:50:19: World triggered "Round_Start"
+L 05/22/2018 - 12:50:26: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" killed "@te<30><VALVE_ID_LAN><CT>" with "glock18"
+L 05/22/2018 - 12:50:29: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" with "knife"
+L 05/22/2018 - 12:50:32: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 05/22/2018 - 12:50:32: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 05/22/2018 - 12:50:34: "TUX<29><VALVE_ID_LAN><CT>" killed "XXBOT Vladimir<33><BOT><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:50:41: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" say "que porra foi isso" (dead)
+L 05/22/2018 - 12:50:45: "TUX<29><VALVE_ID_LAN><CT>" killed "Smolder<24><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:50:47: "TUX<29><VALVE_ID_LAN><CT>" killed "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 05/22/2018 - 12:50:47: Team "CT" triggered "CTs_Win" (CT "14") (T "5")
+L 05/22/2018 - 12:50:47: World triggered "Round_End"
+L 05/22/2018 - 12:50:51: "@te<30><VALVE_ID_LAN><CT>" say "eita" (dead)
+L 05/22/2018 - 12:50:52: World triggered "Round_Start"
+L 05/22/2018 - 12:50:53: Team "CT" scored "14" with "4" players
+L 05/22/2018 - 12:50:53: Team "TERRORIST" scored "5" with "4" players
+L 05/22/2018 - 12:50:54: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "glock18") (shots "222") (hits "93") (kills "25") (headshots "20") (tks "0") (damage "3025") (deaths "4")
+L 05/22/2018 - 12:50:54: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "glock18") (head "30") (chest "14") (stomach "5") (leftarm "19") (rightarm "24") (leftleg "1") (rightleg "0")
+L 05/22/2018 - 12:50:54: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "knife") (shots "16") (hits "13") (kills "9") (headshots "6") (tks "0") (damage "1565") (deaths "3")
+L 05/22/2018 - 12:50:54: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "knife") (head "8") (chest "2") (stomach "0") (leftarm "1") (rightarm "2") (leftleg "0") (rightleg "0")
+L 05/22/2018 - 12:50:54: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" triggered "time" (time "10:09")
+L 05/22/2018 - 12:50:54: "Cap. Billy<21><VALVE_ID_LOOPBACK><CT>" triggered "latency" (ping "0")
+L 05/22/2018 - 12:50:54: "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "124") (hits "20") (kills "2") (headshots "2") (tks "0") (damage "557") (deaths "11")
+L 05/22/2018 - 12:50:54: "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "4") (chest "4") (stomach "0") (leftarm "1") (rightarm "6") (leftleg "2") (rightleg "3")
+L 05/22/2018 - 12:50:54: "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" triggered "time" (time "7:31")
+L 05/22/2018 - 12:50:54: "Inspetor Buginganga<32><VALVE_ID_LAN><CT>" triggered "latency" (ping "9")
+L 05/22/2018 - 12:50:54: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "261") (hits "83") (kills "15") (headshots "8") (tks "0") (damage "1846") (deaths "13")
+L 05/22/2018 - 12:50:54: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "14") (chest "13") (stomach "3") (leftarm "24") (rightarm "27") (leftleg "0") (rightleg "2")
+L 05/22/2018 - 12:50:54: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "6") (hits "5") (kills "1") (headshots "0") (tks "0") (damage "278") (deaths "3")
+L 05/22/2018 - 12:50:54: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "1") (chest "1") (stomach "0") (leftarm "1") (rightarm "2") (leftleg "0") (rightleg "0")
+L 05/22/2018 - 12:50:54: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:06")
+L 05/22/2018 - 12:50:54: "Calcas Peludas<23><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "10")
+L 05/22/2018 - 12:50:54: "Smolder<24><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "165") (hits "44") (kills "8") (headshots "5") (tks "0") (damage "1065") (deaths "7")
+L 05/22/2018 - 12:50:54: "Smolder<24><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "8") (chest "10") (stomach "3") (leftarm "12") (rightarm "7") (leftleg "3") (rightleg "1")
+L 05/22/2018 - 12:50:54: "Smolder<24><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "17") (hits "9") (kills "4") (headshots "3") (tks "0") (damage "1015") (deaths "8")
+L 05/22/2018 - 12:50:54: "Smolder<24><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "4") (chest "0") (stomach "0") (leftarm "0") (rightarm "5") (leftleg "0") (rightleg "0")
+L 05/22/2018 - 12:50:54: "Smolder<24><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:06")
+L 05/22/2018 - 12:50:54: "Smolder<24><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "9")
+L 05/22/2018 - 12:50:54: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "143") (hits "39") (kills "8") (headshots "7") (tks "1") (damage "1015") (deaths "6")
+L 05/22/2018 - 12:50:54: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "10") (chest "2") (stomach "0") (leftarm "10") (rightarm "13") (leftleg "0") (rightleg "4")
+L 05/22/2018 - 12:50:54: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "17") (hits "11") (kills "6") (headshots "0") (tks "0") (damage "867") (deaths "10")
+L 05/22/2018 - 12:50:54: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "2") (stomach "2") (leftarm "3") (rightarm "2") (leftleg "2") (rightleg "0")
+L 05/22/2018 - 12:50:54: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:04")
+L 05/22/2018 - 12:50:54: "JACA PALADIUM ALFA<27><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "12")
+L 05/22/2018 - 12:50:54: "TUX<29><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "173") (hits "71") (kills "11") (headshots "11") (tks "0") (damage "1902") (deaths "14")
+L 05/22/2018 - 12:50:54: "TUX<29><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "14") (chest "7") (stomach "3") (leftarm "18") (rightarm "25") (leftleg "1") (rightleg "3")
+L 05/22/2018 - 12:50:54: "TUX<29><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "6") (hits "5") (kills "3") (headshots "2") (tks "0") (damage "593") (deaths "0")
+L 05/22/2018 - 12:50:54: "TUX<29><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "2") (chest "1") (stomach "0") (leftarm "1") (rightarm "1") (leftleg "0") (rightleg "0")
+L 05/22/2018 - 12:50:54: "TUX<29><VALVE_ID_LAN><CT>" triggered "time" (time "10:04")
+L 05/22/2018 - 12:50:54: "TUX<29><VALVE_ID_LAN><CT>" triggered "latency" (ping "11")
+L 05/22/2018 - 12:50:54: "@te<30><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "210") (hits "54") (kills "7") (headshots "5") (tks "0") (damage "1068") (deaths "10")
+L 05/22/2018 - 12:50:54: "@te<30><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "7") (chest "9") (stomach "8") (leftarm "16") (rightarm "7") (leftleg "3") (rightleg "4")
+L 05/22/2018 - 12:50:54: "@te<30><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "9") (hits "5") (kills "2") (headshots "1") (tks "0") (damage "480") (deaths "3")
+L 05/22/2018 - 12:50:54: "@te<30><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "3") (chest "0") (stomach "0") (leftarm "0") (rightarm "2") (leftleg "0") (rightleg "0")
+L 05/22/2018 - 12:50:54: "@te<30><VALVE_ID_LAN><CT>" triggered "time" (time "9:44")
+L 05/22/2018 - 12:50:54: "@te<30><VALVE_ID_LAN><CT>" triggered "latency" (ping "6")
+L 05/22/2018 - 12:50:54: [META] ini: Begin re-reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini
+L 05/22/2018 - 12:50:54: [META] ini: Read plugin config for: AMX
+L 05/22/2018 - 12:50:54: [META] ini: Read plugin config for: WinHL-Booster
+L 05/22/2018 - 12:50:54: [META] ERROR: ini: Skipping plugin, couldn't stat file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': No such file or directory
+L 05/22/2018 - 12:50:54: [META] ini: Read plugin config for: WebMod
+L 05/22/2018 - 12:50:54: [META] ini: Finished reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini; Found 3 plugins
+L 05/22/2018 - 12:50:54: [META] dll: Updating plugins...
+L 05/22/2018 - 12:50:54: [META] ERROR: dll: Failed query plugin '<hlguard_mm_nightly.dll>'; Couldn't open file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': Não foi possível encontrar o módulo especificado.
+
+L 05/22/2018 - 12:50:54: [META] ERROR: dll: Skipping plugin '<hlguard_mm_nightly.dll>'; couldn't query
+L 05/22/2018 - 12:50:54: [META] dll: Finished updating 6 plugins; kept 3, loaded 0, unloaded 0, reloaded 0, delayed 0
+L 05/22/2018 - 12:50:54: Server shutdown
+L 05/22/2018 - 12:50:54: Log file closed

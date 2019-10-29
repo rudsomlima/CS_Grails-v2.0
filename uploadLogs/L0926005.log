@@ -1,0 +1,55 @@
+L 09/26/2019 - 12:39:50: Log file started (file "logs\L0926005.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 09/26/2019 - 12:39:50: "DareDevil<18><VALVE_ID_LAN><>" entered the game
+L 09/26/2019 - 12:39:50: "INDIO de ferias<19><VALVE_ID_LAN><>" entered the game
+L 09/26/2019 - 12:39:51: "Jack<16><VALVE_ID_LAN><>" joined team "CT"
+L 09/26/2019 - 12:39:51: "Kitkat<14><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/26/2019 - 12:39:52: "Cap Billy<21><VALVE_ID_LAN><>" entered the game
+L 09/26/2019 - 12:39:52: "Calcas Peludas<22><VALVE_ID_LAN><>" connected, address "10.15.2.230:27005"
+L 09/26/2019 - 12:39:52: "Gho$T<15><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/26/2019 - 12:39:52: "INDIO de ferias<19><VALVE_ID_LAN><>" joined team "CT"
+L 09/26/2019 - 12:39:52: World triggered "Game_Commencing"
+L 09/26/2019 - 12:39:52: World triggered "Game_Commencing" (CT "0") (T "0")
+L 09/26/2019 - 12:39:52: World triggered "Round_End"
+L 09/26/2019 - 12:39:53: "DareDevil<18><VALVE_ID_LAN><>" joined team "CT"
+L 09/26/2019 - 12:39:54: "Jack<16><VALVE_ID_LAN><CT>" say "bot"
+L 09/26/2019 - 12:39:55: "Smolder<17><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/26/2019 - 12:39:55: "Calcas Peludas<22><VALVE_ID_LAN><>" entered the game
+L 09/26/2019 - 12:39:55: "Cap Billy<21><VALVE_ID_LAN><>" joined team "CT"
+L 09/26/2019 - 12:39:55: World triggered "Round_Start"
+L 09/26/2019 - 12:39:56: "Calcas Peludas<22><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/26/2019 - 12:40:03: "Smolder<17><VALVE_ID_LAN><TERRORIST>" killed "DareDevil<18><VALVE_ID_LAN><CT>" with "glock18"
+L 09/26/2019 - 12:40:04: "CEIFADOR<13><VALVE_ID_LOOPBACK><TERRORIST>" killed "Jack<16><VALVE_ID_LAN><CT>" with "glock18"
+L 09/26/2019 - 12:40:06: "Kitkat<14><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<19><VALVE_ID_LAN><CT>" with "glock18"
+L 09/26/2019 - 12:40:06: "Cap Billy<21><VALVE_ID_LAN><CT>" killed "XXBOT Troy<20><BOT><TERRORIST>" with "glock18"
+L 09/26/2019 - 12:40:10: "Kitkat<14><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<21><VALVE_ID_LAN><CT>" with "glock18"
+L 09/26/2019 - 12:40:10: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "1")
+L 09/26/2019 - 12:40:10: World triggered "Round_End"
+L 09/26/2019 - 12:40:10: "XXBOT Connor<23><BOT><>" joined team "CT"
+L 09/26/2019 - 12:40:10: Server cvar "bot_quota" = "2"
+L 09/26/2019 - 12:40:10: "XXBOT Connor<23><BOT><>" entered the game
+L 09/26/2019 - 12:40:13: "INDIO de ferias<19><VALVE_ID_LAN><CT>" say_team "mapa" (dead)
+L 09/26/2019 - 12:40:13: "Gho$T<15><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Connor<23><BOT><CT>" with "glock18"
+L 09/26/2019 - 12:40:14: "XXBOT Eric<24><BOT><>" joined team "CT"
+L 09/26/2019 - 12:40:14: Server cvar "bot_quota" = "3"
+L 09/26/2019 - 12:40:14: "XXBOT Eric<24><BOT><>" entered the game
+L 09/26/2019 - 12:40:15: World triggered "Round_Start"
+L 09/26/2019 - 12:40:18: Server cvar "bot_quota" = "2"
+L 09/26/2019 - 12:40:18: Server cvar "bot_quota" = "1"
+L 09/26/2019 - 12:40:18: Server cvar "bot_quota" = "0"
+L 09/26/2019 - 12:40:18: Kick: "XXBOT Troy<20><UNKNOWN><>" was kicked by "CEIFADOR"
+L 09/26/2019 - 12:40:18: "XXBOT Troy<20><BOT><TERRORIST>" disconnected
+L 09/26/2019 - 12:40:18: Kick: "XXBOT Connor<23><UNKNOWN><>" was kicked by "CEIFADOR"
+L 09/26/2019 - 12:40:18: "XXBOT Connor<23><BOT><CT>" disconnected
+L 09/26/2019 - 12:40:18: Kick: "XXBOT Eric<24><UNKNOWN><>" was kicked by "CEIFADOR"
+L 09/26/2019 - 12:40:18: "XXBOT Eric<24><BOT><CT>" disconnected
+L 09/26/2019 - 12:40:21: "Kitkat<14><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<19><VALVE_ID_LAN><CT>" with "glock18"
+L 09/26/2019 - 12:40:22: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<21><VALVE_ID_LAN><CT>" with "glock18"
+L 09/26/2019 - 12:40:24: "Jack<16><VALVE_ID_LAN><CT>" killed "Smolder<17><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 09/26/2019 - 12:40:24: "XXBOT Ivan<25><BOT><>" joined team "CT"
+L 09/26/2019 - 12:40:24: Server cvar "bot_quota" = "1"
+L 09/26/2019 - 12:40:24: "XXBOT Ivan<25><BOT><>" entered the game
+L 09/26/2019 - 12:40:25: "DareDevil<18><VALVE_ID_LAN><CT>" killed "Kitkat<14><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 09/26/2019 - 12:40:26: "Gho$T<15><VALVE_ID_LAN><TERRORIST>" killed "DareDevil<18><VALVE_ID_LAN><CT>" with "knife"
+L 09/26/2019 - 12:40:28: "Jack<16><VALVE_ID_LAN><CT>" killed "CEIFADOR<13><VALVE_ID_LOOPBACK><TERRORIST>" with "glock18"
+L 09/26/2019 - 12:40:31: "XXBOT Ivan<25><BOT><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 09/26/2019 - 12:40:35: Log file closed

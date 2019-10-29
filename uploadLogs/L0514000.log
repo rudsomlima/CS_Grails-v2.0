@@ -1,0 +1,90 @@
+L 05/14/2018 - 12:37:30: Log file started (file "logs\L0514000.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 05/14/2018 - 12:37:31: "GARGAMEL estripador<2><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 05/14/2018 - 12:37:31: World triggered "Round_Start"
+L 05/14/2018 - 12:37:32: "Calango<4><VALVE_ID_LAN><>" entered the game
+L 05/14/2018 - 12:37:32: "TUX<5><VALVE_ID_LAN><>" entered the game
+L 05/14/2018 - 12:37:33: "Jack<6><VALVE_ID_LAN><>" entered the game
+L 05/14/2018 - 12:37:33: "Calango<4><VALVE_ID_LAN><>" joined team "CT"
+L 05/14/2018 - 12:37:33: "TUX<5><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 05/14/2018 - 12:37:34: Server cvar "bot_quota" = "0"
+L 05/14/2018 - 12:37:34: Kick: "XXBOT Adrian<3><UNKNOWN><>" was kicked by "Cap. Billy"
+L 05/14/2018 - 12:37:34: "XXBOT Adrian<3><BOT><TERRORIST>" disconnected
+L 05/14/2018 - 12:37:34: "@te<7><VALVE_ID_LAN><>" connected, address "10.15.2.23:27005"
+L 05/14/2018 - 12:37:36: "Jack<6><VALVE_ID_LAN><>" joined team "CT"
+L 05/14/2018 - 12:37:37: "@te<7><VALVE_ID_LAN><>" entered the game
+L 05/14/2018 - 12:37:37: "Cap. Billy<1><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL estripador<2><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 05/14/2018 - 12:37:38: "Cap. Billy<1><VALVE_ID_LOOPBACK><CT>" killed "TUX<5><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 05/14/2018 - 12:37:38: Team "CT" triggered "CTs_Win" (CT "1") (T "0")
+L 05/14/2018 - 12:37:38: World triggered "Round_End"
+L 05/14/2018 - 12:37:40: "Calcas Peludas<8><VALVE_ID_LAN><>" connected, address "10.15.2.49:27005"
+L 05/14/2018 - 12:37:41: "@te<7><VALVE_ID_LAN><>" joined team "CT"
+L 05/14/2018 - 12:37:43: "Calcas Peludas<8><VALVE_ID_LAN><>" entered the game
+L 05/14/2018 - 12:37:43: World triggered "Round_Start"
+L 05/14/2018 - 12:37:44: "INDIO<9><VALVE_ID_LAN><>" connected, address "10.15.2.56:27005"
+L 05/14/2018 - 12:37:45: "XXBOT Connor<10><BOT><>" joined team "TERRORIST"
+L 05/14/2018 - 12:37:45: Server cvar "bot_quota" = "1"
+L 05/14/2018 - 12:37:45: "XXBOT Connor<10><BOT><>" entered the game
+L 05/14/2018 - 12:37:46: "Calango<4><VALVE_ID_LAN><CT>" killed "GARGAMEL estripador<2><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 05/14/2018 - 12:37:47: "INDIO<9><VALVE_ID_LAN><>" entered the game
+L 05/14/2018 - 12:37:47: "Calcas Peludas<8><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 05/14/2018 - 12:37:48: "Calango<4><VALVE_ID_LAN><CT>" killed "Calcas Peludas<8><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 05/14/2018 - 12:37:49: "INDIO<9><VALVE_ID_LAN><>" joined team "CT"
+L 05/14/2018 - 12:37:51: "TUX<5><VALVE_ID_LAN><TERRORIST>" killed "@te<7><VALVE_ID_LAN><CT>" with "aug"
+L 05/14/2018 - 12:37:53: "XXBOT Reed<11><BOT><>" joined team "TERRORIST"
+L 05/14/2018 - 12:37:53: Server cvar "bot_quota" = "2"
+L 05/14/2018 - 12:37:53: "XXBOT Reed<11><BOT><>" entered the game
+L 05/14/2018 - 12:37:55: "TUX<5><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<1><VALVE_ID_LOOPBACK><CT>" with "aug"
+L 05/14/2018 - 12:37:57: "GARGAMEL estripador<2><VALVE_ID_LAN><TERRORIST>" say " agora e cleilton que ta gerando" (dead)
+L 05/14/2018 - 12:37:58: "Jack<6><VALVE_ID_LAN><CT>" killed "XXBOT Connor<10><BOT><TERRORIST>" with "knife"
+L 05/14/2018 - 12:37:59: "TUX<5><VALVE_ID_LAN><TERRORIST>" killed "Calango<4><VALVE_ID_LAN><CT>" with "aug"
+L 05/14/2018 - 12:38:04: "TUX<5><VALVE_ID_LAN><TERRORIST>" killed "Jack<6><VALVE_ID_LAN><CT>" with "m249"
+L 05/14/2018 - 12:38:13: "Smolder<12><VALVE_ID_LAN><>" connected, address "10.15.3.173:27005"
+L 05/14/2018 - 12:38:14: "INDIO<9><VALVE_ID_LAN><CT>" killed "TUX<5><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 05/14/2018 - 12:38:15: "XXBOT Reed<11><BOT><TERRORIST>" killed "INDIO<9><VALVE_ID_LAN><CT>" with "m3"
+L 05/14/2018 - 12:38:15: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "1")
+L 05/14/2018 - 12:38:15: World triggered "Round_End"
+L 05/14/2018 - 12:38:17: "Smolder<12><VALVE_ID_LAN><>" entered the game
+L 05/14/2018 - 12:38:20: "Smolder<12><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 05/14/2018 - 12:38:20: World triggered "Round_Start"
+L 05/14/2018 - 12:38:23: Server cvar "bot_quota" = "1"
+L 05/14/2018 - 12:38:23: Server cvar "bot_quota" = "0"
+L 05/14/2018 - 12:38:23: Kick: "XXBOT Connor<10><UNKNOWN><>" was kicked by "Cap. Billy"
+L 05/14/2018 - 12:38:23: "XXBOT Connor<10><BOT><TERRORIST>" disconnected
+L 05/14/2018 - 12:38:23: Kick: "XXBOT Reed<11><UNKNOWN><>" was kicked by "Cap. Billy"
+L 05/14/2018 - 12:38:23: "XXBOT Reed<11><BOT><TERRORIST>" disconnected
+L 05/14/2018 - 12:38:24: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "Calango<4><VALVE_ID_LAN><CT>" with "m3"
+L 05/14/2018 - 12:38:25: "XXBOT Victor<13><BOT><>" joined team "TERRORIST"
+L 05/14/2018 - 12:38:25: Server cvar "bot_quota" = "1"
+L 05/14/2018 - 12:38:25: "XXBOT Victor<13><BOT><>" entered the game
+L 05/14/2018 - 12:38:25: "Calcas Peludas<8><VALVE_ID_LAN><TERRORIST>" killed "INDIO<9><VALVE_ID_LAN><CT>" with "awp"
+L 05/14/2018 - 12:38:26: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "@te<7><VALVE_ID_LAN><CT>" with "m3"
+L 05/14/2018 - 12:38:34: "Calcas Peludas<8><VALVE_ID_LAN><TERRORIST>" killed "Jack<6><VALVE_ID_LAN><CT>" with "aug"
+L 05/14/2018 - 12:38:34: "Cap. Billy<1><VALVE_ID_LOOPBACK><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 05/14/2018 - 12:38:36: "Cap. Billy<1><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL estripador<2><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 05/14/2018 - 12:38:38: "TUX<5><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<1><VALVE_ID_LOOPBACK><CT>" with "mac10"
+L 05/14/2018 - 12:38:38: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "2")
+L 05/14/2018 - 12:38:38: World triggered "Round_End"
+L 05/14/2018 - 12:38:43: World triggered "Round_Start"
+L 05/14/2018 - 12:38:47: "Cap. Billy<1><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL estripador<2><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 05/14/2018 - 12:38:49: "TUX<5><VALVE_ID_LAN><TERRORIST>" killed "Jack<6><VALVE_ID_LAN><CT>" with "mac10"
+L 05/14/2018 - 12:38:50: "Calcas Peludas<8><VALVE_ID_LAN><TERRORIST>" killed "Calango<4><VALVE_ID_LAN><CT>" with "xm1014"
+L 05/14/2018 - 12:38:50: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<1><VALVE_ID_LOOPBACK><CT>" with "m4a1"
+L 05/14/2018 - 12:38:51: "INDIO<9><VALVE_ID_LAN><CT>" killed "Calcas Peludas<8><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 05/14/2018 - 12:38:54: "TUX<5><VALVE_ID_LAN><TERRORIST>" killed "INDIO<9><VALVE_ID_LAN><CT>" with "mac10"
+L 05/14/2018 - 12:38:59: "TUX<5><VALVE_ID_LAN><TERRORIST>" killed "@te<7><VALVE_ID_LAN><CT>" with "mac10"
+L 05/14/2018 - 12:38:59: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "3")
+L 05/14/2018 - 12:38:59: World triggered "Round_End"
+L 05/14/2018 - 12:39:00: "TUX<5><VALVE_ID_LAN><TERRORIST>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 05/14/2018 - 12:39:04: World triggered "Round_Start"
+L 05/14/2018 - 12:39:05: "TUX<5><VALVE_ID_LAN><TERRORIST>" committed suicide with "world"
+L 05/14/2018 - 12:39:06: "@te<7><VALVE_ID_LAN><CT>" say "kkkkkk"
+L 05/14/2018 - 12:39:07: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "INDIO<9><VALVE_ID_LAN><CT>" with "m3"
+L 05/14/2018 - 12:39:09: "Cap. Billy<1><VALVE_ID_LOOPBACK><CT>" say "log"
+L 05/14/2018 - 12:39:10: "Calcas Peludas<8><VALVE_ID_LAN><TERRORIST>" killed "Jack<6><VALVE_ID_LAN><CT>" with "xm1014"
+L 05/14/2018 - 12:39:11: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "@te<7><VALVE_ID_LAN><CT>" with "m3"
+L 05/14/2018 - 12:39:11: "Calcas Peludas<8><VALVE_ID_LAN><TERRORIST>" killed "Calango<4><VALVE_ID_LAN><CT>" with "xm1014"
+L 05/14/2018 - 12:39:12: "Cap. Billy<1><VALVE_ID_LOOPBACK><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "ak47"
+L 05/14/2018 - 12:39:12: "Calcas Peludas<8><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<1><VALVE_ID_LOOPBACK><CT>" with "xm1014"
+L 05/14/2018 - 12:39:12: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "4")
+L 05/14/2018 - 12:39:12: World triggered "Round_End"
+L 05/14/2018 - 12:39:15: Log file closed

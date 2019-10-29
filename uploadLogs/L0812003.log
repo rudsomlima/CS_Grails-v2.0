@@ -1,0 +1,35 @@
+L 08/12/2019 - 12:40:41: Log file started (file "logs\L0812003.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 08/12/2019 - 12:40:42: "Calcas Peludas<14><VALVE_ID_LAN><>" entered the game
+L 08/12/2019 - 12:40:44: "Calcas Peludas<14><VALVE_ID_LAN><>" joined team "CT"
+L 08/12/2019 - 12:40:44: World triggered "Game_Commencing"
+L 08/12/2019 - 12:40:44: World triggered "Game_Commencing" (CT "0") (T "0")
+L 08/12/2019 - 12:40:44: World triggered "Round_End"
+L 08/12/2019 - 12:40:47: World triggered "Round_Start"
+L 08/12/2019 - 12:40:47: "Kitkat<13><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/12/2019 - 12:40:51: "Gho$T<15><VALVE_ID_LAN><>" connected, address "10.15.2.123:27005"
+L 08/12/2019 - 12:40:53: "@te<16><VALVE_ID_LAN><>" connected, address "10.15.2.86:27005"
+L 08/12/2019 - 12:40:53: "Gho$T<15><VALVE_ID_LAN><>" entered the game
+L 08/12/2019 - 12:40:56: "@te<16><VALVE_ID_LAN><>" entered the game
+L 08/12/2019 - 12:40:56: "Gho$T<15><VALVE_ID_LAN><>" joined team "CT"
+L 08/12/2019 - 12:40:59: "@te<16><VALVE_ID_LAN><>" joined team "CT"
+L 08/12/2019 - 12:41:00: "Calcas Peludas<14><VALVE_ID_LAN><CT>" killed "CEIFADOR<12><VALVE_ID_LOOPBACK><TERRORIST>" with "glock18"
+L 08/12/2019 - 12:41:03: "Smolder<17><VALVE_ID_LAN><>" connected, address "10.15.2.119:27005"
+L 08/12/2019 - 12:41:05: "Kitkat<13><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<15><VALVE_ID_LAN><CT>" with "glock18"
+L 08/12/2019 - 12:41:06: "Smolder<17><VALVE_ID_LAN><>" entered the game
+L 08/12/2019 - 12:41:08: "Kitkat<13><VALVE_ID_LAN><TERRORIST>" killed "Calcas Peludas<14><VALVE_ID_LAN><CT>" with "glock18"
+L 08/12/2019 - 12:41:08: "Smolder<17><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/12/2019 - 12:41:11: "@te<16><VALVE_ID_LAN><CT>" killed "Kitkat<13><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 08/12/2019 - 12:41:11: Team "CT" triggered "CTs_Win" (CT "1") (T "0")
+L 08/12/2019 - 12:41:11: World triggered "Round_End"
+L 08/12/2019 - 12:41:16: World triggered "Round_Start"
+L 08/12/2019 - 12:41:24: "Calcas Peludas<14><VALVE_ID_LAN><CT>" killed "CEIFADOR<12><VALVE_ID_LOOPBACK><TERRORIST>" with "glock18"
+L 08/12/2019 - 12:41:26: "@te<16><VALVE_ID_LAN><CT>" killed "Gho$T<15><VALVE_ID_LAN><CT>" with "knife"
+L 08/12/2019 - 12:41:26: "Calcas Peludas<14><VALVE_ID_LAN><CT>" killed "Smolder<17><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/12/2019 - 12:41:32: "Smolder<17><VALVE_ID_LAN><TERRORIST>" say "tome a amiga" (dead)
+L 08/12/2019 - 12:41:36: "Gho$T<15><VALVE_ID_LAN><CT>" say "carai" (dead)
+L 08/12/2019 - 12:41:41: "Calcas Peludas<14><VALVE_ID_LAN><CT>" killed "Kitkat<13><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 08/12/2019 - 12:41:41: Team "CT" triggered "CTs_Win" (CT "2") (T "0")
+L 08/12/2019 - 12:41:41: World triggered "Round_End"
+L 08/12/2019 - 12:41:46: World triggered "Round_Start"
+L 08/12/2019 - 12:41:46: "@te<16><VALVE_ID_LAN><CT>" committed suicide with "world"
+L 08/12/2019 - 12:41:50: Log file closed

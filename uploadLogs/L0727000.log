@@ -1,0 +1,422 @@
+L 07/27/2018 - 12:30:44: Log file started (file "logs\L0727000.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 07/27/2018 - 12:30:45: "INDIO<8><VALVE_ID_LAN><>" connected, address "10.15.2.198:27005"
+L 07/27/2018 - 12:30:45: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><>" entered the game
+L 07/27/2018 - 12:30:46: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 07/27/2018 - 12:30:46: World triggered "Game_Commencing"
+L 07/27/2018 - 12:30:46: World triggered "Game_Commencing" (CT "0") (T "0")
+L 07/27/2018 - 12:30:46: World triggered "Round_End"
+L 07/27/2018 - 12:30:46: "Calango<7><VALVE_ID_LAN><>" entered the game
+L 07/27/2018 - 12:30:47: "INDIO<8><VALVE_ID_LAN><>" entered the game
+L 07/27/2018 - 12:30:48: "Calango<7><VALVE_ID_LAN><>" joined team "CT"
+L 07/27/2018 - 12:30:49: World triggered "Round_Start"
+L 07/27/2018 - 12:30:50: "INDIO<8><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 07/27/2018 - 12:30:55: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "INDIO<8><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 07/27/2018 - 12:30:56: "Calango<7><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 07/27/2018 - 12:30:56: Team "CT" triggered "CTs_Win" (CT "1") (T "0")
+L 07/27/2018 - 12:30:56: World triggered "Round_End"
+L 07/27/2018 - 12:31:01: "Calango<7><VALVE_ID_LAN><CT>" say "aaa"
+L 07/27/2018 - 12:31:01: World triggered "Round_Start"
+L 07/27/2018 - 12:31:07: "INDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "mp5navy"
+L 07/27/2018 - 12:31:12: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/27/2018 - 12:31:16: "Calango<7><VALVE_ID_LAN><CT>" say "tarrrde!" (dead)
+L 07/27/2018 - 12:31:26: "INDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "mp5navy"
+L 07/27/2018 - 12:31:26: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "1")
+L 07/27/2018 - 12:31:26: World triggered "Round_End"
+L 07/27/2018 - 12:31:29: "Cable<9><VALVE_ID_LAN><>" connected, address "10.15.2.104:27005"
+L 07/27/2018 - 12:31:31: World triggered "Round_Start"
+L 07/27/2018 - 12:31:33: "Cable<9><VALVE_ID_LAN><>" entered the game
+L 07/27/2018 - 12:31:38: "Cable<9><VALVE_ID_LAN><>" joined team "CT"
+L 07/27/2018 - 12:31:38: "INDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "mp5navy"
+L 07/27/2018 - 12:31:47: "INDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "mp5navy"
+L 07/27/2018 - 12:31:50: "XXBOT Jim<10><BOT><>" joined team "TERRORIST"
+L 07/27/2018 - 12:31:50: Server cvar "bot_quota" = "1"
+L 07/27/2018 - 12:31:50: "XXBOT Jim<10><BOT><>" entered the game
+L 07/27/2018 - 12:31:51: "Cable<9><VALVE_ID_LAN><CT>" killed "INDIO<8><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/27/2018 - 12:31:53: "Cable<9><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/27/2018 - 12:31:56: "Calango<7><VALVE_ID_LAN><CT>" say "eita" (dead)
+L 07/27/2018 - 12:31:59: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" say "jah" (dead)
+L 07/27/2018 - 12:32:00: "INDIO<8><VALVE_ID_LAN><TERRORIST>" say "covarde" (dead)
+L 07/27/2018 - 12:32:02: "XXBOT Jim<10><BOT><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "glock18"
+L 07/27/2018 - 12:32:02: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "2")
+L 07/27/2018 - 12:32:02: World triggered "Round_End"
+L 07/27/2018 - 12:32:07: World triggered "Round_Start"
+L 07/27/2018 - 12:32:10: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "m3"
+L 07/27/2018 - 12:32:10: "INDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "aug"
+L 07/27/2018 - 12:32:12: "Cable<9><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 07/27/2018 - 12:32:22: "XXBOT Jim<10><BOT><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "glock18"
+L 07/27/2018 - 12:32:22: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "3")
+L 07/27/2018 - 12:32:22: World triggered "Round_End"
+L 07/27/2018 - 12:32:27: World triggered "Round_Start"
+L 07/27/2018 - 12:32:32: "INDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "aug"
+L 07/27/2018 - 12:32:33: "Calango<7><VALVE_ID_LAN><CT>" killed "INDIO<8><VALVE_ID_LAN><TERRORIST>" with "ak47"
+L 07/27/2018 - 12:32:39: "Cable<9><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 07/27/2018 - 12:32:41: "Cable<9><VALVE_ID_LAN><CT>" killed "XXBOT Jim<10><BOT><TERRORIST>" with "m4a1"
+L 07/27/2018 - 12:32:41: Team "CT" triggered "CTs_Win" (CT "2") (T "3")
+L 07/27/2018 - 12:32:41: World triggered "Round_End"
+L 07/27/2018 - 12:32:46: World triggered "Round_Start"
+L 07/27/2018 - 12:32:50: "Cable<9><VALVE_ID_LAN><CT>" killed "XXBOT Jim<10><BOT><TERRORIST>" with "m4a1"
+L 07/27/2018 - 12:32:51: "Calango<7><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:32:51: "Calango<7><VALVE_ID_LAN><CT>" killed "INDIO<8><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:32:51: Team "CT" triggered "CTs_Win" (CT "3") (T "3")
+L 07/27/2018 - 12:32:51: World triggered "Round_End"
+L 07/27/2018 - 12:32:56: World triggered "Round_Start"
+L 07/27/2018 - 12:32:59: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "xm1014"
+L 07/27/2018 - 12:33:02: "Cable<9><VALVE_ID_LAN><CT>" killed "INDIO<8><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 07/27/2018 - 12:33:10: "XXBOT Jim<10><BOT><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 07/27/2018 - 12:33:14: "XXBOT Jim<10><BOT><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "glock18"
+L 07/27/2018 - 12:33:14: Team "TERRORIST" triggered "Terrorists_Win" (CT "3") (T "4")
+L 07/27/2018 - 12:33:14: World triggered "Round_End"
+L 07/27/2018 - 12:33:19: World triggered "Round_Start"
+L 07/27/2018 - 12:33:24: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "XXBOT Jim<10><BOT><TERRORIST>" with "mac10"
+L 07/27/2018 - 12:33:26: "Calango<7><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:33:28: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "INDIO<8><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/27/2018 - 12:33:28: Team "CT" triggered "CTs_Win" (CT "4") (T "4")
+L 07/27/2018 - 12:33:28: World triggered "Round_End"
+L 07/27/2018 - 12:33:33: World triggered "Round_Start"
+L 07/27/2018 - 12:33:39: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "m4a1"
+L 07/27/2018 - 12:33:41: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 07/27/2018 - 12:33:45: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "INDIO<8><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 07/27/2018 - 12:33:45: "XXBOT Jim<10><BOT><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "mp5navy"
+L 07/27/2018 - 12:33:54: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" say "INDIMA!!" (dead)
+L 07/27/2018 - 12:34:12: "XXBOT Jim<10><BOT><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "mp5navy"
+L 07/27/2018 - 12:34:12: Team "TERRORIST" triggered "Terrorists_Win" (CT "4") (T "5")
+L 07/27/2018 - 12:34:12: World triggered "Round_End"
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" changed name to "TERROINDIO"
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "grenade") (shots "2") (hits "3") (kills "0") (headshots "0") (tks "0") (damage "47") (deaths "0")
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "xm1014") (shots "1") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "12") (deaths "1")
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "xm1014") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "1") (rightleg "0")
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "mac10") (shots "3") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "1")
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "mac10") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "aug") (shots "34") (hits "11") (kills "2") (headshots "1") (tks "0") (damage "388") (deaths "2")
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "aug") (head "2") (chest "4") (stomach "0") (leftarm "4") (rightarm "1") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "9") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "26") (deaths "1")
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "0") (chest "0") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "mp5navy") (shots "68") (hits "12") (kills "4") (headshots "2") (tks "0") (damage "433") (deaths "2")
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "mp5navy") (head "3") (chest "4") (stomach "2") (leftarm "1") (rightarm "1") (leftleg "1") (rightleg "0")
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "1") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "0")
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "3:29")
+L 07/27/2018 - 12:34:17: "INDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "10")
+L 07/27/2018 - 12:34:17: World triggered "Round_Start"
+L 07/27/2018 - 12:34:20: "Cable<9><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 07/27/2018 - 12:34:28: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "mp5navy"
+L 07/27/2018 - 12:34:28: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "XXBOT Jim<10><BOT><TERRORIST>" with "m4a1"
+L 07/27/2018 - 12:34:31: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 07/27/2018 - 12:34:31: Team "CT" triggered "CTs_Win" (CT "5") (T "5")
+L 07/27/2018 - 12:34:31: World triggered "Round_End"
+L 07/27/2018 - 12:34:36: World triggered "Round_Start"
+L 07/27/2018 - 12:34:36: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" say "INDIO IMA"
+L 07/27/2018 - 12:34:39: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "XXBOT Jim<10><BOT><TERRORIST>" with "m4a1"
+L 07/27/2018 - 12:34:42: "Cable<9><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 07/27/2018 - 12:34:47: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "mp5navy"
+L 07/27/2018 - 12:34:48: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "mp5navy"
+L 07/27/2018 - 12:34:49: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "mp5navy"
+L 07/27/2018 - 12:34:49: Team "TERRORIST" triggered "Terrorists_Win" (CT "5") (T "6")
+L 07/27/2018 - 12:34:49: World triggered "Round_End"
+L 07/27/2018 - 12:34:53: "Calango<7><VALVE_ID_LAN><CT>" say "iji" (dead)
+L 07/27/2018 - 12:34:54: World triggered "Round_Start"
+L 07/27/2018 - 12:34:56: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 07/27/2018 - 12:34:57: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 07/27/2018 - 12:34:57: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "XXBOT Jim<10><BOT><TERRORIST>" with "mac10"
+L 07/27/2018 - 12:34:57: Team "CT" triggered "CTs_Win" (CT "6") (T "6")
+L 07/27/2018 - 12:34:57: World triggered "Round_End"
+L 07/27/2018 - 12:35:02: World triggered "Round_Start"
+L 07/27/2018 - 12:35:03: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" say "APAREI A BARBA DO INDIO!!"
+L 07/27/2018 - 12:35:06: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "mp5navy"
+L 07/27/2018 - 12:35:08: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 07/27/2018 - 12:35:09: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 07/27/2018 - 12:35:10: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "XXBOT Jim<10><BOT><TERRORIST>" with "mac10"
+L 07/27/2018 - 12:35:10: Team "CT" triggered "CTs_Win" (CT "7") (T "6")
+L 07/27/2018 - 12:35:10: World triggered "Round_End"
+L 07/27/2018 - 12:35:10: "Pingado Billy<11><VALVE_ID_LAN><>" connected, address "10.15.2.182:27005"
+L 07/27/2018 - 12:35:15: World triggered "Round_Start"
+L 07/27/2018 - 12:35:18: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "xm1014"
+L 07/27/2018 - 12:35:19: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:35:22: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "XXBOT Jim<10><BOT><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:35:24: "Pingado Billy<11><VALVE_ID_LAN><>" entered the game
+L 07/27/2018 - 12:35:30: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:35:30: Team "CT" triggered "CTs_Win" (CT "8") (T "6")
+L 07/27/2018 - 12:35:30: World triggered "Round_End"
+L 07/27/2018 - 12:35:35: World triggered "Round_Start"
+L 07/27/2018 - 12:35:36: "Pingado Billy<11><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 07/27/2018 - 12:35:40: "Calango<7><VALVE_ID_LAN><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 07/27/2018 - 12:35:40: Server cvar "bot_quota" = "0"
+L 07/27/2018 - 12:35:40: Kick: "XXBOT Jim<10><UNKNOWN><>" was kicked by "Cap Billy"
+L 07/27/2018 - 12:35:40: "XXBOT Jim<10><BOT><TERRORIST>" disconnected
+L 07/27/2018 - 12:35:41: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:35:43: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "aug"
+L 07/27/2018 - 12:35:46: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "aug"
+L 07/27/2018 - 12:35:48: "Cable<9><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:35:48: Team "CT" triggered "CTs_Win" (CT "9") (T "6")
+L 07/27/2018 - 12:35:48: World triggered "Round_End"
+L 07/27/2018 - 12:35:53: World triggered "Round_Start"
+L 07/27/2018 - 12:35:58: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 07/27/2018 - 12:36:00: "Cable<9><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:36:00: "Cable<9><VALVE_ID_LAN><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:36:00: Team "CT" triggered "CTs_Win" (CT "10") (T "6")
+L 07/27/2018 - 12:36:00: World triggered "Round_End"
+L 07/27/2018 - 12:36:05: World triggered "Round_Start"
+L 07/27/2018 - 12:36:09: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "xm1014"
+L 07/27/2018 - 12:36:12: "Cable<9><VALVE_ID_LAN><CT>" killed "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:36:16: "Cable<9><VALVE_ID_LAN><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:36:17: "Cable<9><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:36:17: Team "CT" triggered "CTs_Win" (CT "11") (T "6")
+L 07/27/2018 - 12:36:17: World triggered "Round_End"
+L 07/27/2018 - 12:36:22: World triggered "Round_Start"
+L 07/27/2018 - 12:36:24: "Calango<7><VALVE_ID_LAN><CT>" killed "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 07/27/2018 - 12:36:25: "Cable<9><VALVE_ID_LAN><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:36:25: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 07/27/2018 - 12:36:25: Team "CT" triggered "CTs_Win" (CT "12") (T "6")
+L 07/27/2018 - 12:36:25: World triggered "Round_End"
+L 07/27/2018 - 12:36:30: World triggered "Round_Start"
+L 07/27/2018 - 12:36:33: "Cable<9><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "grenade"
+L 07/27/2018 - 12:36:40: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 07/27/2018 - 12:36:41: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "ak47"
+L 07/27/2018 - 12:36:43: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 07/27/2018 - 12:36:43: Team "CT" triggered "CTs_Win" (CT "13") (T "6")
+L 07/27/2018 - 12:36:43: World triggered "Round_End"
+L 07/27/2018 - 12:36:48: World triggered "Round_Start"
+L 07/27/2018 - 12:36:53: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "m4a1"
+L 07/27/2018 - 12:36:55: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 07/27/2018 - 12:36:56: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "aug"
+L 07/27/2018 - 12:36:57: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "m4a1"
+L 07/27/2018 - 12:36:57: Team "TERRORIST" triggered "Terrorists_Win" (CT "13") (T "7")
+L 07/27/2018 - 12:36:57: World triggered "Round_End"
+L 07/27/2018 - 12:37:02: World triggered "Round_Start"
+L 07/27/2018 - 12:37:05: "Cable<9><VALVE_ID_LAN><CT>" killed "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 07/27/2018 - 12:37:08: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "aug"
+L 07/27/2018 - 12:37:09: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "m4a1"
+L 07/27/2018 - 12:37:19: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "m4a1"
+L 07/27/2018 - 12:37:19: Team "TERRORIST" triggered "Terrorists_Win" (CT "13") (T "8")
+L 07/27/2018 - 12:37:19: World triggered "Round_End"
+L 07/27/2018 - 12:37:24: World triggered "Round_Start"
+L 07/27/2018 - 12:37:28: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "m4a1"
+L 07/27/2018 - 12:37:28: "Calango<7><VALVE_ID_LAN><CT>" killed "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 07/27/2018 - 12:37:28: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "mp5navy"
+L 07/27/2018 - 12:37:37: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "m4a1"
+L 07/27/2018 - 12:37:37: Team "TERRORIST" triggered "Terrorists_Win" (CT "13") (T "9")
+L 07/27/2018 - 12:37:37: World triggered "Round_End"
+L 07/27/2018 - 12:37:42: World triggered "Round_Start"
+L 07/27/2018 - 12:37:45: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "ak47"
+L 07/27/2018 - 12:37:49: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "mp5navy"
+L 07/27/2018 - 12:37:51: "Cable<9><VALVE_ID_LAN><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 07/27/2018 - 12:38:03: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" say_team "mapa" (dead)
+L 07/27/2018 - 12:38:04: "Cable<9><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 07/27/2018 - 12:38:08: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" say_team " mapa" (dead)
+L 07/27/2018 - 12:38:15: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "ak47"
+L 07/27/2018 - 12:38:15: Team "TERRORIST" triggered "Terrorists_Win" (CT "13") (T "10")
+L 07/27/2018 - 12:38:15: World triggered "Round_End"
+L 07/27/2018 - 12:38:18: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" say "bora" (dead)
+L 07/27/2018 - 12:38:20: World triggered "Round_Start"
+L 07/27/2018 - 12:38:24: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 07/27/2018 - 12:38:26: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "ak47"
+L 07/27/2018 - 12:38:27: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "xm1014"
+L 07/27/2018 - 12:38:30: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "ak47"
+L 07/27/2018 - 12:38:30: Team "TERRORIST" triggered "Terrorists_Win" (CT "13") (T "11")
+L 07/27/2018 - 12:38:30: World triggered "Round_End"
+L 07/27/2018 - 12:38:35: World triggered "Round_Start"
+L 07/27/2018 - 12:38:39: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "m3"
+L 07/27/2018 - 12:38:42: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 07/27/2018 - 12:38:45: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "ak47"
+L 07/27/2018 - 12:38:46: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "ak47"
+L 07/27/2018 - 12:38:46: Team "TERRORIST" triggered "Terrorists_Win" (CT "13") (T "12")
+L 07/27/2018 - 12:38:46: World triggered "Round_End"
+L 07/27/2018 - 12:38:51: World triggered "Round_Start"
+L 07/27/2018 - 12:38:53: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 07/27/2018 - 12:38:55: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "xm1014"
+L 07/27/2018 - 12:38:56: Server cvar "amx_nextmap" = "alabordage"
+L 07/27/2018 - 12:39:00: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "xm1014"
+L 07/27/2018 - 12:39:05: "Cable<9><VALVE_ID_LAN><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 07/27/2018 - 12:39:09: "Cable<9><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 07/27/2018 - 12:39:09: Team "CT" triggered "CTs_Win" (CT "14") (T "12")
+L 07/27/2018 - 12:39:09: World triggered "Round_End"
+L 07/27/2018 - 12:39:11: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" say_team "nao" (dead)
+L 07/27/2018 - 12:39:14: World triggered "Round_Start"
+L 07/27/2018 - 12:39:20: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "mp5navy"
+L 07/27/2018 - 12:39:20: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 07/27/2018 - 12:39:22: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "mp5navy"
+L 07/27/2018 - 12:39:25: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 07/27/2018 - 12:39:25: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 07/27/2018 - 12:39:25: Team "CT" triggered "CTs_Win" (CT "15") (T "12")
+L 07/27/2018 - 12:39:25: World triggered "Round_End"
+L 07/27/2018 - 12:39:30: World triggered "Round_Start"
+L 07/27/2018 - 12:39:31: "Cable<9><VALVE_ID_LAN><CT>" say "penha"
+L 07/27/2018 - 12:39:35: "Cable<9><VALVE_ID_LAN><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 07/27/2018 - 12:39:37: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 07/27/2018 - 12:39:38: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "aug"
+L 07/27/2018 - 12:39:38: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "aug"
+L 07/27/2018 - 12:39:39: "Calango<7><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "awp"
+L 07/27/2018 - 12:39:39: Team "CT" triggered "CTs_Win" (CT "16") (T "12")
+L 07/27/2018 - 12:39:39: World triggered "Round_End"
+L 07/27/2018 - 12:39:44: World triggered "Round_Start"
+L 07/27/2018 - 12:39:46: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:39:47: "Cable<9><VALVE_ID_LAN><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 07/27/2018 - 12:39:49: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" killed "Calango<7><VALVE_ID_LAN><CT>" with "aug"
+L 07/27/2018 - 12:39:52: "Cable<9><VALVE_ID_LAN><CT>" killed "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 07/27/2018 - 12:39:52: Team "CT" triggered "CTs_Win" (CT "17") (T "12")
+L 07/27/2018 - 12:39:52: World triggered "Round_End"
+L 07/27/2018 - 12:39:57: World triggered "Round_Start"
+L 07/27/2018 - 12:40:00: "Calango<7><VALVE_ID_LAN><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 07/27/2018 - 12:40:01: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "grenade"
+L 07/27/2018 - 12:40:05: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:40:05: Team "CT" triggered "CTs_Win" (CT "18") (T "12")
+L 07/27/2018 - 12:40:05: World triggered "Round_End"
+L 07/27/2018 - 12:40:10: World triggered "Round_Start"
+L 07/27/2018 - 12:40:15: "Calango<7><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "awp"
+L 07/27/2018 - 12:40:15: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 07/27/2018 - 12:40:16: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "mp5navy"
+L 07/27/2018 - 12:40:18: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "mp5navy"
+L 07/27/2018 - 12:40:24: "Calango<7><VALVE_ID_LAN><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "awp"
+L 07/27/2018 - 12:40:24: Team "CT" triggered "CTs_Win" (CT "19") (T "12")
+L 07/27/2018 - 12:40:24: World triggered "Round_End"
+L 07/27/2018 - 12:40:29: World triggered "Round_Start"
+L 07/27/2018 - 12:40:31: "Cable<9><VALVE_ID_LAN><CT>" say "indio pegou na cobra e virou terror olha so"
+L 07/27/2018 - 12:40:33: "Calango<7><VALVE_ID_LAN><CT>" killed "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" with "awp"
+L 07/27/2018 - 12:40:35: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" killed "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 07/27/2018 - 12:40:37: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Cable<9><VALVE_ID_LAN><CT>" with "mp5navy"
+L 07/27/2018 - 12:40:39: "Calango<7><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" with "awp"
+L 07/27/2018 - 12:40:39: Team "CT" triggered "CTs_Win" (CT "20") (T "12")
+L 07/27/2018 - 12:40:39: World triggered "Round_End"
+L 07/27/2018 - 12:40:44: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" say "kkk" (dead)
+L 07/27/2018 - 12:40:44: World triggered "Round_Start"
+L 07/27/2018 - 12:40:49: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" with "m3"
+L 07/27/2018 - 12:40:49: Team "CT" scored "20" with "3" players
+L 07/27/2018 - 12:40:49: Team "TERRORIST" scored "12" with "3" players
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "scout") (shots "1") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "0")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "scout") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "grenade") (shots "10") (hits "13") (kills "1") (headshots "0") (tks "0") (damage "380") (deaths "0")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "xm1014") (shots "20") (hits "13") (kills "7") (headshots "0") (tks "0") (damage "930") (deaths "2")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "xm1014") (head "0") (chest "2") (stomach "1") (leftarm "4") (rightarm "1") (leftleg "1") (rightleg "4")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "mac10") (shots "93") (hits "22") (kills "9") (headshots "5") (tks "0") (damage "904") (deaths "2")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "mac10") (head "5") (chest "5") (stomach "1") (leftarm "6") (rightarm "2") (leftleg "1") (rightleg "2")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "aug") (shots "17") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "30") (deaths "1")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "aug") (head "0") (chest "0") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "usp") (shots "3") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "1")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "usp") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "mp5navy") (shots "143") (hits "30") (kills "10") (headshots "2") (tks "0") (damage "962") (deaths "3")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "mp5navy") (head "3") (chest "7") (stomach "0") (leftarm "13") (rightarm "7") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "m4a1") (shots "73") (hits "23") (kills "7") (headshots "4") (tks "0") (damage "1045") (deaths "4")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "m4a1") (head "4") (chest "3") (stomach "2") (leftarm "5") (rightarm "7") (leftleg "0") (rightleg "2")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "knife") (shots "9") (hits "2") (kills "2") (headshots "1") (tks "0") (damage "390") (deaths "5")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "knife") (head "1") (chest "1") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "time" (time "10:11")
+L 07/27/2018 - 12:40:52: "Cap Billy<5><VALVE_ID_LOOPBACK><CT>" triggered "latency" (ping "0")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "grenade") (shots "3") (hits "4") (kills "0") (headshots "0") (tks "0") (damage "190") (deaths "0")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "xm1014") (shots "20") (hits "9") (kills "2") (headshots "1") (tks "0") (damage "362") (deaths "3")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "xm1014") (head "1") (chest "1") (stomach "0") (leftarm "2") (rightarm "2") (leftleg "2") (rightleg "1")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "aug") (shots "61") (hits "18") (kills "4") (headshots "0") (tks "0") (damage "411") (deaths "5")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "aug") (head "0") (chest "2") (stomach "1") (leftarm "4") (rightarm "3") (leftleg "3") (rightleg "5")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "4") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "0")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "awp") (shots "1") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "1")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "awp") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "mp5navy") (shots "31") (hits "5") (kills "1") (headshots "0") (tks "0") (damage "188") (deaths "1")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "mp5navy") (head "1") (chest "3") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m3") (shots "8") (hits "5") (kills "3") (headshots "0") (tks "0") (damage "599") (deaths "5")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m3") (head "0") (chest "0") (stomach "0") (leftarm "2") (rightarm "1") (leftleg "0") (rightleg "2")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m4a1") (shots "145") (hits "25") (kills "7") (headshots "2") (tks "0") (damage "917") (deaths "5")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m4a1") (head "2") (chest "5") (stomach "3") (leftarm "11") (rightarm "2") (leftleg "1") (rightleg "1")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "ak47") (shots "42") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "12") (deaths "2")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "ak47") (head "0") (chest "0") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "1") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "65") (deaths "6")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "1")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "p90") (shots "10") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "0")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "p90") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:07")
+L 07/27/2018 - 12:40:52: "GARGAMEL O ESTRIPADOR<6><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "5")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "grenade") (shots "5") (hits "2") (kills "0") (headshots "0") (tks "0") (damage "74") (deaths "2")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "xm1014") (shots "28") (hits "12") (kills "3") (headshots "0") (tks "0") (damage "454") (deaths "4")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "xm1014") (head "0") (chest "2") (stomach "2") (leftarm "3") (rightarm "1") (leftleg "3") (rightleg "1")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "mac10") (shots "33") (hits "2") (kills "1") (headshots "1") (tks "0") (damage "144") (deaths "2")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "mac10") (head "1") (chest "0") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "aug") (shots "67") (hits "6") (kills "2") (headshots "2") (tks "0") (damage "335") (deaths "2")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "aug") (head "2") (chest "0") (stomach "0") (leftarm "1") (rightarm "1") (leftleg "2") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "usp") (shots "33") (hits "8") (kills "1") (headshots "1") (tks "0") (damage "274") (deaths "2")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "usp") (head "1") (chest "1") (stomach "1") (leftarm "2") (rightarm "2") (leftleg "1") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "awp") (shots "11") (hits "5") (kills "5") (headshots "0") (tks "0") (damage "562") (deaths "2")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "awp") (head "0") (chest "1") (stomach "1") (leftarm "2") (rightarm "0") (leftleg "0") (rightleg "1")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "mp5navy") (shots "24") (hits "5") (kills "1") (headshots "1") (tks "0") (damage "133") (deaths "0")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "mp5navy") (head "1") (chest "2") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "1")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "m249") (shots "75") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "0")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "m249") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "m4a1") (shots "20") (hits "2") (kills "0") (headshots "0") (tks "0") (damage "80") (deaths "3")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "m4a1") (head "1") (chest "0") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "ak47") (shots "29") (hits "3") (kills "1") (headshots "0") (tks "0") (damage "105") (deaths "1")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "ak47") (head "0") (chest "3") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "time" (time "10:06")
+L 07/27/2018 - 12:40:52: "Calango<7><VALVE_ID_LAN><CT>" triggered "latency" (ping "8")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "grenade") (shots "8") (hits "10") (kills "0") (headshots "0") (tks "0") (damage "355") (deaths "1")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "xm1014") (shots "27") (hits "15") (kills "4") (headshots "1") (tks "0") (damage "751") (deaths "3")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "xm1014") (head "2") (chest "2") (stomach "1") (leftarm "5") (rightarm "2") (leftleg "2") (rightleg "1")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "mac10") (shots "3") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "1")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "mac10") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "aug") (shots "61") (hits "14") (kills "4") (headshots "2") (tks "0") (damage "570") (deaths "2")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "aug") (head "3") (chest "4") (stomach "0") (leftarm "5") (rightarm "1") (leftleg "1") (rightleg "0")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "22") (hits "5") (kills "0") (headshots "0") (tks "0") (damage "115") (deaths "5")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "1") (chest "1") (stomach "0") (leftarm "2") (rightarm "1") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "mp5navy") (shots "231") (hits "48") (kills "15") (headshots "5") (tks "0") (damage "1573") (deaths "9")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "mp5navy") (head "7") (chest "11") (stomach "7") (leftarm "12") (rightarm "7") (leftleg "3") (rightleg "1")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m3") (shots "1") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "1")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m3") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "ak47") (shots "3") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "33") (deaths "1")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "ak47") (head "0") (chest "1") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "2") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "1")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:05")
+L 07/27/2018 - 12:40:52: "TERROINDIO<8><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "10")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "scout") (shots "1") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "1")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "scout") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "grenade") (shots "11") (hits "17") (kills "1") (headshots "0") (tks "0") (damage "762") (deaths "0")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "xm1014") (shots "29") (hits "18") (kills "7") (headshots "0") (tks "0") (damage "1020") (deaths "3")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "xm1014") (head "1") (chest "2") (stomach "1") (leftarm "5") (rightarm "2") (leftleg "4") (rightleg "3")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "mac10") (shots "1") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "0")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "mac10") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "aug") (shots "27") (hits "6") (kills "1") (headshots "0") (tks "0") (damage "168") (deaths "0")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "aug") (head "0") (chest "1") (stomach "1") (leftarm "2") (rightarm "0") (leftleg "0") (rightleg "2")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "usp") (shots "70") (hits "25") (kills "6") (headshots "5") (tks "0") (damage "1033") (deaths "2")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "usp") (head "5") (chest "3") (stomach "3") (leftarm "5") (rightarm "7") (leftleg "2") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "awp") (shots "1") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "0")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "awp") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "mp5navy") (shots "70") (hits "19") (kills "4") (headshots "2") (tks "0") (damage "598") (deaths "3")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "mp5navy") (head "2") (chest "2") (stomach "4") (leftarm "7") (rightarm "1") (leftleg "2") (rightleg "1")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "m249") (shots "17") (hits "3") (kills "0") (headshots "0") (tks "0") (damage "96") (deaths "1")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "m249") (head "0") (chest "1") (stomach "1") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "1")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "m4a1") (shots "53") (hits "9") (kills "4") (headshots "3") (tks "0") (damage "512") (deaths "1")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "m4a1") (head "3") (chest "1") (stomach "0") (leftarm "2") (rightarm "1") (leftleg "1") (rightleg "1")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "tmp") (shots "1") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "1")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "tmp") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "3") (hits "2") (kills "2") (headshots "1") (tks "0") (damage "325") (deaths "6")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "1") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "1")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "time" (time "9:19")
+L 07/27/2018 - 12:40:52: "Cable<9><VALVE_ID_LAN><CT>" triggered "latency" (ping "9")
+L 07/27/2018 - 12:40:52: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "xm1014") (shots "2") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "2")
+L 07/27/2018 - 12:40:52: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "xm1014") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "mac10") (shots "2") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "30") (deaths "2")
+L 07/27/2018 - 12:40:52: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "mac10") (head "0") (chest "1") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "aug") (shots "22") (hits "7") (kills "1") (headshots "0") (tks "0") (damage "205") (deaths "4")
+L 07/27/2018 - 12:40:52: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "aug") (head "0") (chest "3") (stomach "0") (leftarm "3") (rightarm "0") (leftleg "0") (rightleg "1")
+L 07/27/2018 - 12:40:52: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "7") (hits "2") (kills "0") (headshots "0") (tks "0") (damage "54") (deaths "2")
+L 07/27/2018 - 12:40:52: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "0") (chest "0") (stomach "0") (leftarm "1") (rightarm "1") (leftleg "0") (rightleg "0")
+L 07/27/2018 - 12:40:52: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "ak47") (shots "68") (hits "23") (kills "7") (headshots "0") (tks "0") (damage "786") (deaths "5")
+L 07/27/2018 - 12:40:52: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "ak47") (head "0") (chest "4") (stomach "2") (leftarm "15") (rightarm "1") (leftleg "0") (rightleg "1")
+L 07/27/2018 - 12:40:52: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "5:28")
+L 07/27/2018 - 12:40:52: "Pingado Billy<11><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "12")
+L 07/27/2018 - 12:40:53: [META] ini: Begin re-reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini
+L 07/27/2018 - 12:40:53: [META] ini: Read plugin config for: AMX
+L 07/27/2018 - 12:40:53: [META] ini: Read plugin config for: WinHL-Booster
+L 07/27/2018 - 12:40:53: [META] ERROR: ini: Skipping plugin, couldn't stat file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': No such file or directory
+L 07/27/2018 - 12:40:53: [META] ini: Read plugin config for: WebMod
+L 07/27/2018 - 12:40:53: [META] ini: Finished reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini; Found 3 plugins
+L 07/27/2018 - 12:40:53: [META] dll: Updating plugins...
+L 07/27/2018 - 12:40:53: [META] ERROR: dll: Failed query plugin '<hlguard_mm_nightly.dll>'; Couldn't open file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': Não foi possível encontrar o módulo especificado.
+
+L 07/27/2018 - 12:40:53: [META] ERROR: dll: Skipping plugin '<hlguard_mm_nightly.dll>'; couldn't query
+L 07/27/2018 - 12:40:53: [META] dll: Finished updating 6 plugins; kept 3, loaded 0, unloaded 0, reloaded 0, delayed 0
+L 07/27/2018 - 12:40:53: Server shutdown
+L 07/27/2018 - 12:40:53: Log file closed

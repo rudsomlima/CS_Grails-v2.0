@@ -1,0 +1,203 @@
+L 10/24/2019 - 12:28:12: Log file started (file "logs\L1024000.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 10/24/2019 - 12:28:13: "Cap Billy<7><VALVE_ID_LAN><>" entered the game
+L 10/24/2019 - 12:28:13: "Smolder<8><VALVE_ID_LAN><>" connected, address "10.15.2.111:27005"
+L 10/24/2019 - 12:28:14: "Cap Billy<7><VALVE_ID_LAN><>" joined team "CT"
+L 10/24/2019 - 12:28:14: World triggered "Game_Commencing"
+L 10/24/2019 - 12:28:14: World triggered "Game_Commencing" (CT "0") (T "0")
+L 10/24/2019 - 12:28:14: World triggered "Round_End"
+L 10/24/2019 - 12:28:15: "Jberr<9><VALVE_ID_LAN><>" connected, address "10.15.2.28:27005"
+L 10/24/2019 - 12:28:16: "Smolder<8><VALVE_ID_LAN><>" entered the game
+L 10/24/2019 - 12:28:17: World triggered "Round_Start"
+L 10/24/2019 - 12:28:18: "Jberr<9><VALVE_ID_LAN><>" entered the game
+L 10/24/2019 - 12:28:18: "Smolder<8><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 10/24/2019 - 12:28:21: "Jberr<9><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 10/24/2019 - 12:28:22: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 10/24/2019 - 12:28:25: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 10/24/2019 - 12:28:31: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "aug"
+L 10/24/2019 - 12:28:31: Team "CT" triggered "CTs_Win" (CT "1") (T "0")
+L 10/24/2019 - 12:28:31: World triggered "Round_End"
+L 10/24/2019 - 12:28:36: World triggered "Round_Start"
+L 10/24/2019 - 12:28:38: "XXBOT Steel<10><BOT><>" joined team "CT"
+L 10/24/2019 - 12:28:38: Server cvar "bot_quota" = "1"
+L 10/24/2019 - 12:28:38: "XXBOT Steel<10><BOT><>" entered the game
+L 10/24/2019 - 12:28:46: "XXBOT Steel<10><BOT><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 10/24/2019 - 12:28:47: "XXBOT Steel<10><BOT><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "usp"
+L 10/24/2019 - 12:28:49: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 10/24/2019 - 12:28:49: Team "CT" triggered "CTs_Win" (CT "2") (T "0")
+L 10/24/2019 - 12:28:49: World triggered "Round_End"
+L 10/24/2019 - 12:28:53: "XXBOT Arnold<11><BOT><>" joined team "CT"
+L 10/24/2019 - 12:28:53: Server cvar "bot_quota" = "2"
+L 10/24/2019 - 12:28:53: "XXBOT Arnold<11><BOT><>" entered the game
+L 10/24/2019 - 12:28:54: World triggered "Round_Start"
+L 10/24/2019 - 12:28:56: "Smolder<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<7><VALVE_ID_LAN><CT>" with "ak47"
+L 10/24/2019 - 12:28:58: "Smolder<8><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Steel<10><BOT><CT>" with "ak47"
+L 10/24/2019 - 12:28:58: "Smolder<8><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Arnold<11><BOT><CT>" with "ak47"
+L 10/24/2019 - 12:28:58: Team "TERRORIST" triggered "Terrorists_Win" (CT "2") (T "1")
+L 10/24/2019 - 12:28:58: World triggered "Round_End"
+L 10/24/2019 - 12:29:02: "Kitkat<12><VALVE_ID_LAN><>" connected, address "10.15.2.150:27005"
+L 10/24/2019 - 12:29:03: World triggered "Round_Start"
+L 10/24/2019 - 12:29:07: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<7><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/24/2019 - 12:29:11: "Kitkat<12><VALVE_ID_LAN><>" entered the game
+L 10/24/2019 - 12:29:12: "XXBOT Steel<10><BOT><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "ak47"
+L 10/24/2019 - 12:29:13: "XXBOT Steel<10><BOT><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "ak47"
+L 10/24/2019 - 12:29:13: "XXBOT Steel<10><BOT><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "ak47"
+L 10/24/2019 - 12:29:13: Team "CT" triggered "CTs_Win" (CT "3") (T "1")
+L 10/24/2019 - 12:29:13: World triggered "Round_End"
+L 10/24/2019 - 12:29:17: "Kitkat<12><VALVE_ID_LAN><>" joined team "CT"
+L 10/24/2019 - 12:29:18: World triggered "Round_Start"
+L 10/24/2019 - 12:29:23: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "mac10"
+L 10/24/2019 - 12:29:25: "Kitkat<12><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 10/24/2019 - 12:29:27: "Jberr<9><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<7><VALVE_ID_LAN><CT>" with "g3sg1"
+L 10/24/2019 - 12:29:31: "XXBOT Steel<10><BOT><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "ak47"
+L 10/24/2019 - 12:29:31: Team "CT" triggered "CTs_Win" (CT "4") (T "1")
+L 10/24/2019 - 12:29:31: World triggered "Round_End"
+L 10/24/2019 - 12:29:32: Server cvar "bot_quota" = "1"
+L 10/24/2019 - 12:29:32: Server cvar "bot_quota" = "0"
+L 10/24/2019 - 12:29:32: Kick: "XXBOT Steel<10><UNKNOWN><>" was kicked by "CEIFADOR"
+L 10/24/2019 - 12:29:32: "XXBOT Steel<10><BOT><CT>" disconnected
+L 10/24/2019 - 12:29:32: Kick: "XXBOT Arnold<11><UNKNOWN><>" was kicked by "CEIFADOR"
+L 10/24/2019 - 12:29:32: "XXBOT Arnold<11><BOT><CT>" disconnected
+L 10/24/2019 - 12:29:35: "XXBOT Kurt<13><BOT><>" joined team "CT"
+L 10/24/2019 - 12:29:35: Server cvar "bot_quota" = "1"
+L 10/24/2019 - 12:29:35: "XXBOT Kurt<13><BOT><>" entered the game
+L 10/24/2019 - 12:29:36: World triggered "Round_Start"
+L 10/24/2019 - 12:29:39: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<7><VALVE_ID_LAN><CT>" with "m3"
+L 10/24/2019 - 12:29:45: "XXBOT Kurt<13><BOT><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "usp"
+L 10/24/2019 - 12:29:46: "XXBOT Kurt<13><BOT><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 10/24/2019 - 12:29:47: "Jberr<9><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<12><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/24/2019 - 12:30:02: "XXBOT Kurt<13><BOT><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "p90"
+L 10/24/2019 - 12:30:02: Team "CT" triggered "CTs_Win" (CT "5") (T "1")
+L 10/24/2019 - 12:30:02: World triggered "Round_End"
+L 10/24/2019 - 12:30:07: World triggered "Round_Start"
+L 10/24/2019 - 12:30:10: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 10/24/2019 - 12:30:12: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "mp5navy"
+L 10/24/2019 - 12:30:19: "Kitkat<12><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "ak47"
+L 10/24/2019 - 12:30:19: Team "CT" triggered "CTs_Win" (CT "6") (T "1")
+L 10/24/2019 - 12:30:19: World triggered "Round_End"
+L 10/24/2019 - 12:30:24: World triggered "Round_Start"
+L 10/24/2019 - 12:30:30: "Kitkat<12><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "ak47"
+L 10/24/2019 - 12:30:34: "Smolder<8><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<12><VALVE_ID_LAN><CT>" with "mp5navy"
+L 10/24/2019 - 12:30:34: "XXBOT Kurt<13><BOT><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "p90"
+L 10/24/2019 - 12:30:39: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<7><VALVE_ID_LAN><CT>" with "aug"
+L 10/24/2019 - 12:30:42: "XXBOT Kurt<13><BOT><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "p90"
+L 10/24/2019 - 12:30:42: Team "CT" triggered "CTs_Win" (CT "7") (T "1")
+L 10/24/2019 - 12:30:42: World triggered "Round_End"
+L 10/24/2019 - 12:30:47: World triggered "Round_Start"
+L 10/24/2019 - 12:30:50: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "XXBOT Kurt<13><BOT><CT>" with "xm1014"
+L 10/24/2019 - 12:30:50: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:30:54: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "Kitkat<12><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/24/2019 - 12:30:55: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:30:57: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<7><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/24/2019 - 12:30:57: Team "TERRORIST" triggered "Terrorists_Win" (CT "7") (T "2")
+L 10/24/2019 - 12:30:57: World triggered "Round_End"
+L 10/24/2019 - 12:31:02: World triggered "Round_Start"
+L 10/24/2019 - 12:31:03: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 10/24/2019 - 12:31:06: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 10/24/2019 - 12:31:08: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "Kitkat<12><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/24/2019 - 12:31:17: "XXBOT Kurt<13><BOT><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "usp"
+L 10/24/2019 - 12:31:17: Team "CT" triggered "CTs_Win" (CT "8") (T "2")
+L 10/24/2019 - 12:31:17: World triggered "Round_End"
+L 10/24/2019 - 12:31:22: World triggered "Round_Start"
+L 10/24/2019 - 12:31:27: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:31:29: "XXBOT Kurt<13><BOT><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "mp5navy"
+L 10/24/2019 - 12:31:36: "Jberr<9><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Kurt<13><BOT><CT>" with "mp5navy"
+L 10/24/2019 - 12:31:39: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:31:39: Team "CT" triggered "CTs_Win" (CT "9") (T "2")
+L 10/24/2019 - 12:31:39: World triggered "Round_End"
+L 10/24/2019 - 12:31:44: World triggered "Round_Start"
+L 10/24/2019 - 12:31:48: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:31:50: "INDIO de ferias<14><VALVE_ID_LAN><>" connected, address "10.15.2.117:27005"
+L 10/24/2019 - 12:31:53: "INDIO de ferias<14><VALVE_ID_LAN><>" entered the game
+L 10/24/2019 - 12:31:55: "INDIO de ferias<14><VALVE_ID_LAN><>" joined team "CT"
+L 10/24/2019 - 12:31:55: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:31:56: "Smolder<8><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Kurt<13><BOT><CT>" with "xm1014"
+L 10/24/2019 - 12:31:58: "Kitkat<12><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "ak47"
+L 10/24/2019 - 12:31:58: Team "CT" triggered "CTs_Win" (CT "10") (T "2")
+L 10/24/2019 - 12:31:58: World triggered "Round_End"
+L 10/24/2019 - 12:32:03: World triggered "Round_Start"
+L 10/24/2019 - 12:32:04: Server cvar "bot_quota" = "0"
+L 10/24/2019 - 12:32:04: Kick: "XXBOT Kurt<13><UNKNOWN><>" was kicked by "CEIFADOR"
+L 10/24/2019 - 12:32:04: "XXBOT Kurt<13><BOT><CT>" disconnected
+L 10/24/2019 - 12:32:05: "Smolder<8><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<12><VALVE_ID_LAN><CT>" with "aug"
+L 10/24/2019 - 12:32:06: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:32:13: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:32:14: "Smolder<8><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<14><VALVE_ID_LAN><CT>" with "aug"
+L 10/24/2019 - 12:32:25: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:32:25: Team "CT" triggered "CTs_Win" (CT "11") (T "2")
+L 10/24/2019 - 12:32:25: World triggered "Round_End"
+L 10/24/2019 - 12:32:30: World triggered "Round_Start"
+L 10/24/2019 - 12:32:35: "INDIO de ferias<14><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "m249"
+L 10/24/2019 - 12:32:35: "Kitkat<12><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:32:36: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:32:36: Team "CT" triggered "CTs_Win" (CT "12") (T "2")
+L 10/24/2019 - 12:32:36: World triggered "Round_End"
+L 10/24/2019 - 12:32:41: World triggered "Round_Start"
+L 10/24/2019 - 12:32:45: "INDIO de ferias<14><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:32:47: "INDIO de ferias<14><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:32:49: "Kitkat<12><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:32:49: Team "CT" triggered "CTs_Win" (CT "13") (T "2")
+L 10/24/2019 - 12:32:49: World triggered "Round_End"
+L 10/24/2019 - 12:32:54: World triggered "Round_Start"
+L 10/24/2019 - 12:32:59: "INDIO de ferias<14><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:33:00: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:33:01: "Smolder<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<7><VALVE_ID_LAN><CT>" with "mp5navy"
+L 10/24/2019 - 12:33:06: "Smolder<8><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<12><VALVE_ID_LAN><CT>" with "mp5navy"
+L 10/24/2019 - 12:33:07: "INDIO de ferias<14><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 10/24/2019 - 12:33:07: Team "CT" triggered "CTs_Win" (CT "14") (T "2")
+L 10/24/2019 - 12:33:07: World triggered "Round_End"
+L 10/24/2019 - 12:33:11: "Kitkat<12><VALVE_ID_LAN><CT>" say "kkkkk" (dead)
+L 10/24/2019 - 12:33:11: "Cap Billy<7><VALVE_ID_LAN><CT>" say "BOA TARDE!!" (dead)
+L 10/24/2019 - 12:33:12: World triggered "Round_Start"
+L 10/24/2019 - 12:33:16: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "m4a1"
+L 10/24/2019 - 12:33:16: "INDIO de ferias<14><VALVE_ID_LAN><CT>" say "colca um bot"
+L 10/24/2019 - 12:33:21: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 10/24/2019 - 12:33:22: "INDIO de ferias<14><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:33:22: Team "CT" triggered "CTs_Win" (CT "15") (T "2")
+L 10/24/2019 - 12:33:22: World triggered "Round_End"
+L 10/24/2019 - 12:33:27: World triggered "Round_Start"
+L 10/24/2019 - 12:33:32: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<7><VALVE_ID_LAN><CT>" with "ak47"
+L 10/24/2019 - 12:33:34: "INDIO de ferias<14><VALVE_ID_LAN><CT>" say "colca um bot prs terror"
+L 10/24/2019 - 12:33:34: "Kitkat<12><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "m249"
+L 10/24/2019 - 12:33:36: "Kitkat<12><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "m249"
+L 10/24/2019 - 12:33:38: "Kitkat<12><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "m249"
+L 10/24/2019 - 12:33:38: Team "CT" triggered "CTs_Win" (CT "16") (T "2")
+L 10/24/2019 - 12:33:38: World triggered "Round_End"
+L 10/24/2019 - 12:33:43: World triggered "Round_Start"
+L 10/24/2019 - 12:33:47: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "INDIO de ferias<14><VALVE_ID_LAN><CT>" with "mac10"
+L 10/24/2019 - 12:33:47: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:33:51: "Jberr<9><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<7><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/24/2019 - 12:33:53: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "Kitkat<12><VALVE_ID_LAN><CT>" with "mac10"
+L 10/24/2019 - 12:33:53: Team "TERRORIST" triggered "Terrorists_Win" (CT "16") (T "3")
+L 10/24/2019 - 12:33:53: World triggered "Round_End"
+L 10/24/2019 - 12:33:58: World triggered "Round_Start"
+L 10/24/2019 - 12:34:02: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 10/24/2019 - 12:34:04: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 10/24/2019 - 12:34:06: "INDIO de ferias<14><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "aug"
+L 10/24/2019 - 12:34:06: Team "CT" triggered "CTs_Win" (CT "17") (T "3")
+L 10/24/2019 - 12:34:06: World triggered "Round_End"
+L 10/24/2019 - 12:34:11: World triggered "Round_Start"
+L 10/24/2019 - 12:34:15: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "INDIO de ferias<14><VALVE_ID_LAN><CT>" with "aug"
+L 10/24/2019 - 12:34:17: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "mp5navy"
+L 10/24/2019 - 12:34:20: "Jberr<9><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<7><VALVE_ID_LAN><CT>" with "p90"
+L 10/24/2019 - 12:34:25: "Smolder<8><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<12><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/24/2019 - 12:34:25: Team "TERRORIST" triggered "Terrorists_Win" (CT "17") (T "4")
+L 10/24/2019 - 12:34:25: World triggered "Round_End"
+L 10/24/2019 - 12:34:30: World triggered "Round_Start"
+L 10/24/2019 - 12:34:33: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:34:34: "Smolder<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<7><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/24/2019 - 12:34:35: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "INDIO de ferias<14><VALVE_ID_LAN><CT>" with "m4a1"
+L 10/24/2019 - 12:34:41: "Smolder<8><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<12><VALVE_ID_LAN><CT>" with "xm1014"
+L 10/24/2019 - 12:34:41: Team "TERRORIST" triggered "Terrorists_Win" (CT "17") (T "5")
+L 10/24/2019 - 12:34:41: World triggered "Round_End"
+L 10/24/2019 - 12:34:46: World triggered "Round_Start"
+L 10/24/2019 - 12:34:51: "Kitkat<12><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 10/24/2019 - 12:34:54: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "Kitkat<12><VALVE_ID_LAN><CT>" with "m4a1"
+L 10/24/2019 - 12:34:56: "INDIO de ferias<14><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "tmp"
+L 10/24/2019 - 12:34:57: "Jberr<9><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<14><VALVE_ID_LAN><CT>" with "g3sg1"
+L 10/24/2019 - 12:34:59: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Jberr<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 10/24/2019 - 12:34:59: Team "CT" triggered "CTs_Win" (CT "18") (T "5")
+L 10/24/2019 - 12:34:59: World triggered "Round_End"
+L 10/24/2019 - 12:35:04: World triggered "Round_Start"
+L 10/24/2019 - 12:35:07: "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<7><VALVE_ID_LAN><CT>" with "m3"
+L 10/24/2019 - 12:35:08: "INDIO de ferias<14><VALVE_ID_LAN><CT>" killed "CEIFADOR<6><VALVE_ID_LOOPBACK><TERRORIST>" with "mp5navy"
+L 10/24/2019 - 12:35:11: Log file closed

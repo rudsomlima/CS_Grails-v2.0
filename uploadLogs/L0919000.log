@@ -1,0 +1,25 @@
+L 09/19/2019 - 12:30:59: Log file started (file "logs\L0919000.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 09/19/2019 - 12:30:59: World triggered "Game_Commencing"
+L 09/19/2019 - 12:30:59: World triggered "Game_Commencing" (CT "0") (T "0")
+L 09/19/2019 - 12:30:59: World triggered "Round_End"
+L 09/19/2019 - 12:30:59: "Cap Billy<18><VALVE_ID_LAN><>" connected, address "10.15.2.199:27005"
+L 09/19/2019 - 12:31:00: "Kratos-away<16><VALVE_ID_LAN><>" entered the game
+L 09/19/2019 - 12:31:00: "Jack<17><VALVE_ID_LAN><>" entered the game
+L 09/19/2019 - 12:31:01: "Kratos-away<16><VALVE_ID_LAN><>" say "kratos jogando c" (dead)
+L 09/19/2019 - 12:31:02: "Kratos-away<16><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/19/2019 - 12:31:02: "Gho$T<13><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 09/19/2019 - 12:31:02: World triggered "Round_Start"
+L 09/19/2019 - 12:31:02: "Cap Billy<18><VALVE_ID_LAN><>" entered the game
+L 09/19/2019 - 12:31:02: "Jack<17><VALVE_ID_LAN><>" joined team "CT"
+L 09/19/2019 - 12:31:03: "Cap Billy<18><VALVE_ID_LAN><>" joined team "CT"
+L 09/19/2019 - 12:31:07: "Smolder<15><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/19/2019 - 12:31:11: "Kratos-away<16><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<18><VALVE_ID_LAN><CT>" with "aug"
+L 09/19/2019 - 12:31:11: "Jack<17><VALVE_ID_LAN><CT>" killed "Kratos-away<16><VALVE_ID_LAN><TERRORIST>" with "ak47"
+L 09/19/2019 - 12:31:12: "DareDevil<14><VALVE_ID_LAN><CT>" killed "CEIFADOR<12><VALVE_ID_LOOPBACK><TERRORIST>" with "xm1014"
+L 09/19/2019 - 12:31:12: "Smolder<15><VALVE_ID_LAN><TERRORIST>" killed "Jack<17><VALVE_ID_LAN><CT>" with "ak47"
+L 09/19/2019 - 12:31:17: "XXBOT Quade<19><BOT><>" joined team "CT"
+L 09/19/2019 - 12:31:17: Server cvar "bot_quota" = "1"
+L 09/19/2019 - 12:31:17: "XXBOT Quade<19><BOT><>" entered the game
+L 09/19/2019 - 12:31:18: "Jack<17><VALVE_ID_LAN><CT>" say "carai.. sai da frente" (dead)
+L 09/19/2019 - 12:31:20: "Gho$T<13><VALVE_ID_LAN><TERRORIST>" killed "DareDevil<14><VALVE_ID_LAN><CT>" with "xm1014"
+L 09/19/2019 - 12:31:21: Log file closed

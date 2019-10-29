@@ -1,0 +1,76 @@
+L 08/20/2019 - 12:50:08: Log file started (file "logs\L0820004.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 08/20/2019 - 12:50:10: "Jack<32><VALVE_ID_LAN><CT>" say "indio q porra" (dead)
+L 08/20/2019 - 12:50:11: World triggered "Round_Start"
+L 08/20/2019 - 12:50:11: "@te<34><VALVE_ID_LAN><CT>" say "panha"
+L 08/20/2019 - 12:50:11: "Cap Billy<31><VALVE_ID_LAN><CT>" say "FACA DOIDA"
+L 08/20/2019 - 12:50:14: Team "CT" scored "15" with "5" players
+L 08/20/2019 - 12:50:14: Team "TERRORIST" scored "10" with "5" players
+L 08/20/2019 - 12:50:15: "Kratos-away<28><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "283") (hits "81") (kills "15") (headshots "8") (tks "0") (damage "2119") (deaths "15")
+L 08/20/2019 - 12:50:15: "Kratos-away<28><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "14") (chest "16") (stomach "2") (leftarm "20") (rightarm "26") (leftleg "2") (rightleg "1")
+L 08/20/2019 - 12:50:15: "Kratos-away<28><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "4") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "3")
+L 08/20/2019 - 12:50:15: "Kratos-away<28><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/20/2019 - 12:50:15: "Kratos-away<28><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:02")
+L 08/20/2019 - 12:50:15: "Kratos-away<28><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "390")
+L 08/20/2019 - 12:50:16: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "194") (hits "67") (kills "9") (headshots "6") (tks "0") (damage "1835") (deaths "20")
+L 08/20/2019 - 12:50:16: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "8") (chest "11") (stomach "2") (leftarm "21") (rightarm "24") (leftleg "0") (rightleg "1")
+L 08/20/2019 - 12:50:16: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "4") (hits "3") (kills "1") (headshots "0") (tks "0") (damage "195") (deaths "3")
+L 08/20/2019 - 12:50:16: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "1") (stomach "0") (leftarm "0") (rightarm "1") (leftleg "1") (rightleg "0")
+L 08/20/2019 - 12:50:16: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" triggered "time" (time "10:10")
+L 08/20/2019 - 12:50:16: "CEIFADOR<26><VALVE_ID_LOOPBACK><TERRORIST>" triggered "latency" (ping "0")
+L 08/20/2019 - 12:50:16: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "295") (hits "93") (kills "12") (headshots "3") (tks "0") (damage "1717") (deaths "21")
+L 08/20/2019 - 12:50:16: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "6") (chest "13") (stomach "6") (leftarm "37") (rightarm "10") (leftleg "6") (rightleg "15")
+L 08/20/2019 - 12:50:16: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:08")
+L 08/20/2019 - 12:50:16: "Kitkat<27><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "9")
+L 08/20/2019 - 12:50:16: "Ice_Man<29><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "289") (hits "75") (kills "21") (headshots "11") (tks "0") (damage "2451") (deaths "21")
+L 08/20/2019 - 12:50:16: "Ice_Man<29><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "15") (chest "12") (stomach "0") (leftarm "21") (rightarm "24") (leftleg "1") (rightleg "2")
+L 08/20/2019 - 12:50:16: "Ice_Man<29><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:07")
+L 08/20/2019 - 12:50:16: "Ice_Man<29><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "14")
+L 08/20/2019 - 12:50:16: "Calcas Peludas<30><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "343") (hits "107") (kills "22") (headshots "11") (tks "0") (damage "3206") (deaths "17")
+L 08/20/2019 - 12:50:16: "Calcas Peludas<30><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "24") (chest "15") (stomach "7") (leftarm "33") (rightarm "23") (leftleg "4") (rightleg "1")
+L 08/20/2019 - 12:50:16: "Calcas Peludas<30><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "6") (hits "2") (kills "1") (headshots "0") (tks "0") (damage "130") (deaths "4")
+L 08/20/2019 - 12:50:16: "Calcas Peludas<30><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "0") (leftarm "1") (rightarm "1") (leftleg "0") (rightleg "0")
+L 08/20/2019 - 12:50:16: "Calcas Peludas<30><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:06")
+L 08/20/2019 - 12:50:16: "Calcas Peludas<30><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "9")
+L 08/20/2019 - 12:50:16: "Cap Billy<31><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "364") (hits "122") (kills "35") (headshots "18") (tks "1") (damage "4386") (deaths "17")
+L 08/20/2019 - 12:50:16: "Cap Billy<31><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "34") (chest "19") (stomach "6") (leftarm "26") (rightarm "31") (leftleg "2") (rightleg "4")
+L 08/20/2019 - 12:50:16: "Cap Billy<31><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "9") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "0")
+L 08/20/2019 - 12:50:16: "Cap Billy<31><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/20/2019 - 12:50:16: "Cap Billy<31><VALVE_ID_LAN><CT>" triggered "time" (time "10:05")
+L 08/20/2019 - 12:50:16: "Cap Billy<31><VALVE_ID_LAN><CT>" triggered "latency" (ping "7")
+L 08/20/2019 - 12:50:16: "Jack<32><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "305") (hits "90") (kills "14") (headshots "7") (tks "0") (damage "2069") (deaths "15")
+L 08/20/2019 - 12:50:16: "Jack<32><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "15") (chest "17") (stomach "8") (leftarm "24") (rightarm "16") (leftleg "6") (rightleg "4")
+L 08/20/2019 - 12:50:16: "Jack<32><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "8") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "1")
+L 08/20/2019 - 12:50:16: "Jack<32><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/20/2019 - 12:50:16: "Jack<32><VALVE_ID_LAN><CT>" triggered "time" (time "10:04")
+L 08/20/2019 - 12:50:16: "Jack<32><VALVE_ID_LAN><CT>" triggered "latency" (ping "7")
+L 08/20/2019 - 12:50:16: "INDIO<33><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "346") (hits "115") (kills "23") (headshots "12") (tks "0") (damage "3203") (deaths "15")
+L 08/20/2019 - 12:50:16: "INDIO<33><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "24") (chest "16") (stomach "4") (leftarm "38") (rightarm "24") (leftleg "4") (rightleg "5")
+L 08/20/2019 - 12:50:16: "INDIO<33><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "2") (hits "1") (kills "1") (headshots "0") (tks "0") (damage "65") (deaths "2")
+L 08/20/2019 - 12:50:16: "INDIO<33><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "1") (leftleg "0") (rightleg "0")
+L 08/20/2019 - 12:50:16: "INDIO<33><VALVE_ID_LAN><CT>" triggered "time" (time "9:57")
+L 08/20/2019 - 12:50:16: "INDIO<33><VALVE_ID_LAN><CT>" triggered "latency" (ping "13")
+L 08/20/2019 - 12:50:16: "@te<34><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "266") (hits "69") (kills "14") (headshots "5") (tks "0") (damage "1757") (deaths "14")
+L 08/20/2019 - 12:50:16: "@te<34><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "10") (chest "12") (stomach "4") (leftarm "20") (rightarm "18") (leftleg "1") (rightleg "4")
+L 08/20/2019 - 12:50:16: "@te<34><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "2") (hits "2") (kills "1") (headshots "0") (tks "0") (damage "130") (deaths "2")
+L 08/20/2019 - 12:50:16: "@te<34><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "1") (chest "0") (stomach "1") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 08/20/2019 - 12:50:16: "@te<34><VALVE_ID_LAN><CT>" triggered "time" (time "9:53")
+L 08/20/2019 - 12:50:16: "@te<34><VALVE_ID_LAN><CT>" triggered "latency" (ping "9")
+L 08/20/2019 - 12:50:16: "Gho$T<35><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "200") (hits "63") (kills "14") (headshots "9") (tks "0") (damage "1908") (deaths "12")
+L 08/20/2019 - 12:50:16: "Gho$T<35><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "13") (chest "9") (stomach "6") (leftarm "13") (rightarm "17") (leftleg "2") (rightleg "3")
+L 08/20/2019 - 12:50:16: "Gho$T<35><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "9") (hits "4") (kills "3") (headshots "0") (tks "0") (damage "390") (deaths "5")
+L 08/20/2019 - 12:50:16: "Gho$T<35><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "1") (stomach "0") (leftarm "1") (rightarm "2") (leftleg "0") (rightleg "0")
+L 08/20/2019 - 12:50:16: "Gho$T<35><VALVE_ID_LAN><CT>" triggered "time" (time "9:53")
+L 08/20/2019 - 12:50:16: "Gho$T<35><VALVE_ID_LAN><CT>" triggered "latency" (ping "8")
+L 08/20/2019 - 12:50:16: [META] ini: Begin re-reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini
+L 08/20/2019 - 12:50:16: [META] ini: Read plugin config for: AMX
+L 08/20/2019 - 12:50:16: [META] ini: Read plugin config for: WinHL-Booster
+L 08/20/2019 - 12:50:16: [META] ERROR: ini: Skipping plugin, couldn't stat file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': No such file or directory
+L 08/20/2019 - 12:50:16: [META] ini: Read plugin config for: WebMod
+L 08/20/2019 - 12:50:16: [META] ini: Finished reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini; Found 3 plugins
+L 08/20/2019 - 12:50:16: [META] dll: Updating plugins...
+L 08/20/2019 - 12:50:16: [META] ERROR: dll: Failed query plugin '<hlguard_mm_nightly.dll>'; Couldn't open file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': Não foi possível encontrar o módulo especificado.
+
+L 08/20/2019 - 12:50:16: [META] ERROR: dll: Skipping plugin '<hlguard_mm_nightly.dll>'; couldn't query
+L 08/20/2019 - 12:50:16: [META] dll: Finished updating 6 plugins; kept 3, loaded 0, unloaded 0, reloaded 0, delayed 0
+L 08/20/2019 - 12:50:16: Server shutdown
+L 08/20/2019 - 12:50:16: Log file closed

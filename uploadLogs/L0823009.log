@@ -1,0 +1,34 @@
+L 08/23/2019 - 12:40:02: Log file started (file "logs\L0823009.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 08/23/2019 - 12:40:02: "INDIO<4><VALVE_ID_LAN><>" entered the game
+L 08/23/2019 - 12:40:02: "Jack<6><VALVE_ID_LAN><>" entered the game
+L 08/23/2019 - 12:40:02: "Cap Billy<5><VALVE_ID_LAN><>" entered the game
+L 08/23/2019 - 12:40:02: "Gho$T<7><VALVE_ID_LAN><>" entered the game
+L 08/23/2019 - 12:40:02: "Ice_Man<3><VALVE_ID_LAN><>" entered the game
+L 08/23/2019 - 12:40:03: "Cap Billy<5><VALVE_ID_LAN><>" joined team "CT"
+L 08/23/2019 - 12:40:03: World triggered "Game_Commencing"
+L 08/23/2019 - 12:40:03: World triggered "Game_Commencing" (CT "0") (T "0")
+L 08/23/2019 - 12:40:03: World triggered "Round_End"
+L 08/23/2019 - 12:40:03: "Kitkat<2><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/23/2019 - 12:40:04: "Calcas Peludas<9><VALVE_ID_LAN><>" connected, address "10.15.2.230:27005"
+L 08/23/2019 - 12:40:04: "@te<8><VALVE_ID_LAN><>" entered the game
+L 08/23/2019 - 12:40:04: "Jack<6><VALVE_ID_LAN><>" joined team "CT"
+L 08/23/2019 - 12:40:04: "INDIO<4><VALVE_ID_LAN><>" joined team "CT"
+L 08/23/2019 - 12:40:05: "Ice_Man<3><VALVE_ID_LAN><>" say "de cem." (dead)
+L 08/23/2019 - 12:40:05: "Gho$T<7><VALVE_ID_LAN><>" joined team "CT"
+L 08/23/2019 - 12:40:05: "Ice_Man<3><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/23/2019 - 12:40:06: World triggered "Round_Start"
+L 08/23/2019 - 12:40:06: "Calcas Peludas<9><VALVE_ID_LAN><>" entered the game
+L 08/23/2019 - 12:40:07: "@te<8><VALVE_ID_LAN><>" joined team "CT"
+L 08/23/2019 - 12:40:07: "Calcas Peludas<9><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 08/23/2019 - 12:40:11: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" killed "Jack<6><VALVE_ID_LAN><CT>" with "glock18"
+L 08/23/2019 - 12:40:12: "@te<8><VALVE_ID_LAN><CT>" killed "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/23/2019 - 12:40:14: "CEIFADOR<1><VALVE_ID_LOOPBACK><TERRORIST>" killed "@te<8><VALVE_ID_LAN><CT>" with "glock18"
+L 08/23/2019 - 12:40:16: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" say "eita " (dead)
+L 08/23/2019 - 12:40:16: "INDIO<4><VALVE_ID_LAN><CT>" killed "Kitkat<2><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 08/23/2019 - 12:40:16: "Cap Billy<5><VALVE_ID_LAN><CT>" killed "CEIFADOR<1><VALVE_ID_LOOPBACK><TERRORIST>" with "glock18"
+L 08/23/2019 - 12:40:18: "Calcas Peludas<9><VALVE_ID_LAN><TERRORIST>" say "gostei" (dead)
+L 08/23/2019 - 12:40:20: "XXBOT Brad<10><BOT><>" joined team "TERRORIST"
+L 08/23/2019 - 12:40:20: Server cvar "bot_quota" = "1"
+L 08/23/2019 - 12:40:20: "XXBOT Brad<10><BOT><>" entered the game
+L 08/23/2019 - 12:40:23: "Cap Billy<5><VALVE_ID_LAN><CT>" killed "XXBOT Brad<10><BOT><TERRORIST>" with "knife"
+L 08/23/2019 - 12:40:25: Log file closed

@@ -1,0 +1,103 @@
+L 09/24/2019 - 12:29:51: Log file started (file "logs\L0924000.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 09/24/2019 - 12:29:56: "Gho$T<2><VALVE_ID_LAN><>" connected, address "10.15.2.123:27005"
+L 09/24/2019 - 12:30:01: "Gho$T<2><VALVE_ID_LAN><>" entered the game
+L 09/24/2019 - 12:30:03: "Gho$T<2><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/24/2019 - 12:30:06: "Smolder<3><VALVE_ID_LAN><>" connected, address "10.15.2.124:27005"
+L 09/24/2019 - 12:30:10: "Calcas Peludas<4><VALVE_ID_LAN><>" connected, address "10.15.2.230:27005"
+L 09/24/2019 - 12:30:13: "Smolder<3><VALVE_ID_LAN><>" entered the game
+L 09/24/2019 - 12:30:13: "XXBOT Brett<5><BOT><>" joined team "CT"
+L 09/24/2019 - 12:30:13: Server cvar "bot_quota" = "1"
+L 09/24/2019 - 12:30:13: World triggered "Game_Commencing"
+L 09/24/2019 - 12:30:13: World triggered "Game_Commencing" (CT "0") (T "0")
+L 09/24/2019 - 12:30:13: World triggered "Round_End"
+L 09/24/2019 - 12:30:13: "XXBOT Brett<5><BOT><>" entered the game
+L 09/24/2019 - 12:30:14: "Calcas Peludas<4><VALVE_ID_LAN><>" entered the game
+L 09/24/2019 - 12:30:16: "Smolder<3><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/24/2019 - 12:30:16: "Calcas Peludas<4><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/24/2019 - 12:30:16: "XXBOT Crusher<6><BOT><>" joined team "CT"
+L 09/24/2019 - 12:30:16: Server cvar "bot_quota" = "2"
+L 09/24/2019 - 12:30:16: "Gho$T<2><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 09/24/2019 - 12:30:16: World triggered "Round_Start"
+L 09/24/2019 - 12:30:16: "XXBOT Crusher<6><BOT><>" entered the game
+L 09/24/2019 - 12:30:30: "Cap Billy<7><VALVE_ID_LAN><>" connected, address "10.15.2.199:27005"
+L 09/24/2019 - 12:30:33: "XXBOT Quintin<8><BOT><>" joined team "CT"
+L 09/24/2019 - 12:30:33: Server cvar "bot_quota" = "3"
+L 09/24/2019 - 12:30:33: "XXBOT Quintin<8><BOT><>" entered the game
+L 09/24/2019 - 12:30:34: "Calcas Peludas<4><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Brett<5><BOT><CT>" with "mp5navy"
+L 09/24/2019 - 12:30:38: "XXBOT Quintin<8><BOT><CT>" killed "Calcas Peludas<4><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 09/24/2019 - 12:30:38: "Smolder<3><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Quintin<8><BOT><CT>" with "mac10"
+L 09/24/2019 - 12:30:38: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "1")
+L 09/24/2019 - 12:30:38: World triggered "Round_End"
+L 09/24/2019 - 12:30:40: "Cap Billy<7><VALVE_ID_LAN><>" entered the game
+L 09/24/2019 - 12:30:41: "XXBOT Rip<9><BOT><>" joined team "CT"
+L 09/24/2019 - 12:30:41: Server cvar "bot_quota" = "4"
+L 09/24/2019 - 12:30:41: "XXBOT Rip<9><BOT><>" entered the game
+L 09/24/2019 - 12:30:43: "Cap Billy<7><VALVE_ID_LAN><>" joined team "CT"
+L 09/24/2019 - 12:30:44: "Smolder<3><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 09/24/2019 - 12:30:44: World triggered "Round_Start"
+L 09/24/2019 - 12:30:48: "Calcas Peludas<4><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Brett<5><BOT><CT>" with "sg552"
+L 09/24/2019 - 12:30:50: "DareDevil<10><VALVE_ID_LAN><>" connected, address "10.15.4.1:27005"
+L 09/24/2019 - 12:30:50: Server cvar "bot_quota" = "3"
+L 09/24/2019 - 12:30:50: Server cvar "bot_quota" = "2"
+L 09/24/2019 - 12:30:50: Server cvar "bot_quota" = "1"
+L 09/24/2019 - 12:30:50: Server cvar "bot_quota" = "0"
+L 09/24/2019 - 12:30:50: Kick: "XXBOT Brett<5><UNKNOWN><>" was kicked by "CEIFADOR"
+L 09/24/2019 - 12:30:50: "XXBOT Brett<5><BOT><CT>" disconnected
+L 09/24/2019 - 12:30:50: Kick: "XXBOT Crusher<6><UNKNOWN><>" was kicked by "CEIFADOR"
+L 09/24/2019 - 12:30:50: "XXBOT Crusher<6><BOT><CT>" disconnected
+L 09/24/2019 - 12:30:50: Kick: "XXBOT Quintin<8><UNKNOWN><>" was kicked by "CEIFADOR"
+L 09/24/2019 - 12:30:50: "XXBOT Quintin<8><BOT><CT>" disconnected
+L 09/24/2019 - 12:30:50: Kick: "XXBOT Rip<9><UNKNOWN><>" was kicked by "CEIFADOR"
+L 09/24/2019 - 12:30:50: "XXBOT Rip<9><BOT><CT>" disconnected
+L 09/24/2019 - 12:30:51: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Calcas Peludas<4><VALVE_ID_LAN><TERRORIST>" with "sg552"
+L 09/24/2019 - 12:30:52: "Gho$T<2><VALVE_ID_LAN><TERRORIST>" say_team "capitao voltou"
+L 09/24/2019 - 12:30:55: "Smolder<3><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<7><VALVE_ID_LAN><CT>" with "ak47"
+L 09/24/2019 - 12:30:55: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "2")
+L 09/24/2019 - 12:30:55: World triggered "Round_End"
+L 09/24/2019 - 12:30:56: "XXBOT Rock<11><BOT><>" joined team "CT"
+L 09/24/2019 - 12:30:56: Server cvar "bot_quota" = "1"
+L 09/24/2019 - 12:30:56: "XXBOT Rock<11><BOT><>" entered the game
+L 09/24/2019 - 12:31:00: "XXBOT Gunner<12><BOT><>" joined team "CT"
+L 09/24/2019 - 12:31:00: Server cvar "bot_quota" = "2"
+L 09/24/2019 - 12:31:00: "XXBOT Gunner<12><BOT><>" entered the game
+L 09/24/2019 - 12:31:00: "Calcas Peludas<4><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 09/24/2019 - 12:31:00: World triggered "Round_Start"
+L 09/24/2019 - 12:31:03: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Calcas Peludas<4><VALVE_ID_LAN><TERRORIST>" with "sg552"
+L 09/24/2019 - 12:31:03: "Calcas Peludas<4><VALVE_ID_LAN><TERRORIST>" triggered "Dropped_The_Bomb"
+L 09/24/2019 - 12:31:06: "DareDevil<10><VALVE_ID_LAN><>" entered the game
+L 09/24/2019 - 12:31:08: "XXBOT Zach<13><BOT><>" joined team "CT"
+L 09/24/2019 - 12:31:08: Server cvar "bot_quota" = "3"
+L 09/24/2019 - 12:31:08: "XXBOT Zach<13><BOT><>" entered the game
+L 09/24/2019 - 12:31:09: "XXBOT Gunner<12><BOT><CT>" killed "Smolder<3><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 09/24/2019 - 12:31:11: "DareDevil<10><VALVE_ID_LAN><>" joined team "CT"
+L 09/24/2019 - 12:31:13: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "CEIFADOR<1><VALVE_ID_LOOPBACK><TERRORIST>" with "sg552"
+L 09/24/2019 - 12:31:14: "Gho$T<2><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zach<13><BOT><CT>" with "mac10"
+L 09/24/2019 - 12:31:16: "DareDevil<10><VALVE_ID_LAN><CT>" killed "Gho$T<2><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 09/24/2019 - 12:31:16: Team "CT" triggered "CTs_Win" (CT "1") (T "2")
+L 09/24/2019 - 12:31:16: World triggered "Round_End"
+L 09/24/2019 - 12:31:21: "CEIFADOR<1><VALVE_ID_LOOPBACK><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 09/24/2019 - 12:31:21: World triggered "Round_Start"
+L 09/24/2019 - 12:31:21: Server cvar "bot_quota" = "2"
+L 09/24/2019 - 12:31:21: Server cvar "bot_quota" = "1"
+L 09/24/2019 - 12:31:21: Server cvar "bot_quota" = "0"
+L 09/24/2019 - 12:31:21: Kick: "XXBOT Rock<11><UNKNOWN><>" was kicked by "CEIFADOR"
+L 09/24/2019 - 12:31:21: "XXBOT Rock<11><BOT><CT>" disconnected
+L 09/24/2019 - 12:31:21: Kick: "XXBOT Gunner<12><UNKNOWN><>" was kicked by "CEIFADOR"
+L 09/24/2019 - 12:31:21: "XXBOT Gunner<12><BOT><CT>" disconnected
+L 09/24/2019 - 12:31:21: Kick: "XXBOT Zach<13><UNKNOWN><>" was kicked by "CEIFADOR"
+L 09/24/2019 - 12:31:21: "XXBOT Zach<13><BOT><CT>" disconnected
+L 09/24/2019 - 12:31:25: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "CEIFADOR<1><VALVE_ID_LOOPBACK><TERRORIST>" with "mp5navy"
+L 09/24/2019 - 12:31:25: "CEIFADOR<1><VALVE_ID_LOOPBACK><TERRORIST>" triggered "Dropped_The_Bomb"
+L 09/24/2019 - 12:31:26: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Calcas Peludas<4><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 09/24/2019 - 12:31:30: "Cap Billy<7><VALVE_ID_LAN><CT>" killed "Gho$T<2><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 09/24/2019 - 12:31:32: "XXBOT Wolf<14><BOT><>" joined team "CT"
+L 09/24/2019 - 12:31:32: Server cvar "bot_quota" = "1"
+L 09/24/2019 - 12:31:32: "XXBOT Wolf<14><BOT><>" entered the game
+L 09/24/2019 - 12:31:35: "DareDevil<10><VALVE_ID_LAN><CT>" killed "Smolder<3><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 09/24/2019 - 12:31:35: Team "CT" triggered "CTs_Win" (CT "2") (T "2")
+L 09/24/2019 - 12:31:35: World triggered "Round_End"
+L 09/24/2019 - 12:31:36: "XXBOT Ringo<15><BOT><>" joined team "CT"
+L 09/24/2019 - 12:31:36: Server cvar "bot_quota" = "2"
+L 09/24/2019 - 12:31:36: "XXBOT Ringo<15><BOT><>" entered the game
+L 09/24/2019 - 12:31:40: "INDIO de ferias<16><VALVE_ID_LAN><>" connected, address "10.15.2.117:27005"
+L 09/24/2019 - 12:31:40: Log file closed

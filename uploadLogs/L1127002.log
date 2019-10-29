@@ -1,0 +1,290 @@
+L 11/27/2018 - 12:44:25: Log file started (file "logs\L1127002.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 11/27/2018 - 12:44:25: "Jack<13><VALVE_ID_LAN><>" entered the game
+L 11/27/2018 - 12:44:25: "Smolder<12><VALVE_ID_LAN><>" entered the game
+L 11/27/2018 - 12:44:27: "Gho$T<14><VALVE_ID_LAN><>" entered the game
+L 11/27/2018 - 12:44:27: "Kitkat<11><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 11/27/2018 - 12:44:28: "Smolder<12><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 11/27/2018 - 12:44:28: World triggered "Game_Commencing"
+L 11/27/2018 - 12:44:28: World triggered "Game_Commencing" (CT "0") (T "0")
+L 11/27/2018 - 12:44:28: World triggered "Round_End"
+L 11/27/2018 - 12:44:29: "Jack<13><VALVE_ID_LAN><>" joined team "CT"
+L 11/27/2018 - 12:44:30: "Gho$T<14><VALVE_ID_LAN><>" joined team "CT"
+L 11/27/2018 - 12:44:31: World triggered "Round_Start"
+L 11/27/2018 - 12:44:32: "Gho$T<14><VALVE_ID_LAN><CT>" committed suicide with "world"
+L 11/27/2018 - 12:44:32: "Gho$T<14><VALVE_ID_LAN><CT>" joined team "TERRORIST"
+L 11/27/2018 - 12:44:33: "@te<15><VALVE_ID_LAN><>" connected, address "10.15.2.23:27005"
+L 11/27/2018 - 12:44:36: "@te<15><VALVE_ID_LAN><>" entered the game
+L 11/27/2018 - 12:44:36: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:44:39: "@te<15><VALVE_ID_LAN><>" joined team "CT"
+L 11/27/2018 - 12:44:41: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "NOVATO<9><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 11/27/2018 - 12:44:43: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" say "yboa" (dead)
+L 11/27/2018 - 12:44:56: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "Jack<13><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:44:59: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "@te<15><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:44:59: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "1")
+L 11/27/2018 - 12:44:59: World triggered "Round_End"
+L 11/27/2018 - 12:45:00: "Cap Billy<16><VALVE_ID_LAN><>" connected, address "10.15.2.199:27005"
+L 11/27/2018 - 12:45:03: "Cap Billy<16><VALVE_ID_LAN><>" entered the game
+L 11/27/2018 - 12:45:04: World triggered "Round_Start"
+L 11/27/2018 - 12:45:05: "Cap Billy<16><VALVE_ID_LAN><>" joined team "CT"
+L 11/27/2018 - 12:45:10: "Jack<13><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:45:10: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<16><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:45:14: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "Jack<13><VALVE_ID_LAN><CT>" with "knife"
+L 11/27/2018 - 12:45:15: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:45:18: "@te<15><VALVE_ID_LAN><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:45:18: Team "CT" triggered "CTs_Win" (CT "1") (T "1")
+L 11/27/2018 - 12:45:18: World triggered "Round_End"
+L 11/27/2018 - 12:45:23: World triggered "Round_Start"
+L 11/27/2018 - 12:45:30: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "Jack<13><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:45:31: "Kitkat<11><VALVE_ID_LAN><TERRORIST>" killed "@te<15><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:45:32: "XXBOT John<17><BOT><>" joined team "CT"
+L 11/27/2018 - 12:45:32: Server cvar "bot_quota" = "1"
+L 11/27/2018 - 12:45:32: "XXBOT John<17><BOT><>" entered the game
+L 11/27/2018 - 12:45:36: "XXBOT John<17><BOT><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:45:37: "Kitkat<11><VALVE_ID_LAN><TERRORIST>" killed "XXBOT John<17><BOT><CT>" with "glock18"
+L 11/27/2018 - 12:45:41: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:45:44: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:45:44: Team "CT" triggered "CTs_Win" (CT "2") (T "1")
+L 11/27/2018 - 12:45:44: World triggered "Round_End"
+L 11/27/2018 - 12:45:45: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" say "o bot [e pros tr" (dead)
+L 11/27/2018 - 12:45:46: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" say "kkkk" (dead)
+L 11/27/2018 - 12:45:48: Server cvar "bot_quota" = "0"
+L 11/27/2018 - 12:45:48: Kick: "XXBOT John<17><UNKNOWN><>" was kicked by "NOVATO"
+L 11/27/2018 - 12:45:48: "XXBOT John<17><BOT><CT>" disconnected
+L 11/27/2018 - 12:45:49: World triggered "Round_Start"
+L 11/27/2018 - 12:45:53: "XXBOT Gabe<18><BOT><>" joined team "TERRORIST"
+L 11/27/2018 - 12:45:53: Server cvar "bot_quota" = "1"
+L 11/27/2018 - 12:45:53: "XXBOT Gabe<18><BOT><>" entered the game
+L 11/27/2018 - 12:46:02: "Jack<13><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:46:06: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "@te<15><VALVE_ID_LAN><CT>" with "knife"
+L 11/27/2018 - 12:46:08: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "Jack<13><VALVE_ID_LAN><CT>" with "knife"
+L 11/27/2018 - 12:46:10: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:46:10: "Smolder<12><VALVE_ID_LAN><TERRORIST>" say "tome" (dead)
+L 11/27/2018 - 12:46:12: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<18><BOT><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:46:14: "Jack<13><VALVE_ID_LAN><CT>" say "rs" (dead)
+L 11/27/2018 - 12:46:16: "Kitkat<11><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<16><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:46:21: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:46:21: Team "CT" triggered "CTs_Win" (CT "3") (T "1")
+L 11/27/2018 - 12:46:21: World triggered "Round_End"
+L 11/27/2018 - 12:46:24: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" say "quaase" (dead)
+L 11/27/2018 - 12:46:26: World triggered "Round_Start"
+L 11/27/2018 - 12:46:31: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:46:32: "Jack<13><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:46:32: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" killed "XXBOT Gabe<18><BOT><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:46:35: "Kitkat<11><VALVE_ID_LAN><TERRORIST>" killed "@te<15><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:46:39: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:46:39: Team "CT" triggered "CTs_Win" (CT "4") (T "1")
+L 11/27/2018 - 12:46:39: World triggered "Round_End"
+L 11/27/2018 - 12:46:44: World triggered "Round_Start"
+L 11/27/2018 - 12:46:53: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" killed "XXBOT Gabe<18><BOT><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:46:54: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "Jack<13><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:46:55: "@te<15><VALVE_ID_LAN><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:46:57: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "NOVATO<9><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 11/27/2018 - 12:46:57: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:47:07: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" say "bala" (dead)
+L 11/27/2018 - 12:47:14: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:47:14: Team "CT" triggered "CTs_Win" (CT "5") (T "1")
+L 11/27/2018 - 12:47:14: World triggered "Round_End"
+L 11/27/2018 - 12:47:19: World triggered "Round_Start"
+L 11/27/2018 - 12:47:19: "Jack<13><VALVE_ID_LAN><CT>" say "bigi"
+L 11/27/2018 - 12:47:24: "XXBOT Gabe<18><BOT><TERRORIST>" killed "Cap Billy<16><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:47:29: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" killed "XXBOT Gabe<18><BOT><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:47:30: "Jack<13><VALVE_ID_LAN><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:47:31: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "Jack<13><VALVE_ID_LAN><CT>" with "knife"
+L 11/27/2018 - 12:47:35: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "@te<15><VALVE_ID_LAN><CT>" with "knife"
+L 11/27/2018 - 12:47:38: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" say "eita" (dead)
+L 11/27/2018 - 12:47:40: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" say "fila" (dead)
+L 11/27/2018 - 12:47:41: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "NOVATO<9><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 11/27/2018 - 12:47:41: Team "TERRORIST" triggered "Terrorists_Win" (CT "5") (T "2")
+L 11/27/2018 - 12:47:41: World triggered "Round_End"
+L 11/27/2018 - 12:47:46: World triggered "Round_Start"
+L 11/27/2018 - 12:47:51: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:47:52: "@te<15><VALVE_ID_LAN><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:47:53: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" killed "XXBOT Gabe<18><BOT><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:47:56: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:47:56: Team "CT" triggered "CTs_Win" (CT "6") (T "2")
+L 11/27/2018 - 12:47:56: World triggered "Round_End"
+L 11/27/2018 - 12:48:01: World triggered "Round_Start"
+L 11/27/2018 - 12:48:08: "Jack<13><VALVE_ID_LAN><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:48:10: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<16><VALVE_ID_LAN><CT>" with "knife"
+L 11/27/2018 - 12:48:11: "Jack<13><VALVE_ID_LAN><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:48:24: "XXBOT Gabe<18><BOT><TERRORIST>" killed "NOVATO<9><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 11/27/2018 - 12:48:26: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "Jack<13><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:48:27: "@te<15><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:48:31: "XXBOT Gabe<18><BOT><TERRORIST>" killed "@te<15><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:48:31: Team "TERRORIST" triggered "Terrorists_Win" (CT "6") (T "3")
+L 11/27/2018 - 12:48:31: World triggered "Round_End"
+L 11/27/2018 - 12:48:34: "Jack<13><VALVE_ID_LAN><CT>" say "deixaram no sal..so digo" (dead)
+L 11/27/2018 - 12:48:36: World triggered "Round_Start"
+L 11/27/2018 - 12:48:41: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:48:44: "Kitkat<11><VALVE_ID_LAN><TERRORIST>" killed "Jack<13><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:48:45: "@te<15><VALVE_ID_LAN><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:48:49: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<16><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:48:51: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" killed "@te<15><VALVE_ID_LAN><CT>" with "knife"
+L 11/27/2018 - 12:48:52: "XXBOT Gabe<18><BOT><TERRORIST>" killed "NOVATO<9><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 11/27/2018 - 12:48:52: Team "TERRORIST" triggered "Terrorists_Win" (CT "6") (T "4")
+L 11/27/2018 - 12:48:52: World triggered "Round_End"
+L 11/27/2018 - 12:48:54: "Jack<13><VALVE_ID_LAN><CT>" say "linda" (dead)
+L 11/27/2018 - 12:48:55: "Smolder<12><VALVE_ID_LAN><TERRORIST>" say "boa" (dead)
+L 11/27/2018 - 12:48:57: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" committed suicide with "world"
+L 11/27/2018 - 12:48:57: World triggered "Round_Start"
+L 11/27/2018 - 12:48:58: "@te<15><VALVE_ID_LAN><CT>" say "eita freswco"
+L 11/27/2018 - 12:48:58: "Smolder<12><VALVE_ID_LAN><TERRORIST>" say "linda"
+L 11/27/2018 - 12:49:03: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<18><BOT><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:49:05: "Jack<13><VALVE_ID_LAN><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:49:10: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "Jack<13><VALVE_ID_LAN><CT>" with "knife"
+L 11/27/2018 - 12:49:19: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<16><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:49:24: "@te<15><VALVE_ID_LAN><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:49:29: "@te<15><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:49:29: Team "CT" triggered "CTs_Win" (CT "7") (T "4")
+L 11/27/2018 - 12:49:29: World triggered "Round_End"
+L 11/27/2018 - 12:49:30: "Jack<13><VALVE_ID_LAN><CT>" say "frescoww" (dead)
+L 11/27/2018 - 12:49:34: World triggered "Round_Start"
+L 11/27/2018 - 12:49:45: "Jack<13><VALVE_ID_LAN><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:49:46: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:49:47: "@te<15><VALVE_ID_LAN><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:49:56: "XXBOT Gabe<18><BOT><TERRORIST>" killed "NOVATO<9><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 11/27/2018 - 12:49:57: "@te<15><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<18><BOT><TERRORIST>" with "knife"
+L 11/27/2018 - 12:49:57: Team "CT" triggered "CTs_Win" (CT "8") (T "4")
+L 11/27/2018 - 12:49:57: World triggered "Round_End"
+L 11/27/2018 - 12:50:02: World triggered "Round_Start"
+L 11/27/2018 - 12:50:11: "Kitkat<11><VALVE_ID_LAN><TERRORIST>" killed "NOVATO<9><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 11/27/2018 - 12:50:12: "@te<15><VALVE_ID_LAN><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:50:15: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "@te<15><VALVE_ID_LAN><CT>" with "knife"
+L 11/27/2018 - 12:50:21: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:50:33: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "Jack<13><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:50:34: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:50:46: "XXBOT Gabe<18><BOT><TERRORIST>" committed suicide with "glock18"
+L 11/27/2018 - 12:50:46: Team "CT" triggered "CTs_Win" (CT "9") (T "4")
+L 11/27/2018 - 12:50:46: World triggered "Round_End"
+L 11/27/2018 - 12:50:51: World triggered "Round_Start"
+L 11/27/2018 - 12:50:51: "Cap Billy<16><VALVE_ID_LAN><CT>" say_team "BOA JACCKKK"
+L 11/27/2018 - 12:50:59: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<18><BOT><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:50:59: "Jack<13><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:51:04: "Kitkat<11><VALVE_ID_LAN><TERRORIST>" killed "@te<15><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:51:06: "Kitkat<11><VALVE_ID_LAN><TERRORIST>" killed "Jack<13><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:51:10: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:51:19: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:51:19: Team "CT" triggered "CTs_Win" (CT "10") (T "4")
+L 11/27/2018 - 12:51:19: World triggered "Round_End"
+L 11/27/2018 - 12:51:23: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" say "timeleft" (dead)
+L 11/27/2018 - 12:51:24: World triggered "Round_Start"
+L 11/27/2018 - 12:51:28: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<18><BOT><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:51:29: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:51:36: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "Jack<13><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:51:38: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "@te<15><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:51:40: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "NOVATO<9><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 11/27/2018 - 12:51:41: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:51:44: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<16><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:51:44: Team "TERRORIST" triggered "Terrorists_Win" (CT "10") (T "5")
+L 11/27/2018 - 12:51:44: World triggered "Round_End"
+L 11/27/2018 - 12:51:49: World triggered "Round_Start"
+L 11/27/2018 - 12:51:50: "Jack<13><VALVE_ID_LAN><CT>" say "eiiitaa ghost"
+L 11/27/2018 - 12:51:57: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:51:57: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "Jack<13><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:51:58: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:52:01: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<18><BOT><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:52:11: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "NOVATO<9><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 11/27/2018 - 12:52:13: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "@te<15><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:52:18: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<16><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:52:18: Team "TERRORIST" triggered "Terrorists_Win" (CT "10") (T "6")
+L 11/27/2018 - 12:52:18: World triggered "Round_End"
+L 11/27/2018 - 12:52:20: "Smolder<12><VALVE_ID_LAN><TERRORIST>" say "boa" (dead)
+L 11/27/2018 - 12:52:23: World triggered "Round_Start"
+L 11/27/2018 - 12:52:31: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:52:32: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:52:33: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "NOVATO<9><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 11/27/2018 - 12:52:38: "@te<15><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<18><BOT><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:52:43: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:52:43: Team "CT" triggered "CTs_Win" (CT "11") (T "6")
+L 11/27/2018 - 12:52:43: World triggered "Round_End"
+L 11/27/2018 - 12:52:48: World triggered "Round_Start"
+L 11/27/2018 - 12:52:51: Server cvar "amx_nextmap" = "ak-colt_dust_arena"
+L 11/27/2018 - 12:52:53: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<18><BOT><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:52:53: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:53:01: "@te<15><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:53:03: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "@te<15><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:53:13: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<16><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:53:25: "Jack<13><VALVE_ID_LAN><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:53:25: Team "CT" triggered "CTs_Win" (CT "12") (T "6")
+L 11/27/2018 - 12:53:25: World triggered "Round_End"
+L 11/27/2018 - 12:53:28: "Cap Billy<16><VALVE_ID_LAN><CT>" say_team "yISSOOOOO" (dead)
+L 11/27/2018 - 12:53:30: World triggered "Round_Start"
+L 11/27/2018 - 12:53:30: "Jack<13><VALVE_ID_LAN><CT>" say "kkkkk"
+L 11/27/2018 - 12:53:38: "@te<15><VALVE_ID_LAN><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:53:39: "Jack<13><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<18><BOT><TERRORIST>" with "knife"
+L 11/27/2018 - 12:53:41: "Jack<13><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:53:41: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:53:41: Team "CT" triggered "CTs_Win" (CT "13") (T "6")
+L 11/27/2018 - 12:53:41: World triggered "Round_End"
+L 11/27/2018 - 12:53:46: World triggered "Round_Start"
+L 11/27/2018 - 12:53:51: "Smolder<12><VALVE_ID_LAN><TERRORIST>" killed "NOVATO<9><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 11/27/2018 - 12:53:51: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "XXBOT Gabe<18><BOT><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:53:54: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Kitkat<11><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:53:55: "Jack<13><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:54:09: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" killed "Jack<13><VALVE_ID_LAN><CT>" with "glock18"
+L 11/27/2018 - 12:54:12: "@te<15><VALVE_ID_LAN><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:54:12: Team "CT" triggered "CTs_Win" (CT "14") (T "6")
+L 11/27/2018 - 12:54:12: World triggered "Round_End"
+L 11/27/2018 - 12:54:14: "Jack<13><VALVE_ID_LAN><CT>" say "kkkkkk" (dead)
+L 11/27/2018 - 12:54:17: World triggered "Round_Start"
+L 11/27/2018 - 12:54:17: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" say "foda"
+L 11/27/2018 - 12:54:27: "Jack<13><VALVE_ID_LAN><CT>" killed "Smolder<12><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/27/2018 - 12:54:27: "Cap Billy<16><VALVE_ID_LAN><CT>" killed "Gho$T<14><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:54:31: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" killed "XXBOT Gabe<18><BOT><TERRORIST>" with "glock18"
+L 11/27/2018 - 12:54:31: Team "CT" scored "14" with "4" players
+L 11/27/2018 - 12:54:31: Team "TERRORIST" scored "6" with "4" players
+L 11/27/2018 - 12:54:34: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "glock18") (shots "190") (hits "52") (kills "10") (headshots "10") (tks "0") (damage "1594") (deaths "4")
+L 11/27/2018 - 12:54:34: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "glock18") (head "15") (chest "9") (stomach "6") (leftarm "10") (rightarm "11") (leftleg "1") (rightleg "0")
+L 11/27/2018 - 12:54:34: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "knife") (shots "23") (hits "11") (kills "6") (headshots "3") (tks "1") (damage "1053") (deaths "8")
+L 11/27/2018 - 12:54:34: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "knife") (head "6") (chest "1") (stomach "0") (leftarm "2") (rightarm "2") (leftleg "0") (rightleg "0")
+L 11/27/2018 - 12:54:34: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" triggered "time" (time "10:13")
+L 11/27/2018 - 12:54:34: "NOVATO<9><VALVE_ID_LOOPBACK><CT>" triggered "latency" (ping "0")
+L 11/27/2018 - 12:54:34: "Kitkat<11><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "114") (hits "32") (kills "8") (headshots "7") (tks "0") (damage "1081") (deaths "15")
+L 11/27/2018 - 12:54:34: "Kitkat<11><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "10") (chest "2") (stomach "1") (leftarm "8") (rightarm "9") (leftleg "0") (rightleg "2")
+L 11/27/2018 - 12:54:34: "Kitkat<11><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "4") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "55") (deaths "4")
+L 11/27/2018 - 12:54:34: "Kitkat<11><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "1") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/27/2018 - 12:54:34: "Kitkat<11><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:10")
+L 11/27/2018 - 12:54:34: "Kitkat<11><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "14")
+L 11/27/2018 - 12:54:34: "Smolder<12><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "181") (hits "61") (kills "10") (headshots "7") (tks "0") (damage "1544") (deaths "9")
+L 11/27/2018 - 12:54:34: "Smolder<12><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "14") (chest "11") (stomach "2") (leftarm "20") (rightarm "11") (leftleg "2") (rightleg "1")
+L 11/27/2018 - 12:54:34: "Smolder<12><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "21") (hits "14") (kills "6") (headshots "4") (tks "0") (damage "1385") (deaths "10")
+L 11/27/2018 - 12:54:34: "Smolder<12><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "4") (chest "5") (stomach "0") (leftarm "3") (rightarm "1") (leftleg "0") (rightleg "1")
+L 11/27/2018 - 12:54:34: "Smolder<12><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:09")
+L 11/27/2018 - 12:54:34: "Smolder<12><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "7")
+L 11/27/2018 - 12:54:34: "Jack<13><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "124") (hits "43") (kills "10") (headshots "7") (tks "0") (damage "1477") (deaths "6")
+L 11/27/2018 - 12:54:34: "Jack<13><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "13") (chest "7") (stomach "1") (leftarm "15") (rightarm "6") (leftleg "0") (rightleg "1")
+L 11/27/2018 - 12:54:34: "Jack<13><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "13") (hits "7") (kills "4") (headshots "3") (tks "0") (damage "948") (deaths "8")
+L 11/27/2018 - 12:54:34: "Jack<13><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "4") (chest "2") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "1")
+L 11/27/2018 - 12:54:34: "Jack<13><VALVE_ID_LAN><CT>" triggered "time" (time "10:09")
+L 11/27/2018 - 12:54:34: "Jack<13><VALVE_ID_LAN><CT>" triggered "latency" (ping "10")
+L 11/27/2018 - 12:54:34: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "222") (hits "57") (kills "14") (headshots "13") (tks "0") (damage "1805") (deaths "7")
+L 11/27/2018 - 12:54:34: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "15") (chest "6") (stomach "3") (leftarm "18") (rightarm "15") (leftleg "0") (rightleg "0")
+L 11/27/2018 - 12:54:34: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "15") (hits "8") (kills "3") (headshots "1") (tks "0") (damage "755") (deaths "10")
+L 11/27/2018 - 12:54:34: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "2") (chest "4") (stomach "0") (leftarm "0") (rightarm "2") (leftleg "0") (rightleg "0")
+L 11/27/2018 - 12:54:34: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:08")
+L 11/27/2018 - 12:54:34: "Gho$T<14><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "10")
+L 11/27/2018 - 12:54:34: "@te<15><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "156") (hits "53") (kills "10") (headshots "6") (tks "0") (damage "1234") (deaths "7")
+L 11/27/2018 - 12:54:34: "@te<15><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "7") (chest "11") (stomach "5") (leftarm "15") (rightarm "13") (leftleg "1") (rightleg "1")
+L 11/27/2018 - 12:54:34: "@te<15><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "21") (hits "12") (kills "4") (headshots "3") (tks "0") (damage "975") (deaths "5")
+L 11/27/2018 - 12:54:34: "@te<15><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "8") (chest "2") (stomach "0") (leftarm "0") (rightarm "2") (leftleg "0") (rightleg "0")
+L 11/27/2018 - 12:54:34: "@te<15><VALVE_ID_LAN><CT>" triggered "time" (time "9:58")
+L 11/27/2018 - 12:54:34: "@te<15><VALVE_ID_LAN><CT>" triggered "latency" (ping "5")
+L 11/27/2018 - 12:54:34: "Cap Billy<16><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "184") (hits "65") (kills "20") (headshots "18") (tks "0") (damage "2610") (deaths "5")
+L 11/27/2018 - 12:54:34: "Cap Billy<16><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "26") (chest "9") (stomach "3") (leftarm "14") (rightarm "11") (leftleg "0") (rightleg "2")
+L 11/27/2018 - 12:54:34: "Cap Billy<16><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "14") (hits "10") (kills "6") (headshots "2") (tks "0") (damage "755") (deaths "4")
+L 11/27/2018 - 12:54:34: "Cap Billy<16><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "3") (chest "1") (stomach "0") (leftarm "3") (rightarm "2") (leftleg "0") (rightleg "1")
+L 11/27/2018 - 12:54:34: "Cap Billy<16><VALVE_ID_LAN><CT>" triggered "time" (time "9:31")
+L 11/27/2018 - 12:54:34: "Cap Billy<16><VALVE_ID_LAN><CT>" triggered "latency" (ping "10")
+L 11/27/2018 - 12:54:35: [META] ini: Begin re-reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini
+L 11/27/2018 - 12:54:35: [META] ini: Read plugin config for: AMX
+L 11/27/2018 - 12:54:35: [META] ini: Read plugin config for: WinHL-Booster
+L 11/27/2018 - 12:54:35: [META] ERROR: ini: Skipping plugin, couldn't stat file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': No such file or directory
+L 11/27/2018 - 12:54:35: [META] ini: Read plugin config for: WebMod
+L 11/27/2018 - 12:54:35: [META] ini: Finished reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini; Found 3 plugins
+L 11/27/2018 - 12:54:35: [META] dll: Updating plugins...
+L 11/27/2018 - 12:54:35: [META] ERROR: dll: Failed query plugin '<hlguard_mm_nightly.dll>'; Couldn't open file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': Não foi possível encontrar o módulo especificado.
+
+L 11/27/2018 - 12:54:35: [META] ERROR: dll: Skipping plugin '<hlguard_mm_nightly.dll>'; couldn't query
+L 11/27/2018 - 12:54:35: [META] dll: Finished updating 6 plugins; kept 3, loaded 0, unloaded 0, reloaded 0, delayed 0
+L 11/27/2018 - 12:54:35: Server shutdown
+L 11/27/2018 - 12:54:35: Log file closed

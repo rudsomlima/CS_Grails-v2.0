@@ -1,0 +1,49 @@
+L 09/27/2019 - 12:29:22: Log file started (file "logs\L0927000.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 09/27/2019 - 12:29:22: "Smolder<8><VALVE_ID_LAN><>" entered the game
+L 09/27/2019 - 12:29:22: "Cap Billy<9><VALVE_ID_LAN><>" entered the game
+L 09/27/2019 - 12:29:23: "INDIO de ferias<10><VALVE_ID_LAN><>" entered the game
+L 09/27/2019 - 12:29:23: "Kitkat<13><VALVE_ID_LAN><>" connected, address "10.15.2.150:27005"
+L 09/27/2019 - 12:29:24: "Calcas Peludas<11><VALVE_ID_LAN><>" entered the game
+L 09/27/2019 - 12:29:24: "Gho$T<12><VALVE_ID_LAN><>" entered the game
+L 09/27/2019 - 12:29:25: "Cap Billy<9><VALVE_ID_LAN><>" joined team "CT"
+L 09/27/2019 - 12:29:25: World triggered "Game_Commencing"
+L 09/27/2019 - 12:29:25: World triggered "Game_Commencing" (CT "0") (T "0")
+L 09/27/2019 - 12:29:25: World triggered "Round_End"
+L 09/27/2019 - 12:29:26: "Calcas Peludas<11><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/27/2019 - 12:29:26: "Smolder<8><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/27/2019 - 12:29:26: "Gho$T<12><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/27/2019 - 12:29:27: "INDIO de ferias<10><VALVE_ID_LAN><>" joined team "CT"
+L 09/27/2019 - 12:29:28: "Smolder<8><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 09/27/2019 - 12:29:28: World triggered "Round_Start"
+L 09/27/2019 - 12:29:29: "Kitkat<13><VALVE_ID_LAN><>" entered the game
+L 09/27/2019 - 12:29:30: "DareDevil<14><VALVE_ID_LAN><>" connected, address "10.15.4.1:27005"
+L 09/27/2019 - 12:29:31: "Cap Billy<9><VALVE_ID_LAN><CT>" killed "Gho$T<12><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 09/27/2019 - 12:29:32: "Kitkat<13><VALVE_ID_LAN><>" joined team "CT"
+L 09/27/2019 - 12:29:33: "Smolder<8><VALVE_ID_LAN><TERRORIST>" killed "INDIO de ferias<10><VALVE_ID_LAN><CT>" with "xm1014"
+L 09/27/2019 - 12:29:34: "Cap Billy<9><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "sg552"
+L 09/27/2019 - 12:29:34: "Smolder<8><VALVE_ID_LAN><TERRORIST>" triggered "Dropped_The_Bomb"
+L 09/27/2019 - 12:29:37: "Cap Billy<9><VALVE_ID_LAN><CT>" killed "CEIFADOR<7><VALVE_ID_LOOPBACK><TERRORIST>" with "sg552"
+L 09/27/2019 - 12:29:38: "Calcas Peludas<11><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<13><VALVE_ID_LAN><CT>" with "ak47"
+L 09/27/2019 - 12:29:40: "Gho$T<12><VALVE_ID_LAN><TERRORIST>" say "kd @" (dead)
+L 09/27/2019 - 12:29:41: "Calcas Peludas<11><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<9><VALVE_ID_LAN><CT>" with "ak47"
+L 09/27/2019 - 12:29:41: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "1")
+L 09/27/2019 - 12:29:41: World triggered "Round_End"
+L 09/27/2019 - 12:29:42: "XXBOT Arnold<15><BOT><>" joined team "CT"
+L 09/27/2019 - 12:29:42: Server cvar "bot_quota" = "1"
+L 09/27/2019 - 12:29:42: "XXBOT Arnold<15><BOT><>" entered the game
+L 09/27/2019 - 12:29:43: "Gho$T<12><VALVE_ID_LAN><TERRORIST>" say "fuao" (dead)
+L 09/27/2019 - 12:29:44: "XXBOT Arnold<15><BOT><CT>" killed "Calcas Peludas<11><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 09/27/2019 - 12:29:46: "DareDevil<14><VALVE_ID_LAN><>" entered the game
+L 09/27/2019 - 12:29:46: "Calcas Peludas<11><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 09/27/2019 - 12:29:46: World triggered "Round_Start"
+L 09/27/2019 - 12:29:51: "DareDevil<14><VALVE_ID_LAN><>" joined team "CT"
+L 09/27/2019 - 12:29:52: "Cap Billy<9><VALVE_ID_LAN><CT>" killed "CEIFADOR<7><VALVE_ID_LOOPBACK><TERRORIST>" with "aug"
+L 09/27/2019 - 12:29:53: "Cap Billy<9><VALVE_ID_LAN><CT>" killed "Gho$T<12><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 09/27/2019 - 12:29:54: "Calcas Peludas<11><VALVE_ID_LAN><TERRORIST>" killed "Kitkat<13><VALVE_ID_LAN><CT>" with "m249"
+L 09/27/2019 - 12:29:56: "Smolder<8><VALVE_ID_LAN><TERRORIST>" killed "DareDevil<14><VALVE_ID_LAN><CT>" with "mp5navy"
+L 09/27/2019 - 12:29:57: "INDIO de ferias<10><VALVE_ID_LAN><CT>" killed "Smolder<8><VALVE_ID_LAN><TERRORIST>" with "sg552"
+L 09/27/2019 - 12:30:00: Server cvar "bot_quota" = "0"
+L 09/27/2019 - 12:30:00: Kick: "XXBOT Arnold<15><UNKNOWN><>" was kicked by "CEIFADOR"
+L 09/27/2019 - 12:30:00: "XXBOT Arnold<15><BOT><CT>" disconnected
+L 09/27/2019 - 12:30:06: "Calcas Peludas<11><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<9><VALVE_ID_LAN><CT>" with "aug"
+L 09/27/2019 - 12:30:08: Log file closed

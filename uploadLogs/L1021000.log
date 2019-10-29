@@ -1,0 +1,25 @@
+L 10/21/2019 - 12:29:12: Log file started (file "logs\L1021000.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 10/21/2019 - 12:29:12: "Cap Billy<5><VALVE_ID_LAN><>" connected, address "10.15.2.199:27005"
+L 10/21/2019 - 12:29:15: "Cap Billy<5><VALVE_ID_LAN><>" entered the game
+L 10/21/2019 - 12:29:16: "CEIFADOR<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "time" (time "0:07")
+L 10/21/2019 - 12:29:16: "CEIFADOR<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "latency" (ping "0")
+L 10/21/2019 - 12:29:16: "Cap Billy<5><VALVE_ID_LAN><UNASSIGNED>" triggered "time" (time "0:00")
+L 10/21/2019 - 12:29:16: "Cap Billy<5><VALVE_ID_LAN><UNASSIGNED>" triggered "latency" (ping "0")
+L 10/21/2019 - 12:29:16: [META] ini: Begin re-reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini
+L 10/21/2019 - 12:29:16: [META] ini: Read plugin config for: AMX
+L 10/21/2019 - 12:29:16: [META] ini: Read plugin config for: WinHL-Booster
+L 10/21/2019 - 12:29:16: [META] ERROR: ini: Skipping plugin, couldn't stat file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': No such file or directory
+L 10/21/2019 - 12:29:16: [META] ini: Read plugin config for: WebMod
+L 10/21/2019 - 12:29:16: [META] ini: Finished reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini; Found 3 plugins
+L 10/21/2019 - 12:29:16: [META] dll: Updating plugins...
+L 10/21/2019 - 12:29:16: [META] ERROR: dll: Failed query plugin '<hlguard_mm_nightly.dll>'; Couldn't open file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': Não foi possível encontrar o módulo especificado.
+
+L 10/21/2019 - 12:29:16: [META] ERROR: dll: Skipping plugin '<hlguard_mm_nightly.dll>'; couldn't query
+L 10/21/2019 - 12:29:16: [META] dll: Finished updating 6 plugins; kept 3, loaded 0, unloaded 0, reloaded 0, delayed 0
+L 10/21/2019 - 12:29:16: "CEIFADOR<-1><><TERRORIST>" triggered "Dropped_The_Bomb"
+L 10/21/2019 - 12:29:16: "CEIFADOR<-1><><TERRORIST>" disconnected
+L 10/21/2019 - 12:29:16: World triggered "Round_Draw" (CT "0") (T "0")
+L 10/21/2019 - 12:29:16: World triggered "Round_End"
+L 10/21/2019 - 12:29:16: "Cap Billy<-1><><>" disconnected
+L 10/21/2019 - 12:29:16: Server shutdown
+L 10/21/2019 - 12:29:16: Log file closed

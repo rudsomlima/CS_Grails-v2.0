@@ -1,0 +1,309 @@
+L 04/18/2018 - 12:41:10: Log file started (file "logs\L0418002.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 04/18/2018 - 12:41:10: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><>" entered the game
+L 04/18/2018 - 12:41:10: "Smolder<18><VALVE_ID_LAN><>" entered the game
+L 04/18/2018 - 12:41:11: "TUX<20><VALVE_ID_LAN><>" entered the game
+L 04/18/2018 - 12:41:12: "Smolder<18><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 04/18/2018 - 12:41:13: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 04/18/2018 - 12:41:13: World triggered "Game_Commencing"
+L 04/18/2018 - 12:41:13: World triggered "Game_Commencing" (CT "0") (T "0")
+L 04/18/2018 - 12:41:13: World triggered "Round_End"
+L 04/18/2018 - 12:41:14: "TUX<20><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 04/18/2018 - 12:41:15: "Ice_Man<21><VALVE_ID_LAN><>" entered the game
+L 04/18/2018 - 12:41:15: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 04/18/2018 - 12:41:16: World triggered "Round_Start"
+L 04/18/2018 - 12:41:17: "Ice_Man<21><VALVE_ID_LAN><>" joined team "CT"
+L 04/18/2018 - 12:41:18: "Calcas Peludas<22><VALVE_ID_LAN><>" connected, address "10.15.2.49:27005"
+L 04/18/2018 - 12:41:21: "Calcas Peludas<22><VALVE_ID_LAN><>" entered the game
+L 04/18/2018 - 12:41:22: "Calcas Peludas<22><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 04/18/2018 - 12:41:23: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Adrian<17><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:41:25: "Ice_Man<21><VALVE_ID_LAN><CT>" killed "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:41:25: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "TUX<20><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:41:26: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:41:36: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:41:37: "@te<23><VALVE_ID_LAN><>" connected, address "10.15.2.23:27005"
+L 04/18/2018 - 12:41:40: "@te<23><VALVE_ID_LAN><>" entered the game
+L 04/18/2018 - 12:41:40: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Smolder<18><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:41:40: Team "CT" triggered "CTs_Win" (CT "1") (T "0")
+L 04/18/2018 - 12:41:40: World triggered "Round_End"
+L 04/18/2018 - 12:41:45: World triggered "Round_Start"
+L 04/18/2018 - 12:41:47: "@te<23><VALVE_ID_LAN><>" joined team "CT"
+L 04/18/2018 - 12:41:50: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:41:54: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Adrian<17><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:41:54: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:41:58: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "TUX<20><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:42:04: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "@te<23><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:42:10: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:42:13: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Smolder<18><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:42:13: Team "CT" triggered "CTs_Win" (CT "2") (T "0")
+L 04/18/2018 - 12:42:13: World triggered "Round_End"
+L 04/18/2018 - 12:42:18: World triggered "Round_Start"
+L 04/18/2018 - 12:42:22: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Adrian<17><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:42:26: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:42:28: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "@te<23><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:42:35: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "TUX<20><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:42:42: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Smolder<18><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:42:46: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:42:58: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:42:58: Team "CT" triggered "CTs_Win" (CT "3") (T "0")
+L 04/18/2018 - 12:42:58: World triggered "Round_End"
+L 04/18/2018 - 12:43:03: World triggered "Round_Start"
+L 04/18/2018 - 12:43:12: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:43:12: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Adrian<17><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:43:20: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "@te<23><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:43:24: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Smolder<18><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:43:27: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:43:29: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "TUX<20><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:43:29: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 04/18/2018 - 12:43:29: Team "TERRORIST" triggered "Terrorists_Win" (CT "3") (T "1")
+L 04/18/2018 - 12:43:29: World triggered "Round_End"
+L 04/18/2018 - 12:43:34: World triggered "Round_Start"
+L 04/18/2018 - 12:43:35: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" say "miserave"
+L 04/18/2018 - 12:43:40: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 04/18/2018 - 12:43:41: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Adrian<17><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:43:41: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "@te<23><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:43:41: "Ice_Man<21><VALVE_ID_LAN><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:43:47: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:43:47: Team "TERRORIST" triggered "Terrorists_Win" (CT "3") (T "2")
+L 04/18/2018 - 12:43:47: World triggered "Round_End"
+L 04/18/2018 - 12:43:52: World triggered "Round_Start"
+L 04/18/2018 - 12:43:59: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:44:00: "XXBOT Adrian<17><BOT><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:44:01: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "@te<23><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:44:04: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Adrian<17><BOT><CT>" with "knife"
+L 04/18/2018 - 12:44:09: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" say "boa tux" (dead)
+L 04/18/2018 - 12:44:11: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "TUX<20><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 04/18/2018 - 12:44:15: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 04/18/2018 - 12:44:15: Team "TERRORIST" triggered "Terrorists_Win" (CT "3") (T "3")
+L 04/18/2018 - 12:44:15: World triggered "Round_End"
+L 04/18/2018 - 12:44:20: World triggered "Round_Start"
+L 04/18/2018 - 12:44:26: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:44:32: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "@te<23><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:44:34: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Adrian<17><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:44:38: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 04/18/2018 - 12:44:38: Team "TERRORIST" triggered "Terrorists_Win" (CT "3") (T "4")
+L 04/18/2018 - 12:44:38: World triggered "Round_End"
+L 04/18/2018 - 12:44:40: "@te<23><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "18") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "6") (deaths "3")
+L 04/18/2018 - 12:44:40: "@te<23><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "0") (chest "1") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 04/18/2018 - 12:44:40: "@te<23><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "3") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "55") (deaths "3")
+L 04/18/2018 - 12:44:40: "@te<23><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "1") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 04/18/2018 - 12:44:40: "@te<23><VALVE_ID_LAN><CT>" triggered "time" (time "3:00")
+L 04/18/2018 - 12:44:40: "@te<23><VALVE_ID_LAN><CT>" triggered "latency" (ping "5")
+L 04/18/2018 - 12:44:40: "@te<23><VALVE_ID_LAN><CT>" disconnected
+L 04/18/2018 - 12:44:43: World triggered "Round_Start"
+L 04/18/2018 - 12:44:45: "XXBOT Derek<24><BOT><>" joined team "CT"
+L 04/18/2018 - 12:44:45: Server cvar "bot_quota" = "2"
+L 04/18/2018 - 12:44:45: "XXBOT Derek<24><BOT><>" entered the game
+L 04/18/2018 - 12:44:49: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:44:54: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Derek<24><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:44:55: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Adrian<17><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:44:57: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Smolder<18><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 04/18/2018 - 12:44:58: "@te<25><VALVE_ID_LAN><>" connected, address "10.15.2.23:27005"
+L 04/18/2018 - 12:45:01: "@te<25><VALVE_ID_LAN><>" entered the game
+L 04/18/2018 - 12:45:03: "@te<25><VALVE_ID_LAN><>" joined team "CT"
+L 04/18/2018 - 12:45:11: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 04/18/2018 - 12:45:12: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 04/18/2018 - 12:45:12: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 04/18/2018 - 12:45:12: Team "TERRORIST" triggered "Terrorists_Win" (CT "3") (T "5")
+L 04/18/2018 - 12:45:12: World triggered "Round_End"
+L 04/18/2018 - 12:45:18: World triggered "Round_Start"
+L 04/18/2018 - 12:45:18: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" committed suicide with "world"
+L 04/18/2018 - 12:45:19: "@te<25><VALVE_ID_LAN><CT>" say "ai maeu irmao"
+L 04/18/2018 - 12:45:19: "Ice_Man<21><VALVE_ID_LAN><CT>" say "kkkkkkk\"
+L 04/18/2018 - 12:45:25: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Smolder<18><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 04/18/2018 - 12:45:25: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" say "kkkkk" (dead)
+L 04/18/2018 - 12:45:25: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:45:28: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 04/18/2018 - 12:45:30: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Derek<24><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:45:34: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" say "kkkkkkkkkk " (dead)
+L 04/18/2018 - 12:45:41: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" say "gargamel fechou o olho e deu " (dead)
+L 04/18/2018 - 12:45:44: Server cvar "bot_quota" = "1"
+L 04/18/2018 - 12:45:44: Server cvar "bot_quota" = "0"
+L 04/18/2018 - 12:45:44: Kick: "XXBOT Adrian<17><UNKNOWN><>" was kicked by "Cap. Billy"
+L 04/18/2018 - 12:45:44: "XXBOT Adrian<17><BOT><CT>" disconnected
+L 04/18/2018 - 12:45:44: Kick: "XXBOT Derek<24><UNKNOWN><>" was kicked by "Cap. Billy"
+L 04/18/2018 - 12:45:44: "XXBOT Derek<24><BOT><CT>" disconnected
+L 04/18/2018 - 12:45:44: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 04/18/2018 - 12:45:50: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "@te<25><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:45:50: Team "TERRORIST" triggered "Terrorists_Win" (CT "3") (T "6")
+L 04/18/2018 - 12:45:50: World triggered "Round_End"
+L 04/18/2018 - 12:45:51: "XXBOT Zane<26><BOT><>" joined team "CT"
+L 04/18/2018 - 12:45:51: Server cvar "bot_quota" = "1"
+L 04/18/2018 - 12:45:51: "XXBOT Zane<26><BOT><>" entered the game
+L 04/18/2018 - 12:45:55: World triggered "Round_Start"
+L 04/18/2018 - 12:46:01: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:46:05: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zane<26><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:46:05: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "TUX<20><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:46:06: "@te<25><VALVE_ID_LAN><CT>" killed "Smolder<18><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:46:12: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:46:15: "@te<25><VALVE_ID_LAN><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 04/18/2018 - 12:46:15: Team "CT" triggered "CTs_Win" (CT "4") (T "6")
+L 04/18/2018 - 12:46:15: World triggered "Round_End"
+L 04/18/2018 - 12:46:19: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" say "miseravel" (dead)
+L 04/18/2018 - 12:46:20: World triggered "Round_Start"
+L 04/18/2018 - 12:46:21: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" say "AGRADECA"
+L 04/18/2018 - 12:46:26: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "TUX<20><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:46:28: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:46:29: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zane<26><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:46:32: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:46:39: "@te<25><VALVE_ID_LAN><CT>" killed "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 04/18/2018 - 12:46:43: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "@te<25><VALVE_ID_LAN><CT>" with "knife"
+L 04/18/2018 - 12:46:45: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" say "kkkkkkkkkkkkkkkkkkkkkkkkkkk" (dead)
+L 04/18/2018 - 12:46:49: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "knife"
+L 04/18/2018 - 12:46:49: Team "TERRORIST" triggered "Terrorists_Win" (CT "4") (T "7")
+L 04/18/2018 - 12:46:49: World triggered "Round_End"
+L 04/18/2018 - 12:46:53: "@te<25><VALVE_ID_LAN><CT>" say "q porra legue" (dead)
+L 04/18/2018 - 12:46:53: "Ice_Man<21><VALVE_ID_LAN><CT>" say "travou essa merda" (dead)
+L 04/18/2018 - 12:46:54: World triggered "Round_Start"
+L 04/18/2018 - 12:46:54: "@te<25><VALVE_ID_LAN><CT>" committed suicide with "world"
+L 04/18/2018 - 12:47:00: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zane<26><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:47:01: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:47:13: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Smolder<18><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 04/18/2018 - 12:47:13: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 04/18/2018 - 12:47:13: Team "TERRORIST" triggered "Terrorists_Win" (CT "4") (T "8")
+L 04/18/2018 - 12:47:13: World triggered "Round_End"
+L 04/18/2018 - 12:47:18: World triggered "Round_Start"
+L 04/18/2018 - 12:47:26: "Ice_Man<21><VALVE_ID_LAN><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:47:27: "Ice_Man<21><VALVE_ID_LAN><CT>" killed "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:47:32: "@te<25><VALVE_ID_LAN><CT>" killed "Smolder<18><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 04/18/2018 - 12:47:40: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "TUX<20><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:47:40: Team "CT" triggered "CTs_Win" (CT "5") (T "8")
+L 04/18/2018 - 12:47:40: World triggered "Round_End"
+L 04/18/2018 - 12:47:45: World triggered "Round_Start"
+L 04/18/2018 - 12:47:53: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Smolder<18><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:47:56: "Ice_Man<21><VALVE_ID_LAN><CT>" killed "TUX<20><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:47:57: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:48:02: "@te<25><VALVE_ID_LAN><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:48:02: "XXBOT Zane<26><BOT><CT>" killed "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:48:02: Team "CT" triggered "CTs_Win" (CT "6") (T "8")
+L 04/18/2018 - 12:48:02: World triggered "Round_End"
+L 04/18/2018 - 12:48:07: World triggered "Round_Start"
+L 04/18/2018 - 12:48:12: "Ice_Man<21><VALVE_ID_LAN><CT>" killed "TUX<20><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:48:16: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "@te<25><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:48:23: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Smolder<18><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 04/18/2018 - 12:48:26: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zane<26><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:48:27: "@te<25><VALVE_ID_LAN><CT>" say "hui" (dead)
+L 04/18/2018 - 12:48:29: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 04/18/2018 - 12:48:33: "Ice_Man<21><VALVE_ID_LAN><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:48:35: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:48:35: Team "TERRORIST" triggered "Terrorists_Win" (CT "6") (T "9")
+L 04/18/2018 - 12:48:35: World triggered "Round_End"
+L 04/18/2018 - 12:48:39: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" say "EH FESTA" (dead)
+L 04/18/2018 - 12:48:40: "Ice_Man<21><VALVE_ID_LAN><CT>" say "agradece capitao" (dead)
+L 04/18/2018 - 12:48:40: World triggered "Round_Start"
+L 04/18/2018 - 12:48:48: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "@te<25><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:48:49: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 04/18/2018 - 12:48:50: "Ice_Man<21><VALVE_ID_LAN><CT>" killed "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:48:50: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:48:52: "XXBOT Zane<26><BOT><CT>" killed "TUX<20><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:48:56: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zane<26><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:48:56: Team "TERRORIST" triggered "Terrorists_Win" (CT "6") (T "10")
+L 04/18/2018 - 12:48:56: World triggered "Round_End"
+L 04/18/2018 - 12:49:00: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" say "uiiii" (dead)
+L 04/18/2018 - 12:49:01: World triggered "Round_Start"
+L 04/18/2018 - 12:49:06: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:49:09: "XXBOT Zane<26><BOT><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:49:16: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 04/18/2018 - 12:49:16: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zane<26><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:49:23: Server cvar "amx_nextmap" = "aim_ak-colt_pool"
+L 04/18/2018 - 12:49:23: "@te<25><VALVE_ID_LAN><CT>" killed "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 04/18/2018 - 12:49:24: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "@te<25><VALVE_ID_LAN><CT>" with "knife"
+L 04/18/2018 - 12:49:24: Team "TERRORIST" triggered "Terrorists_Win" (CT "6") (T "11")
+L 04/18/2018 - 12:49:24: World triggered "Round_End"
+L 04/18/2018 - 12:49:28: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" say "tome" (dead)
+L 04/18/2018 - 12:49:29: World triggered "Round_Start"
+L 04/18/2018 - 12:49:32: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "@te<25><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:49:36: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 04/18/2018 - 12:49:38: "XXBOT Zane<26><BOT><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:49:39: "Ice_Man<21><VALVE_ID_LAN><CT>" killed "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:49:46: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:49:49: "XXBOT Zane<26><BOT><CT>" killed "TUX<20><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:49:52: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zane<26><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:49:52: Team "TERRORIST" triggered "Terrorists_Win" (CT "6") (T "12")
+L 04/18/2018 - 12:49:52: World triggered "Round_End"
+L 04/18/2018 - 12:49:57: World triggered "Round_Start"
+L 04/18/2018 - 12:50:03: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:50:07: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zane<26><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:50:08: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 04/18/2018 - 12:50:14: "Ice_Man<21><VALVE_ID_LAN><CT>" killed "TUX<20><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:50:15: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Smolder<18><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:50:15: Team "CT" triggered "CTs_Win" (CT "7") (T "12")
+L 04/18/2018 - 12:50:15: World triggered "Round_End"
+L 04/18/2018 - 12:50:20: World triggered "Round_Start"
+L 04/18/2018 - 12:50:25: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:50:27: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zane<26><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:50:29: "Smolder<18><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 04/18/2018 - 12:50:32: "@te<25><VALVE_ID_LAN><CT>" killed "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 04/18/2018 - 12:50:32: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "@te<25><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:50:32: Team "TERRORIST" triggered "Terrorists_Win" (CT "7") (T "13")
+L 04/18/2018 - 12:50:32: World triggered "Round_End"
+L 04/18/2018 - 12:50:37: World triggered "Round_Start"
+L 04/18/2018 - 12:50:44: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" killed "Smolder<18><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:50:47: "XXBOT Zane<26><BOT><CT>" killed "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:50:49: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "Ice_Man<21><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:50:54: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Zane<26><BOT><CT>" with "glock18"
+L 04/18/2018 - 12:50:54: "Ice_Man<21><VALVE_ID_LAN><CT>" say "e de aco" (dead)
+L 04/18/2018 - 12:50:55: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" say "agradeco ao bot" (dead)
+L 04/18/2018 - 12:51:02: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" with "glock18"
+L 04/18/2018 - 12:51:07: "@te<25><VALVE_ID_LAN><CT>" killed "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" with "glock18"
+L 04/18/2018 - 12:51:11: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" say "porra e essa" (dead)
+L 04/18/2018 - 12:51:12: "TUX<20><VALVE_ID_LAN><TERRORIST>" killed "@te<25><VALVE_ID_LAN><CT>" with "glock18"
+L 04/18/2018 - 12:51:12: Team "TERRORIST" triggered "Terrorists_Win" (CT "7") (T "14")
+L 04/18/2018 - 12:51:12: World triggered "Round_End"
+L 04/18/2018 - 12:51:15: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" say "ganhamos" (dead)
+L 04/18/2018 - 12:51:17: Team "CT" scored "7" with "4" players
+L 04/18/2018 - 12:51:17: Team "TERRORIST" scored "14" with "4" players
+L 04/18/2018 - 12:51:19: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "glock18") (shots "230") (hits "91") (kills "24") (headshots "20") (tks "0") (damage "3448") (deaths "7")
+L 04/18/2018 - 12:51:19: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "glock18") (head "36") (chest "9") (stomach "2") (leftarm "16") (rightarm "22") (leftleg "1") (rightleg "5")
+L 04/18/2018 - 12:51:19: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "knife") (shots "23") (hits "16") (kills "8") (headshots "4") (tks "0") (damage "1411") (deaths "8")
+L 04/18/2018 - 12:51:19: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "knife") (head "8") (chest "2") (stomach "0") (leftarm "3") (rightarm "3") (leftleg "0") (rightleg "0")
+L 04/18/2018 - 12:51:19: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" triggered "time" (time "10:11")
+L 04/18/2018 - 12:51:19: "Cap. Billy<16><VALVE_ID_LOOPBACK><CT>" triggered "latency" (ping "0")
+L 04/18/2018 - 12:51:19: "Smolder<18><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "219") (hits "63") (kills "14") (headshots "11") (tks "0") (damage "2013") (deaths "10")
+L 04/18/2018 - 12:51:19: "Smolder<18><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "19") (chest "8") (stomach "2") (leftarm "14") (rightarm "16") (leftleg "2") (rightleg "2")
+L 04/18/2018 - 12:51:19: "Smolder<18><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "14") (hits "8") (kills "3") (headshots "2") (tks "0") (damage "645") (deaths "3")
+L 04/18/2018 - 12:51:19: "Smolder<18><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "4") (chest "0") (stomach "0") (leftarm "0") (rightarm "4") (leftleg "0") (rightleg "0")
+L 04/18/2018 - 12:51:19: "Smolder<18><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:07")
+L 04/18/2018 - 12:51:19: "Smolder<18><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "8")
+L 04/18/2018 - 12:51:19: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "208") (hits "51") (kills "9") (headshots "7") (tks "0") (damage "1186") (deaths "9")
+L 04/18/2018 - 12:51:19: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "8") (chest "8") (stomach "3") (leftarm "19") (rightarm "12") (leftleg "1") (rightleg "0")
+L 04/18/2018 - 12:51:19: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "8") (hits "3") (kills "2") (headshots "0") (tks "1") (damage "168") (deaths "6")
+L 04/18/2018 - 12:51:19: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "0") (leftarm "1") (rightarm "2") (leftleg "0") (rightleg "0")
+L 04/18/2018 - 12:51:19: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:07")
+L 04/18/2018 - 12:51:19: "GARGAMEL O EMPALADOR<19><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "8")
+L 04/18/2018 - 12:51:19: "TUX<20><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "166") (hits "63") (kills "17") (headshots "13") (tks "0") (damage "2081") (deaths "10")
+L 04/18/2018 - 12:51:19: "TUX<20><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "18") (chest "14") (stomach "1") (leftarm "13") (rightarm "16") (leftleg "1") (rightleg "0")
+L 04/18/2018 - 12:51:19: "TUX<20><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "6") (hits "5") (kills "3") (headshots "0") (tks "0") (damage "495") (deaths "3")
+L 04/18/2018 - 12:51:19: "TUX<20><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "1") (chest "4") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 04/18/2018 - 12:51:19: "TUX<20><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:06")
+L 04/18/2018 - 12:51:19: "TUX<20><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "7")
+L 04/18/2018 - 12:51:19: "Ice_Man<21><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "195") (hits "53") (kills "10") (headshots "8") (tks "0") (damage "1496") (deaths "18")
+L 04/18/2018 - 12:51:19: "Ice_Man<21><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "12") (chest "12") (stomach "2") (leftarm "12") (rightarm "15") (leftleg "0") (rightleg "0")
+L 04/18/2018 - 12:51:19: "Ice_Man<21><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "3") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "55") (deaths "1")
+L 04/18/2018 - 12:51:19: "Ice_Man<21><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 04/18/2018 - 12:51:19: "Ice_Man<21><VALVE_ID_LAN><CT>" triggered "time" (time "10:02")
+L 04/18/2018 - 12:51:19: "Ice_Man<21><VALVE_ID_LAN><CT>" triggered "latency" (ping "149")
+L 04/18/2018 - 12:51:19: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "288") (hits "96") (kills "20") (headshots "14") (tks "0") (damage "2529") (deaths "12")
+L 04/18/2018 - 12:51:19: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "26") (chest "17") (stomach "3") (leftarm "26") (rightarm "24") (leftleg "0") (rightleg "0")
+L 04/18/2018 - 12:51:19: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "5") (hits "3") (kills "0") (headshots "0") (tks "0") (damage "165") (deaths "5")
+L 04/18/2018 - 12:51:19: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "2") (chest "0") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 04/18/2018 - 12:51:19: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "9:57")
+L 04/18/2018 - 12:51:19: "Calcas Peludas<22><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "9")
+L 04/18/2018 - 12:51:19: "@te<25><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "glock18") (shots "83") (hits "29") (kills "3") (headshots "1") (tks "0") (damage "550") (deaths "5")
+L 04/18/2018 - 12:51:19: "@te<25><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "glock18") (head "2") (chest "4") (stomach "0") (leftarm "15") (rightarm "6") (leftleg "2") (rightleg "0")
+L 04/18/2018 - 12:51:19: "@te<25><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "11") (hits "6") (kills "5") (headshots "1") (tks "1") (damage "476") (deaths "4")
+L 04/18/2018 - 12:51:19: "@te<25><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "1") (chest "1") (stomach "0") (leftarm "0") (rightarm "3") (leftleg "1") (rightleg "0")
+L 04/18/2018 - 12:51:19: "@te<25><VALVE_ID_LAN><CT>" triggered "time" (time "6:17")
+L 04/18/2018 - 12:51:19: "@te<25><VALVE_ID_LAN><CT>" triggered "latency" (ping "11")
+L 04/18/2018 - 12:51:19: [META] ini: Begin re-reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini
+L 04/18/2018 - 12:51:19: [META] ini: Read plugin config for: AMX
+L 04/18/2018 - 12:51:19: [META] ini: Read plugin config for: WinHL-Booster
+L 04/18/2018 - 12:51:19: [META] ERROR: ini: Skipping plugin, couldn't stat file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': No such file or directory
+L 04/18/2018 - 12:51:19: [META] ini: Read plugin config for: WebMod
+L 04/18/2018 - 12:51:19: [META] ini: Finished reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini; Found 3 plugins
+L 04/18/2018 - 12:51:19: [META] dll: Updating plugins...
+L 04/18/2018 - 12:51:19: [META] ERROR: dll: Failed query plugin '<hlguard_mm_nightly.dll>'; Couldn't open file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': Não foi possível encontrar o módulo especificado.
+
+L 04/18/2018 - 12:51:19: [META] ERROR: dll: Skipping plugin '<hlguard_mm_nightly.dll>'; couldn't query
+L 04/18/2018 - 12:51:19: [META] dll: Finished updating 6 plugins; kept 3, loaded 0, unloaded 0, reloaded 0, delayed 0
+L 04/18/2018 - 12:51:19: Server shutdown
+L 04/18/2018 - 12:51:19: Log file closed

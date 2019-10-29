@@ -1,0 +1,50 @@
+L 09/03/2019 - 12:30:53: Log file started (file "logs\L0903001.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 09/03/2019 - 12:30:53: "Cap Billy<5><VALVE_ID_LAN><>" connected, address "10.15.2.199:27005"
+L 09/03/2019 - 12:30:53: "Smolder<2><VALVE_ID_LAN><>" entered the game
+L 09/03/2019 - 12:30:53: "DareDevil<6><VALVE_ID_LAN><>" connected, address "10.15.4.2:27005"
+L 09/03/2019 - 12:30:55: "INDIO<4><VALVE_ID_LAN><>" entered the game
+L 09/03/2019 - 12:30:55: "Cap Billy<5><VALVE_ID_LAN><>" entered the game
+L 09/03/2019 - 12:30:56: "Smolder<2><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/03/2019 - 12:30:56: "DareDevil<6><VALVE_ID_LAN><>" entered the game
+L 09/03/2019 - 12:30:56: "Cap Billy<5><VALVE_ID_LAN><>" joined team "CT"
+L 09/03/2019 - 12:30:57: "Kratos-away<3><VALVE_ID_LAN><>" entered the game
+L 09/03/2019 - 12:30:57: World triggered "Game_Commencing"
+L 09/03/2019 - 12:30:57: World triggered "Game_Commencing" (CT "0") (T "0")
+L 09/03/2019 - 12:30:57: World triggered "Round_End"
+L 09/03/2019 - 12:30:58: "DareDevil<6><VALVE_ID_LAN><>" joined team "CT"
+L 09/03/2019 - 12:30:58: "INDIO<4><VALVE_ID_LAN><>" joined team "CT"
+L 09/03/2019 - 12:30:58: "Kratos-away<3><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/03/2019 - 12:30:59: "Jack<7><VALVE_ID_LAN><>" connected, address "10.15.2.45:27005"
+L 09/03/2019 - 12:31:00: "Smolder<2><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 09/03/2019 - 12:31:00: World triggered "Round_Start"
+L 09/03/2019 - 12:31:03: "Jack<7><VALVE_ID_LAN><>" entered the game
+L 09/03/2019 - 12:31:04: "Kratos-away<3><VALVE_ID_LAN><TERRORIST>" killed "DareDevil<6><VALVE_ID_LAN><CT>" with "xm1014"
+L 09/03/2019 - 12:31:05: "Gho$T<8><VALVE_ID_LAN><>" connected, address "10.15.2.123:27005"
+L 09/03/2019 - 12:31:06: "CEIFADOR<1><VALVE_ID_LOOPBACK><TERRORIST>" killed "INDIO<4><VALVE_ID_LAN><CT>" with "aug"
+L 09/03/2019 - 12:31:07: "Gho$T<8><VALVE_ID_LAN><>" entered the game
+L 09/03/2019 - 12:31:09: "Cap Billy<5><VALVE_ID_LAN><CT>" killed "Smolder<2><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 09/03/2019 - 12:31:09: "Smolder<2><VALVE_ID_LAN><TERRORIST>" triggered "Dropped_The_Bomb"
+L 09/03/2019 - 12:31:10: "Gho$T<8><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 09/03/2019 - 12:31:10: "Jack<7><VALVE_ID_LAN><>" joined team "CT"
+L 09/03/2019 - 12:31:12: "CEIFADOR<1><VALVE_ID_LOOPBACK><TERRORIST>" killed "Jack<7><VALVE_ID_LAN><CT>" with "aug"
+L 09/03/2019 - 12:31:14: "Cap Billy<5><VALVE_ID_LAN><CT>" killed "Kratos-away<3><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 09/03/2019 - 12:31:16: "Gho$T<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LAN><CT>" with "ak47"
+L 09/03/2019 - 12:31:16: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "1")
+L 09/03/2019 - 12:31:16: World triggered "Round_End"
+L 09/03/2019 - 12:31:19: "Smolder<2><VALVE_ID_LAN><TERRORIST>" say "quase" (dead)
+L 09/03/2019 - 12:31:21: "Kratos-away<3><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 09/03/2019 - 12:31:21: World triggered "Round_Start"
+L 09/03/2019 - 12:31:24: "Gho$T<8><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<5><VALVE_ID_LAN><CT>" with "ak47"
+L 09/03/2019 - 12:31:26: "Kratos-away<3><VALVE_ID_LAN><TERRORIST>" killed "INDIO<4><VALVE_ID_LAN><CT>" with "m3"
+L 09/03/2019 - 12:31:30: "Jack<7><VALVE_ID_LAN><CT>" killed "Gho$T<8><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 09/03/2019 - 12:31:39: "DareDevil<6><VALVE_ID_LAN><CT>" say "ravou"
+L 09/03/2019 - 12:31:41: "Smolder<2><VALVE_ID_LAN><TERRORIST>" killed "Jack<7><VALVE_ID_LAN><CT>" with "knife"
+L 09/03/2019 - 12:31:41: "CEIFADOR<1><VALVE_ID_LOOPBACK><TERRORIST>" killed "DareDevil<6><VALVE_ID_LAN><CT>" with "m4a1"
+L 09/03/2019 - 12:31:41: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "2")
+L 09/03/2019 - 12:31:41: World triggered "Round_End"
+L 09/03/2019 - 12:31:43: "DareDevil<6><VALVE_ID_LAN><CT>" say "travou" (dead)
+L 09/03/2019 - 12:31:46: "Jack<7><VALVE_ID_LAN><CT>" say "porraaaa" (dead)
+L 09/03/2019 - 12:31:46: "Gho$T<8><VALVE_ID_LAN><TERRORIST>" say "yHUAUHAUAHUAUAHAUAHUHA" (dead)
+L 09/03/2019 - 12:31:46: "Gho$T<8><VALVE_ID_LAN><TERRORIST>" triggered "Spawned_With_The_Bomb"
+L 09/03/2019 - 12:31:46: World triggered "Round_Start"
+L 09/03/2019 - 12:31:46: Log file closed

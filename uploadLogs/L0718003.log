@@ -1,0 +1,237 @@
+L 07/18/2018 - 12:50:47: Log file started (file "logs\L0718003.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 07/18/2018 - 12:50:47: "Calango<26><VALVE_ID_LAN><>" entered the game
+L 07/18/2018 - 12:50:47: "Smolder<29><VALVE_ID_LAN><>" connected, address "10.15.3.173:27005"
+L 07/18/2018 - 12:50:48: "Cable<27><VALVE_ID_LAN><>" entered the game
+L 07/18/2018 - 12:50:48: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><>" entered the game
+L 07/18/2018 - 12:50:49: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 07/18/2018 - 12:50:49: World triggered "Game_Commencing"
+L 07/18/2018 - 12:50:49: World triggered "Game_Commencing" (CT "0") (T "0")
+L 07/18/2018 - 12:50:49: World triggered "Round_End"
+L 07/18/2018 - 12:50:50: "Calango<26><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 07/18/2018 - 12:50:50: "Smolder<29><VALVE_ID_LAN><>" entered the game
+L 07/18/2018 - 12:50:51: "Cable<27><VALVE_ID_LAN><>" joined team "CT"
+L 07/18/2018 - 12:50:52: World triggered "Round_Start"
+L 07/18/2018 - 12:50:52: "Smolder<29><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 07/18/2018 - 12:50:57: "XXBOT Adrian<30><BOT><>" joined team "CT"
+L 07/18/2018 - 12:50:57: Server cvar "bot_quota" = "1"
+L 07/18/2018 - 12:50:57: "XXBOT Adrian<30><BOT><>" entered the game
+L 07/18/2018 - 12:50:58: "Inspetor Buginganga<31><VALVE_ID_LAN><>" connected, address "10.15.2.117:27005"
+L 07/18/2018 - 12:51:00: "Inspetor Buginganga<31><VALVE_ID_LAN><>" entered the game
+L 07/18/2018 - 12:51:03: "Smolder<29><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" with "deagle"
+L 07/18/2018 - 12:51:03: "Inspetor Buginganga<31><VALVE_ID_LAN><>" joined team "CT"
+L 07/18/2018 - 12:51:05: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Adrian<30><BOT><CT>" with "deagle"
+L 07/18/2018 - 12:51:06: "Calango<26><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" with "deagle"
+L 07/18/2018 - 12:51:11: "Calango<26><VALVE_ID_LAN><TERRORIST>" killed "Cable<27><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 12:51:11: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "1")
+L 07/18/2018 - 12:51:11: World triggered "Round_End"
+L 07/18/2018 - 12:51:16: World triggered "Round_Start"
+L 07/18/2018 - 12:51:16: Server cvar "bot_quota" = "0"
+L 07/18/2018 - 12:51:16: Kick: "XXBOT Adrian<30><UNKNOWN><>" was kicked by "Cap Billy"
+L 07/18/2018 - 12:51:16: "XXBOT Adrian<30><BOT><CT>" disconnected
+L 07/18/2018 - 12:51:16: "Smolder<29><VALVE_ID_LAN><TERRORIST>" say "ate o cable"
+L 07/18/2018 - 12:51:27: "Calango<26><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" with "deagle"
+L 07/18/2018 - 12:51:35: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" killed "Calango<26><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:51:36: "Smolder<29><VALVE_ID_LAN><TERRORIST>" killed "Cable<27><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 12:51:38: "Smolder<29><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 12:51:38: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "2")
+L 07/18/2018 - 12:51:38: World triggered "Round_End"
+L 07/18/2018 - 12:51:43: World triggered "Round_Start"
+L 07/18/2018 - 12:52:03: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" killed "Smolder<29><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:52:17: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:52:23: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" killed "Calango<26><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:52:23: Team "CT" triggered "CTs_Win" (CT "1") (T "2")
+L 07/18/2018 - 12:52:23: World triggered "Round_End"
+L 07/18/2018 - 12:52:28: World triggered "Round_Start"
+L 07/18/2018 - 12:52:49: "Calango<26><VALVE_ID_LAN><TERRORIST>" killed "Cable<27><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 12:52:54: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" with "deagle"
+L 07/18/2018 - 12:53:00: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" with "deagle"
+L 07/18/2018 - 12:53:00: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "3")
+L 07/18/2018 - 12:53:00: World triggered "Round_End"
+L 07/18/2018 - 12:53:05: World triggered "Round_Start"
+L 07/18/2018 - 12:53:16: "Cable<27><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:53:16: "Calango<26><VALVE_ID_LAN><TERRORIST>" killed "Cable<27><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 12:53:22: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" killed "Calango<26><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:53:22: "Smolder<29><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 07/18/2018 - 12:53:26: "Calango<26><VALVE_ID_LAN><TERRORIST>" say "boa" (dead)
+L 07/18/2018 - 12:53:35: "Smolder<29><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" with "deagle"
+L 07/18/2018 - 12:53:35: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "4")
+L 07/18/2018 - 12:53:35: World triggered "Round_End"
+L 07/18/2018 - 12:53:38: "Calango<26><VALVE_ID_LAN><TERRORIST>" say "kkkkkk" (dead)
+L 07/18/2018 - 12:53:40: World triggered "Round_Start"
+L 07/18/2018 - 12:53:46: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 07/18/2018 - 12:53:47: "Smolder<29><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 12:53:49: "Cable<27><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 12:53:50: "Calango<26><VALVE_ID_LAN><TERRORIST>" killed "Cable<27><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 12:53:50: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "5")
+L 07/18/2018 - 12:53:50: World triggered "Round_End"
+L 07/18/2018 - 12:53:55: World triggered "Round_Start"
+L 07/18/2018 - 12:54:09: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" killed "Smolder<29><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:54:10: "Calango<26><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 12:54:10: "Cable<27><VALVE_ID_LAN><CT>" killed "Calango<26><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:54:10: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 12:54:10: Team "CT" triggered "CTs_Win" (CT "2") (T "5")
+L 07/18/2018 - 12:54:10: World triggered "Round_End"
+L 07/18/2018 - 12:54:15: World triggered "Round_Start"
+L 07/18/2018 - 12:54:29: "Cable<27><VALVE_ID_LAN><CT>" killed "Calango<26><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 12:54:30: "Cable<27><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 12:54:33: "Cable<27><VALVE_ID_LAN><CT>" killed "Smolder<29><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 12:54:33: Team "CT" triggered "CTs_Win" (CT "3") (T "5")
+L 07/18/2018 - 12:54:33: World triggered "Round_End"
+L 07/18/2018 - 12:54:37: "Cable<27><VALVE_ID_LAN><CT>" say "todo mundo"
+L 07/18/2018 - 12:54:37: "Calango<26><VALVE_ID_LAN><TERRORIST>" say "eitaaaa" (dead)
+L 07/18/2018 - 12:54:38: World triggered "Round_Start"
+L 07/18/2018 - 12:54:42: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" say "cacwe"
+L 07/18/2018 - 12:55:07: "Cable<27><VALVE_ID_LAN><CT>" killed "Smolder<29><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 12:55:07: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" killed "Calango<26><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 12:55:08: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 07/18/2018 - 12:55:11: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" killed "Cable<27><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 12:55:16: "Calango<26><VALVE_ID_LAN><TERRORIST>" say "timeelf" (dead)
+L 07/18/2018 - 12:55:18: "Calango<26><VALVE_ID_LAN><TERRORIST>" say "timneleft" (dead)
+L 07/18/2018 - 12:55:21: "Calango<26><VALVE_ID_LAN><TERRORIST>" say "timeleft" (dead)
+L 07/18/2018 - 12:55:25: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" say "quase num sai" (dead)
+L 07/18/2018 - 12:55:30: "Cable<27><VALVE_ID_LAN><CT>" say "ne isso kkk" (dead)
+L 07/18/2018 - 12:55:30: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:55:30: Team "CT" triggered "CTs_Win" (CT "4") (T "5")
+L 07/18/2018 - 12:55:30: World triggered "Round_End"
+L 07/18/2018 - 12:55:34: "Calango<26><VALVE_ID_LAN><TERRORIST>" say "kkk" (dead)
+L 07/18/2018 - 12:55:35: World triggered "Round_Start"
+L 07/18/2018 - 12:55:44: "Smolder<29><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" with "deagle"
+L 07/18/2018 - 12:55:48: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 07/18/2018 - 12:55:55: "Cable<27><VALVE_ID_LAN><CT>" killed "Calango<26><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:56:04: "Calango<26><VALVE_ID_LAN><TERRORIST>" say "timeleft" (dead)
+L 07/18/2018 - 12:56:07: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" killed "Cable<27><VALVE_ID_LAN><CT>" with "deagle"
+L 07/18/2018 - 12:56:07: Team "TERRORIST" triggered "Terrorists_Win" (CT "4") (T "6")
+L 07/18/2018 - 12:56:07: World triggered "Round_End"
+L 07/18/2018 - 12:56:12: World triggered "Round_Start"
+L 07/18/2018 - 12:56:19: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" killed "Cable<27><VALVE_ID_LAN><CT>" with "deagle"
+L 07/18/2018 - 12:56:21: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:56:21: "Calango<26><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 12:56:38: "Calango<26><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 07/18/2018 - 12:56:38: Team "TERRORIST" triggered "Terrorists_Win" (CT "4") (T "7")
+L 07/18/2018 - 12:56:38: World triggered "Round_End"
+L 07/18/2018 - 12:56:41: "Cable<27><VALVE_ID_LAN><CT>" say "susto" (dead)
+L 07/18/2018 - 12:56:42: "Calango<26><VALVE_ID_LAN><TERRORIST>" say "reeba"
+L 07/18/2018 - 12:56:43: World triggered "Round_Start"
+L 07/18/2018 - 12:56:54: "Cable<27><VALVE_ID_LAN><CT>" killed "Calango<26><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:56:56: "Cable<27><VALVE_ID_LAN><CT>" killed "Smolder<29><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:57:02: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" with "deagle"
+L 07/18/2018 - 12:57:02: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:57:02: Team "CT" triggered "CTs_Win" (CT "5") (T "7")
+L 07/18/2018 - 12:57:02: World triggered "Round_End"
+L 07/18/2018 - 12:57:07: "Smolder<29><VALVE_ID_LAN><TERRORIST>" say "boa" (dead)
+L 07/18/2018 - 12:57:07: World triggered "Round_Start"
+L 07/18/2018 - 12:57:14: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:57:16: "Calango<26><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" with "deagle"
+L 07/18/2018 - 12:57:25: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" killed "Calango<26><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 12:57:31: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" killed "Smolder<29><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 12:57:31: Team "CT" triggered "CTs_Win" (CT "6") (T "7")
+L 07/18/2018 - 12:57:31: World triggered "Round_End"
+L 07/18/2018 - 12:57:34: "Calango<26><VALVE_ID_LAN><TERRORIST>" say "kkkkkkk" (dead)
+L 07/18/2018 - 12:57:36: World triggered "Round_Start"
+L 07/18/2018 - 12:57:47: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:57:53: "Smolder<29><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 12:57:56: "Cable<27><VALVE_ID_LAN><CT>" killed "Calango<26><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 12:57:58: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" killed "Smolder<29><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 12:57:58: Team "CT" triggered "CTs_Win" (CT "7") (T "7")
+L 07/18/2018 - 12:57:58: World triggered "Round_End"
+L 07/18/2018 - 12:58:03: World triggered "Round_Start"
+L 07/18/2018 - 12:58:09: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" killed "Calango<26><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:58:12: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" killed "Cable<27><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 12:58:26: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" with "deagle"
+L 07/18/2018 - 12:58:29: "Smolder<29><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 07/18/2018 - 12:58:29: Team "TERRORIST" triggered "Terrorists_Win" (CT "7") (T "8")
+L 07/18/2018 - 12:58:29: World triggered "Round_End"
+L 07/18/2018 - 12:58:34: World triggered "Round_Start"
+L 07/18/2018 - 12:58:45: "Cable<27><VALVE_ID_LAN><CT>" killed "Calango<26><VALVE_ID_LAN><TERRORIST>" with "deagle"
+L 07/18/2018 - 12:58:49: "Smolder<29><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 07/18/2018 - 12:58:51: "Cable<27><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 12:58:54: "Smolder<29><VALVE_ID_LAN><TERRORIST>" killed "Cable<27><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 12:58:59: Server cvar "amx_nextmap" = "pistols2"
+L 07/18/2018 - 12:59:11: "Cable<27><VALVE_ID_LAN><CT>" say "timeleft" (dead)
+L 07/18/2018 - 12:59:14: "Cable<27><VALVE_ID_LAN><CT>" say "bora so faca" (dead)
+L 07/18/2018 - 12:59:20: "Calango<26><VALVE_ID_LAN><TERRORIST>" say "so faca" (dead)
+L 07/18/2018 - 12:59:27: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" say_team "ySOH FACA" (dead)
+L 07/18/2018 - 12:59:28: "Calango<26><VALVE_ID_LAN><TERRORIST>" say "kkkkk" (dead)
+L 07/18/2018 - 12:59:31: "Calango<26><VALVE_ID_LAN><TERRORIST>" say "jjkkkkkkk" (dead)
+L 07/18/2018 - 12:59:33: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" killed "Smolder<29><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 12:59:33: Team "CT" triggered "CTs_Win" (CT "8") (T "8")
+L 07/18/2018 - 12:59:33: World triggered "Round_End"
+L 07/18/2018 - 12:59:35: "Calango<26><VALVE_ID_LAN><TERRORIST>" say "kkkkkkkkkkkkkk" (dead)
+L 07/18/2018 - 12:59:35: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" say "SOH FACAAAAAAA" (dead)
+L 07/18/2018 - 12:59:38: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" say "HHAHAHAHAHAHA" (dead)
+L 07/18/2018 - 12:59:38: World triggered "Round_Start"
+L 07/18/2018 - 12:59:39: "Smolder<29><VALVE_ID_LAN><TERRORIST>" say "ta travando"
+L 07/18/2018 - 12:59:39: "Calango<26><VALVE_ID_LAN><TERRORIST>" say "eeeeeeeeeeeeeeeeee"
+L 07/18/2018 - 12:59:39: "Cable<27><VALVE_ID_LAN><CT>" say "so faca so faca so facaaaaa"
+L 07/18/2018 - 12:59:41: "Calango<26><VALVE_ID_LAN><TERRORIST>" say "hauahuahauhauhauhauahaua"
+L 07/18/2018 - 12:59:42: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" say "SOH FACAAAa"
+L 07/18/2018 - 12:59:55: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" killed "Cable<27><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 12:59:57: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" killed "Smolder<29><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 12:59:59: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" killed "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 13:00:13: "Calango<26><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 13:00:21: "Calango<26><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 07/18/2018 - 13:00:21: Team "TERRORIST" triggered "Terrorists_Win" (CT "8") (T "9")
+L 07/18/2018 - 13:00:21: World triggered "Round_End"
+L 07/18/2018 - 13:00:23: "Smolder<29><VALVE_ID_LAN><TERRORIST>" say "linda" (dead)
+L 07/18/2018 - 13:00:26: World triggered "Round_Start"
+L 07/18/2018 - 13:00:28: "Cable<27><VALVE_ID_LAN><CT>" say "va pra cima bugiganga. nao fique olhando"
+L 07/18/2018 - 13:00:37: "Cable<27><VALVE_ID_LAN><CT>" killed "Smolder<29><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 13:00:37: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" killed "Cable<27><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 13:00:38: "Calango<26><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" with "knife"
+L 07/18/2018 - 13:00:39: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" killed "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 07/18/2018 - 13:00:50: "Calango<26><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" with "knife"
+L 07/18/2018 - 13:00:50: Team "TERRORIST" triggered "Terrorists_Win" (CT "8") (T "10")
+L 07/18/2018 - 13:00:50: World triggered "Round_End"
+L 07/18/2018 - 13:00:51: "Smolder<29><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "deagle") (shots "36") (hits "12") (kills "3") (headshots "1") (tks "0") (damage "490") (deaths "2")
+L 07/18/2018 - 13:00:51: "Smolder<29><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "deagle") (head "4") (chest "0") (stomach "0") (leftarm "4") (rightarm "4") (leftleg "0") (rightleg "0")
+L 07/18/2018 - 13:00:51: "Smolder<29><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "27") (hits "17") (kills "8") (headshots "6") (tks "0") (damage "1765") (deaths "8")
+L 07/18/2018 - 13:00:51: "Smolder<29><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "7") (chest "4") (stomach "1") (leftarm "3") (rightarm "2") (leftleg "0") (rightleg "0")
+L 07/18/2018 - 13:00:51: "Smolder<29><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:01")
+L 07/18/2018 - 13:00:51: "Smolder<29><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "9")
+L 07/18/2018 - 13:00:51: "Smolder<29><VALVE_ID_LAN><TERRORIST>" disconnected
+L 07/18/2018 - 13:00:52: "Cable<27><VALVE_ID_LAN><CT>" say "tome" (dead)
+L 07/18/2018 - 13:00:52: Team "CT" scored "8" with "3" players
+L 07/18/2018 - 13:00:52: Team "TERRORIST" scored "10" with "3" players
+L 07/18/2018 - 13:01:00: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "deagle") (shots "78") (hits "20") (kills "10") (headshots "4") (tks "0") (damage "1205") (deaths "11")
+L 07/18/2018 - 13:01:00: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "deagle") (head "4") (chest "4") (stomach "4") (leftarm "5") (rightarm "3") (leftleg "0") (rightleg "0")
+L 07/18/2018 - 13:01:00: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "14") (hits "2") (kills "2") (headshots "1") (tks "0") (damage "110") (deaths "2")
+L 07/18/2018 - 13:01:00: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "1") (chest "0") (stomach "0") (leftarm "0") (rightarm "1") (leftleg "0") (rightleg "0")
+L 07/18/2018 - 13:01:00: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" triggered "time" (time "9:59")
+L 07/18/2018 - 13:01:00: "Inspetor Buginganga<31><VALVE_ID_LAN><CT>" triggered "latency" (ping "15")
+L 07/18/2018 - 13:01:00: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "deagle") (shots "78") (hits "21") (kills "2") (headshots "2") (tks "0") (damage "898") (deaths "2")
+L 07/18/2018 - 13:01:00: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "deagle") (head "3") (chest "5") (stomach "2") (leftarm "4") (rightarm "4") (leftleg "0") (rightleg "3")
+L 07/18/2018 - 13:01:00: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats" (weapon "knife") (shots "31") (hits "18") (kills "7") (headshots "2") (tks "0") (damage "1542") (deaths "11")
+L 07/18/2018 - 13:01:00: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" triggered "weaponstats2" (weapon "knife") (head "7") (chest "3") (stomach "1") (leftarm "0") (rightarm "5") (leftleg "1") (rightleg "1")
+L 07/18/2018 - 13:01:00: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" triggered "time" (time "10:16")
+L 07/18/2018 - 13:01:00: "Cap Billy<25><VALVE_ID_LOOPBACK><CT>" triggered "latency" (ping "0")
+L 07/18/2018 - 13:01:00: "Calango<26><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "deagle") (shots "46") (hits "18") (kills "3") (headshots "2") (tks "0") (damage "794") (deaths "4")
+L 07/18/2018 - 13:01:00: "Calango<26><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "deagle") (head "3") (chest "2") (stomach "1") (leftarm "9") (rightarm "2") (leftleg "1") (rightleg "0")
+L 07/18/2018 - 13:01:00: "Calango<26><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "46") (hits "24") (kills "11") (headshots "3") (tks "0") (damage "1637") (deaths "8")
+L 07/18/2018 - 13:01:00: "Calango<26><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "7") (chest "10") (stomach "0") (leftarm "3") (rightarm "4") (leftleg "0") (rightleg "0")
+L 07/18/2018 - 13:01:00: "Calango<26><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:13")
+L 07/18/2018 - 13:01:00: "Calango<26><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "9")
+L 07/18/2018 - 13:01:00: "Cable<27><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "deagle") (shots "50") (hits "20") (kills "6") (headshots "2") (tks "0") (damage "888") (deaths "2")
+L 07/18/2018 - 13:01:00: "Cable<27><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "deagle") (head "2") (chest "7") (stomach "1") (leftarm "8") (rightarm "1") (leftleg "0") (rightleg "1")
+L 07/18/2018 - 13:01:00: "Cable<27><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "29") (hits "18") (kills "8") (headshots "2") (tks "0") (damage "1506") (deaths "10")
+L 07/18/2018 - 13:01:00: "Cable<27><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "3") (chest "5") (stomach "2") (leftarm "3") (rightarm "5") (leftleg "0") (rightleg "0")
+L 07/18/2018 - 13:01:00: "Cable<27><VALVE_ID_LAN><CT>" triggered "time" (time "10:12")
+L 07/18/2018 - 13:01:00: "Cable<27><VALVE_ID_LAN><CT>" triggered "latency" (ping "7")
+L 07/18/2018 - 13:01:00: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "deagle") (shots "51") (hits "22") (kills "7") (headshots "4") (tks "0") (damage "1182") (deaths "2")
+L 07/18/2018 - 13:01:00: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "deagle") (head "4") (chest "4") (stomach "2") (leftarm "8") (rightarm "2") (leftleg "2") (rightleg "0")
+L 07/18/2018 - 13:01:00: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "22") (hits "15") (kills "7") (headshots "3") (tks "0") (damage "1471") (deaths "11")
+L 07/18/2018 - 13:01:00: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "3") (chest "2") (stomach "1") (leftarm "4") (rightarm "2") (leftleg "3") (rightleg "0")
+L 07/18/2018 - 13:01:00: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:12")
+L 07/18/2018 - 13:01:00: "GARGAMEL O ESTRIPADOR<28><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "6")
+L 07/18/2018 - 13:01:00: [META] ini: Begin re-reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini
+L 07/18/2018 - 13:01:00: [META] ini: Read plugin config for: AMX
+L 07/18/2018 - 13:01:00: [META] ini: Read plugin config for: WinHL-Booster
+L 07/18/2018 - 13:01:00: [META] ERROR: ini: Skipping plugin, couldn't stat file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': No such file or directory
+L 07/18/2018 - 13:01:00: [META] ini: Read plugin config for: WebMod
+L 07/18/2018 - 13:01:00: [META] ini: Finished reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini; Found 3 plugins
+L 07/18/2018 - 13:01:00: [META] dll: Updating plugins...
+L 07/18/2018 - 13:01:00: [META] ERROR: dll: Failed query plugin '<hlguard_mm_nightly.dll>'; Couldn't open file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': Não foi possível encontrar o módulo especificado.
+
+L 07/18/2018 - 13:01:00: [META] ERROR: dll: Skipping plugin '<hlguard_mm_nightly.dll>'; couldn't query
+L 07/18/2018 - 13:01:00: [META] dll: Finished updating 6 plugins; kept 3, loaded 0, unloaded 0, reloaded 0, delayed 0
+L 07/18/2018 - 13:01:00: Server shutdown
+L 07/18/2018 - 13:01:00: Log file closed

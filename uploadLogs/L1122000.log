@@ -1,0 +1,526 @@
+L 11/22/2018 - 12:32:26: Log file started (file "logs\L1122000.log") (game "cstrike") (version "47/1.1.2.2/2603")
+L 11/22/2018 - 12:32:28: "Inspetor Buginganga<6><VALVE_ID_LAN><>" entered the game
+L 11/22/2018 - 12:32:28: World triggered "Round_Start"
+L 11/22/2018 - 12:32:32: "Inspetor Buginganga<6><VALVE_ID_LAN><>" joined team "CT"
+L 11/22/2018 - 12:32:34: "Kitkat<5><VALVE_ID_LAN><>" entered the game
+L 11/22/2018 - 12:32:40: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "aug"
+L 11/22/2018 - 12:32:40: Team "CT" triggered "CTs_Win" (CT "1") (T "0")
+L 11/22/2018 - 12:32:40: World triggered "Round_End"
+L 11/22/2018 - 12:32:41: "Kitkat<5><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 11/22/2018 - 12:32:45: World triggered "Round_Start"
+L 11/22/2018 - 12:32:58: "Smolder<7><VALVE_ID_LAN><>" connected, address "10.15.3.173:27005"
+L 11/22/2018 - 12:33:03: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:33:03: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "1")
+L 11/22/2018 - 12:33:03: World triggered "Round_End"
+L 11/22/2018 - 12:33:05: "Smolder<7><VALVE_ID_LAN><>" entered the game
+L 11/22/2018 - 12:33:08: World triggered "Round_Start"
+L 11/22/2018 - 12:33:10: "Smolder<7><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 11/22/2018 - 12:33:10: "Cap Billy<8><VALVE_ID_LAN><>" connected, address "10.15.2.199:27005"
+L 11/22/2018 - 12:33:13: "Cap Billy<8><VALVE_ID_LAN><>" entered the game
+L 11/22/2018 - 12:33:15: "Cap Billy<8><VALVE_ID_LAN><>" joined team "CT"
+L 11/22/2018 - 12:33:24: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "knife"
+L 11/22/2018 - 12:33:34: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "knife"
+L 11/22/2018 - 12:33:34: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "2")
+L 11/22/2018 - 12:33:34: World triggered "Round_End"
+L 11/22/2018 - 12:33:39: World triggered "Round_Start"
+L 11/22/2018 - 12:33:40: "Calcas wifi 4G<9><VALVE_ID_LAN><>" connected, address "10.15.4.26:27005"
+L 11/22/2018 - 12:33:45: "XXBOT Tyler<10><BOT><>" joined team "CT"
+L 11/22/2018 - 12:33:45: Server cvar "bot_quota" = "1"
+L 11/22/2018 - 12:33:45: "XXBOT Tyler<10><BOT><>" entered the game
+L 11/22/2018 - 12:33:46: "Calcas wifi 4G<9><VALVE_ID_LAN><>" entered the game
+L 11/22/2018 - 12:33:47: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "mp5navy"
+L 11/22/2018 - 12:33:48: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 11/22/2018 - 12:33:55: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Tyler<10><BOT><CT>" with "xm1014"
+L 11/22/2018 - 12:33:56: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:33:57: Server cvar "bot_quota" = "0"
+L 11/22/2018 - 12:33:57: Kick: "XXBOT Tyler<10><UNKNOWN><>" was kicked by "G-A-R-G-A-M-E-L"
+L 11/22/2018 - 12:33:57: "XXBOT Tyler<10><BOT><CT>" disconnected
+L 11/22/2018 - 12:34:00: "Calcas wifi 4G<9><VALVE_ID_LAN><>" joined team "TERRORIST"
+L 11/22/2018 - 12:34:03: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:34:03: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "3")
+L 11/22/2018 - 12:34:03: World triggered "Round_End"
+L 11/22/2018 - 12:34:07: "XXBOT Chad<11><BOT><>" joined team "CT"
+L 11/22/2018 - 12:34:07: Server cvar "bot_quota" = "1"
+L 11/22/2018 - 12:34:07: "XXBOT Chad<11><BOT><>" entered the game
+L 11/22/2018 - 12:34:08: World triggered "Round_Start"
+L 11/22/2018 - 12:34:11: "XXBOT Eric<12><BOT><>" joined team "CT"
+L 11/22/2018 - 12:34:11: Server cvar "bot_quota" = "2"
+L 11/22/2018 - 12:34:11: "XXBOT Eric<12><BOT><>" entered the game
+L 11/22/2018 - 12:34:13: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:34:13: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Eric<12><BOT><CT>" with "xm1014"
+L 11/22/2018 - 12:34:15: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Chad<11><BOT><CT>" with "xm1014"
+L 11/22/2018 - 12:34:17: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:34:17: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "4")
+L 11/22/2018 - 12:34:17: World triggered "Round_End"
+L 11/22/2018 - 12:34:22: World triggered "Round_Start"
+L 11/22/2018 - 12:34:29: "XXBOT Eric<12><BOT><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 11/22/2018 - 12:34:29: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "XXBOT Eric<12><BOT><CT>" with "xm1014"
+L 11/22/2018 - 12:34:30: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Chad<11><BOT><CT>" with "xm1014"
+L 11/22/2018 - 12:34:30: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:34:34: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:34:38: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:34:38: Team "CT" triggered "CTs_Win" (CT "2") (T "4")
+L 11/22/2018 - 12:34:38: World triggered "Round_End"
+L 11/22/2018 - 12:34:43: World triggered "Round_Start"
+L 11/22/2018 - 12:34:47: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "mp5navy"
+L 11/22/2018 - 12:34:48: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Chad<11><BOT><CT>" with "mp5navy"
+L 11/22/2018 - 12:34:48: "XXBOT Eric<12><BOT><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/22/2018 - 12:34:50: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Eric<12><BOT><CT>" with "aug"
+L 11/22/2018 - 12:34:53: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:34:53: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" say "reiosse" (dead)
+L 11/22/2018 - 12:34:58: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "knife"
+L 11/22/2018 - 12:34:58: Team "TERRORIST" triggered "Terrorists_Win" (CT "2") (T "5")
+L 11/22/2018 - 12:34:58: World triggered "Round_End"
+L 11/22/2018 - 12:35:02: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" say "levei do bot" (dead)
+L 11/22/2018 - 12:35:03: World triggered "Round_Start"
+L 11/22/2018 - 12:35:07: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "m3"
+L 11/22/2018 - 12:35:07: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:35:13: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Chad<11><BOT><CT>" with "m3"
+L 11/22/2018 - 12:35:16: "XXBOT Eric<12><BOT><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "aug"
+L 11/22/2018 - 12:35:19: "XXBOT Eric<12><BOT><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 11/22/2018 - 12:35:20: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" killed "XXBOT Eric<12><BOT><CT>" with "m4a1"
+L 11/22/2018 - 12:35:20: Team "TERRORIST" triggered "Terrorists_Win" (CT "2") (T "6")
+L 11/22/2018 - 12:35:20: World triggered "Round_End"
+L 11/22/2018 - 12:35:25: World triggered "Round_Start"
+L 11/22/2018 - 12:35:31: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:35:31: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:35:37: "XXBOT Eric<12><BOT><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 11/22/2018 - 12:35:38: "Gho$T<13><VALVE_ID_LAN><>" connected, address "10.15.2.102:27005"
+L 11/22/2018 - 12:35:39: "XXBOT Chad<11><BOT><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "aug"
+L 11/22/2018 - 12:35:40: "XXBOT Eric<12><BOT><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 11/22/2018 - 12:35:41: "Gho$T<13><VALVE_ID_LAN><>" entered the game
+L 11/22/2018 - 12:35:45: "Gho$T<13><VALVE_ID_LAN><>" joined team "CT"
+L 11/22/2018 - 12:35:51: "XXBOT Chad<11><BOT><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 11/22/2018 - 12:35:51: Team "CT" triggered "CTs_Win" (CT "3") (T "6")
+L 11/22/2018 - 12:35:51: World triggered "Round_End"
+L 11/22/2018 - 12:35:56: World triggered "Round_Start"
+L 11/22/2018 - 12:36:03: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "knife"
+L 11/22/2018 - 12:36:03: "NOVATO<14><VALVE_ID_LAN><>" connected, address "10.15.2.104:27005"
+L 11/22/2018 - 12:36:03: "XXBOT Eric<12><BOT><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 11/22/2018 - 12:36:03: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "mp5navy"
+L 11/22/2018 - 12:36:05: "XXBOT Eric<12><BOT><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 11/22/2018 - 12:36:05: Server cvar "bot_quota" = "1"
+L 11/22/2018 - 12:36:05: Server cvar "bot_quota" = "0"
+L 11/22/2018 - 12:36:05: Kick: "XXBOT Chad<11><UNKNOWN><>" was kicked by "G-A-R-G-A-M-E-L"
+L 11/22/2018 - 12:36:05: "XXBOT Chad<11><BOT><CT>" disconnected
+L 11/22/2018 - 12:36:05: Kick: "XXBOT Eric<12><UNKNOWN><>" was kicked by "G-A-R-G-A-M-E-L"
+L 11/22/2018 - 12:36:05: "XXBOT Eric<12><BOT><CT>" disconnected
+L 11/22/2018 - 12:36:08: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "mp5navy"
+L 11/22/2018 - 12:36:11: "Cap Billy<8><VALVE_ID_LAN><CT>" say "EU NAO QUERO NEM SABERRRRRRRR" (dead)
+L 11/22/2018 - 12:36:12: "NOVATO<14><VALVE_ID_LAN><>" entered the game
+L 11/22/2018 - 12:36:15: "NOVATO<14><VALVE_ID_LAN><>" joined team "CT"
+L 11/22/2018 - 12:36:19: "XXBOT Dan<15><BOT><>" joined team "CT"
+L 11/22/2018 - 12:36:19: Server cvar "bot_quota" = "1"
+L 11/22/2018 - 12:36:19: "XXBOT Dan<15><BOT><>" entered the game
+L 11/22/2018 - 12:36:20: "NOVATO<14><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 11/22/2018 - 12:36:20: Team "CT" triggered "CTs_Win" (CT "4") (T "6")
+L 11/22/2018 - 12:36:20: World triggered "Round_End"
+L 11/22/2018 - 12:36:25: World triggered "Round_Start"
+L 11/22/2018 - 12:36:27: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 11/22/2018 - 12:36:29: "Jack<16><VALVE_ID_LAN><>" connected, address "10.15.2.75:27005"
+L 11/22/2018 - 12:36:30: "NOVATO<14><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 11/22/2018 - 12:36:31: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "NOVATO<14><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:36:31: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "aug"
+L 11/22/2018 - 12:36:33: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Gho$T<13><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:36:33: "Jack<16><VALVE_ID_LAN><>" entered the game
+L 11/22/2018 - 12:36:33: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:36:37: "Jack<16><VALVE_ID_LAN><>" joined team "CT"
+L 11/22/2018 - 12:36:38: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:36:41: "XXBOT Dan<15><BOT><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "aug"
+L 11/22/2018 - 12:36:41: Team "CT" triggered "CTs_Win" (CT "5") (T "6")
+L 11/22/2018 - 12:36:41: World triggered "Round_End"
+L 11/22/2018 - 12:36:47: World triggered "Round_Start"
+L 11/22/2018 - 12:36:47: Server cvar "bot_quota" = "0"
+L 11/22/2018 - 12:36:47: Kick: "XXBOT Dan<15><UNKNOWN><>" was kicked by "G-A-R-G-A-M-E-L"
+L 11/22/2018 - 12:36:47: "XXBOT Dan<15><BOT><CT>" disconnected
+L 11/22/2018 - 12:36:52: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:36:52: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:36:54: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" killed "Jack<16><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:36:54: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:36:56: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<13><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:36:57: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" killed "NOVATO<14><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:36:57: Team "TERRORIST" triggered "Terrorists_Win" (CT "5") (T "7")
+L 11/22/2018 - 12:36:57: World triggered "Round_End"
+L 11/22/2018 - 12:37:02: World triggered "Round_Start"
+L 11/22/2018 - 12:37:06: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "m249"
+L 11/22/2018 - 12:37:08: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "m249"
+L 11/22/2018 - 12:37:08: "XXBOT John<17><BOT><>" joined team "TERRORIST"
+L 11/22/2018 - 12:37:08: Server cvar "bot_quota" = "1"
+L 11/22/2018 - 12:37:08: "XXBOT John<17><BOT><>" entered the game
+L 11/22/2018 - 12:37:09: "Jack<16><VALVE_ID_LAN><CT>" killed "XXBOT John<17><BOT><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:37:10: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:37:10: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:37:12: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "NOVATO<14><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:37:13: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Jack<16><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:37:15: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:37:17: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<13><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:37:17: Team "TERRORIST" triggered "Terrorists_Win" (CT "5") (T "8")
+L 11/22/2018 - 12:37:17: World triggered "Round_End"
+L 11/22/2018 - 12:37:21: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" say "linda" (dead)
+L 11/22/2018 - 12:37:22: World triggered "Round_Start"
+L 11/22/2018 - 12:37:25: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "aug"
+L 11/22/2018 - 12:37:25: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "grenade"
+L 11/22/2018 - 12:37:28: "Jack<16><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 11/22/2018 - 12:37:29: "XXBOT John<17><BOT><TERRORIST>" killed "Jack<16><VALVE_ID_LAN><CT>" with "aug"
+L 11/22/2018 - 12:37:31: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "NOVATO<14><VALVE_ID_LAN><CT>" with "knife"
+L 11/22/2018 - 12:37:32: "Gho$T<13><VALVE_ID_LAN><CT>" killed "XXBOT John<17><BOT><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:37:32: "Gho$T<13><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:37:42: "Gho$T<13><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "knife"
+L 11/22/2018 - 12:37:43: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" say_team "smolder eh nosso heroi" (dead)
+L 11/22/2018 - 12:37:45: "Jack<16><VALVE_ID_LAN><CT>" say "aaahhhhh" (dead)
+L 11/22/2018 - 12:37:47: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" say "kkkkk" (dead)
+L 11/22/2018 - 12:37:47: "Jack<16><VALVE_ID_LAN><CT>" say "gerando" (dead)
+L 11/22/2018 - 12:37:48: "Cap Billy<8><VALVE_ID_LAN><CT>" say "PEGUE O OUTRO JOGADOR" (dead)
+L 11/22/2018 - 12:37:55: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<13><VALVE_ID_LAN><CT>" with "m4a1"
+L 11/22/2018 - 12:37:55: Team "TERRORIST" triggered "Terrorists_Win" (CT "5") (T "9")
+L 11/22/2018 - 12:37:55: World triggered "Round_End"
+L 11/22/2018 - 12:37:57: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" say "boa" (dead)
+L 11/22/2018 - 12:37:59: "Gho$T<13><VALVE_ID_LAN><CT>" say "iihhh" (dead)
+L 11/22/2018 - 12:38:00: World triggered "Round_Start"
+L 11/22/2018 - 12:38:03: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 11/22/2018 - 12:38:04: "NOVATO<14><VALVE_ID_LAN><CT>" killed "XXBOT John<17><BOT><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:38:06: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" killed "Jack<16><VALVE_ID_LAN><CT>" with "g3sg1"
+L 11/22/2018 - 12:38:08: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "m4a1"
+L 11/22/2018 - 12:38:08: "NOVATO<14><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:38:11: "NOVATO<14><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:38:11: Team "CT" triggered "CTs_Win" (CT "6") (T "9")
+L 11/22/2018 - 12:38:11: World triggered "Round_End"
+L 11/22/2018 - 12:38:16: World triggered "Round_Start"
+L 11/22/2018 - 12:38:20: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "aug"
+L 11/22/2018 - 12:38:20: "Gho$T<13><VALVE_ID_LAN><CT>" killed "XXBOT John<17><BOT><TERRORIST>" with "mac10"
+L 11/22/2018 - 12:38:22: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<13><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:38:24: "Jack<16><VALVE_ID_LAN><CT>" killed "NOVATO<14><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:38:26: "Jack<16><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:38:26: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:38:27: "Gho$T<13><VALVE_ID_LAN><CT>" say "boa tarde garga" (dead)
+L 11/22/2018 - 12:38:28: "Jack<16><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:38:31: "Jack<16><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:38:34: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Jack<16><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:38:34: Team "TERRORIST" triggered "Terrorists_Win" (CT "6") (T "10")
+L 11/22/2018 - 12:38:34: World triggered "Round_End"
+L 11/22/2018 - 12:38:37: "Cap Billy<8><VALVE_ID_LAN><CT>" say_team "ja saiu " (dead)
+L 11/22/2018 - 12:38:39: World triggered "Round_Start"
+L 11/22/2018 - 12:38:39: "Jack<16><VALVE_ID_LAN><CT>" committed suicide with "world"
+L 11/22/2018 - 12:38:43: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "NOVATO<14><VALVE_ID_LAN><CT>" with "mp5navy"
+L 11/22/2018 - 12:38:47: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:38:47: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<13><VALVE_ID_LAN><CT>" with "mp5navy"
+L 11/22/2018 - 12:38:50: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "mp5navy"
+L 11/22/2018 - 12:38:51: "XXBOT John<17><BOT><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "mac10"
+L 11/22/2018 - 12:38:51: Team "TERRORIST" triggered "Terrorists_Win" (CT "6") (T "11")
+L 11/22/2018 - 12:38:51: World triggered "Round_End"
+L 11/22/2018 - 12:38:56: World triggered "Round_Start"
+L 11/22/2018 - 12:38:58: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<13><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:38:58: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "aug"
+L 11/22/2018 - 12:39:01: "NOVATO<14><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 11/22/2018 - 12:39:02: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "XXBOT John<17><BOT><TERRORIST>" with "aug"
+L 11/22/2018 - 12:39:02: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 11/22/2018 - 12:39:03: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "mp5navy"
+L 11/22/2018 - 12:39:05: "Jack<16><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 11/22/2018 - 12:39:05: Team "CT" triggered "CTs_Win" (CT "7") (T "11")
+L 11/22/2018 - 12:39:05: World triggered "Round_End"
+L 11/22/2018 - 12:39:10: World triggered "Round_Start"
+L 11/22/2018 - 12:39:17: "NOVATO<14><VALVE_ID_LAN><CT>" killed "XXBOT John<17><BOT><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:39:19: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "NOVATO<14><VALVE_ID_LAN><CT>" with "m4a1"
+L 11/22/2018 - 12:39:20: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "aug"
+L 11/22/2018 - 12:39:21: "Jack<16><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 11/22/2018 - 12:39:23: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Jack<16><VALVE_ID_LAN><CT>" with "mp5navy"
+L 11/22/2018 - 12:39:23: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Gho$T<13><VALVE_ID_LAN><CT>" with "m4a1"
+L 11/22/2018 - 12:39:25: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 11/22/2018 - 12:39:27: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "knife"
+L 11/22/2018 - 12:39:30: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" say "pegue" (dead)
+L 11/22/2018 - 12:39:32: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" say "kkkk" (dead)
+L 11/22/2018 - 12:39:32: "Gho$T<13><VALVE_ID_LAN><CT>" say_team "yiiiiwwwww" (dead)
+L 11/22/2018 - 12:39:33: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "mp5navy"
+L 11/22/2018 - 12:39:33: Team "TERRORIST" triggered "Terrorists_Win" (CT "7") (T "12")
+L 11/22/2018 - 12:39:33: World triggered "Round_End"
+L 11/22/2018 - 12:39:37: "Gho$T<13><VALVE_ID_LAN><CT>" say "tome" (dead)
+L 11/22/2018 - 12:39:38: World triggered "Round_Start"
+L 11/22/2018 - 12:39:40: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:39:42: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:39:43: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "XXBOT John<17><BOT><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:39:43: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<13><VALVE_ID_LAN><CT>" with "mp5navy"
+L 11/22/2018 - 12:39:44: "Jack<16><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "usp"
+L 11/22/2018 - 12:39:45: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:39:45: Team "CT" triggered "CTs_Win" (CT "8") (T "12")
+L 11/22/2018 - 12:39:45: World triggered "Round_End"
+L 11/22/2018 - 12:39:50: World triggered "Round_Start"
+L 11/22/2018 - 12:39:54: "Gho$T<13><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 11/22/2018 - 12:39:55: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:39:57: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:39:57: "NOVATO<14><VALVE_ID_LAN><CT>" killed "XXBOT John<17><BOT><TERRORIST>" with "mac10"
+L 11/22/2018 - 12:39:58: "NOVATO<14><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 11/22/2018 - 12:40:01: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:40:01: Team "CT" triggered "CTs_Win" (CT "9") (T "12")
+L 11/22/2018 - 12:40:01: World triggered "Round_End"
+L 11/22/2018 - 12:40:06: World triggered "Round_Start"
+L 11/22/2018 - 12:40:08: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:40:08: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:40:11: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "NOVATO<14><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:40:11: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Gho$T<13><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:40:12: "XXBOT John<17><BOT><TERRORIST>" killed "Jack<16><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:40:15: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:40:15: Team "TERRORIST" triggered "Terrorists_Win" (CT "9") (T "13")
+L 11/22/2018 - 12:40:15: World triggered "Round_End"
+L 11/22/2018 - 12:40:20: World triggered "Round_Start"
+L 11/22/2018 - 12:40:25: "Gho$T<13><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 11/22/2018 - 12:40:26: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:40:27: "Gho$T<13><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "mp5navy"
+L 11/22/2018 - 12:40:28: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:40:29: "XXBOT John<17><BOT><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:40:31: "NOVATO<14><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "m249"
+L 11/22/2018 - 12:40:34: "Gho$T<13><VALVE_ID_LAN><CT>" killed "XXBOT John<17><BOT><TERRORIST>" with "mp5navy"
+L 11/22/2018 - 12:40:34: Team "CT" triggered "CTs_Win" (CT "10") (T "13")
+L 11/22/2018 - 12:40:34: World triggered "Round_End"
+L 11/22/2018 - 12:40:39: World triggered "Round_Start"
+L 11/22/2018 - 12:40:42: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Jack<16><VALVE_ID_LAN><CT>" with "xm1014"
+L 11/22/2018 - 12:40:43: "NOVATO<14><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "ak47"
+L 11/22/2018 - 12:40:45: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<13><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:40:46: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "XXBOT John<17><BOT><TERRORIST>" with "m249"
+L 11/22/2018 - 12:40:47: Server cvar "amx_nextmap" = "aim_ak-colt_pool"
+L 11/22/2018 - 12:40:53: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:40:59: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/22/2018 - 12:41:00: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "NOVATO<14><VALVE_ID_LAN><CT>" with "knife"
+L 11/22/2018 - 12:41:02: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/22/2018 - 12:41:03: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "glock18"
+L 11/22/2018 - 12:41:03: Team "TERRORIST" triggered "Terrorists_Win" (CT "10") (T "14")
+L 11/22/2018 - 12:41:03: World triggered "Round_End"
+L 11/22/2018 - 12:41:05: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" say "kkkkkkk" (dead)
+L 11/22/2018 - 12:41:06: "Jack<16><VALVE_ID_LAN><CT>" say "nno lago dpo amor" (dead)
+L 11/22/2018 - 12:41:07: "Gho$T<13><VALVE_ID_LAN><CT>" say "auauhahauh" (dead)
+L 11/22/2018 - 12:41:08: World triggered "Round_Start"
+L 11/22/2018 - 12:41:11: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:41:13: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" killed "Jack<16><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:41:14: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" killed "XXBOT John<17><BOT><TERRORIST>" with "aug"
+L 11/22/2018 - 12:41:15: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "aug"
+L 11/22/2018 - 12:41:15: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:41:16: "Gho$T<13><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "mp5navy"
+L 11/22/2018 - 12:41:19: "NOVATO<14><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/22/2018 - 12:41:19: "Gho$T<13><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 11/22/2018 - 12:41:19: Team "CT" triggered "CTs_Win" (CT "11") (T "14")
+L 11/22/2018 - 12:41:19: World triggered "Round_End"
+L 11/22/2018 - 12:41:24: World triggered "Round_Start"
+L 11/22/2018 - 12:41:27: "Jack<16><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "usp"
+L 11/22/2018 - 12:41:28: "Gho$T<13><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 11/22/2018 - 12:41:32: "Jack<16><VALVE_ID_LAN><CT>" killed "XXBOT John<17><BOT><TERRORIST>" with "usp"
+L 11/22/2018 - 12:41:33: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "NOVATO<14><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:41:35: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 11/22/2018 - 12:41:38: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 11/22/2018 - 12:41:38: Team "CT" triggered "CTs_Win" (CT "12") (T "14")
+L 11/22/2018 - 12:41:38: World triggered "Round_End"
+L 11/22/2018 - 12:41:43: World triggered "Round_Start"
+L 11/22/2018 - 12:41:46: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" killed "XXBOT John<17><BOT><TERRORIST>" with "grenade"
+L 11/22/2018 - 12:41:46: "Gho$T<13><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "mp5navy"
+L 11/22/2018 - 12:41:49: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Gho$T<13><VALVE_ID_LAN><CT>" with "mp5navy"
+L 11/22/2018 - 12:41:50: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" killed "Cap Billy<8><VALVE_ID_LAN><CT>" with "mac10"
+L 11/22/2018 - 12:41:51: "Jack<16><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 11/22/2018 - 12:41:51: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "mp5navy"
+L 11/22/2018 - 12:41:54: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "mac10"
+L 11/22/2018 - 12:41:56: "NOVATO<14><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 11/22/2018 - 12:41:56: Team "CT" triggered "CTs_Win" (CT "13") (T "14")
+L 11/22/2018 - 12:41:56: World triggered "Round_End"
+L 11/22/2018 - 12:42:00: "Cap Billy<8><VALVE_ID_LAN><CT>" say_team "BORA REAGIR" (dead)
+L 11/22/2018 - 12:42:01: World triggered "Round_Start"
+L 11/22/2018 - 12:42:04: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "m4a1"
+L 11/22/2018 - 12:42:06: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 11/22/2018 - 12:42:09: "Gho$T<13><VALVE_ID_LAN><CT>" killed "XXBOT John<17><BOT><TERRORIST>" with "usp"
+L 11/22/2018 - 12:42:10: "NOVATO<14><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "knife"
+L 11/22/2018 - 12:42:11: "Smolder<7><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "ak47"
+L 11/22/2018 - 12:42:13: "Pingado<18><VALVE_ID_LAN><>" connected, address "10.15.2.35:27005"
+L 11/22/2018 - 12:42:15: "Gho$T<13><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 11/22/2018 - 12:42:15: Team "CT" triggered "CTs_Win" (CT "14") (T "14")
+L 11/22/2018 - 12:42:15: World triggered "Round_End"
+L 11/22/2018 - 12:42:20: World triggered "Round_Start"
+L 11/22/2018 - 12:42:24: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" killed "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" with "xm1014"
+L 11/22/2018 - 12:42:24: "Pingado<18><VALVE_ID_LAN><>" entered the game
+L 11/22/2018 - 12:42:25: "Jack<16><VALVE_ID_LAN><CT>" killed "XXBOT John<17><BOT><TERRORIST>" with "mp5navy"
+L 11/22/2018 - 12:42:25: "Gho$T<13><VALVE_ID_LAN><CT>" killed "Kitkat<5><VALVE_ID_LAN><TERRORIST>" with "mac10"
+L 11/22/2018 - 12:42:26: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" killed "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" with "m4a1"
+L 11/22/2018 - 12:42:27: "NOVATO<14><VALVE_ID_LAN><CT>" killed "Smolder<7><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 11/22/2018 - 12:42:28: "Cap Billy<8><VALVE_ID_LAN><CT>" killed "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" with "m4a1"
+L 11/22/2018 - 12:42:28: Team "CT" triggered "CTs_Win" (CT "15") (T "14")
+L 11/22/2018 - 12:42:28: World triggered "Round_End"
+L 11/22/2018 - 12:42:28: Team "CT" scored "15" with "5" players
+L 11/22/2018 - 12:42:28: Team "TERRORIST" scored "14" with "5" players
+L 11/22/2018 - 12:42:35: "Gho$T<13><VALVE_ID_LAN><CT>" say "recorde"
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "grenade") (shots "6") (hits "8") (kills "0") (headshots "0") (tks "0") (damage "221") (deaths "1")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "xm1014") (shots "38") (hits "28") (kills "11") (headshots "1") (tks "0") (damage "2211") (deaths "7")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "xm1014") (head "1") (chest "3") (stomach "6") (leftarm "10") (rightarm "2") (leftleg "2") (rightleg "4")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "mac10") (shots "41") (hits "7") (kills "1") (headshots "0") (tks "0") (damage "186") (deaths "2")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "mac10") (head "0") (chest "2") (stomach "2") (leftarm "2") (rightarm "1") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "aug") (shots "44") (hits "12") (kills "3") (headshots "1") (tks "0") (damage "459") (deaths "1")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "aug") (head "1") (chest "2") (stomach "1") (leftarm "5") (rightarm "2") (leftleg "1") (rightleg "0")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "usp") (shots "8") (hits "2") (kills "0") (headshots "0") (tks "0") (damage "49") (deaths "1")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "usp") (head "0") (chest "0") (stomach "0") (leftarm "2") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "mp5navy") (shots "67") (hits "10") (kills "3") (headshots "2") (tks "0") (damage "419") (deaths "0")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "mp5navy") (head "3") (chest "5") (stomach "0") (leftarm "0") (rightarm "2") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "m249") (shots "108") (hits "11") (kills "3") (headshots "1") (tks "0") (damage "327") (deaths "0")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "m249") (head "1") (chest "2") (stomach "1") (leftarm "4") (rightarm "2") (leftleg "0") (rightleg "1")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "m4a1") (shots "106") (hits "33") (kills "7") (headshots "2") (tks "0") (damage "1144") (deaths "3")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "m4a1") (head "2") (chest "8") (stomach "2") (leftarm "15") (rightarm "4") (leftleg "1") (rightleg "1")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "6") (hits "5") (kills "4") (headshots "2") (tks "0") (damage "455") (deaths "5")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "2") (chest "1") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "time" (time "9:22")
+L 11/22/2018 - 12:42:36: "Cap Billy<8><VALVE_ID_LAN><CT>" triggered "latency" (ping "10")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats" (weapon "grenade") (shots "2") (hits "3") (kills "0") (headshots "0") (tks "0") (damage "95") (deaths "0")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats" (weapon "xm1014") (shots "75") (hits "35") (kills "14") (headshots "3") (tks "0") (damage "1977") (deaths "9")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats2" (weapon "xm1014") (head "4") (chest "5") (stomach "4") (leftarm "7") (rightarm "4") (leftleg "7") (rightleg "4")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats" (weapon "aug") (shots "51") (hits "9") (kills "2") (headshots "1") (tks "0") (damage "350") (deaths "2")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats2" (weapon "aug") (head "1") (chest "0") (stomach "0") (leftarm "4") (rightarm "2") (leftleg "2") (rightleg "0")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "13") (hits "2") (kills "0") (headshots "0") (tks "0") (damage "51") (deaths "1")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "1") (chest "0") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats" (weapon "m3") (shots "1") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "1")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats2" (weapon "m3") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats" (weapon "m4a1") (shots "36") (hits "10") (kills "2") (headshots "1") (tks "0") (damage "378") (deaths "1")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats2" (weapon "m4a1") (head "1") (chest "3") (stomach "0") (leftarm "2") (rightarm "0") (leftleg "2") (rightleg "2")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats" (weapon "ak47") (shots "80") (hits "10") (kills "3") (headshots "2") (tks "0") (damage "528") (deaths "3")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats2" (weapon "ak47") (head "2") (chest "1") (stomach "1") (leftarm "2") (rightarm "3") (leftleg "0") (rightleg "1")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "6") (hits "5") (kills "2") (headshots "1") (tks "0") (damage "325") (deaths "5")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "2") (chest "1") (stomach "1") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "time" (time "10:19")
+L 11/22/2018 - 12:42:37: "G-A-R-G-A-M-E-L<3><VALVE_ID_LOOPBACK><TERRORIST>" triggered "latency" (ping "0")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "scout") (shots "2") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "0")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "scout") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "grenade") (shots "1") (hits "3") (kills "1") (headshots "0") (tks "0") (damage "111") (deaths "0")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "xm1014") (shots "20") (hits "9") (kills "5") (headshots "1") (tks "0") (damage "881") (deaths "6")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "xm1014") (head "2") (chest "0") (stomach "0") (leftarm "3") (rightarm "3") (leftleg "0") (rightleg "1")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "mac10") (shots "45") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "22") (deaths "4")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "mac10") (head "0") (chest "0") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "aug") (shots "75") (hits "9") (kills "3") (headshots "2") (tks "0") (damage "400") (deaths "2")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "aug") (head "2") (chest "0") (stomach "3") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "3")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "usp") (shots "13") (hits "3") (kills "0") (headshots "0") (tks "0") (damage "71") (deaths "4")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "usp") (head "0") (chest "1") (stomach "0") (leftarm "2") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "mp5navy") (shots "58") (hits "12") (kills "2") (headshots "0") (tks "0") (damage "291") (deaths "5")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "mp5navy") (head "0") (chest "3") (stomach "2") (leftarm "3") (rightarm "2") (leftleg "1") (rightleg "1")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "2") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "2")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "time" (time "10:08")
+L 11/22/2018 - 12:42:37: "Inspetor Buginganga<6><VALVE_ID_LAN><CT>" triggered "latency" (ping "22")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "scout") (shots "1") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "0")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "scout") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "mac10") (shots "15") (hits "2") (kills "0") (headshots "0") (tks "0") (damage "34") (deaths "3")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "mac10") (head "0") (chest "0") (stomach "0") (leftarm "1") (rightarm "1") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "aug") (shots "36") (hits "3") (kills "1") (headshots "0") (tks "0") (damage "95") (deaths "5")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "aug") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "3") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "28") (hits "6") (kills "1") (headshots "1") (tks "0") (damage "182") (deaths "6")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "1") (chest "0") (stomach "1") (leftarm "3") (rightarm "0") (leftleg "0") (rightleg "1")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "mp5navy") (shots "2") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "27") (deaths "1")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "mp5navy") (head "0") (chest "0") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m3") (shots "1") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "0")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m3") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m4a1") (shots "16") (hits "8") (kills "1") (headshots "0") (tks "0") (damage "220") (deaths "1")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m4a1") (head "1") (chest "2") (stomach "0") (leftarm "4") (rightarm "1") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "ak47") (shots "15") (hits "2") (kills "0") (headshots "0") (tks "0") (damage "23") (deaths "3")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "ak47") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "1") (rightleg "1")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "10:02")
+L 11/22/2018 - 12:42:37: "Kitkat<5><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "14")
+L 11/22/2018 - 12:42:37: "Smolder<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "grenade") (shots "7") (hits "8") (kills "1") (headshots "0") (tks "0") (damage "425") (deaths "0")
+L 11/22/2018 - 12:42:37: "Smolder<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Smolder<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "xm1014") (shots "37") (hits "15") (kills "7") (headshots "2") (tks "0") (damage "1141") (deaths "3")
+L 11/22/2018 - 12:42:37: "Smolder<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "xm1014") (head "2") (chest "2") (stomach "1") (leftarm "3") (rightarm "2") (leftleg "3") (rightleg "2")
+L 11/22/2018 - 12:42:37: "Smolder<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "aug") (shots "24") (hits "4") (kills "1") (headshots "0") (tks "0") (damage "98") (deaths "1")
+L 11/22/2018 - 12:42:37: "Smolder<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "aug") (head "0") (chest "0") (stomach "1") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "3")
+L 11/22/2018 - 12:42:37: "Smolder<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "2") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "1")
+L 11/22/2018 - 12:42:37: "Smolder<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Smolder<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "mp5navy") (shots "159") (hits "42") (kills "9") (headshots "2") (tks "0") (damage "1094") (deaths "5")
+L 11/22/2018 - 12:42:37: "Smolder<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "mp5navy") (head "2") (chest "2") (stomach "3") (leftarm "19") (rightarm "9") (leftleg "5") (rightleg "2")
+L 11/22/2018 - 12:42:37: "Smolder<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "ak47") (shots "140") (hits "34") (kills "16") (headshots "6") (tks "0") (damage "1811") (deaths "6")
+L 11/22/2018 - 12:42:37: "Smolder<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "ak47") (head "6") (chest "7") (stomach "2") (leftarm "15") (rightarm "3") (leftleg "1") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Smolder<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "6") (hits "4") (kills "3") (headshots "0") (tks "0") (damage "260") (deaths "2")
+L 11/22/2018 - 12:42:37: "Smolder<7><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "4") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Smolder<7><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "9:32")
+L 11/22/2018 - 12:42:37: "Smolder<7><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "7")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "grenade") (shots "3") (hits "8") (kills "0") (headshots "0") (tks "0") (damage "234") (deaths "0")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "xm1014") (shots "29") (hits "10") (kills "3") (headshots "0") (tks "0") (damage "462") (deaths "4")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "xm1014") (head "0") (chest "2") (stomach "1") (leftarm "1") (rightarm "0") (leftleg "4") (rightleg "2")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "mac10") (shots "43") (hits "7") (kills "2") (headshots "1") (tks "0") (damage "237") (deaths "1")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "mac10") (head "1") (chest "1") (stomach "1") (leftarm "2") (rightarm "1") (leftleg "0") (rightleg "1")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "aug") (shots "77") (hits "12") (kills "1") (headshots "0") (tks "0") (damage "353") (deaths "4")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "aug") (head "0") (chest "1") (stomach "0") (leftarm "5") (rightarm "4") (leftleg "1") (rightleg "1")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "glock18") (shots "22") (hits "3") (kills "0") (headshots "0") (tks "0") (damage "77") (deaths "0")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "glock18") (head "0") (chest "0") (stomach "0") (leftarm "2") (rightarm "1") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "mp5navy") (shots "43") (hits "5") (kills "2") (headshots "2") (tks "0") (damage "294") (deaths "1")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "mp5navy") (head "2") (chest "1") (stomach "0") (leftarm "1") (rightarm "1") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m3") (shots "2") (hits "2") (kills "2") (headshots "0") (tks "0") (damage "236") (deaths "0")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m3") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "1") (leftleg "0") (rightleg "1")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "m4a1") (shots "70") (hits "7") (kills "2") (headshots "1") (tks "0") (damage "247") (deaths "3")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "m4a1") (head "1") (chest "0") (stomach "0") (leftarm "2") (rightarm "0") (leftleg "1") (rightleg "3")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "g3sg1") (shots "15") (hits "3") (kills "1") (headshots "0") (tks "0") (damage "123") (deaths "1")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "g3sg1") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "1") (leftleg "0") (rightleg "2")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "ak47") (shots "75") (hits "10") (kills "2") (headshots "1") (tks "0") (damage "391") (deaths "4")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "ak47") (head "2") (chest "1") (stomach "2") (leftarm "3") (rightarm "0") (leftleg "1") (rightleg "1")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats" (weapon "knife") (shots "2") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "3")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "time" (time "8:50")
+L 11/22/2018 - 12:42:37: "Calcas wifi 4G<9><VALVE_ID_LAN><TERRORIST>" triggered "latency" (ping "120")
+L 11/22/2018 - 12:42:37: "Jack<16><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "grenade") (shots "6") (hits "9") (kills "0") (headshots "0") (tks "0") (damage "350") (deaths "0")
+L 11/22/2018 - 12:42:37: "Jack<16><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Jack<16><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "xm1014") (shots "13") (hits "8") (kills "5") (headshots "0") (tks "1") (damage "505") (deaths "2")
+L 11/22/2018 - 12:42:37: "Jack<16><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "xm1014") (head "1") (chest "3") (stomach "1") (leftarm "0") (rightarm "1") (leftleg "2") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Jack<16><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "mac10") (shots "25") (hits "4") (kills "1") (headshots "0") (tks "0") (damage "101") (deaths "1")
+L 11/22/2018 - 12:42:37: "Jack<16><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "mac10") (head "0") (chest "1") (stomach "0") (leftarm "2") (rightarm "1") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Jack<16><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "aug") (shots "34") (hits "6") (kills "0") (headshots "0") (tks "0") (damage "219") (deaths "2")
+L 11/22/2018 - 12:42:37: "Jack<16><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "aug") (head "3") (chest "1") (stomach "1") (leftarm "0") (rightarm "1") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Jack<16><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "usp") (shots "41") (hits "12") (kills "3") (headshots "1") (tks "0") (damage "370") (deaths "3")
+L 11/22/2018 - 12:42:37: "Jack<16><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "usp") (head "1") (chest "0") (stomach "2") (leftarm "7") (rightarm "2") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Jack<16><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "mp5navy") (shots "24") (hits "6") (kills "2") (headshots "0") (tks "0") (damage "148") (deaths "1")
+L 11/22/2018 - 12:42:37: "Jack<16><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "mp5navy") (head "0") (chest "0") (stomach "2") (leftarm "2") (rightarm "1") (leftleg "1") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Jack<16><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "m4a1") (shots "22") (hits "5") (kills "2") (headshots "1") (tks "0") (damage "228") (deaths "1")
+L 11/22/2018 - 12:42:37: "Jack<16><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "m4a1") (head "1") (chest "1") (stomach "1") (leftarm "2") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Jack<16><VALVE_ID_LAN><CT>" triggered "time" (time "6:03")
+L 11/22/2018 - 12:42:37: "Jack<16><VALVE_ID_LAN><CT>" triggered "latency" (ping "5")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "grenade") (shots "6") (hits "10") (kills "0") (headshots "0") (tks "0") (damage "248") (deaths "0")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "xm1014") (shots "9") (hits "3") (kills "2") (headshots "0") (tks "0") (damage "260") (deaths "1")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "xm1014") (head "0") (chest "0") (stomach "1") (leftarm "2") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "mac10") (shots "102") (hits "15") (kills "4") (headshots "1") (tks "0") (damage "423") (deaths "3")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "mac10") (head "1") (chest "0") (stomach "2") (leftarm "5") (rightarm "5") (leftleg "1") (rightleg "1")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "aug") (shots "18") (hits "1") (kills "0") (headshots "0") (tks "0") (damage "14") (deaths "2")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "aug") (head "0") (chest "0") (stomach "1") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "usp") (shots "12") (hits "1") (kills "1") (headshots "0") (tks "0") (damage "33") (deaths "1")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "usp") (head "0") (chest "0") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "mp5navy") (shots "114") (hits "27") (kills "7") (headshots "1") (tks "0") (damage "717") (deaths "2")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "mp5navy") (head "2") (chest "6") (stomach "0") (leftarm "15") (rightarm "3") (leftleg "1") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "m4a1") (shots "25") (hits "5") (kills "0") (headshots "0") (tks "0") (damage "117") (deaths "1")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "m4a1") (head "0") (chest "0") (stomach "0") (leftarm "2") (rightarm "1") (leftleg "1") (rightleg "1")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "ak47") (shots "1") (hits "0") (kills "0") (headshots "0") (tks "0") (damage "0") (deaths "0")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "ak47") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "3") (hits "2") (kills "1") (headshots "0") (tks "0") (damage "130") (deaths "2")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "0") (chest "1") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "time" (time "6:55")
+L 11/22/2018 - 12:42:37: "Gho$T<13><VALVE_ID_LAN><CT>" triggered "latency" (ping "7")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "grenade") (shots "7") (hits "12") (kills "0") (headshots "0") (tks "0") (damage "434") (deaths "1")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "grenade") (head "0") (chest "0") (stomach "0") (leftarm "0") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "xm1014") (shots "17") (hits "11") (kills "4") (headshots "1") (tks "0") (damage "718") (deaths "2")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "xm1014") (head "1") (chest "3") (stomach "1") (leftarm "1") (rightarm "1") (leftleg "1") (rightleg "3")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "mac10") (shots "49") (hits "7") (kills "3") (headshots "2") (tks "0") (damage "331") (deaths "0")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "mac10") (head "2") (chest "1") (stomach "1") (leftarm "2") (rightarm "0") (leftleg "0") (rightleg "1")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "aug") (shots "25") (hits "6") (kills "2") (headshots "0") (tks "0") (damage "203") (deaths "2")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "aug") (head "0") (chest "2") (stomach "3") (leftarm "0") (rightarm "1") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "m249") (shots "86") (hits "7") (kills "1") (headshots "1") (tks "0") (damage "267") (deaths "1")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "m249") (head "1") (chest "2") (stomach "1") (leftarm "2") (rightarm "1") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "m4a1") (shots "36") (hits "8") (kills "2") (headshots "1") (tks "0") (damage "289") (deaths "0")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "m4a1") (head "1") (chest "0") (stomach "2") (leftarm "2") (rightarm "2") (leftleg "1") (rightleg "0")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "ak47") (shots "7") (hits "2") (kills "1") (headshots "1") (tks "0") (damage "167") (deaths "1")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "ak47") (head "1") (chest "0") (stomach "0") (leftarm "1") (rightarm "0") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "weaponstats" (weapon "knife") (shots "8") (hits "4") (kills "2") (headshots "1") (tks "0") (damage "260") (deaths "3")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "weaponstats2" (weapon "knife") (head "2") (chest "0") (stomach "0") (leftarm "0") (rightarm "2") (leftleg "0") (rightleg "0")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "time" (time "6:24")
+L 11/22/2018 - 12:42:37: "NOVATO<14><VALVE_ID_LAN><CT>" triggered "latency" (ping "11")
+L 11/22/2018 - 12:42:37: "Pingado<18><VALVE_ID_LAN><UNASSIGNED>" triggered "time" (time "0:12")
+L 11/22/2018 - 12:42:37: "Pingado<18><VALVE_ID_LAN><UNASSIGNED>" triggered "latency" (ping "0")
+L 11/22/2018 - 12:42:37: [META] ini: Begin re-reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini
+L 11/22/2018 - 12:42:37: [META] ini: Read plugin config for: AMX
+L 11/22/2018 - 12:42:37: [META] ini: Read plugin config for: WinHL-Booster
+L 11/22/2018 - 12:42:37: [META] ERROR: ini: Skipping plugin, couldn't stat file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': No such file or directory
+L 11/22/2018 - 12:42:37: [META] ini: Read plugin config for: WebMod
+L 11/22/2018 - 12:42:37: [META] ini: Finished reading plugins list: c:/valve/cstrike/addons/metamod/plugins.ini; Found 3 plugins
+L 11/22/2018 - 12:42:37: [META] dll: Updating plugins...
+L 11/22/2018 - 12:42:37: [META] ERROR: dll: Failed query plugin '<hlguard_mm_nightly.dll>'; Couldn't open file 'addons/hlguard/dlls/hlguard_mm_nightly.dll': Não foi possível encontrar o módulo especificado.
+
+L 11/22/2018 - 12:42:37: [META] ERROR: dll: Skipping plugin '<hlguard_mm_nightly.dll>'; couldn't query
+L 11/22/2018 - 12:42:37: [META] dll: Finished updating 6 plugins; kept 3, loaded 0, unloaded 0, reloaded 0, delayed 0
+L 11/22/2018 - 12:42:37: Log file closed
