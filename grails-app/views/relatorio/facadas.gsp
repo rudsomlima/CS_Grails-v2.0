@@ -53,7 +53,7 @@
                                 <h4>Campeão</h4>
                             </div>
                             <div class="col-xs-7 text-left">
-                                <h4>${listResultado.get(6)} (venceu ${listResultado.get(5)} critérios)</h4>
+                                <h4>${listResultado.get(6)}</h4>
                             </div>
                         </div>
                         <div class="row">
@@ -94,6 +94,14 @@
                             </div>
                             <div class="col-xs-7 text-left">
                                 <h4>${listResultado.get(4)}</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-5 text-left">
+                                <h4>Boa tarde</h4>
+                            </div>
+                            <div class="col-xs-7 text-left">
+                                <h4>${boaTarde}</h4>
                             </div>
                         </div>
                     </div>

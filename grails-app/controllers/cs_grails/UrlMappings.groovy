@@ -10,7 +10,7 @@ class UrlMappings {
         }
 
 //        "/"(view:"/teste/upload")
-        "/" (redirect: "./teste/upload")
+        "/" (redirect: "/teste/upload")
         "500"(view:'/error')
         "404"(view:'/notFound')
     }

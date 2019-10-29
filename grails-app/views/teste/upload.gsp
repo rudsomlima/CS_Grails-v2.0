@@ -33,11 +33,11 @@
         </div>
     </g:form>
     <br>
-    <g:form>
-        <div align="center" name="processar">
-            <g:actionSubmit class="btn btn-lg" value="Processar rapido" action="rodarRapido"></g:actionSubmit>
-        </div>
-    </g:form>
+    %{--<g:form>--}%
+        %{--<div align="center" name="processar">--}%
+            %{--<g:actionSubmit class="btn btn-lg" value="Processar rapido" action="rodarRapido"></g:actionSubmit>--}%
+        %{--</div>--}%
+    %{--</g:form>--}%
     <br>
 
     <div id="fileuploader">Upload</div>
