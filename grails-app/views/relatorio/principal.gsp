@@ -92,12 +92,12 @@
 
         // alert("O campo data deve ser preenchido!");
 
-        $('#alertaData').hide()
+        $('#alertaData').hide();
         $('#gerarBtn').on('click', function (e) {
             alert("O campo data deve ser preenchido!");
             if ($('#dataInicio').val().length == 0) {
-                e.preventDefault()
-                $('#alertaData').show()
+                e.preventDefault();
+                $('#alertaData').show();
                 alert("O campo data deve ser preenchido!");
             }
         });

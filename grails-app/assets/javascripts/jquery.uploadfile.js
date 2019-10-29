@@ -157,12 +157,12 @@
             if(mainQ.length >= 1 )
 	 			submitPendingUploads();
 
-        }
+        };
 
         this.getFileCount = function () {
             return obj.selectedFiles;
 
-        }
+        };
         this.stopUpload = function () {
             $("." + s.abortButtonClass).each(function (i, items) {
                 if($(this).hasClass(obj.formGroup)) $(this).click();
@@ -170,12 +170,12 @@
              $("." + s.cancelButtonClass).each(function (i, items) {
                 if($(this).hasClass(obj.formGroup)) $(this).click();
             });
-        }
+        };
         this.cancelAll = function () {
             $("." + s.cancelButtonClass).each(function (i, items) {
                 if($(this).hasClass(obj.formGroup)) $(this).click();
             });
-        }
+        };
         this.update = function (settings) {
             //update new settings
             s = $.extend(s, settings);
@@ -190,13 +190,13 @@
             }
             
             
-        }
+        };
 
 	this.enqueueFile = function(file){
 	    if( !( file instanceof File) ) return;
 	    var files = [file];
             serializeAndUploadFiles(s, obj, files);
-	}
+	};
         
         this.reset = function (removeStatusBars) {
 			obj.fileCounter = 1;
@@ -207,13 +207,13 @@
 			{
 				obj.container.html("");
 			}
-        }
+        };
 		this.remove = function()
 		{
 			obj.container.html("");
 			$(obj).remove();
 
-		}
+		};
         //This is for showing Old files to user.
         this.createProgress = function (filename,filepath,filesize) {
             var pd = new createProgressDiv(this, s);
@@ -258,13 +258,13 @@
             }
 
             return pd;
-        }
+        };
 
         this.getResponses = function () {
             return this.responses;
-        }
+        };
         var mainQ=[];
-        var progressQ=[]
+        var progressQ=[];
         var running = false;
           function submitPendingUploads() {
 			if(running) return;
@@ -460,7 +460,7 @@
 
                 var pd = new createProgressDiv(obj, s);
                 var fileNameStr = "";
-                if(s.showFileCounter) fileNameStr = obj.fileCounter + s.fileCounterStyle + files[i].name
+                if(s.showFileCounter) fileNameStr = obj.fileCounter + s.fileCounterStyle + files[i].name;
                 else fileNameStr = files[i].name;
 
 				if(s.showFileSize)
@@ -597,7 +597,7 @@
                     var fileList = "";
                     for(var i = 0; i < fileArray.length; i++) {
                         if(s.showFileCounter) fileList += obj.fileCounter + s.fileCounterStyle + fileArray[i] + "<br>";
-                        else fileList += fileArray[i] + "<br>";;
+                        else fileList += fileArray[i] + "<br>";
                         obj.fileCounter++;
 
                     }
@@ -748,7 +748,7 @@
                         return true;
                     }
                     pd.statusbar.append("<div class='" + s.errorClass + "'>" + s.uploadErrorStr + "</div>");
-                    pd.cancel.show()
+                    pd.cancel.show();
                     form.remove();
                     pd.cancel.click(function () {
                     	 mainQ.splice(mainQ.indexOf(form), 1);
@@ -788,7 +788,7 @@
                     if(percentComplete > 98) percentComplete = 98;
 
                     var percentVal = percentComplete + '%';
-                    if(percentComplete > 1) pd.progressbar.width(percentVal)
+                    if(percentComplete > 1) pd.progressbar.width(percentVal);
                     if(s.showProgress) {
                         pd.progressbar.html(percentVal);
                         pd.progressbar.css('text-align', 'center');
@@ -815,7 +815,7 @@
                         return;
                     }
                     obj.responses.push(data);
-                    pd.progressbar.width('100%')
+                    pd.progressbar.width('100%');
                     if(s.showProgress) {
                         pd.progressbar.html('100%');
                         pd.progressbar.css('text-align', 'center');

@@ -20,7 +20,7 @@
         // no AMD; invoke directly
         factory( (typeof(jQuery) != 'undefined') ? jQuery : window.Zepto );
     }
-}
+};
 
 (function($) {
 "use strict";

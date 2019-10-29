@@ -43,7 +43,7 @@
 
                 <div class="panel-body">
 
-                    <div class="col-xs-4 text-center">
+                    <div class="col-xs-3 text-center">
                         <img src="${resource(dir: 'images', file: 'taca_campeao.png')}" width="100%"/>
                     </div>
 

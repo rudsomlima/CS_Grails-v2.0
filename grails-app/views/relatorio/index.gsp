@@ -37,7 +37,6 @@ table {
 %{--<li>${data.format('dd-MM-yyyy')}</li>--}%
 %{--</ul>--}%
 
-
 <g:link controller="relatorio" action="index" params="[id: data.format('yyyy-MM-dd 00:00:00'), tipo: 'facadas']"><span class="btn btn-success btn-lg">Mano a mano: ${data.format('dd-MM-yyyy')}</span></g:link>
 
 <div></div>
