@@ -13,47 +13,55 @@
     <link href="http://hayageek.github.io/jQuery-Upload-File/4.0.11/uploadfile.css" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
     <script src="http://hayageek.github.io/jQuery-Upload-File/4.0.11/jquery.uploadfile.js"></script>
-
-
-
 </head>
 
 
 <body>
 
-</div>
 <br/>
 
-<div align="center">
+    <div align="center">
 
+        <g:form>
+            <div align="center" name="processar">
+                <g:actionSubmit class="btn btn-danger btn-lg" value="Processar arquivos" action="rodar"></g:actionSubmit>
+            </div>
+        </g:form>
+        <br>
+        <g:form>
+            <div align="center" name="processar">
+                <g:actionSubmit class="btn btn-lg" value="Processar rapido" action="rodarRapido"></g:actionSubmit>
+            </div>
+        </g:form>
+        <br>
 
-    <g:form>
-        <div align="center" name="processar">
-            <g:actionSubmit class="btn btn-danger btn-lg" value="Processar arquivos" action="rodar"></g:actionSubmit>
+        <div id="divStatus">
+            <g:render template="status" model="[n__linha: n_linha]"></g:render>
         </div>
-    </g:form>
-    <br>
-    <g:form>
-        <div align="center" name="processar">
-            <g:actionSubmit class="btn btn-lg" value="Processar rapido" action="rodarRapido"></g:actionSubmit>
-        </div>
-    </g:form>
-    <br>
 
-    <g:render template="status" />
+        <div id="fileuploader">Upload</div>
 
 
-    <div id="fileuploader">Upload</div>
+
+    </div>
+
 
         %{--<div align="center">--}%
             %{--<button class="testMe" onclick="callAjax();">Processar logs</button>--}%
         %{--</div>--}%
 
-</div>
 
 <script>
     $(document).ready(function()
     {
+
+        $('#valorInput').on('change', function() {
+            var value = $(this).val();
+            $('#valor b').text('R$ '+value);
+        });
+
+
+
 //        console.log(window.location.href)
 //        console.log("########################## Script OK!");
         $("#fileuploader").uploadFile({

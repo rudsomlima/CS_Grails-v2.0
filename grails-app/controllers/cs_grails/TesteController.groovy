@@ -16,6 +16,8 @@ class TesteController {
 //        dir.mkdir()
         println dir.getAbsolutePath()
 
+        render(template:"status", model: [n_linha: 96477123])
+
         if (dir.isDirectory()) {
             new File("uploadLogs").eachFile { file ->
                 arquivo++
@@ -25,7 +27,8 @@ class TesteController {
                 file.each { linha ->
                         n_linha++
                         println arquivo + " - " + n_linha + " - " + linha
-                        render (template:"status", model:[n_linha:n_linha])
+                        render(template:"status", model: [n_linha: n_linha])
+
                 }
             }
         }
