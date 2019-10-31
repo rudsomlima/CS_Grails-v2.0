@@ -1,5 +1,7 @@
 package cs_grails
 
+import grails.converters.JSON
+
 import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
@@ -9,27 +11,35 @@ import java.util.stream.Stream
 class TesteController {
 
     def rodarRapido() {
+        println "dado: " + params.id
         LocalDateTime t_inicio = LocalDateTime.now()
         int arquivo=0, n_linha=0
         Path caminho
+        def mapRetorno = [:]   //retorna um map pq vai para json
         File dir = new File("uploadLogs")
 //        dir.mkdir()
-        println dir.getAbsolutePath()
+        def diretorio = dir.getAbsolutePath()
+        mapRetorno << [dado:diretorio]
+//        println diretorio
+//        println mapRetorno as JSON
+//        render mapRetorno as JSON
 
         render(template:"status", model: [n_linha: 96477123])
+//        render(template:"status", model: [n_linha: caminho.getFileName()])
 
         if (dir.isDirectory()) {
-            new File("uploadLogs").eachFile { file ->
+            new File("uploadLogs").listFiles().sort{it.name}.each { file ->
                 arquivo++
                 caminho = Paths.get(file.absolutePath)
                 println caminho.getFileName()
+                render(template:"status", model: [n_linha: n_linha])
 
-                file.each { linha ->
-                        n_linha++
-                        println arquivo + " - " + n_linha + " - " + linha
-                        render(template:"status", model: [n_linha: n_linha])
-
-                }
+////                file.each { linha ->
+////                        n_linha++
+////                        println arquivo + " - " + n_linha + " - " + linha
+////                        render(template:"status", model: [n_linha: n_linha])
+//
+//                }
             }
         }
         dir.deleteDir()  //apaga os arquivos anteriores, se houverem
@@ -60,7 +70,7 @@ class TesteController {
 
         if( dir.isDirectory()) {
 //
-            new File("uploadLogs").eachFile { file ->
+            new File("uploadLogs").listFiles().sort{it.name}.each { file ->
                 caminho = Paths.get(file.absolutePath)
                 println caminho.getFileName()
             }
