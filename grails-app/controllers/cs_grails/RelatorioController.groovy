@@ -349,9 +349,9 @@ class RelatorioController {
                 } else nRel.nFacadasVitima = nFacadasDaVitima + nFacadasAmiga
 
                 ////////////////////// ORDEM QUE O MATADOR DEU A FACA
-                ordemFacada = Vitima.executeQuery("select ordemFacada from Vitima where matador.nome=$jogador and ehFaca=1 and date(dataFacada)=$dataRelatorio")
+                ordemFacada = Vitima.executeQuery("select min(ordemFacada) from Vitima where matador.nome=$jogador and ehFaca=1 and date(dataFacada)=$dataRelatorio")
                 println "ordemFacada: " + ordemFacada
-                if (ordemFacada == []) {
+                if (ordemFacada == [null]) {
                     ordemFacada = 0
                     nRel.ordemFacada = 0
                 } else {
@@ -362,9 +362,9 @@ class RelatorioController {
                 }
 
                 ////////////////////// ORDEM QUE A VÍTIMA LEVOU A FACA
-                ordemFacadaVitima = Vitima.executeQuery("select ordemFacada from Vitima where vitima.nome=$jogador and ehFaca=1 and date(dataFacada)=$dataRelatorio")
+                ordemFacadaVitima = Vitima.executeQuery("select min(ordemFacada) from Vitima where vitima.nome=$jogador and ehFaca=1 and date(dataFacada)=$dataRelatorio")
                 println "ordemFacadaVitima: " + ordemFacadaVitima
-                if (ordemFacadaVitima == []) {
+                if (ordemFacadaVitima == [null]) {
                     ordemFacadaVitima = 0
                     nRel.ordemFacadaVitima = 0
                 } else {
@@ -378,11 +378,11 @@ class RelatorioController {
                 println "nFacadasDoMatador: " + nFacadasDoMatador
 //                nRel.matador = jogador
                 if (nFacadasDoMatador == null) {
-                    nFacadasDoMatador = 0 - nFacadasAmiga
-                    nRel.nFacadasMatador = 0 - nFacadasAmiga
+                    nFacadasDoMatador = 0
+                    nRel.nFacadasMatador = 0
                 } else {
                     nFacadasDoMatador = nFacadasDoMatador - nFacadasAmiga
-                    nRel.nFacadasMatador = nFacadasDoMatador - nFacadasAmiga
+                    nRel.nFacadasMatador = nFacadasDoMatador
                 }
 
                 def listVitimas = Facadas.executeQuery("select distinct vitima.vitima.nome from Facadas where vitima.matador.nome=$jogador and date(dataFacada)=$dataRelatorio")
@@ -556,7 +556,8 @@ class RelatorioController {
         //////////////////////////////////// Define o time campeao  -- Acha o ultimo time q o jogadores campeoes estiveram
         def timeDoMatador = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoTiro and date(dataFacada)=$dataRelatorio order by id desc").get(0)
         println "timeDoMatador: " + timeDoMatador
-        def timeDoPeneira = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoPeneira and date(dataFacada)=$dataRelatorio order by id desc").get(0)
+        def timeDoPeneira = []
+        timeDoPeneira = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoPeneira and date(dataFacada)=$dataRelatorio order by id desc")
         println "timeDoPeneira: " + timeDoPeneira
         def timeDoEsfaqueador = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoFaca and date(dataFacada)=$dataRelatorio order by id desc").get(0)
         println "timeDoEsfaqueador: " + timeDoEsfaqueador

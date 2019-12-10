@@ -76,7 +76,7 @@ class TesteController {
             }
 
             def prin
-            new File("uploadLogs").eachFile { file ->
+            new File("uploadLogs").listFiles().sort{it.name}.each { file ->
                 arquivo++
                 caminho = Paths.get(file.absolutePath)
                 println caminho.getFileName()

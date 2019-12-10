@@ -67,7 +67,7 @@ dependencies {
 
 //    compile "org.webjars:jquery:1.7"
     runtime "mysql:mysql-connector-java:5.1.48"
-//    runtime "mysql:mysql-connector-java:5.1.29"  pra gerar o arquivo de produção precisa ser esse
+//    runtime "mysql:mysql-connector-java:5.1.29"  //pra gerar o arquivo de produção precisa ser esse
     compile "org.webjars:jquery-file-upload:9.10.1"
 
     compile "net.contentobjects.jnotify:jnotify:0.94"

@@ -28,16 +28,16 @@
             </div>
         </g:form>
         <br>
-        <g:form>
-            <div align="center" name="processar">
-                <g:actionSubmit class="btn btn-lg" value="Processar rapido" action="rodarRapido"></g:actionSubmit>
-            </div>
-        </g:form>
+        %{--<g:form>--}%
+            %{--<div align="center" name="processar">--}%
+                %{--<g:actionSubmit class="btn btn-lg" value="Processar rapido" action="rodarRapido"></g:actionSubmit>--}%
+            %{--</div>--}%
+        %{--</g:form>--}%
         <br>
 
-        <div id="divStatus">
-            <g:render template="status" model="[n__linha: n_linha]"></g:render>
-        </div>
+        %{--<div id="divStatus">--}%
+            %{--<g:render template="status" model="[n__linha: n_linha]"></g:render>--}%
+        %{--</div>--}%
 
         <div id="fileuploader">Upload</div>
 
@@ -55,7 +55,7 @@
     $(document).ready(function()
     {
 
-        $('#valorInput').on('change', function() {
+        $('#divStatus').on('change', function() {
             var value = $(this).val();
             $('#valor b').text('R$ '+value);
         });

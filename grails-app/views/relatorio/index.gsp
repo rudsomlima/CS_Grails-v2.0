@@ -127,9 +127,6 @@ table {
                             <div class="col-xs-9">
                                 <h4>${esfaqueador.matador}
                                     <class id="facaAmiga" style="font-size:11px">${esfaqueador.ordemFacada}&deg</class>
-                                    <g:if test="${esfaqueador.nFacadasAmiga>0}">
-                                        <class id="facaAmiga" style="color: red"> <b> (-${esfaqueador.nFacadasAmiga}) </b></class>
-                                    </g:if>
                                 </h4>
                             </div>
                             <div class="col-xs-3 text-right">
@@ -200,7 +197,7 @@ table {
                             <g:each in="${relAmiga}" status="x" var="faca">
                                 <tr>
                                     <td id="facaAmiga" style="vertical-align: middle">
-                                        <h4> ${faca.facaAmiga} </h4>
+                                        <h4> ${faca.facaAmiga} </h4> <br>
                                     </td>
                                 </tr>
                             </g:each>
