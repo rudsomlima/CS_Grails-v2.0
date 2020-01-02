@@ -557,7 +557,7 @@ class RelatorioController {
         def timeDoMatador = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoTiro and date(dataFacada)=$dataRelatorio order by id desc").get(0)
         println "timeDoMatador: " + timeDoMatador
         def timeDoPeneira = []
-        timeDoPeneira = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoPeneira and date(dataFacada)=$dataRelatorio order by id desc")
+        timeDoPeneira = Vitima.executeQuery("select distinct timeDoAssassino from Vitima where matador.nome=$campeaoPeneira and date(dataFacada)=$dataRelatorio order by id desc")
         println "timeDoPeneira: " + timeDoPeneira
         def timeDoEsfaqueador = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoFaca and date(dataFacada)=$dataRelatorio order by id desc").get(0)
         println "timeDoEsfaqueador: " + timeDoEsfaqueador
@@ -565,7 +565,9 @@ class RelatorioController {
         println "timeDoIma: " + timeDoIma
 
         def resultadosPositivos = [timeDoMatador,timeDoEsfaqueador,timeCampeao]
+        println "resultadosPositivos: " + resultadosPositivos
         def resultadosNegativos = [timeDoPeneira,timeDoIma]
+        println "resultadosNegativos: " + resultadosNegativos
 
         def resultadoFinalCt = resultadosPositivos.findAll {it=="CT"}.size() + resultadosNegativos.findAll {it=="TERRORIST"}.size()
         println "resultadoFinalCt: " + resultadoFinalCt
