@@ -490,9 +490,49 @@ class RelatorioController {
         println "minFacaRecebida: " + minFacaRecebida
         def preCampeao = maiorEsfaqueadores.findAll {it.facaRecebida==minFacaRecebida}
         println "preCampeao: " + preCampeao
-        def facadaPrimeiro = preCampeao.ordemFacaDada.min()
-        println "facadaPrimeiro: " + facadaPrimeiro
-        def campeaoFaca = preCampeao.findAll {it.ordemFacaDada==facadaPrimeiro}.nome.get(0)
+
+        //teste o dia 09-01-2020
+        def campeaoFaca
+        def desempate=[]
+        def jog1
+        def jog2
+        def size = preCampeao.size()
+        println "size: " + size
+        for (def i=0;i<size-1;i++) {
+            jog1 = preCampeao.nome.get(i) as String
+            jog2 = preCampeao.nome.get(i + 1) as String
+            println jog1 + " x " + jog2
+            def deu = 0, levou = 0
+            deu = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$jog1 and vitima.matador.nome=$jog2 and date(dataFacada)=$dataRelatorio").get(0)
+            levou = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$jog2 and vitima.matador.nome=$jog1 and date(dataFacada)=$dataRelatorio").get(0)
+            println "Deu: " + deu
+            println "Levou: " + levou
+            if(deu>levou) campeaoFaca=preCampeao.get(i)
+            if(deu<levou) campeaoFaca=preCampeao.get(i+1)
+            if(deu==levou) {
+                desempate=jog1+","+jog2 + "," + "Smolder" + "," + "INDIO"
+                println "desempate: SIM"
+            }
+            desempate=desempate.split(',')
+        }
+
+        println "desempate: " + desempate
+        if(desempate!=[]) {
+            def size_desempate = desempate.size()
+            for(int i=0;i<size_desempate-1;i=i+2) {
+                println "size_desempate: " + size_desempate
+                def ordemFacadaJog1 = Vitima.executeQuery("select min(ordemFacada) from Vitima where matador.nome=$jog1 and vitima.nome=$jog2 and ehFaca=1 and date(dataFacada)=$dataRelatorio").get(0)
+                def ordemFacadaJog2 = Vitima.executeQuery("select min(ordemFacada) from Vitima where matador.nome=$jog2 and vitima.nome=$jog1 and ehFaca=1 and date(dataFacada)=$dataRelatorio").get(0)
+                println "ordemFacadaJog1: " + ordemFacadaJog1
+                println "ordemFacadaJog2: " + ordemFacadaJog2
+                if (ordemFacadaJog1 < ordemFacadaJog2) campeaoFaca = jog1
+                else campeaoFaca = jog2
+            }
+//            def facadaPrimeiro = preCampeao.ordemFacaDada.min()
+//            println "facadaPrimeiro: " + facadaPrimeiro
+//            campeaoFaca = preCampeao.findAll { it.ordemFacaDada == facadaPrimeiro }.nome.get(0)
+        }
+        else campeaoFaca=preCampeao.nome.get(0)
         println "campeaoFaca: " + campeaoFaca
         println "----------------------IMA"
 
