@@ -499,21 +499,23 @@ class RelatorioController {
         def size = preCampeao.size()
         println "size: " + size
         for (def i=0;i<size-1;i++) {
-            jog1 = preCampeao.nome.get(i) as String
-            jog2 = preCampeao.nome.get(i + 1) as String
-            println jog1 + " x " + jog2
-            def deu = 0, levou = 0
-            deu = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$jog1 and vitima.matador.nome=$jog2 and date(dataFacada)=$dataRelatorio").get(0)
-            levou = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$jog2 and vitima.matador.nome=$jog1 and date(dataFacada)=$dataRelatorio").get(0)
-            println "Deu: " + deu
-            println "Levou: " + levou
-            if(deu>levou) campeaoFaca=preCampeao.get(i)
-            if(deu<levou) campeaoFaca=preCampeao.get(i+1)
-            if(deu==levou) {
-                desempate=jog1+","+jog2 + "," + "Smolder" + "," + "INDIO"
-                println "desempate: SIM"
+            for (def n=0;n<size-1;n++) {
+                jog1 = preCampeao.nome.get(i) as String
+                jog2 = preCampeao.nome.get(n + 1) as String
+                println jog1 + " x " + jog2
+                def deu = 0, levou = 0
+                deu = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$jog1 and vitima.matador.nome=$jog2 and date(dataFacada)=$dataRelatorio").get(0)
+                levou = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$jog2 and vitima.matador.nome=$jog1 and date(dataFacada)=$dataRelatorio").get(0)
+                println "Deu: " + deu
+                println "Levou: " + levou
+                if (deu > levou) campeaoFaca = preCampeao.get(i)
+                if (deu < levou) campeaoFaca = preCampeao.get(i + 1)
+                if (deu == levou) {
+                    desempate = jog1 + "," + jog2 + "," + "Smolder" + "," + "INDIO"
+                    println "desempate: SIM"
+                }
+                desempate = desempate.split(',')
             }
-            desempate=desempate.split(',')
         }
 
         println "desempate: " + desempate
