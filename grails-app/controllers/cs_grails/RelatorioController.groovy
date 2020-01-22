@@ -507,8 +507,8 @@ class RelatorioController {
             levou = Facadas.executeQuery("select sum(qtdeFacadas)from Facadas where vitima.vitima.nome=$jog2 and vitima.matador.nome=$jog1 and date(dataFacada)=$dataRelatorio").get(0)
             println "Deu: " + deu
             println "Levou: " + levou
-            if (deu > levou) campeaoFaca = preCampeao.get(0)
-            if (deu < levou) campeaoFaca = preCampeao.get(1)
+            if (deu > levou) campeaoFaca = preCampeao.get(0).nome
+            if (deu < levou) campeaoFaca = preCampeao.get(1).nome
             if (deu == levou) {
                 desempate = jog1 + "," + jog2
                 println "desempate: SIM"
@@ -530,7 +530,9 @@ class RelatorioController {
                 else campeaoFaca = jog2
             }
         }
-        else campeaoFaca=preCampeao.nome.get(0)
+        else {
+            campeaoFaca=preCampeao.get(0).nome
+        }
         println "campeaoFaca: " + campeaoFaca
         println "----------------------IMA"
 
@@ -595,7 +597,8 @@ class RelatorioController {
         def timeDoMatador = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoTiro and date(dataFacada)=$dataRelatorio order by id desc").get(0)
         println "timeDoMatador: " + timeDoMatador
         def timeDoPeneira = []
-        timeDoPeneira = Vitima.executeQuery("select distinct timeDoAssassino from Vitima where matador.nome=$campeaoPeneira and date(dataFacada)=$dataRelatorio order by id desc").get(0)
+        timeDoPeneira = Vitima.executeQuery("select distinct timeDoAssassino from Vitima where matador.nome=$campeaoPeneira and date(dataFacada)=$dataRelatorio order by id desc")
+        if(timeDoPeneira.size()>0) timeDoPeneira.get(0)
         println "timeDoPeneira: " + timeDoPeneira
         def timeDoEsfaqueador = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoFaca and date(dataFacada)=$dataRelatorio order by id desc").get(0)
         println "timeDoEsfaqueador: " + timeDoEsfaqueador
