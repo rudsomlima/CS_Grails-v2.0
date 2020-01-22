@@ -63,10 +63,28 @@ table {
                     <g:if test="${matador.matador.indexOf("XXBOT")<0 & matador.nTirosMatador>0}" >
                         <div class="row">
                             <div class="col-xs-9">
-                                <h4> ${matador.matador} </h4>
+                                <g:if test="${matador.matador==listResultado.get(0)}">
+                                    <h4>
+                                        <class style="color: red"> <b> ${matador.matador} </b></class>
+                                    </h4>
+                                </g:if>
+                                <g:else>
+                                    <h4>
+                                        ${matador.matador}
+                                    </h4>
+                                </g:else>
                             </div>
                             <div class="col-xs-3 text-right">
-                                <h4>${matador.nTirosMatador}</h4>
+                                <g:if test="${matador.matador==listResultado.get(0)}">
+                                    <h4>
+                                        <class style="color: red"> <b> ${matador.nTirosMatador} </b></class>
+                                    </h4>
+                                </g:if>
+                                <g:else>
+                                    <h4>
+                                        ${matador.nTirosMatador}
+                                    </h4>
+                                </g:else>
                             </div>
                         </div>
                     </g:if>
@@ -93,10 +111,26 @@ table {
                     <g:if test="${peneira.matador.indexOf("XXBOT")<0 & peneira.nTirosVitima>0}" >
                         <div class="row">
                             <div class="col-xs-8">
-                                <h4> ${peneira.matador} </h4>
+                                <g:if test="${peneira.matador==listResultado.get(1)}">
+                                    <h4>
+                                        <class style="color: red"> <b> ${peneira.matador} </b></class>
+                                    </h4>
+                                </g:if>
+                                <g:else>
+                                    <h4>
+                                        ${peneira.matador}
+                                    </h4>
+                                </g:else>
                             </div>
                             <div class="text-center">
-                                <h4>${peneira.nTirosVitima} &nbsp (${String.format("%.2f", peneira.kd)})</h4>
+                                <g:if test="${peneira.matador==listResultado.get(1)}">
+                                    <h4>
+                                        <class style="color: red"> <b> ${peneira.nTirosVitima} &nbsp (${String.format("%.2f", peneira.kd)}) </b></class>
+                                    </h4>
+                                </g:if>
+                                <g:else>
+                                    <h4>${peneira.nTirosVitima} &nbsp (${String.format("%.2f", peneira.kd)})</h4>
+                                </g:else>
                             </div>
                         </div>
                     </g:if>
@@ -125,12 +159,28 @@ table {
                     <g:if test="${esfaqueador.nFacadasMatador>0 | esfaqueador.nFacadasAmiga>0}" >
                         <div class="row">
                             <div class="col-xs-9">
-                                <h4>${esfaqueador.matador}
-                                    <class id="facaAmiga" style="font-size:11px">${esfaqueador.ordemFacada}&deg</class>
-                                </h4>
+                                <g:if test="${esfaqueador.matador==listResultado.get(2)}">
+                                    <h4>
+                                        <class style="color: red"> <b> ${esfaqueador.matador} </b></class>
+                                    </h4>
+                                </g:if>
+                                <g:else>
+                                    <h4>
+                                        ${esfaqueador.matador}
+                                    </h4>
+                                </g:else>
                             </div>
                             <div class="col-xs-3 text-right">
-                                <h4>${esfaqueador.nFacadasMatador}</h4>
+                                <g:if test="${esfaqueador.matador==listResultado.get(2)}">
+                                    <h4>
+                                        <class style="color: red"> <b> ${esfaqueador.nFacadasMatador} </b></class>
+                                    </h4>
+                                </g:if>
+                                <g:else>
+                                    <h4>
+                                        ${esfaqueador.nFacadasMatador}
+                                    </h4>
+                                </g:else>
                             </div>
                         </div>
                     </g:if>
@@ -157,8 +207,18 @@ table {
                     <g:if test="${ima.nFacadasVitima>0}" >
                         <div class="row">
                             <div class="col-xs-9">
-                                <h4>${ima.matador}
-                                    <class id="facaAmiga" style="font-size:11px">${ima.ordemFacadaVitima}&deg</class>
+                                <g:if test="${ima.matador==listResultado.get(3)}">
+                                    <h4>
+                                        <class style="color: red"> <b> ${ima.matador} </b></class>
+                                    </h4>
+                                </g:if>
+                                <g:else>
+                                    <h4>
+                                        ${ima.matador}
+                                    </h4>
+                                </g:else>
+                                <h4>
+                                    %{--<class id="facaAmiga" style="font-size:11px">${ima.ordemFacadaVitima}&deg</class>--}%
                                     <g:if test="${ima.nFacadasAmiga>0}">
                                         <class id="facaAmiga" style="color: red"> <b> (+${ima.nFacadasAmiga}) </b>
                                         </class>
@@ -166,7 +226,16 @@ table {
                                 </h4>
                             </div>
                             <div class="col-xs-3 text-right">
-                                <h4>${ima.nFacadasVitima}</h4>
+                                <g:if test="${ima.matador==listResultado.get(3)}">
+                                    <h4>
+                                        <class style="color: red"> <b> ${ima.nFacadasVitima} </b></class>
+                                    </h4>
+                                </g:if>
+                                <g:else>
+                                    <h4>
+                                        ${ima.nFacadasVitima}
+                                    </h4>
+                                </g:else>
                             </div>
                         </div>
                     </g:if>
