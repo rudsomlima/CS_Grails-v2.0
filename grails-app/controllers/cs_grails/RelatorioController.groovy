@@ -596,9 +596,9 @@ class RelatorioController {
         //////////////////////////////////// Define o time campeao  -- Acha o ultimo time q o jogadores campeoes estiveram
         def timeDoMatador = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoTiro and date(dataFacada)=$dataRelatorio order by id desc").get(0)
         println "timeDoMatador: " + timeDoMatador
-        def timeDoPeneira = []
-        timeDoPeneira = Vitima.executeQuery("select distinct timeDoAssassino from Vitima where matador.nome=$campeaoPeneira and date(dataFacada)=$dataRelatorio order by id desc")
-        if(timeDoPeneira.size()>0) timeDoPeneira.get(0)
+        def timeDoPeneira = Vitima.executeQuery("select distinct timeDoAssassino from Vitima where matador.nome=$campeaoPeneira and date(dataFacada)=$dataRelatorio order by id desc")
+        println timeDoPeneira.getClass()
+        if(timeDoPeneira.size()>0) timeDoPeneira=timeDoPeneira.get(0)
         println "timeDoPeneira: " + timeDoPeneira
         def timeDoEsfaqueador = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoFaca and date(dataFacada)=$dataRelatorio order by id desc").get(0)
         println "timeDoEsfaqueador: " + timeDoEsfaqueador
