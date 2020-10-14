@@ -420,11 +420,13 @@ class RelatorioController {
                 } else {
                     nRel.nTirosVitima = nTirosDaVitima + nFacadasDaVitima
                     if(nTirosDoMatador && nTirosDaVitima==0) kd=0
-                    else kd = nTirosDoMatador / nTirosDaVitima // kill/death
+                    else kd = nRel.nTirosMatador / nRel.nTirosVitima // kill/death
                 }
                 nRel.kd = kd
 
                 relatorioList.add(nRel)
+                println nRel.nTirosMatador
+                println nRel.nTirosVitima
                 println "relatorioList.jogador: " + relatorioList.jogador
                 println "Facadas: " + jogador + " - " + nFacadasDoMatador + " - " + nFacadasDaVitima
                 println "Tiros: " + jogador + " - " + nTirosDoMatador + " - " + nTirosDaVitima
@@ -597,7 +599,7 @@ class RelatorioController {
         def timeDoMatador = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoTiro and date(dataFacada)=$dataRelatorio order by id desc").get(0)
         println "timeDoMatador: " + timeDoMatador
         def timeDoPeneira = Vitima.executeQuery("select distinct timeDoAssassino from Vitima where matador.nome=$campeaoPeneira and date(dataFacada)=$dataRelatorio order by id desc")
-        println timeDoPeneira.getClass()
+        //println timeDoPeneira.getClass()
         if(timeDoPeneira.size()>0) timeDoPeneira=timeDoPeneira.get(0)
         println "timeDoPeneira: " + timeDoPeneira
         def timeDoEsfaqueador = Vitima.executeQuery("select timeDoAssassino from Vitima where matador.nome=$campeaoFaca and date(dataFacada)=$dataRelatorio order by id desc").get(0)
